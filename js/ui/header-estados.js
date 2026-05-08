@@ -26,6 +26,7 @@ const HEADER_ESTADOS = {
     nome: 'Rio de Janeiro',
     sigla: 'RJ',
     pm: 'pmerj',
+    bm: 'bmrj',
     pc: 'pcerj',
     pp: 'pprj',
     flag: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_estado_do_Rio_de_Janeiro.svg'
@@ -34,6 +35,7 @@ const HEADER_ESTADOS = {
     nome: 'Minas Gerais',
     sigla: 'MG',
     pm: 'pmmg',
+    bm: 'bmmg',
     pc: 'pcmg',
     pp: 'ppmg',
     flag: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Minas_Gerais.svg'
@@ -50,6 +52,7 @@ const HEADER_ESTADOS = {
     nome: 'Paraná',
     sigla: 'PR',
     pm: 'pmpr',
+    bm: 'bmpr',
     pc: 'pcpr',
     pp: 'pppr',
     flag: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Paran%C3%A1.svg'
@@ -82,6 +85,7 @@ const HEADER_ESTADOS = {
     nome: 'Mato Grosso do Sul',
     sigla: 'MS',
     pm: 'pmms',
+    bm: 'bmms',
     pc: 'pcms',
     pp: 'ppms',
     flag: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Mato_Grosso_do_Sul.svg'
@@ -104,12 +108,15 @@ const HEADER_INSTITUICOES_INFO = {
   pmesp: { titulo: 'PMESP', desc: 'Polícia Militar do Estado de São Paulo' },
   pcsp:  { titulo: 'PCSP',  desc: 'Polícia Civil do Estado de São Paulo' },
   pmerj: { titulo: 'PMERJ', desc: 'Polícia Militar do Rio de Janeiro' },
+  bmrj: { titulo: 'CBMERJ', desc: 'Corpo de Bombeiros Militar do Estado do Rio de Janeiro' },
   pcerj: { titulo: 'PCERJ', desc: 'Polícia Civil do Rio de Janeiro' },
   pmmg:  { titulo: 'PMMG',  desc: 'Polícia Militar de Minas Gerais' },
+  bmmg:  { titulo: 'CBMMG', desc: 'Corpo de Bombeiros Militar de Minas Gerais' },
   pcmg:  { titulo: 'PCMG',  desc: 'Polícia Civil de Minas Gerais' },
   pmba:  { titulo: 'PMBA',  desc: 'Polícia Militar da Bahia' },
   pcba:  { titulo: 'PCBA',  desc: 'Polícia Civil da Bahia' },
   pmpr:  { titulo: 'PMPR',  desc: 'Polícia Militar do Paraná' },
+  bmpr: { titulo: 'CBMPR', desc: 'Corpo de Bombeiros Militar do Paraná' },
   pcpr:  { titulo: 'PCPR',  desc: 'Polícia Civil do Paraná' },
   pmrs:  { titulo: 'PMRS',  desc: 'Brigada Militar do Rio Grande do Sul' },
   pcrs:  { titulo: 'PCRS',  desc: 'Polícia Civil do Rio Grande do Sul' },
@@ -126,6 +133,7 @@ const HEADER_INSTITUICOES_INFO = {
   ppsc: { titulo: 'PPSC', desc: 'Polícia Penal de Santa Catarina' },
   ppes: { titulo: 'PPES', desc: 'Polícia Penal do Espírito Santo' },
   pmms: { titulo: 'PMMS', desc: 'Polícia Militar de Mato Grosso do Sul' },
+  bmms: { titulo: 'CBMMS', desc: 'Corpo de Bombeiros Militar de Mato Grosso do Sul' },
   pcms: { titulo: 'PCMS', desc: 'Polícia Civil de Mato Grosso do Sul' },
   ppms: { titulo: 'PPMS', desc: 'Polícia Penal de Mato Grosso do Sul' },
   pmmt: { titulo: 'PMMT', desc: 'Polícia Militar de Mato Grosso' },
@@ -2789,15 +2797,15 @@ const BOMBEIROS_MILITARES_ESTRUTURA = [
   { estado: 'es', nome: 'Espírito Santo', sigla: 'ES', inst: 'bmes', titulo: 'BMES', desc: 'Corpo de Bombeiros Militar do Espírito Santo' },
   { estado: 'go', nome: 'Goiás', sigla: 'GO', inst: 'bmgo', titulo: 'BMGO', desc: 'Corpo de Bombeiros Militar do Estado de Goiás' },
   { estado: 'ma', nome: 'Maranhão', sigla: 'MA', inst: 'bmma', titulo: 'BMMA', desc: 'Corpo de Bombeiros Militar do Maranhão' },
-  { estado: 'mg', nome: 'Minas Gerais', sigla: 'MG', inst: 'bmmg', titulo: 'BMMG', desc: 'Corpo de Bombeiros Militar de Minas Gerais' },
-  { estado: 'ms', nome: 'Mato Grosso do Sul', sigla: 'MS', inst: 'bmms', titulo: 'BMMS', desc: 'Corpo de Bombeiros Militar de Mato Grosso do Sul' },
+  { estado: 'mg', nome: 'Minas Gerais', sigla: 'MG', inst: 'bmmg', titulo: 'CBMMG', desc: 'Corpo de Bombeiros Militar de Minas Gerais' },
+  { estado: 'ms', nome: 'Mato Grosso do Sul', sigla: 'MS', inst: 'bmms', titulo: 'CBMMS', desc: 'Corpo de Bombeiros Militar de Mato Grosso do Sul' },
   { estado: 'mt', nome: 'Mato Grosso', sigla: 'MT', inst: 'bmmt', titulo: 'BMMT', desc: 'Corpo de Bombeiros Militar de Mato Grosso' },
   { estado: 'pa', nome: 'Pará', sigla: 'PA', inst: 'bmpa', titulo: 'BMPA', desc: 'Corpo de Bombeiros Militar do Pará' },
   { estado: 'pb', nome: 'Paraíba', sigla: 'PB', inst: 'bmpb', titulo: 'BMPB', desc: 'Corpo de Bombeiros Militar da Paraíba' },
   { estado: 'pe', nome: 'Pernambuco', sigla: 'PE', inst: 'bmpe', titulo: 'BMPE', desc: 'Corpo de Bombeiros Militar de Pernambuco' },
   { estado: 'pi', nome: 'Piauí', sigla: 'PI', inst: 'bmpi', titulo: 'BMPI', desc: 'Corpo de Bombeiros Militar do Piauí' },
-  { estado: 'pr', nome: 'Paraná', sigla: 'PR', inst: 'bmpr', titulo: 'BMPR', desc: 'Corpo de Bombeiros Militar do Paraná' },
-  { estado: 'rj', nome: 'Rio de Janeiro', sigla: 'RJ', inst: 'bmrj', titulo: 'BMRJ', desc: 'Corpo de Bombeiros Militar do Rio de Janeiro' },
+  { estado: 'pr', nome: 'Paraná', sigla: 'PR', inst: 'bmpr', titulo: 'CBMPR', desc: 'Corpo de Bombeiros Militar do Paraná' },
+  { estado: 'rj', nome: 'Rio de Janeiro', sigla: 'RJ', inst: 'bmrj', titulo: 'CBMERJ', desc: 'Corpo de Bombeiros Militar do Estado do Rio de Janeiro' },
   { estado: 'rn', nome: 'Rio Grande do Norte', sigla: 'RN', inst: 'bmrn', titulo: 'BMRN', desc: 'Corpo de Bombeiros Militar do Rio Grande do Norte' },
   { estado: 'ro', nome: 'Rondônia', sigla: 'RO', inst: 'bmro', titulo: 'BMRO', desc: 'Corpo de Bombeiros Militar de Rondônia' },
   { estado: 'rr', nome: 'Roraima', sigla: 'RR', inst: 'bmrr', titulo: 'BMRR', desc: 'Corpo de Bombeiros Militar de Roraima' },
@@ -3583,6 +3591,421 @@ aplicarDadosEspecificosBmal();
 aplicarDadosEspecificosBmam();
 
 
+
+
+function aplicarDadosEspecificosBmms() {
+  const inst = 'bmms';
+  const populacaoMs = 2924631;
+  const efetivoLegal = 3978;
+  const relacao = Math.round(populacaoMs / efetivoLegal);
+  HEADER_INSTITUICOES_INFO[inst] = { titulo: 'CBMMS', desc: 'Corpo de Bombeiros Militar de Mato Grosso do Sul' };
+  HEADER_INSTITUICOES_IMAGENS[inst] = 'img/BOMBEIRO/bmms.webp';
+  HEADER_INSTITUICOES_RESUMO[inst] = {
+    nome: 'Corpo de Bombeiros Militar de Mato Grosso do Sul',
+    sigla: 'CBMMS',
+    siglaInterna: 'BMMS',
+    estado: 'Mato Grosso do Sul',
+    estadoSigla: 'MS',
+    tipo: 'Bombeiro Militar',
+    criacao: '16/04/1973 · Lei MT nº 3.322 · origem histórica',
+    ativa: efetivoLegal,
+    ativaLabel: '3.978 cargos fixados em lei · LC MS nº 354/2025',
+    reserva: 0,
+    reservaLabel: 'Dados em breve',
+    femininas: 0,
+    femininasLabel: 'Dados em breve',
+    efetivoTotalLabel: '3.978 cargos fixados em lei · LC MS nº 354/2025',
+    populacao: populacaoMs,
+    populacaoLabel: '2.924.631 habitantes (estimado IBGE 2025)',
+    populacaoTitulo: 'População do Estado',
+    relacaoLabel: `1 cargo legal / ${relacao.toLocaleString('pt-BR')} hab. (estimado) · 0,136% (estimado)`,
+    relacaoTitulo: 'Relação efetivo legal/população',
+    governador: 'Eduardo Corrêa Riedel',
+    comando: 'Cel QOBM Frederico Reis Pouso Salas — Comandante-Geral',
+    estrutura: 'Comando-Geral, Subcomando-Geral, Estado-Maior-Geral, diretorias, coordenadorias, grupamentos e subgrupamentos bombeiro militar, unidades operacionais especializadas, atividades técnicas, ensino, logística e resposta a emergências.',
+    sede: 'Rua Fernando Augusto Corrêa da Costa, nº 376 — Jardim América, Campo Grande/MS — CEP 79080-790',
+    emergencia: '193',
+    linksOficiais: [
+      'https://www.bombeiros.ms.gov.br/',
+      'https://www.bombeiros.ms.gov.br/comando/comandante-geral/',
+      'https://legislacao.bombeiros.ms.gov.br/',
+      'https://www.concursos.ms.gov.br/'
+    ],
+    fonte: 'CBMMS; Governo de MS; Portal da Legislação MS; Normas internas CBMMS; LC MS 127/2008, LC MS 188/2014, LC MS 291/2021, LC MS 354/2025, Lei MS 6.562/2026; IBGE 2025; concursos.ms.gov.br',
+    atualizado: 'CBMMS revisado em 07/05/2026 — efetivo exibido como cargo legal; população e relação marcadas como estimadas; remuneração cadastrada por subsídio e nível com RGA 2026'
+  };
+
+  CONFIGS_INSTITUICOES_GENERICAS[inst] = {
+    titulo: 'CBMMS',
+    desc: 'Corpo de Bombeiros Militar de Mato Grosso do Sul',
+    cor: '#b91c1c',
+    alertaPrev: 'CBMMS/MS: conferir subsídio por posto/graduação e nível, SPSM/MS, AGEPREV/MS, ajuda de custo, fardamento, indenizações, função, escala, rubricas pessoais e base de contribuição diretamente no contracheque e na norma vigente.'
+  };
+
+  if (typeof CARGOS_BMMS !== 'undefined' && Array.isArray(CARGOS_BMMS) && CARGOS_BMMS.length) {
+    CARGOS_ESTRUTURA_GENERICAS[inst] = CARGOS_BMMS;
+  }
+
+  CONCURSOS[inst] = {
+    edital: 'CBMMS — Processo Seletivo Simplificado SAD/SEJUSP/CBMMS/QPTBM/2025 para Quadro de Praças Temporárias; concursos efetivos anteriores/homologados devem ser conferidos em concursos.ms.gov.br e DOE/MS.',
+    salario: 'Tabela de remuneração do portal: subsídio militar estadual por posto/graduação e nível com RGA 2026; valores de edital de formação devem ser conferidos no edital específico.',
+    vagas: 'QPTBM/2025: conferir editais complementares no portal oficial. Efetivo legal da corporação: 3.978 cargos pela LC MS nº 354/2025.',
+    cotas: 'Conforme edital específico e legislação estadual aplicável.',
+    idade: 'Conforme edital específico, Lei MS nº 3.808/2009 e alterações.',
+    escolaridade: 'Conforme edital específico; para ingresso operacional, conferir exigência de ensino médio/superior conforme carreira e curso.',
+    materias: 'Conforme conteúdo programático do edital específico.',
+    banca: 'Portal oficial de concursos do Governo de Mato Grosso do Sul; banca/organizadora conforme edital.',
+    inscritos: 'Acompanhar cronograma no portal concursos.ms.gov.br e publicações do DOE/MS.',
+    etapas: 'Prova quando prevista, TAF, avaliação psicológica, exame médico, investigação social, prova de títulos/documental e curso de formação conforme edital.',
+    cfsd: 'Curso de Formação de Soldados/Praças Bombeiro Militar conforme edital de ingresso ou seleção temporária.',
+    estagio: 'Conforme Estatuto dos Militares Estaduais de MS e edital específico.',
+    validade: 'Conforme edital específico.',
+    previsao: 'Não publicar novo concurso efetivo aberto sem fonte oficial. Manter destaque para editais vigentes no portal oficial de concursos de MS.',
+    site: 'https://www.concursos.ms.gov.br/'
+  };
+
+  ASSOCIACOES[inst] = [
+    { nome: 'ABMMS — Associação dos Bombeiros Militares de Mato Grosso do Sul', foco: 'Bombeiros militares estaduais de Mato Grosso do Sul', acao: 'Representação associativa, acompanhamento de pautas da categoria, apoio institucional e comunicação de interesse dos bombeiros militares.', site: 'Dados em breve', telefone: 'Consultar diretamente na entidade', mensalidade: 'Consultar diretamente na entidade', servicos: 'Orientação associativa, comunicação institucional, eventual apoio jurídico e convênios conforme estatuto/contrato.' },
+    { nome: 'ACS/MS — Associação e Centro Social dos Policiais Militares e Bombeiros Militares de MS', foco: 'Praças e militares estaduais de Mato Grosso do Sul', acao: 'Representação associativa de militares estaduais, acompanhamento de carreira, remuneração, proteção social e condições de trabalho.', site: 'https://acsms.org.br/', telefone: 'Consultar diretamente na entidade', mensalidade: 'Consultar diretamente na entidade', servicos: 'Comunicação de pautas, convênios, orientação associativa e apoio ao associado conforme regras internas.' },
+    { nome: 'Canais oficiais do CBMMS', foco: 'Bombeiros militares, candidatos e sociedade', acao: 'Informação institucional, prevenção, legislação, concursos, atividades técnicas e notícias oficiais.', site: 'https://www.bombeiros.ms.gov.br/', telefone: '193 · (67) 3357-9400', mensalidade: 'Não se aplica', servicos: 'Emergência, prevenção, legislação, cursos, concursos, notícias e atendimento administrativo conforme unidade.' }
+  ];
+
+  ACOES_JUDICIAIS[inst] = [
+    { titulo: 'Subsídio militar MS — nível, referência e enquadramento', status: 'Conferência individual', ano: 'LC 127/2008, LC 291/2021 e Lei 6.562/2026', tipo: 'individual', desc: 'Conferir se posto/graduação, nível, tempo de carreira, promoção, enquadramento e RGA foram aplicados corretamente no contracheque. Não tratar como diferença automática.', base: 'LC MS nº 127/2008; LC MS nº 291/2021; Lei MS nº 6.562/2026.', fonte: 'Portal da Legislação MS / Normas internas CBMMS', fonteUrl: 'https://legislacao.bombeiros.ms.gov.br/tabelas-de-subsidios/', atualizado: 'Maio/2026' },
+    { titulo: 'Ajuda de custo, fardamento, diárias e indenizações', status: 'Conferência administrativa/judicial conforme caso', ano: 'Legislação estadual vigente', tipo: 'individual', desc: 'Verificar pagamento, base de cálculo e natureza das parcelas indenizatórias ou eventuais, conforme escala, designação, missão, curso e ato administrativo.', base: 'Estatuto dos Militares Estaduais de MS; LC MS nº 291/2021; normas internas do CBMMS; DOE/MS.', fonte: 'CBMMS / DOE-MS', fonteUrl: 'https://legislacao.bombeiros.ms.gov.br/', atualizado: 'Maio/2026' },
+    { titulo: 'SPSM/MS, AGEPREV/MS, reserva remunerada e reforma', status: 'Possível revisão individual', ano: 'Regime vigente', tipo: 'individual', desc: 'Conferir contribuição, base de cálculo, tempo de serviço, regras de passagem para reserva/reforma, pensão militar e eventual averbação. Depende da data de ingresso e situação funcional.', base: 'Legislação estadual de proteção social dos militares de MS; LC MS nº 053/1990 e alterações; normas previdenciárias estaduais.', fonte: 'AGEPREV/MS / Portal da Legislação MS', fonteUrl: 'https://www.ageprev.ms.gov.br/', atualizado: 'Maio/2026' },
+    { titulo: 'Promoção, antiguidade, merecimento e interstício', status: 'Análise individual ou coletiva conforme ato', ano: 'Normas de carreira', tipo: 'individual/coletivo', desc: 'Conferir publicações de promoção, interstícios, cursos, vagas por efetivo legal e critérios de antiguidade/merecimento. Não há ganho automático sem ato e documentação.', base: 'LC MS nº 188/2014; LC MS nº 354/2025; estatuto e normas internas do CBMMS.', fonte: 'CBMMS / Portal da Legislação MS', fonteUrl: 'https://legislacao.bombeiros.ms.gov.br/', atualizado: 'Maio/2026' },
+    { titulo: 'Licença especial, férias não gozadas e conversão em pecúnia', status: 'Possível cobrança individual', ano: 'Conforme histórico funcional', tipo: 'individual', desc: 'Verificar períodos adquiridos, não usufruídos e não indenizados, especialmente em passagem para reserva/reforma ou desligamento.', base: 'Estatuto dos Militares Estaduais de MS; jurisprudência aplicável; atos funcionais individuais.', fonte: 'Portal da Legislação MS / ficha funcional', fonteUrl: 'https://aacpdappls.net.ms.gov.br/appls/legislacao/secoge/govato.nsf', atualizado: 'Maio/2026' }
+  ];
+}
+
+function aplicarDadosEspecificosBmmg() {
+  const inst = 'bmmg';
+  const estado = 'mg';
+  const efetivoAtivo = 5370;
+  const populacaoMg = 21393441;
+  const relacaoHab = Math.round(populacaoMg / efetivoAtivo);
+
+  if (!HEADER_ESTADOS[estado]) {
+    HEADER_ESTADOS[estado] = { nome: 'Minas Gerais', sigla: 'MG', flag: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Minas_Gerais.svg' };
+  }
+  HEADER_ESTADOS[estado].bm = inst;
+  HEADER_ESTADOS[estado].bombeiro = inst;
+
+  if (typeof INSTITUICOES_VALIDAS !== 'undefined' && Array.isArray(INSTITUICOES_VALIDAS) && !INSTITUICOES_VALIDAS.includes(inst)) {
+    INSTITUICOES_VALIDAS.push(inst);
+  }
+
+  HEADER_INSTITUICOES_INFO[inst] = { titulo: 'CBMMG', desc: 'Corpo de Bombeiros Militar de Minas Gerais' };
+  HEADER_INSTITUICOES_IMAGENS[inst] = 'img/BOMBEIRO/bmmg.webp';
+
+  HEADER_INSTITUICOES_RESUMO[inst] = {
+    nome: 'Corpo de Bombeiros Militar de Minas Gerais',
+    sigla: 'CBMMG',
+    siglaInterna: 'BMMG',
+    estado: 'Minas Gerais',
+    estadoSigla: 'MG',
+    tipo: 'Bombeiro Militar',
+    criacao: '31/08/1911 · Lei MG nº 557',
+    ativa: efetivoAtivo,
+    ativaLabel: '5.370 ativos (estimado)',
+    reserva: 0,
+    reservaLabel: 'Dados em breve',
+    femininas: 0,
+    femininasLabel: '7.999 cargos fixados em lei · Lei MG 22.415/2016',
+    efetivoTotalLabel: '7.999 cargos fixados em lei · Lei MG 22.415/2016',
+    populacao: populacaoMg,
+    populacaoTitulo: 'População do Estado',
+    populacaoLabel: '21.393.441 habitantes (estimado IBGE 2025)',
+    relacaoLabel: `1 ativo / ${relacaoHab.toLocaleString('pt-BR')} hab. (estimado) · 0,025% (estimado)`,
+    relacaoTitulo: 'Relação ativa/população',
+    governador: 'Mateus Simões de Almeida',
+    comando: 'Cel BM Jordana de Oliveira Filgueiras Daldegan — Comandante-Geral',
+    estrutura: 'Comando-Geral, Estado-Maior, Academia de Bombeiros Militar, comandos operacionais, batalhões, companhias e frações; presença em 100 municípios, com prevenção e combate a incêndios, salvamento, atendimento pré-hospitalar, defesa civil e segurança contra incêndio e pânico.',
+    sede: 'Belo Horizonte/MG — sede administrativa estadual do CBMMG',
+    emergencia: '193',
+    coberturaLabel: 'Presença operacional em 100 municípios mineiros e atendimento estadual pelo telefone 193.',
+    ocorrenciasLabel: 'Dados operacionais, vistorias, incêndios, salvamentos, APH, defesa civil e prevenção devem ser atualizados por relatórios oficiais do CBMMG.',
+    linksOficiais: [
+      'https://www.bombeiros.mg.gov.br/',
+      'https://www.bombeiros.mg.gov.br/concursos',
+      'https://www.mg.gov.br/instituicao_unidade/corpo-de-bombeiros-militar-do-estado-de-minas-gerais-cbmmg',
+      'https://www.almg.gov.br/legislacao-mineira/'
+    ],
+    fonte: 'CBMMG; Governo de Minas Gerais; ALMG; SEPLAG/MG; Editais CBMMG 09/2026 e 10/2026; IBGE 2025; IDECAN; Lei MG 25.804/2026',
+    atualizado: 'CBMMG revisado em 07/05/2026 — efetivo ativo e relação ativa/população marcados como estimativa; remuneração tabelada com referência 2026 e valores de ingresso dos editais oficiais.'
+  };
+
+  if (typeof REMUNERACAO_FONTES_OFICIAIS !== 'undefined') {
+    REMUNERACAO_FONTES_OFICIAIS[inst] = {
+      nome: 'MG/SEPLAG — Grupo XI — Defesa Social — Lei MG nº 25.804/2026; CBMMG Editais nº 09/2026 e nº 10/2026',
+      url: 'https://www.mg.gov.br/system/files/media/planejamento/documento_detalhado/2026/grupo_11_atualizacao-54-2026.pdf'
+    };
+  }
+
+  if (typeof CARGOS_BMMG !== 'undefined' && Array.isArray(CARGOS_BMMG) && CARGOS_BMMG.length) {
+    CARGOS_ESTRUTURA_GENERICAS[inst] = CARGOS_BMMG;
+  }
+
+  CONFIGS_INSTITUICOES_GENERICAS[inst] = {
+    titulo: 'CBMMG',
+    desc: 'Corpo de Bombeiros Militar de Minas Gerais',
+    cor: '#b91c1c',
+    alertaPrev: 'CBMMG/MG: conferir IPSM, contribuição previdenciária, ajuda de custo para alimentação, abono fardamento, curso/quadro, retroativos e demais rubricas no contracheque. Não tratar valor de edital como total individual automático.'
+  };
+
+  CONCURSOS[inst] = {
+    edital: 'CBMMG — Editais nº 09/2026 (CFO BM 2027) e nº 10/2026 (CFSd BM 2027), publicados em 16/03/2026.',
+    salario: 'CFO: Cadete R$ 7.506,80; 2º Tenente R$ 11.547,07. CFSd: Soldado 2ª Classe R$ 4.562,30 durante o curso; Soldado 1ª Classe R$ 5.332,60 após formação. Benefícios conforme edital: abono fardamento, assistência médico-hospitalar, psicológica, odontológica e auxílio-alimentação quando devido.',
+    vagas: '342 vagas: 321 para CFSd BM 2027 e 21 para CFO BM 2027.',
+    cotas: 'Conferir reserva de vagas e critérios nos editais e retificações oficiais.',
+    idade: '18 a 30 anos, observada a data e regra específica do edital.',
+    escolaridade: 'Nível superior: bacharelado, licenciatura, tecnólogo ou curso sequencial, conforme o cargo/edital.',
+    materias: 'Conforme edital IDECAN/CBMMG: conteúdos gerais, conhecimentos específicos, legislação, redação/prova discursiva quando prevista e anexos de conteúdo programático.',
+    banca: 'IDECAN.',
+    inscritos: 'Inscrições previstas de 18/05/2026 a 17/06/2026.',
+    etapas: 'Prova objetiva/discursiva conforme cargo, TCF/TAF, habilidades natatórias, exames de saúde, avaliação psicológica, investigação social/documental e matrícula no curso.',
+    cfsd: 'CFSd BM 2027 para Soldado; CFO BM 2027 para Oficial, com formação na Academia de Bombeiros Militar.',
+    estagio: 'Estágio probatório e evolução funcional conforme Estatuto dos Militares de Minas Gerais e atos do CBMMG.',
+    validade: 'Conferir edital, homologação e eventual prorrogação oficial.',
+    previsao: 'Há editais oficiais 2026 para ingresso 2027. Não publicar novo edital aberto sem fonte oficial posterior.',
+    site: 'https://www.bombeiros.mg.gov.br/concursos'
+  };
+
+  ASSOCIACOES[inst] = [
+    { nome: 'ASPRA/PMBM-MG — Associação dos Praças Policiais e Bombeiros Militares de Minas Gerais', foco: 'Praças da PMMG e do CBMMG', acao: 'Representação de classe, apoio institucional, comunicação, orientação jurídica e pautas remuneratórias.', site: 'https://aspra.org.br/', telefone: 'Consultar diretamente na entidade', mensalidade: 'Consultar diretamente na entidade', servicos: 'Jurídico, notícias de classe, convênios, atendimento ao associado e comunicação institucional.' },
+    { nome: 'AOPMBM-MG — Associação dos Oficiais da Polícia Militar e do Corpo de Bombeiros Militar de Minas Gerais', foco: 'Oficiais da PMMG e do CBMMG', acao: 'Representação institucional, valorização da carreira, pautas remuneratórias e apoio associativo.', site: 'https://www.aopmbm.org.br/', telefone: 'Consultar diretamente na entidade', mensalidade: 'Consultar diretamente na entidade', servicos: 'Comunicação, eventos, apoio associativo, convênios e orientação ao associado.' },
+    { nome: 'IPSM — Instituto de Previdência dos Servidores Militares de Minas Gerais', foco: 'Saúde e previdência dos militares estaduais e dependentes', acao: 'Canal institucional para assistência à saúde, previdência, pensionistas e dependentes.', site: 'https://www.ipsm.mg.gov.br/', telefone: 'Consultar canais oficiais do IPSM', mensalidade: 'Contribuição conforme regra legal; conferir contracheque', servicos: 'Assistência à saúde, previdência militar, pensionistas, rede credenciada e informações ao beneficiário.' }
+  ];
+
+  ACOES_JUDICIAIS[inst] = [
+    { titulo: 'CBMMG — revisão geral 5,4% e tabela 2026', status: 'Conferência individual', ano: 'Lei MG 25.804/2026', tipo: 'individual', desc: 'Comparar posto/graduação, implantação da revisão geral de 5,4%, retroativos e rubricas no contracheque. Não tratar como ganho automático.', base: 'Lei MG nº 25.804/2026; tabela SEPLAG/MG Grupo XI; ficha financeira e contracheque.', fonte: 'ALMG / SEPLAG-MG', fonteUrl: 'https://www.almg.gov.br/legislacao-mineira/texto/LEI/25804/2026/', atualizado: 'Maio/2026' },
+    { titulo: 'CBMMG — ajuda de custo para alimentação', status: 'Conferência de pagamento', ano: 'Decreto MG 49.006/2025', tipo: 'individual', desc: 'Verificar pagamento por dia efetivamente trabalhado, regras de afastamento, escala, unidade e rubrica. Não somar automaticamente ao bruto.', base: 'Decreto MG nº 49.006/2025; editais CBMMG; contracheques.', fonte: 'ALMG / CBMMG', fonteUrl: 'https://www.almg.gov.br/legislacao-mineira/texto/DEC/49006/2025/', atualizado: 'Maio/2026' },
+    { titulo: 'CBMMG — IPSM, contribuição e assistência à saúde', status: 'Conferência previdenciária/assistencial', ano: 'Tema permanente', tipo: 'individual', desc: 'Conferir contribuição previdenciária, contribuição de saúde, dependentes, descontos e rede assistencial, conforme situação funcional.', base: 'Regime dos militares estaduais de Minas Gerais; normas do IPSM; ficha financeira e contracheque.', fonte: 'IPSM/MG', fonteUrl: 'https://www.ipsm.mg.gov.br/', atualizado: 'Maio/2026' },
+    { titulo: 'CBMMG — promoção, curso, quadro e enquadramento', status: 'Verificar caso concreto', ano: 'Lei MG 5.301/1969 e Lei MG 22.415/2016', tipo: 'individual', desc: 'Analisar curso de formação, posto/graduação, quadro, promoção, antiguidade, merecimento, matrícula e eventual atraso administrativo.', base: 'Lei MG nº 5.301/1969; Lei MG nº 22.415/2016; Lei Federal nº 14.751/2023; editais CBMMG.', fonte: 'ALMG / CBMMG', fonteUrl: 'https://www.almg.gov.br/legislacao-mineira/', atualizado: 'Maio/2026' }
+  ];
+}
+
+
+function aplicarDadosEspecificosBmpr() {
+  const inst = 'bmpr';
+  const estado = 'pr';
+  const efetivoAtivo = 3146;
+  const populacaoPr = 11890517;
+  const relacaoHab = Math.round(populacaoPr / efetivoAtivo);
+  const relacaoPct = ((efetivoAtivo / populacaoPr) * 100).toFixed(3).replace('.', ',');
+
+  if (!HEADER_ESTADOS[estado]) {
+    HEADER_ESTADOS[estado] = { nome: 'Paraná', sigla: 'PR', flag: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Paran%C3%A1.svg' };
+  }
+  HEADER_ESTADOS[estado].pm = HEADER_ESTADOS[estado].pm || 'pmpr';
+  HEADER_ESTADOS[estado].bm = inst;
+  HEADER_ESTADOS[estado].bombeiro = inst;
+
+  if (typeof INSTITUICOES_VALIDAS !== 'undefined' && Array.isArray(INSTITUICOES_VALIDAS) && !INSTITUICOES_VALIDAS.includes(inst)) {
+    INSTITUICOES_VALIDAS.push(inst);
+  }
+
+  HEADER_INSTITUICOES_INFO[inst] = { titulo: 'CBMPR', desc: 'Corpo de Bombeiros Militar do Paraná' };
+  HEADER_INSTITUICOES_IMAGENS[inst] = 'img/BOMBEIRO/bmpr.webp';
+
+  HEADER_INSTITUICOES_RESUMO[inst] = {
+    nome: 'Corpo de Bombeiros Militar do Paraná',
+    sigla: 'CBMPR',
+    siglaInterna: 'BMPR',
+    estado: 'Paraná',
+    estadoSigla: 'PR',
+    tipo: 'Bombeiro Militar',
+    criacao: '23/03/1912 · Lei PR nº 1.133',
+    ativa: efetivoAtivo,
+    ativaLabel: '3.146 ativos · ref. CBMPR 12/2025',
+    reserva: 0,
+    reservaLabel: 'Dados em breve',
+    femininas: 0,
+    femininasLabel: '5.704 cargos fixados em lei · Lei PR 22.916/2025',
+    efetivoTotalLabel: '5.704 cargos fixados em lei · Lei PR 22.916/2025',
+    populacao: populacaoPr,
+    populacaoTitulo: 'População do Estado',
+    populacaoLabel: '11.890.517 habitantes (estimado IBGE 2025)',
+    relacaoLabel: `1 ativo / ${relacaoHab.toLocaleString('pt-BR')} hab. (estimado) · ${relacaoPct}% (estimado)`,
+    relacaoTitulo: 'Relação ativa/população',
+    governador: 'Carlos Massa Ratinho Junior',
+    comando: 'Cel QOBM Antônio Geraldo Hiller Lino — Comandante-Geral',
+    estrutura: 'Comando-Geral, Subcomando-Geral, Estado-Maior, Coordenadoria Estadual do SIATE, Divisão de Administração e Finanças, Ajudância, Assessoria Jurídica, cinco Comandos Regionais e 20 unidades operacionais.',
+    sede: 'Rua Nunes Machado, nº 100 — Centro, Curitiba/PR — CEP 80.250-000',
+    emergencia: '193',
+    coberturaLabel: 'Cinco Comandos Regionais e 20 unidades operacionais no Estado; atendimento emergencial pelo 193.',
+    ocorrenciasLabel: 'Ocorrências, vistorias, incêndios, salvamentos, SIATE, defesa civil e ações preventivas devem ser atualizadas por relatórios oficiais do CBMPR.',
+    linksOficiais: [
+      'https://www.bombeiros.pr.gov.br/',
+      'https://www.bombeiros.pr.gov.br/Pagina/Comando-Geral-do-Corpo-de-Bombeiros',
+      'https://www.bombeiros.pr.gov.br/Pagina/Historico-do-Corpo-de-Bombeiros-Militar-do-Parana',
+      'https://www.bombeiros.pr.gov.br/Pagina/Concursos',
+      'https://www.administracao.pr.gov.br/Recursos-Humanos/Pagina/Carreiras-e-Tabelas-Salariais'
+    ],
+    fonte: 'CBMPR; Administração/PR — Carreiras e Tabelas Salariais; Legislação/PR; ParanáPrevidência; FASPM; IBGE/AEN; Lei PR 1.133/1912; Lei PR 22.187/2024; Lei PR 22.916/2025; concursos CBMPR 2025.',
+    atualizado: 'CBMPR revisado em 07/05/2026 — população e relação ativa/população marcadas como estimadas; remuneração tabelada conforme Administração/PR e Lei PR 22.187/2024.'
+  };
+
+  if (typeof REMUNERACAO_FONTES_OFICIAIS !== 'undefined') {
+    REMUNERACAO_FONTES_OFICIAIS[inst] = {
+      nome: 'Administração/PR — Carreiras e Tabelas Salariais — Quadro do Bombeiro Militar do Paraná — Lei PR nº 22.187/2024; auxílio-alimentação Lei PR nº 22.208/2024',
+      url: 'https://www.administracao.pr.gov.br/Recursos-Humanos/Pagina/Carreiras-e-Tabelas-Salariais'
+    };
+  }
+
+  if (typeof CARGOS_BMPR !== 'undefined' && Array.isArray(CARGOS_BMPR) && CARGOS_BMPR.length) {
+    CARGOS_ESTRUTURA_GENERICAS[inst] = CARGOS_BMPR;
+  }
+
+  CONFIGS_INSTITUICOES_GENERICAS[inst] = {
+    titulo: 'CBMPR',
+    desc: 'Corpo de Bombeiros Militar do Paraná',
+    cor: '#b91c1c',
+    alertaPrev: 'CBMPR/ParanáPrevidência/FASPM: conferir contribuição militar, FASPM facultativo, auxílio-alimentação, classe, posto/graduação, diárias, indenizações e demais rubricas no contracheque. Não tratar valor de edital como remuneração total individual.'
+  };
+
+  CONCURSOS[inst] = {
+    edital: 'CBMPR — Concursos 2025: Soldado Bombeiro Militar, Edital nº 01/2025, IBFC, 600 vagas; Cadete Bombeiro Militar, Concurso Público nº 01/2025, Instituto AOCP, 20 vagas.',
+    salario: 'Soldado: página oficial de ingresso informa Soldado 2ª Classe R$ 2.530,12 e Soldado 1ª Classe R$ 5.839,11; tabela Administração/PR julho/2025 mostra Soldado 1ª Classe Classe I em R$ 6.101,87. Cadete 1º ano: R$ 3.994,86; 2º Tenente: R$ 11.163,91 na página oficial de ingresso, com tabela de carreira própria no portal.',
+    vagas: 'Soldado BM 2025: 600 vagas. Cadete BM 2025: 20 vagas. Posse de 851 novos soldados divulgada pelo CBMPR para maio/2026.',
+    cotas: 'Conferir regras de reserva, ampla concorrência e critérios de desempate nos editais IBFC/AOCP e retificações oficiais.',
+    idade: 'Soldado: máximo de 30 anos, curso superior e CNH categoria B, conforme página oficial de ingresso. Cadete: conferir edital AOCP/CBMPR.',
+    escolaridade: 'Nível superior para Soldado BM; Cadete conforme edital do concurso e página oficial de ingresso.',
+    materias: 'Prova objetiva, exames de capacidade física, avaliação psicológica, investigação social, avaliação de saúde e demais fases conforme edital IBFC/AOCP.',
+    banca: 'IBFC para Soldado Bombeiro Militar 2025; Instituto AOCP para Cadete Bombeiro Militar 2025.',
+    inscritos: 'Concursos 2025 com páginas oficiais no CBMPR; acompanhar editais, convocações, resultados e posse nos sites das bancas.',
+    etapas: 'Prova objetiva, exame de capacidade física, avaliação psicológica, investigação social, avaliação de saúde, documentação, matrícula e curso de formação, conforme edital.',
+    cfsd: 'Soldado BM realiza curso de formação; Cadete BM realiza CFO/Curso de Formação de Oficiais conforme edital e normas da corporação.',
+    estagio: 'Estágio probatório e evolução funcional conforme Código da Polícia Militar do Paraná, legislação aplicada ao CBMPR e atos da corporação.',
+    validade: 'Conferir edital, homologação e eventual prorrogação oficial.',
+    previsao: 'Não publicar novo concurso aberto sem fonte oficial posterior. Destaque atual: concursos 2025 de Soldado e Cadete Bombeiro Militar.',
+    site: 'https://www.bombeiros.pr.gov.br/Pagina/Concursos'
+  };
+
+  ASSOCIACOES[inst] = [
+    { nome: 'AVM — Associação da Vila Militar', foco: 'Militares estaduais do Paraná, ativos, veteranos, pensionistas e familiares', acao: 'Representação associativa, orientação de classe, comunicação institucional e apoio ao associado.', site: 'https://www.avmpmpr.com.br/', telefone: 'Consultar canais oficiais da entidade', mensalidade: 'Consultar diretamente na entidade', servicos: 'Atendimento associativo, comunicação, convênios, orientação e apoio conforme regulamento interno.' },
+    { nome: 'AMAI — Associação de Defesa dos Militares Estaduais Ativos, Inativos e Pensionistas do Paraná', foco: 'Militares estaduais do Paraná e pensionistas', acao: 'Atuação associativa em pautas remuneratórias, previdenciárias, administrativas e de carreira.', site: 'Consultar canais oficiais da entidade', telefone: 'Consultar diretamente na entidade', mensalidade: 'Consultar diretamente na entidade', servicos: 'Representação, orientação associativa e eventual apoio jurídico conforme contrato/estatuto.' },
+    { nome: 'FASPM — Fundo de Atendimento à Saúde dos Policiais Militares e Bombeiros Militares', foco: 'Militares estaduais do Paraná e dependentes elegíveis', acao: 'Assistência à saúde de adesão facultativa, conforme lei estadual e regras do fundo.', site: 'https://www.faspm.pr.gov.br/', telefone: 'Consultar canais oficiais do FASPM', mensalidade: 'Contribuição facultativa conforme Lei PR 17.169/2012', servicos: 'Rede assistencial, atendimento à saúde, orientação de dependentes e regras de contribuição.' },
+    { nome: 'Canais institucionais do CBMPR', foco: 'Bombeiros militares, candidatos e sociedade paranaense', acao: 'Informações oficiais, concursos, prevenção, serviços técnicos, notícias e orientações institucionais.', site: 'https://www.bombeiros.pr.gov.br/', telefone: '193 · contatos administrativos conforme unidade', mensalidade: 'Não se aplica', servicos: 'Concursos, notícias, prevenção, vistorias, atividades técnicas, emergência e comunicação institucional.' }
+  ];
+
+  ACOES_JUDICIAIS[inst] = [
+    { titulo: 'CBMPR — subsídio por classe e enquadramento', status: 'Conferência individual', ano: 'Lei PR 22.187/2024', tipo: 'individual', desc: 'Verificar se posto/graduação, classe, promoção, implantação do subsídio e reflexos foram aplicados corretamente. Não tratar como ganho automático.', base: 'Lei PR 22.187/2024, Anexo I, Tabela I; ficha funcional; atos de promoção; contracheques.', fonte: 'Administração/PR — Carreiras e Tabelas Salariais', fonteUrl: 'https://www.administracao.pr.gov.br/Recursos-Humanos/Pagina/Carreiras-e-Tabelas-Salariais', atualizado: 'Maio/2026' },
+    { titulo: 'CBMPR — auxílio-alimentação', status: 'Conferência individual', ano: 'Lei PR 22.208/2024', tipo: 'individual', desc: 'Conferir elegibilidade, valor mensal de R$ 834,74 e eventual lançamento no contracheque; verba não foi somada automaticamente à tabela de subsídio.', base: 'Lei PR 20.937/2021, alterações da Lei PR 22.208/2024 e tabelas Administração/PR.', fonte: 'Administração/PR / Legislação PR', fonteUrl: 'https://www.administracao.pr.gov.br/Recursos-Humanos/Pagina/Carreiras-e-Tabelas-Salariais', atualizado: 'Maio/2026' },
+    { titulo: 'CBMPR — FASPM facultativo', status: 'Conferência individual', ano: 'Lei PR 17.169/2012', tipo: 'individual', desc: 'Verificar adesão, contribuição de titular/dependentes, limite, cobertura e descontos. O FASPM é facultativo e depende de situação individual.', base: 'Lei PR 17.169/2012, art. 15 e normas do FASPM.', fonte: 'Legislação PR / FASPM', fonteUrl: 'https://www.legislacao.pr.gov.br/legislacao/pesquisarAto.do?action=exibir&codAto=67717&indice=1&totalRegistros=1', atualizado: 'Maio/2026' },
+    { titulo: 'CBMPR — contribuição militar / proteção social', status: 'Possível revisão conforme caso concreto', ano: 'Lei Federal 13.954/2019', tipo: 'individual', desc: 'Conferir base de cálculo e alíquota de contribuição militar, inclusive inatividade e pensão, conforme situação funcional e regras do ParanáPrevidência.', base: 'Lei Federal 13.954/2019; orientações ParanáPrevidência; contracheque e ato de inatividade/pensão.', fonte: 'ParanáPrevidência', fonteUrl: 'https://www.paranaprevidencia.pr.gov.br/', atualizado: 'Maio/2026' },
+    { titulo: 'CBMPR — efetivo, promoções e carreira', status: 'Análise funcional', ano: 'Leis PR 22.916/2025 e 23.103/2026', tipo: 'individual', desc: 'Promoções, interstícios, vagas, quadro de acesso, agregação, reserva/reforma e reenquadramentos dependem de data de ingresso, quadro, cursos, ficha funcional e boletins.', base: 'Lei PR 1.943/1954; Leis PR 5.940/1969 e 5.944/1969; Lei PR 22.916/2025; Lei PR 23.103/2026; atos do CBMPR.', fonte: 'Legislação PR / CBMPR', fonteUrl: 'https://www.legislacao.pr.gov.br/', atualizado: 'Maio/2026' }
+  ];
+}
+
+function aplicarDadosEspecificosBmrj() {
+  const inst = 'bmrj';
+  const estado = 'rj';
+  const efetivoAtivo = 12916;
+  const populacaoRj = 17223547;
+  const relacaoHab = Math.round(populacaoRj / efetivoAtivo);
+
+  if (!HEADER_ESTADOS[estado]) {
+    HEADER_ESTADOS[estado] = { nome: 'Rio de Janeiro', sigla: 'RJ', flag: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_estado_do_Rio_de_Janeiro.svg' };
+  }
+  HEADER_ESTADOS[estado].bm = inst;
+  HEADER_ESTADOS[estado].bombeiro = inst;
+
+  if (typeof INSTITUICOES_VALIDAS !== 'undefined' && Array.isArray(INSTITUICOES_VALIDAS) && !INSTITUICOES_VALIDAS.includes(inst)) {
+    INSTITUICOES_VALIDAS.push(inst);
+  }
+
+  HEADER_INSTITUICOES_INFO[inst] = { titulo: 'CBMERJ', desc: 'Corpo de Bombeiros Militar do Estado do Rio de Janeiro' };
+  HEADER_INSTITUICOES_IMAGENS[inst] = 'img/BOMBEIRO/bmrj.webp';
+
+  HEADER_INSTITUICOES_RESUMO[inst] = {
+    nome: 'Corpo de Bombeiros Militar do Estado do Rio de Janeiro',
+    sigla: 'CBMERJ',
+    estado: 'Rio de Janeiro',
+    estadoSigla: 'RJ',
+    tipo: 'Bombeiro Militar',
+    criacao: '02/07/1856 · Decreto Imperial nº 1.775',
+    ativa: efetivoAtivo,
+    ativaLabel: '12.916 ativos · ref. Anuário CBMERJ 2024',
+    reserva: 0,
+    reservaLabel: 'Dados em breve',
+    femininas: 0,
+    femininasLabel: 'Dados em breve',
+    populacao: populacaoRj,
+    populacaoTitulo: 'População do Estado',
+    populacaoLabel: '17.223.547 habitantes (estimado IBGE 2025)',
+    relacaoLabel: `1 ativo / ${relacaoHab.toLocaleString('pt-BR')} hab. (estimado) · 0,075% (estimado)`,
+    relacaoTitulo: 'Relação ativa/população',
+    governador: 'Cláudio Castro',
+    comando: 'Cel BM Tarciso Antonio de Salles Junior — Secretário de Estado de Defesa Civil e Comandante-Geral',
+    estrutura: 'SEDEC/CBMERJ com Estado-Maior Geral, diretorias gerais e setoriais, Comandos de Bombeiro de Área I–X, unidades de ensino, saúde, grupamentos operacionais, marítimos, ambientais, aéreos e especializados.',
+    sede: 'Praça da República, nº 45 — Centro, Rio de Janeiro/RJ — CEP 20.211-350',
+    emergencia: '193',
+    coberturaLabel: 'Atuação estadual em prevenção, combate a incêndios, salvamento, atendimento pré-hospitalar, defesa civil e emergências pelo 193.',
+    ocorrenciasLabel: 'Ocorrências operacionais, vistorias, incêndios, salvamentos, resgates, apoio a eventos e ações preventivas devem ser atualizadas por relatórios do CBMERJ e SEDEC/RJ.',
+    linksOficiais: [
+      'https://www.cbmerj.rj.gov.br/',
+      'https://www.cbmerj.rj.gov.br/cursos-e-concursos/',
+      'https://www.cbmerj.rj.gov.br/sobre-o-cbmerj/institucional/estrutura/',
+      'https://www.defesacivil.rj.gov.br/'
+    ],
+    fonte: 'CBMERJ; SEDEC/RJ; GESPERJ Caderno de Remuneração janeiro/2026; IBGE 2025; IDECAN/CBMERJ; Decreto Imperial nº 1.775/1856',
+    atualizado: 'CBMERJ revisado em 07/05/2026 — efetivo ativo conforme Anuário CBMERJ 2024; população do RJ marcada como estimada; reserva/inativos e efetivo feminino em Dados em breve.'
+  };
+
+  if (typeof REMUNERACAO_FONTES_OFICIAIS !== 'undefined') {
+    REMUNERACAO_FONTES_OFICIAIS[inst] = {
+      nome: 'GESPERJ/RJ — Caderno de Remuneração — janeiro/2026 — SEDEC/CBMERJ',
+      url: 'https://www.rj.gov.br/gesperj/sites/default/files/Caderno%20de%20Remunera%C3%A7%C3%A3o%20-%20janeiro%20-%202026.pdf'
+    };
+  }
+
+  if (typeof CARGOS_BMRJ !== 'undefined' && Array.isArray(CARGOS_BMRJ) && CARGOS_BMRJ.length) {
+    CARGOS_ESTRUTURA_GENERICAS[inst] = CARGOS_BMRJ;
+  }
+
+  CONFIGS_INSTITUICOES_GENERICAS[inst] = {
+    titulo: 'CBMERJ',
+    desc: 'Corpo de Bombeiros Militar do Estado do Rio de Janeiro',
+    cor: '#b5121b',
+    alertaPrev: 'CBMERJ/RJ: conferir SPSMERJ/RioPrevidência, GRET, GHP, GRAM, triênio quando aplicável, auxílio-transporte, PTTC e demais rubricas no contracheque. Não tratar soldo como remuneração total.'
+  };
+
+  CONCURSOS[inst] = {
+    edital: 'ABMDPII/CFO 2026 em andamento/finalização; Soldado BM QBMP 1 — Busca e Salvamento, edital BMRJ-QBMP 01/2025, em andamento no IDECAN/CBMERJ.',
+    salario: 'CFO 2026: aluno com vencimento inicial de R$ 4.227,16; após formação, aspirante com remuneração bruta de R$ 9.313,32 (estimado). Soldado QBMP 1: edital informa R$ 2.956,40 durante formação e R$ 5.233,38 após o curso; tabela SEDEC jan/2026 indica Soldado A/B/C em R$ 5.233,88.',
+    vagas: 'CFO 2026: 50 vagas para Oficial Combatente. Soldado BM QBMP 1: 144 vagas, sendo 101 ampla concorrência, 29 negros/indígenas e 14 hipossuficientes.',
+    cotas: 'Soldado QBMP 1: 10% para hipossuficiência econômica e 20% para candidatos negros e indígenas, conforme edital. CFO: conferir edital específico.',
+    idade: 'Regra geral de ingresso conforme legislação estadual e edital específico do CBMERJ.',
+    escolaridade: 'CFO e Soldado QBMP 1: ensino médio completo, conforme editais localizados.',
+    materias: 'CFO: prova objetiva e redação; Soldado QBMP 1: prova objetiva conforme edital IDECAN. Conferir anexo de conteúdo do edital vigente.',
+    banca: 'UERJ para a primeira fase do CFO 2026; IDECAN para Soldado BM QBMP 1 — Busca e Salvamento.',
+    inscritos: 'CFO 2026: inscrições de 06/01/2026 a 18/01/2026. Soldado QBMP 1: inscrições de 11/06/2025 a 07/07/2025 e certame em andamento.',
+    etapas: 'CFO: prova objetiva, redação, TAF, exame documental, inspeção de saúde, pesquisa social e THE. Soldado QBMP 1: exame intelectual, TAF, THE, exame de saúde, exame documental e títulos.',
+    cfsd: 'Soldado QBMP 1 realiza curso de formação de Soldado BM após aprovação. CFO realiza Curso de Formação de Oficiais na ABMDPII.',
+    estagio: 'Dados em breve — conferir Estatuto, edital e normas internas sobre estágio probatório/adaptação.',
+    validade: 'Soldado QBMP 1: 2 anos, prorrogável por igual período. CFO: conferir edital específico.',
+    previsao: 'Não publicar novo concurso aberto sem fonte oficial. Destaque atual: CFO/2026 e Soldado QBMP 1 com publicações oficiais no portal CBMERJ.',
+    site: 'https://www.cbmerj.rj.gov.br/cursos-e-concursos/'
+  };
+
+  ASSOCIACOES[inst] = [
+    { nome: 'ABMRJ - Associação dos Bombeiros Militares do CBMERJ, seus Familiares e Amigos no Estado do Rio de Janeiro', foco: 'Bombeiros militares do CBMERJ, familiares e amigos', acao: 'Entidade associativa privada; serviços devem ser confirmados diretamente antes de publicar detalhe comercial.', site: 'Dados em breve', telefone: '(21) 7701-7746', mensalidade: 'Consultar diretamente na entidade', servicos: 'Representação associativa; detalhes de apoio jurídico, convênios e benefícios exigem confirmação direta.' },
+    { nome: 'ASSINAP - Associação representativa de policiais e bombeiros militares', foco: 'Policiais e bombeiros militares, ativos, inativos e pensionistas', acao: 'Representação institucional e atendimento associativo no RJ.', site: 'https://assinap.com.br/', telefone: '(21) 96499-6470 / (21) 97469-2730 / (21) 97580-9680', mensalidade: 'Consultar diretamente na entidade', servicos: 'Atendimento associativo; serviços jurídicos e benefícios devem ser confirmados diretamente.' },
+    { nome: 'Associação dos Oficiais Bombeiros RJ', foco: 'Oficiais da ativa e da reserva do CBMERJ', acao: 'Associação/clube com regras próprias de ingresso para oficiais e associados civis indicados.', site: 'https://clubeoficiaisbmrj.com.br/', telefone: '(21) 2252-1619', mensalidade: 'Consultar diretamente na entidade', servicos: 'Clube, apoio associativo, comunicação institucional e eventual assessoria conforme regras internas.' },
+    { nome: 'FABOM - Fundação de Apoio ao Corpo de Bombeiros Militar do Estado do Rio de Janeiro', foco: 'Apoio institucional ao CBMERJ', acao: 'Fundação de apoio com atuação em iniciativas e benefícios vinculados ao CBMERJ.', site: 'https://fabom.org.br/', telefone: '(21) 96469-1060', mensalidade: 'Consultar diretamente na entidade', servicos: 'Apoio, benefícios, parceiros, atendimento e ações institucionais.' }
+  ];
+
+  ACOES_JUDICIAIS[inst] = [
+    { titulo: 'CBMERJ — triênio/ATS preservado', status: 'Possível revisão individual', ano: 'Conforme data de ingresso', tipo: 'individual', desc: 'Conferir se o triênio, quando aplicável, foi calculado sobre soldo + GHP + GRET + GRAM. Para editais publicados a partir de 01/01/2022, observar a LC RJ 194/2021.', base: 'Lei RJ 1.608/1990; LC RJ 194/2021; Caderno de Remuneração RJ jan/2026.', fonte: 'GESPERJ/RJ', fonteUrl: 'https://www.rj.gov.br/gesperj/sites/default/files/Caderno%20de%20Remunera%C3%A7%C3%A3o%20-%20janeiro%20-%202026.pdf', atualizado: 'Maio/2026' },
+    { titulo: 'CBMERJ — GRET, GHP e GRAM', status: 'Conferência remuneratória individual', ano: 'Tabela jan/2026', tipo: 'individual', desc: 'Verificar se percentuais e bases de cálculo de GRET, GHP e GRAM aplicados no contracheque correspondem ao posto/graduação, habilitação e enquadramento correto.', base: 'Lei RJ 279/1979; Lei RJ 9.537/2021; Decreto RJ 47.902/2021; Caderno de Remuneração RJ jan/2026.', fonte: 'GESPERJ/RJ', fonteUrl: 'https://www.rj.gov.br/gesperj/sites/default/files/Caderno%20de%20Remunera%C3%A7%C3%A3o%20-%20janeiro%20-%202026.pdf', atualizado: 'Maio/2026' },
+    { titulo: 'CBMERJ — férias e licença especial não usufruídas em pecúnia', status: 'Possível cobrança administrativa/judicial', ano: 'Normas 2023/2026', tipo: 'individual', desc: 'Verificar direito a indenização de férias ou licença especial não usufruídas, especialmente na passagem para inatividade.', base: 'Art. 85-B da Lei RJ 279/1979; Decreto RJ 48.466/2023; Portaria CBMERJ 1.224/2023; Portaria CBMERJ 1332/2026.', fonte: 'CBMERJ/GESPERJ', fonteUrl: 'https://www.rj.gov.br/gesperj/sites/default/files/Caderno%20de%20Remunera%C3%A7%C3%A3o%20-%20janeiro%20-%202026.pdf', atualizado: 'Maio/2026' },
+    { titulo: 'CBMERJ — SPSMERJ / contribuição / pensionistas', status: 'Possível revisão conforme caso concreto', ano: 'Lei 9.537/2021', tipo: 'individual', desc: 'Conferir contribuição, base de cálculo, pensão militar, inatividade e regra de transição do Sistema de Proteção Social dos Militares do RJ.', base: 'Lei RJ 9.537/2021; Lei Federal 13.954/2019.', fonte: 'SEDEC/CBMERJ', fonteUrl: 'https://www.cbmerj.rj.gov.br/', atualizado: 'Maio/2026' },
+    { titulo: 'CBMERJ — PTTC', status: 'Possível conferência administrativa', ano: '2008/2026', tipo: 'individual', desc: 'Conferir valores, incidência de 13º, 1/3 de férias e ausência de contribuição previdenciária sobre adicional, conforme regras vigentes.', base: 'Lei RJ 5.271/2008; Lei RJ 11.042/2025; Decreto RJ 50.126/2026.', fonte: 'GESPERJ/RJ', fonteUrl: 'https://www.rj.gov.br/gesperj/sites/default/files/Caderno%20de%20Remunera%C3%A7%C3%A3o%20-%20janeiro%20-%202026.pdf', atualizado: 'Maio/2026' }
+  ];
+}
+
 function aplicarDadosEspecificosBmba() {
   const inst = 'bmba';
   const estado = 'ba';
@@ -3690,6 +4113,10 @@ function aplicarDadosEspecificosBmba() {
 }
 
 aplicarDadosEspecificosBmap();
+aplicarDadosEspecificosBmmg();
+aplicarDadosEspecificosBmms();
+aplicarDadosEspecificosBmpr();
+aplicarDadosEspecificosBmrj();
 aplicarDadosEspecificosBmba();
 aplicarEstruturaFederaisDados();
 aplicarRevisaoResumosInstitucionais();
@@ -4115,7 +4542,6 @@ function calcularResumoPortalHeader() {
   let ativa = 0;
   let reserva = 0;
   let femininas = 0;
-  let populacao = 0;
 
   INSTITUICOES_VALIDAS.forEach(inst => {
     const dados = HEADER_INSTITUICOES_RESUMO[inst] || {};
@@ -4125,10 +4551,9 @@ function calcularResumoPortalHeader() {
     femininas += Number(dados.femininas || 0);
   });
 
-  Object.values(HEADER_ESTADOS).forEach(estado => {
-    const ref = HEADER_INSTITUICOES_RESUMO[estado.pm] || HEADER_INSTITUICOES_RESUMO[estado.pc] || HEADER_INSTITUICOES_RESUMO[estado.pp] || {};
-    populacao += Number(ref.populacao || 0);
-  });
+  // A população abrangida do portal é a população brasileira uma única vez.
+  // Não somar populações por instituição/ramo, pois isso duplica ou multiplica a abrangência real.
+  const populacao = Number(HEADER_INSTITUICOES_RESUMO.pf?.populacao || 213400000);
 
   return { instituicoes, estados, ativa, reserva, femininas, total: ativa + reserva, populacao };
 }
@@ -4188,7 +4613,7 @@ function aplicarHeaderInicialPortal() {
   setTexto('header-resumo-ativa', `${formatarEfetivoHeader(resumoPortal.total)}+`);
   setTexto('header-resumo-reserva', `${formatarEfetivoHeader(resumoPortal.reserva)}+`);
   setTexto('header-resumo-total', `${formatarEfetivoHeader(resumoPortal.femininas)}+`);
-  setTexto('header-resumo-populacao', formatarNumeroHeader(resumoPortal.populacao));
+  setTexto('header-resumo-populacao', `${formatarNumeroHeader(resumoPortal.populacao)} (estimado)`);
   setTexto('header-resumo-relacao', `${resumoPortal.estados} UFs`);
   atualizarIndicadorPercentualPortal();
   setTexto('header-resumo-governador', 'Polícia Rodoviária Federal, Polícia Federal, Polícia Militar, Polícia Civil, Polícia Penal, Bombeiro Militar e Guarda Municipal');
@@ -4504,6 +4929,7 @@ function mudarInstituicao(novaInstituicao) {
     pmerj: { titulo: "PMERJ", desc: "Polícia Militar do Rio de Janeiro", cor: "#1E3084", alertaPrev: "RioPrevidência — 14% sobre soldo, GRET, GHP, GRAM e triênios." },
     pcerj: { titulo: "PCERJ", desc: "Polícia Civil do Rio de Janeiro",    cor: "#6B7280", alertaPrev: "RioPrevidência — 14% sobre vencimento-base, AAP/representação, GHP, GATC e adicionais remuneratórios." },
     pmmg:  { titulo: "PMMG",  desc: "Polícia Militar de Minas Gerais",     cor: "#7c1a1a", alertaPrev: "IPSM — 10,5% (8% previdência + 2,5% saúde compulsória) sobre o subsídio." },
+    bmmg:  { titulo: "CBMMG", desc: "Corpo de Bombeiros Militar de Minas Gerais", cor: "#b91c1c", alertaPrev: "CBMMG/MG: conferir IPSM, contribuição previdenciária, ajuda de custo para alimentação, abono fardamento, curso/quadro e demais rubricas diretamente no contracheque. Não tratar valor de edital como total individual automático." },
     pcmg:  { titulo: "PCMG",  desc: "Polícia Civil de Minas Gerais",        cor: "#b58d3d", alertaPrev: "IPSEMG — 11% previdência + 3,2% saúde (opcional) sobre subsídio." },
     pmba:  { titulo: "PMBA",  desc: "Polícia Militar da Bahia",             cor: "#967117", alertaPrev: "Funprev-BA — 14% sobre soldo, GAP, anuênios e CET." },
     pcba:  { titulo: "PCBA",  desc: "Polícia Civil da Bahia",                cor: "#333333", alertaPrev: "Funprev-BA — 14% sobre vencimento, anuênios, CET, GIP e GQUAL." },
@@ -4524,6 +4950,7 @@ function mudarInstituicao(novaInstituicao) {
     ppsc: { titulo: "PPSC", desc: POLICIAS_PENAIS_INFO.ppsc.nome, cor: "#38598b", alertaPrev: `${POLICIAS_PENAIS_INFO.ppsc.sigla}: ${POLICIAS_PENAIS_INFO.ppsc.previdencia} ${POLICIAS_PENAIS_INFO.ppsc.vantagens}` },
     ppes: { titulo: "PPES", desc: POLICIAS_PENAIS_INFO.ppes.nome, cor: "#5e548e", alertaPrev: `${POLICIAS_PENAIS_INFO.ppes.sigla}: ${POLICIAS_PENAIS_INFO.ppes.previdencia} ${POLICIAS_PENAIS_INFO.ppes.vantagens}` },
     pmms: { titulo: "PMMS", desc: "Polícia Militar de Mato Grosso do Sul", cor: "#2f5f8f", alertaPrev: "PMMS: conferir sistema de proteção social dos militares estaduais, AGEPREV/MS, regra de ingresso, averbações, reserva remunerada e reforma conforme legislação estadual." },
+    bmms: { titulo: "CBMMS", desc: "Corpo de Bombeiros Militar de Mato Grosso do Sul", cor: "#b91c1c", alertaPrev: "CBMMS/MS: conferir subsídio por posto/graduação e nível, SPSM/MS, AGEPREV/MS, ajuda de custo, fardamento, indenizações, função, escala e demais rubricas no contracheque e na norma vigente." },
     pcms: { titulo: "PCMS", desc: "Polícia Civil de Mato Grosso do Sul", cor: "#4b5563", alertaPrev: "PCMS: conferir LC MS 114/2005, LC MS 343/2024, AGEPREV/MS, cargo, classe, referência, tempo em atividade policial e regra de aposentadoria aplicada." },
     ppms: { titulo: "PPMS", desc: POLICIAS_PENAIS_INFO.ppms.nome, cor: "#516b3b", alertaPrev: `${POLICIAS_PENAIS_INFO.ppms.sigla}: ${POLICIAS_PENAIS_INFO.ppms.previdencia} ${POLICIAS_PENAIS_INFO.ppms.vantagens}` },
     pmmt: { titulo: "PMMT", desc: "Polícia Militar de Mato Grosso", cor: "#1f7a4d", alertaPrev: "PMMT: conferir sistema de proteção social dos militares estaduais, MTPREV/MT, regra de ingresso, averbações, reserva remunerada e reforma conforme legislação estadual." },
@@ -5095,6 +5522,10 @@ function imagemPrincipalBrasaoInstituicao(inst) {
 function getCriadorInstitucional(inst, tipo, estadoNome) {
   if (inst === 'pmesp') return 'Brigadeiro Rafael Tobias de Aguiar — então presidente da Província de São Paulo, pela lei provincial de 15/12/1831.';
   if (inst === 'pmerj') return 'D. João VI — criação da Divisão Militar da Guarda Real da Polícia da Corte em 13/05/1809.';
+  if (inst === 'bmms') return 'Governo de Mato Grosso — Lei MT nº 3.322/1973, origem histórica do Comando do Corpo de Bombeiros; Mato Grosso do Sul reorganizou a corporação após a criação do Estado.';
+  if (inst === 'bmmg') return 'Júlio Bueno Brandão — Lei MG nº 557, de 31/08/1911, que autorizou a organização da Seção de Bombeiros Profissionais.';
+  if (inst === 'bmpr') return 'Carlos Cavalcanti de Albuquerque — Lei PR nº 1.133, de 23/03/1912, que criou o Corpo de Bombeiros do Estado do Paraná.';
+  if (inst === 'bmrj') return 'Dom Pedro II — Decreto Imperial nº 1.775, de 02/07/1856, criou o Corpo Provisório de Bombeiros da Corte.';
   const esfera = getEsferaConsultaInstituicao(inst);
   if (inst === 'pf') return 'União — estrutura federal organizada pela Constituição, legislação federal e atos do Poder Executivo federal.';
   if (inst === 'prf') return 'Presidente Washington Luís — Decreto nº 18.323/1928 criou a Polícia das Estradas, origem histórica da PRF.';
@@ -5120,6 +5551,70 @@ function getHistoricoPorTipo(inst, dados) {
         'Lei SP 18.442/2026: efetivo legal de 93.802 cargos, com quadros QOEM, QOE, QOS, QOM, QORR e QP e regras gerais de promoção.',
         'Lei SP 18.441/2026: vencimentos-base reclassificados a partir de 01/04/2026; remuneração total deve ser conferida em tabela oficial posterior quando disponível.',
         '2026: Cel PM Glauce Anselmo Cavalli assume o Comando-Geral, primeira mulher a comandar a PMESP.'
+      ]
+    };
+  }
+
+
+
+  if (inst === 'bmms') {
+    return {
+      origem: `O ${nome} tem origem histórica no Comando do Corpo de Bombeiros Militar criado em 16 de abril de 1973 pela Lei MT nº 3.322, ainda no antigo Estado de Mato Grosso, com destacamentos em Campo Grande e Corumbá. Com a criação de Mato Grosso do Sul, consolidou-se como corporação militar estadual de prevenção, combate a incêndios, salvamento, atendimento emergencial, defesa civil e segurança contra incêndio e pânico.`,
+      marcos: [
+        '1971: inauguração do quartel em Campo Grande, marco operacional anterior à criação formal do comando.',
+        '1973: Lei MT nº 3.322 cria o Comando do Corpo de Bombeiros Militar no antigo Mato Grosso.',
+        '1974: Lei MT nº 3.539 organiza o Comando e o Estado-Maior do Corpo de Bombeiros Militar.',
+        '1979: com a criação de Mato Grosso do Sul, o serviço passa a integrar a estrutura militar estadual sul-mato-grossense.',
+        '2008: LC MS nº 127 institui o sistema remuneratório por subsídio para PMMS e CBMMS.',
+        '2014: LC MS nº 188 dispõe sobre a organização básica do CBMMS.',
+        '2025: LC MS nº 354 fixa o efetivo legal do CBMMS em 3.978 integrantes.',
+        '2026: Lei MS nº 6.562 aplica RGA de 3,81% ao subsídio dos servidores estaduais.'
+      ]
+    };
+  }
+
+  if (inst === 'bmmg') {
+    return {
+      origem: `O ${nome} tem origem na Lei MG nº 557, de 31 de agosto de 1911, que autorizou a organização da Seção de Bombeiros Profissionais em Minas Gerais. A corporação consolidou-se como instituição militar estadual voltada à prevenção e combate a incêndios, salvamento, atendimento pré-hospitalar, defesa civil e segurança contra incêndio e pânico, com autonomia institucional e presença operacional em dezenas de municípios mineiros.`,
+      marcos: [
+        '1911: Lei MG nº 557 autoriza a organização da Seção de Bombeiros Profissionais em Minas Gerais.',
+        '1913: registros históricos apontam os primeiros grandes atendimentos operacionais do serviço de bombeiros em Belo Horizonte.',
+        'Décadas seguintes: expansão de pelotões, batalhões e unidades operacionais no interior do Estado.',
+        '1999: consolidação da autonomia institucional do Corpo de Bombeiros Militar de Minas Gerais.',
+        '2016: Lei MG nº 22.415 fixa o efetivo legal do CBMMG em 7.999 cargos.',
+        '2025: Cel BM Jordana de Oliveira Filgueiras Daldegan assume o Comando-Geral do CBMMG.',
+        '2026: Lei MG nº 25.804 aplica revisão geral de 5,4% e editais CBMMG 09/2026 e 10/2026 abrem novo ciclo de ingresso.'
+      ]
+    };
+  }
+
+
+  if (inst === 'bmpr') {
+    return {
+      origem: `O Corpo de Bombeiros Militar do Paraná tem antecedentes na Lei Provincial nº 679, de 27 de outubro de 1882, e foi criado formalmente pela Lei PR nº 1.133, de 23 de março de 1912. Em 2026, a instituição atua como corporação militar estadual dedicada à prevenção e combate a incêndios, salvamento, atendimento pré-hospitalar, defesa civil e atividades técnicas, sob comando do Cel QOBM Antônio Geraldo Hiller Lino.`,
+      marcos: [
+        '1882: Lei Provincial nº 679 autoriza a organização do serviço de bombeiros na província do Paraná.',
+        '1912: Lei PR nº 1.133 cria o Corpo de Bombeiros do Estado do Paraná.',
+        'Consolidação da atuação estadual em incêndios, salvamento, SIATE, defesa civil, prevenção e segurança contra incêndio e pânico.',
+        'Lei PR nº 22.187/2024: reestrutura a carreira militar estadual e tabela de subsídio do Quadro da Polícia Militar e do Quadro Bombeiro Militar do Paraná.',
+        'Lei PR nº 22.916/2025: fixa o efetivo do CBMPR em 5.704 cargos.',
+        '2025: Cel QOBM Antônio Geraldo Hiller Lino assume o Comando-Geral do CBMPR.',
+        'Concursos 2025: Soldado Bombeiro Militar com 600 vagas e Cadete Bombeiro Militar com 20 vagas.'
+      ]
+    };
+  }
+
+  if (inst === 'bmrj') {
+    return {
+      origem: `O ${nome} tem origem no Corpo Provisório de Bombeiros da Corte, criado pelo Decreto Imperial nº 1.775, de 2 de julho de 1856, no período de Dom Pedro II. Reconhecido como o primeiro corpo de bombeiros do Brasil, o CBMERJ atua em prevenção, combate a incêndios, salvamento, atendimento pré-hospitalar, defesa civil e respostas emergenciais no Estado do Rio de Janeiro, vinculado à SEDEC/RJ.`,
+      marcos: [
+        '1856: criação do Corpo Provisório de Bombeiros da Corte pelo Decreto Imperial nº 1.775, de 2 de julho.',
+        'Consolidação histórica como referência nacional em combate a incêndios, salvamento e resposta a emergências urbanas.',
+        '1979: Lei RJ nº 279 organiza a remuneração dos militares estaduais do RJ, incluindo o Corpo de Bombeiros.',
+        '1985: Lei RJ nº 880 estabelece o Estatuto dos Bombeiros Militares do Estado do Rio de Janeiro.',
+        '2021: Lei RJ nº 9.537 organiza o Sistema de Proteção Social dos Militares do Estado do Rio de Janeiro.',
+        '2024: Cel BM Tarciso Antonio de Salles Junior assume a SEDEC/RJ e o Comando-Geral do CBMERJ.',
+        '2026: tabela SEDEC/GESPERJ de janeiro/2026 passa a ser usada no portal para remuneração bruta oficial por posto/graduação.'
       ]
     };
   }
@@ -5308,3 +5803,7 @@ function renderizarBrasoesHistoria() {
 
 // Reaplica BMBA após as rotinas globais de normalização para preservar os campos estimados e a remuneração detalhada recém-cadastrados.
 if (typeof aplicarDadosEspecificosBmba === 'function') aplicarDadosEspecificosBmba();
+if (typeof aplicarDadosEspecificosBmmg === 'function') aplicarDadosEspecificosBmmg();
+if (typeof aplicarDadosEspecificosBmms === 'function') aplicarDadosEspecificosBmms();
+if (typeof aplicarDadosEspecificosBmpr === 'function') aplicarDadosEspecificosBmpr();
+if (typeof aplicarDadosEspecificosBmrj === 'function') aplicarDadosEspecificosBmrj();

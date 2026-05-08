@@ -49,12 +49,20 @@ const REMUNERACAO_FONTES_OFICIAIS = {
     nome: 'GESPERJ/RJ — Caderno de Remuneração — janeiro/2026 — SEPM',
     url: 'https://www.rj.gov.br/gesperj/sites/default/files/Caderno%20de%20Remunera%C3%A7%C3%A3o%20-%20janeiro%20-%202026.pdf'
   },
+  bmrj: {
+    nome: 'GESPERJ/RJ — Caderno de Remuneração — janeiro/2026 — SEDEC/CBMERJ',
+    url: 'https://www.rj.gov.br/gesperj/sites/default/files/Caderno%20de%20Remunera%C3%A7%C3%A3o%20-%20janeiro%20-%202026.pdf'
+  },
   pcerj: {
     nome: 'GESPERJ/RJ — Caderno de Remuneração — janeiro/2026 — SEPOL',
     url: 'https://www.rj.gov.br/gesperj/sites/default/files/Caderno%20de%20Remunera%C3%A7%C3%A3o%20-%20janeiro%20-%202026.pdf'
   },
   pmmg: {
     nome: 'MG/SEPLAG — Grupo XI — Atividades da Defesa Social — Lei nº 25.804/2026',
+    url: 'https://www.mg.gov.br/system/files/media/planejamento/documento_detalhado/2026/grupo_11_atualizacao-54-2026.pdf'
+  },
+  bmmg: {
+    nome: 'MG/SEPLAG — Grupo XI — Defesa Social — Lei MG nº 25.804/2026; CBMMG Editais nº 09/2026 e nº 10/2026 — remuneração 2026',
     url: 'https://www.mg.gov.br/system/files/media/planejamento/documento_detalhado/2026/grupo_11_atualizacao-54-2026.pdf'
   },
   pcmg: {
@@ -76,6 +84,10 @@ const REMUNERACAO_FONTES_OFICIAIS = {
   pmpr: {
     nome: 'Legislação/PR — Lei nº 22.187/2024 e Lei nº 22.208/2024',
     url: 'https://www.legislacao.pr.gov.br/legislacao/exibirAto.do?action=iniciarProcesso&codAto=344946&codItemAto=2177446'
+  },
+  bmpr: {
+    nome: 'Administração/PR — Carreiras e Tabelas Salariais — Quadro PMPR e Quadro Bombeiro Militar PR — Lei PR nº 22.187/2024; auxílio-alimentação Lei PR nº 22.208/2024',
+    url: 'https://www.administracao.pr.gov.br/Recursos-Humanos/Pagina/Carreiras-e-Tabelas-Salariais'
   },
   pcpr: {
     nome: 'Legislação/PR — Lei Complementar nº 259/2023 e Lei nº 22.208/2024',
@@ -108,6 +120,10 @@ const REMUNERACAO_FONTES_OFICIAIS = {
   pmms: {
     nome: 'PMMS — Tabela salarial militar MS 05/2025, com reajuste de 5,06% aplicado',
     url: 'https://ronda.org.br/assembleia-aprova-reajuste-de-506-aos-servidores-de-ms-confira-a-tabela-salarial-da-pm-e-bm/'
+  },
+  bmms: {
+    nome: 'CBMMS — Subsídio militar estadual por posto/graduação e nível; LC MS 127/2008, LC MS 291/2021, tabela militar 05/2025 e RGA 3,81% da Lei MS 6.562/2026',
+    url: 'https://legislacao.bombeiros.ms.gov.br/tabelas-de-subsidios/'
   },
   pcms: {
     nome: 'PCMS — Edital APJ/2025; LC MS nº 343/2024; LC MS nº 290/2021 para Delegado',
@@ -210,6 +226,9 @@ function getAdicionaisRemuneracaoResumo(inst, linha = {}) {
     return `${detalhesLinha}${info.sigla}: ${info.atribuicoes} ${info.vantagens} Fonte principal: ${info.fonte}.`;
   }
 
+  if (inst === 'bmms') {
+    return linha.benefDesc || 'CBMMS: subsídio por posto/graduação e nível; SPSM/MS, AGEPREV/MS, ajuda de custo, fardamento, diárias, indenizações, função, escala e parcelas pessoais dependem da legislação estadual e do contracheque; não foram somados automaticamente.';
+  }
   if (inst === 'pmms') {
     return linha.benefDesc || 'PMMS: adicionais, indenizações, auxílio, escala, fardamento ou verbas específicas dependem da legislação estadual, lotação, ordem de serviço, escala e contracheque; não foram somados automaticamente.';
   }
@@ -253,6 +272,18 @@ function getAdicionaisRemuneracaoResumo(inst, linha = {}) {
     return `Regime de subsídio: valor bruto mensal da carreira policial federal com efeitos financeiros a partir de 01/05/2026, conforme Lei nº 14.875/2024, Anexo XXVI. ${grupo} Auxílio-alimentação federal: R$ 1.192,00, verba indenizatória não somada ao subsídio. Assistência pré-escolar: R$ 526,64 quando houver dependente elegível e requisitos no SIAPE/SouGov. Saúde suplementar: participação da União por faixa etária/remuneração, não somada automaticamente. Indenização de fronteira: R$ 91,00 por dia de efetivo trabalho somente em localidade estratégica e quando não houver incompatibilidade/cumulação vedada. Diárias, ajuda de custo, transporte, adicional de férias, gratificação natalina, abono de permanência, função e parcelas pessoais dependem de lotação, escala, missão, tempo de serviço e situação funcional.`;
   }
 
+
+  if (inst === 'bmrj') {
+    let gret = '150%';
+    let ghp = '110%';
+    if (/cel|ten cel|tenente-coronel/i.test(linha.cargo || '')) { gret = '192,5%'; ghp = '160%'; }
+    else if (/maj/i.test(linha.cargo || '')) { gret = '192,5%'; ghp = /80%/.test(linha.cargo || '') ? '80%' : '110%'; }
+    else if (/80%/.test(linha.cargo || '')) { ghp = '80%'; }
+    else if (/cabo|cb bm|sd bm|soldado a\/b\/c/i.test(linha.cargo || '')) { ghp = '75%'; }
+    else if (/aluno|soldado-aluno|sd aluno|esfo/i.test(linha.cargo || '')) { gret = '122,5%'; ghp = 'não aplicada na linha'; }
+    return `GRET: ${gret} sobre o soldo; GHP: ${ghp}; GRAM: 62,5% sobre soldo + GRET + GHP. Total bruto oficial SEDEC/CBMERJ jan/2026 já inclui essas parcelas. Triênio: 10% a 60% quando preservado, conforme ingresso e LC RJ 194/2021, não somado na tabela. Auxílio-transporte: R$ 100,00/mês, não somado. SPSMERJ, PTTC, férias/licenças em pecúnia, diárias, indenizações e rubricas pessoais dependem de ato, escala, vínculo e contracheque.`;
+  }
+
   if (inst === 'pmerj') {
     let gret = '150%';
     let ghp = '110%';
@@ -273,8 +304,9 @@ function getAdicionaisRemuneracaoResumo(inst, linha = {}) {
     return `AAP: 230% sobre o vencimento-base; GHP: até 100%.${gatc} Essas parcelas já compõem a remuneração bruta exibida quando aplicáveis. Auxílio-alimentação: R$ 704,00/mês; auxílio-transporte: R$ 100,00/mês, sem somar no bruto.`;
   }
 
-  if (inst === 'pmmg') {
-    return `Ajuda de custo para alimentação: ${fmt(AUX_ALIM_MG_DIA_PADRAO)} por dia efetivamente trabalhado, quando atendidos os critérios. Outros adicionais, gratificações ou indenizações dependem de função, local, escala, ato específico ou situação individual e não foram somados ao bruto.`;
+  if (inst === 'pmmg' || inst === 'bmmg') {
+    const siglaMg = inst === 'bmmg' ? 'CBMMG' : 'PMMG';
+    return `${siglaMg}: ajuda de custo para alimentação de referência ${fmt(AUX_ALIM_MG_DIA_PADRAO)} por dia efetivamente trabalhado, quando atendidos os critérios. Abono fardamento, assistência IPSM, adicionais, indenizações, diárias, retroativos e parcelas pessoais dependem de função, escala, ato específico e contracheque; não foram somados ao bruto.`;
   }
 
   if (inst === 'pcmg') {
@@ -295,6 +327,10 @@ function getAdicionaisRemuneracaoResumo(inst, linha = {}) {
 
   if (inst === 'pmpr') {
     return `Regime por subsídio: a remuneração bruta da linha corresponde ao subsídio do cargo/classe. Auxílio-alimentação oficial PR: ${fmt(AUX_ALIM_PR_PADRAO)}. Outras indenizações ou gratificações específicas dependem de previsão própria, escala, local ou situação individual e não foram somadas.`;
+  }
+
+  if (inst === 'bmpr') {
+    return `Regime por subsídio do CBMPR: a remuneração bruta da linha corresponde ao subsídio por posto/graduação e classe da Lei PR nº 22.187/2024. Auxílio-alimentação oficial PR: ${fmt(AUX_ALIM_PR_PADRAO)}, não somado automaticamente. FASPM é facultativo; ParanáPrevidência/proteção social militar, diárias, indenizações, serviço extraordinário e parcelas pessoais dependem de vínculo, escala, ato e contracheque.`;
   }
 
   if (inst === 'pcpr') {
@@ -403,6 +439,34 @@ REMUNERACAO_SP_OFICIAL.bmsp = REMUNERACAO_SP_OFICIAL.pmesp.map(linha => Object.a
   benefDesc: 'Benefícios não somados; RETP, DEJEM, insalubridade, CBPM/Cruz Azul, diárias, ajuda de custo, transporte e rubricas pessoais dependem de posto/graduação, escala, laudo, vínculo e situação funcional.'
 }));
 
+
+REMUNERACAO_SP_OFICIAL.bmrj = [
+  linhaRemuneracaoOficial('CEL BM — Coronel CBMERJ', 24050.02, 0, 'Total bruto oficial: soldo R$ 3.270,72 + GRET 192,5% + GHP 160% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios não somados: auxílio-transporte R$ 100,00/mês; triênio 10% a 60% quando preservado; PTTC, diárias, indenizações, SPSMERJ e rubricas pessoais dependem de ato/contracheque.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('TEN CEL BM — Tenente-Coronel CBMERJ', 21644.95, 0, 'Total bruto oficial: soldo R$ 2.943,64 + GRET 192,5% + GHP 160% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios não somados: auxílio-transporte R$ 100,00/mês; triênio 10% a 60% quando preservado; PTTC, diárias, indenizações, SPSMERJ e rubricas pessoais dependem de ato/contracheque.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('MAJ BM — Major CBMERJ — GHP 110%', 17327.88, 0, 'Total bruto oficial: soldo R$ 2.649,27 + GRET 192,5% + GHP 110% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir habilitação, posto, contracheque e ato de enquadramento.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('MAJ BM — Major CBMERJ — GHP 80%', 16036.36, 0, 'Total bruto oficial: soldo R$ 2.649,27 + GRET 192,5% + GHP 80% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir habilitação, posto, contracheque e ato de enquadramento.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('CAP BM — Capitão CBMERJ — GHP 110%', 13948.46, 0, 'Total bruto oficial: soldo R$ 2.384,35 + GRET 150% + GHP 110% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir habilitação, posto, contracheque e ato de enquadramento.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('CAP BM — Capitão CBMERJ — GHP 80%', 12786.09, 0, 'Total bruto oficial: soldo R$ 2.384,35 + GRET 150% + GHP 80% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir habilitação, posto, contracheque e ato de enquadramento.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('1º TEN BM — 1º Tenente CBMERJ — GHP 110%', 12551.71, 0, 'Total bruto oficial: soldo R$ 2.145,59 + GRET 150% + GHP 110% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir habilitação, posto, contracheque e ato de enquadramento.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('1º TEN BM — 1º Tenente CBMERJ — GHP 80%', 11505.73, 0, 'Total bruto oficial: soldo R$ 2.145,59 + GRET 150% + GHP 80% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir habilitação, posto, contracheque e ato de enquadramento.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('2º TEN BM — 2º Tenente CBMERJ — GHP 110%', 11288.92, 0, 'Total bruto oficial: soldo R$ 1.929,73 + GRET 150% + GHP 110% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir habilitação, posto, contracheque e ato de enquadramento.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('2º TEN BM — 2º Tenente CBMERJ — GHP 80%', 10348.18, 0, 'Total bruto oficial: soldo R$ 1.929,73 + GRET 150% + GHP 80% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir habilitação, posto, contracheque e ato de enquadramento.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('ASP OF BM — Aspirante Oficial CBMERJ — GHP 110%', 10159.92, 0, 'Total bruto oficial: soldo R$ 1.736,74 + GRET 150% + GHP 110% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir habilitação, posto, contracheque e ato de enquadramento.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('ASP OF BM — Aspirante Oficial CBMERJ — GHP 80%', 9313.27, 0, 'Total bruto oficial: soldo R$ 1.736,74 + GRET 150% + GHP 80% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir habilitação, posto, contracheque e ato de enquadramento.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('SUBTEN BM — Subtenente CBMERJ — GHP 110%', 10159.92, 0, 'Total bruto oficial: soldo R$ 1.736,74 + GRET 150% + GHP 110% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir habilitação, graduação, contracheque e ato de enquadramento.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('SUBTEN BM — Subtenente CBMERJ — GHP 80%', 9313.27, 0, 'Total bruto oficial: soldo R$ 1.736,74 + GRET 150% + GHP 80% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir habilitação, graduação, contracheque e ato de enquadramento.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('1º SGT BM — 1º Sargento CBMERJ — GHP 110%', 9337.19, 0, 'Total bruto oficial: soldo R$ 1.596,10 + GRET 150% + GHP 110% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir habilitação, graduação, contracheque e ato de enquadramento.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('1º SGT BM — 1º Sargento CBMERJ — GHP 80%', 8559.09, 0, 'Total bruto oficial: soldo R$ 1.596,10 + GRET 150% + GHP 80% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir habilitação, graduação, contracheque e ato de enquadramento.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('2º SGT BM — 2º Sargento CBMERJ — GHP 110%', 8476.24, 0, 'Total bruto oficial: soldo R$ 1.448,93 + GRET 150% + GHP 110% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir habilitação, graduação, contracheque e ato de enquadramento.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('2º SGT BM — 2º Sargento CBMERJ — GHP 80%', 7769.89, 0, 'Total bruto oficial: soldo R$ 1.448,93 + GRET 150% + GHP 80% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir habilitação, graduação, contracheque e ato de enquadramento.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('3º SGT BM — 3º Sargento CBMERJ — GHP 110%', 7710.89, 0, 'Total bruto oficial: soldo R$ 1.318,10 + GRET 150% + GHP 110% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir habilitação, graduação, contracheque e ato de enquadramento.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('3º SGT BM — 3º Sargento CBMERJ — GHP 80%', 7395.39, 0, 'Total bruto oficial: soldo R$ 1.318,10 + GRET 150% + GHP 80% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir habilitação, graduação, contracheque e ato de enquadramento.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('CB BM — Cabo CBMERJ', 6028.44, 0, 'Total bruto oficial: soldo R$ 1.141,48 + GRET 150% + GHP 75% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios não somados: auxílio-transporte R$ 100,00/mês, triênio preservado quando aplicável, diárias, indenizações e rubricas pessoais.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('SD BM — Soldado A/B/C CBMERJ', 5233.88, 0, 'Total bruto oficial: soldo R$ 991,03 + GRET 150% + GHP 75% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios não somados: auxílio-transporte R$ 100,00/mês, triênio preservado quando aplicável, diárias, indenizações e rubricas pessoais.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('SD ALUNO BM — Soldado-Aluno CBMERJ', 2956.40, 0, 'Total bruto oficial: soldo R$ 817,67 + GRET 122,5% + GRAM 62,5%; GHP não aplicada nesta linha. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir edital, curso de formação e contracheque.', 'bmrj', 'SEDEC jan/2026'),
+  linhaRemuneracaoOficial('ALUNO ESFO BM — Aluno EsFO CBMERJ', 4127.16, 0, 'Total bruto oficial: soldo R$ 1.141,48 + GRET 122,5% + GRAM 62,5%; GHP não aplicada nesta linha. Referência: janeiro/2026.', 'Benefícios e rubricas pessoais não somados; conferir edital, curso de formação e contracheque.', 'bmrj', 'SEDEC jan/2026')
+];
+
 const REMUNERACAO_MG_OFICIAL = {
   pmmg: [
     ['CORONEL PMMG', 21635.64], ['TENENTE CORONEL PMMG', 19515.61], ['MAJOR PMMG', 17394.91], ['CAPITÃO PMMG', 16101.58],
@@ -436,18 +500,45 @@ const REMUNERACAO_MG_OFICIAL = {
   ].map(([cargo, valor]) => linhaRemuneracaoOficial(cargo, valor, 0, 'Vencimento básico oficial da tabela Grupo XI — Defesa Social. Vigência: 01/01/2026.', 'Ajuda de custo para alimentação regulamentada pelo Decreto MG nº 49.006/2025; não somada por depender de regra, valor e dias efetivamente trabalhados.', 'pcmg'))
 };
 
+
+REMUNERACAO_MG_OFICIAL.bmmg = [
+  ['CEL BM — Coronel CBMMG', 21635.64, 'MG/SEPLAG 2026'],
+  ['TEN CEL BM — Tenente-Coronel CBMMG', 19515.61, 'MG/SEPLAG 2026'],
+  ['MAJ BM — Major CBMMG', 17394.91, 'MG/SEPLAG 2026'],
+  ['CAP BM — Capitão CBMMG', 16101.58, 'MG/SEPLAG 2026'],
+  ['1º TEN BM — 1º Tenente CBMMG', 14324.95, 'MG/SEPLAG 2026'],
+  ['2º TEN BM — 2º Tenente CBMMG', 11547.07, 'Edital CFO 2027'],
+  ['ASP OF BM — Aspirante a Oficial CBMMG', 10932.55, 'MG/SEPLAG 2026'],
+  ['CADETE BM — CFO CBMMG', 7506.80, 'Edital CFO 2027'],
+  ['SUBTEN BM — Subtenente CBMMG', 10932.55, 'MG/SEPLAG 2026'],
+  ['1º SGT BM — 1º Sargento CBMMG', 9743.51, 'MG/SEPLAG 2026'],
+  ['2º SGT BM — 2º Sargento CBMMG', 8505.46, 'MG/SEPLAG 2026'],
+  ['3º SGT BM — 3º Sargento CBMMG', 7505.19, 'MG/SEPLAG 2026'],
+  ['CABO BM — Cabo CBMMG', 6505.00, 'MG/SEPLAG 2026'],
+  ['SD 1ª CL BM — Soldado 1ª Classe CBMMG', 5332.60, 'Edital CFSd 2027'],
+  ['SD 2ª CL BM — Soldado 2ª Classe / Aluno-Soldado CBMMG', 4562.30, 'Edital CFSd 2027']
+].map(([cargo, valor, badge]) => linhaRemuneracaoOficial(
+  cargo,
+  valor,
+  0,
+  'Remuneração/subsídio bruto mensal por posto/graduação. Vigência/referência 2026; ingresso conferido nos Editais CBMMG nº 09/2026 e nº 10/2026; demais postos devem ser conferidos na tabela MG/SEPLAG Grupo XI — Defesa Social e no contracheque.',
+  'Ajuda de custo para alimentação por dia efetivamente trabalhado, abono fardamento e assistência médico-hospitalar, psicológica e odontológica quando previstos; benefícios, indenizações, diárias, retroativos e parcelas pessoais não foram somados automaticamente.',
+  'bmmg',
+  badge
+));
+
 function getTabelaCargosRemuneracao(inst) {
   const map = {
     pmesp: CARGOS_PM,    pcsp: CARGOS_PC,    ppsp: CARGOS_PPSP, pf: CARGOS_PF, prf: CARGOS_PRF,
     pmac: CARGOS_PMAC,   bmac: CARGOS_BMAC,   bmal: CARGOS_BMAL,   bmam: CARGOS_BMAM,   bmap: CARGOS_BMAP,   pcac: CARGOS_PCAC,   ppac: CARGOS_PPAC,
-    pmerj: CARGOS_PMERJ, pcerj: CARGOS_PCERJ, pprj: CARGOS_PPRJ,
-    pmmg: CARGOS_PMMG,   pcmg: CARGOS_PCMG,   ppmg: CARGOS_PPMG,
+    pmerj: CARGOS_PMERJ, bmrj: CARGOS_BMRJ, pcerj: CARGOS_PCERJ, pprj: CARGOS_PPRJ,
+    pmmg: CARGOS_PMMG,   bmmg: CARGOS_BMMG,   pcmg: CARGOS_PCMG,   ppmg: CARGOS_PPMG,
     pmba: CARGOS_PMBA,   bmba: CARGOS_BMBA,   pcba: CARGOS_PCBA,   ppba: CARGOS_PPBA,
-    pmpr: CARGOS_PMPR,   pcpr: CARGOS_PCPR,   pppr: CARGOS_PPPR,
+    pmpr: CARGOS_PMPR,   bmpr: CARGOS_BMPR,   pcpr: CARGOS_PCPR,   pppr: CARGOS_PPPR,
     pmrs: CARGOS_PMRS,   pcrs: CARGOS_PCRS,   pprs: CARGOS_PPRS,
     pmsc: CARGOS_PMSC,   pcsc: CARGOS_PCSC,   ppsc: CARGOS_PPSC,
     pmes: CARGOS_PMES,   pces: CARGOS_PCES,   ppes: CARGOS_PPES,
-    pmms: CARGOS_PMMS,   pcms: CARGOS_PCMS,   ppms: CARGOS_PPMS,
+    pmms: CARGOS_PMMS,   bmms: CARGOS_BMMS,   pcms: CARGOS_PCMS,   ppms: CARGOS_PPMS,
     pmmt: CARGOS_PMMT,   pcmt: CARGOS_PCMT,   ppmt: CARGOS_PPMT,};
   const instNorm = normalizarInstituicao(inst);
   return CARGOS_ESTRUTURA_GENERICAS[instNorm] || map[instNorm] || CARGOS_PM;
@@ -492,6 +583,13 @@ function calcularRemuneracaoTabelada(inst, cargo) {
     benefDesc = cargo.benefDesc || 'Auxílios, adicionais, fardamento, indenizações e verbas por escala/lotação dependem da legislação estadual, ato administrativo e contracheque; não foram somados automaticamente.';
     fonteKey = cargo.fonteKey || 'pmms';
     badge = cargo.valorPendente || padrao <= 0 ? 'Dados em breve' : (cargo.badge || 'Tabela 05/2025');
+  } else if (inst === 'bmms') {
+    remuneracao = padrao;
+    beneficios = 0;
+    criterio = cargo.criterio || 'Subsídio do CBMMS por posto/graduação e nível, com RGA 2026 aplicada; confirmar DOE/MS, edital ou contracheque para rubricas individuais.';
+    benefDesc = cargo.benefDesc || 'Ajuda de custo, fardamento, indenizações, adicionais por função/lotação, diárias e rubricas pessoais dependem da legislação estadual, ato administrativo e contracheque; não foram somados automaticamente.';
+    fonteKey = cargo.fonteKey || 'bmms';
+    badge = cargo.valorPendente || padrao <= 0 ? 'Dados em breve' : (cargo.badge || 'RGA 2026');
   } else if (inst === 'pcms') {
     remuneracao = padrao;
     beneficios = 0;
@@ -513,14 +611,14 @@ function calcularRemuneracaoTabelada(inst, cargo) {
     benefDesc = cargo.benefDesc || 'Adicionais, plantões, indenizações, verbas de escala e demais rubricas dependem da legislação estadual, lotação, escala e contracheque; não foram somados automaticamente.';
     fonteKey = cargo.fonteKey || 'pcmt';
     badge = cargo.valorPendente || padrao <= 0 ? 'Dados em breve' : (cargo.badge || 'Tabela 2025');
-  } else if (inst === 'pmerj') {
+  } else if (inst === 'pmerj' || inst === 'bmrj') {
     const gret = padrao * Number(cargo.gretPct || 0);
     const ghp = padrao * Number(cargo.ghpPct || 0);
     const gram = (padrao + gret + ghp) * 0.625;
     remuneracao = padrao + gret + ghp + gram;
     beneficios = 0;
-    criterio = 'Soldo + GRET + GHP + GRAM, conforme tabela remuneratória SEPM/RJ.';
-    benefDesc = 'Benefícios gerais não somados nesta linha; a tabela oficial da SEPM apresenta remuneração por parcelas.';
+    criterio = inst === 'bmrj' ? 'Soldo + GRET + GHP + GRAM, conforme tabela remuneratória SEDEC/CBMERJ.' : 'Soldo + GRET + GHP + GRAM, conforme tabela remuneratória SEPM/RJ.';
+    benefDesc = inst === 'bmrj' ? 'Benefícios gerais não somados nesta linha; a tabela oficial da SEDEC apresenta remuneração por parcelas.' : 'Benefícios gerais não somados nesta linha; a tabela oficial da SEPM apresenta remuneração por parcelas.';
   } else if (inst === 'pcerj') {
     const aapOuRepresentacao = cargo.delegado
       ? padrao * Number(cargo.representacaoPct || 2.12)
@@ -533,11 +631,11 @@ function calcularRemuneracaoTabelada(inst, cargo) {
       ? 'VB + verba de representação + GHP máxima, conforme tabela SEPOL/RJ.'
       : 'VB + AAP + GHP máxima + GATC quando aplicável, conforme tabela SEPOL/RJ.';
     benefDesc = 'Auxílio alimentação R$ 704,00/mês + auxílio transporte R$ 100,00.';
-  } else if (inst === 'pmpr' || inst === 'pcpr') {
+  } else if (inst === 'pmpr' || inst === 'bmpr' || inst === 'pcpr') {
     remuneracao = padrao;
     beneficios = AUX_ALIM_PR_PADRAO;
-    criterio = 'Subsídio bruto mensal por cargo/classe.';
-    benefDesc = `Auxílio-alimentação oficial PR: ${fmt(AUX_ALIM_PR_PADRAO)}.`;
+    criterio = inst === 'bmpr' ? 'Subsídio bruto mensal do CBMPR por posto/graduação e classe, conforme Lei PR nº 22.187/2024.' : 'Subsídio bruto mensal por cargo/classe.';
+    benefDesc = inst === 'bmpr' ? `Auxílio-alimentação oficial PR: ${fmt(AUX_ALIM_PR_PADRAO)}; FASPM facultativo, contribuição militar, diárias, indenizações e parcelas pessoais não somadas automaticamente.` : `Auxílio-alimentação oficial PR: ${fmt(AUX_ALIM_PR_PADRAO)}.`;
   } else if (inst === 'pmrs') {
     remuneracao = padrao;
     beneficios = AUX_ALIM_RS_BM;
