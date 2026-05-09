@@ -171,6 +171,9 @@ function atualizarHeaderDesc(descInstituicao) {
 
   const descs = {
     pmesp: 'Polícia Militar do Estado de São Paulo',
+    pmal: 'Polícia Militar do Estado de Alagoas',
+    pcal: 'Polícia Civil do Estado de Alagoas',
+    ppal: 'Polícia Penal do Estado de Alagoas',
     pcsp: 'Polícia Civil do Estado de São Paulo',
     pmerj: 'Polícia Militar do Rio de Janeiro',
     bmrj: 'Corpo de Bombeiros Militar do Estado do Rio de Janeiro',
@@ -186,8 +189,10 @@ function atualizarHeaderDesc(descInstituicao) {
     pmrs: 'Brigada Militar do Rio Grande do Sul',
     pcrs: 'Polícia Civil do Rio Grande do Sul',
     pmsc: 'Polícia Militar de Santa Catarina',
+    bmsc: 'Corpo de Bombeiros Militar de Santa Catarina',
     pcsc: 'Polícia Civil de Santa Catarina',
     pmes: 'Polícia Militar do Espírito Santo',
+    bmes: 'Corpo de Bombeiros Militar do Estado do Espírito Santo',
     pces: 'Polícia Civil do Espírito Santo',
     ppsp: 'Polícia Penal do Estado de São Paulo — PPESP/PPSP',
     pprj: 'Polícia Penal do Rio de Janeiro',
@@ -203,6 +208,7 @@ function atualizarHeaderDesc(descInstituicao) {
     pcms: 'Polícia Civil de Mato Grosso do Sul',
     ppms: 'Polícia Penal de Mato Grosso do Sul',
     pmmt: 'Polícia Militar de Mato Grosso',
+    bmmt: 'Corpo de Bombeiros Militar do Estado de Mato Grosso',
     pcmt: 'Polícia Judiciária Civil de Mato Grosso',
     ppmt: 'Polícia Penal de Mato Grosso',
     prf: 'Polícia Rodoviária Federal'
@@ -257,16 +263,16 @@ function initTheme() {
 function popularCargos(inst) {
   const map = {
     pmesp: CARGOS_PM,    pcsp: CARGOS_PC,    ppsp: CARGOS_PPSP,
-    pmac: CARGOS_PMAC,   pcac: CARGOS_PCAC,   ppac: CARGOS_PPAC,
+    pmac: CARGOS_PMAC,   pmal: CARGOS_PMAL,   pcal: CARGOS_PCAL,   ppal: CARGOS_PPAL,   pcac: CARGOS_PCAC,   ppac: CARGOS_PPAC,
     pmerj: CARGOS_PMERJ, bmrj: CARGOS_BMRJ, pcerj: CARGOS_PCERJ, pprj: CARGOS_PPRJ,
     pmmg: CARGOS_PMMG,   bmmg: CARGOS_BMMG,   pcmg: CARGOS_PCMG,   ppmg: CARGOS_PPMG,
     pmba: CARGOS_PMBA,   pcba: CARGOS_PCBA,   ppba: CARGOS_PPBA,
     pmpr: CARGOS_PMPR,   bmpr: CARGOS_BMPR,   pcpr: CARGOS_PCPR,   pppr: CARGOS_PPPR,
     pmrs: CARGOS_PMRS,   pcrs: CARGOS_PCRS,   pprs: CARGOS_PPRS,
-    pmsc: CARGOS_PMSC,   pcsc: CARGOS_PCSC,   ppsc: CARGOS_PPSC,
-    pmes: CARGOS_PMES,   pces: CARGOS_PCES,   ppes: CARGOS_PPES,
+    pmsc: CARGOS_PMSC,   bmsc: CARGOS_BMSC,   pcsc: CARGOS_PCSC,   ppsc: CARGOS_PPSC,
+    pmes: CARGOS_PMES,   bmes: CARGOS_BMES,   pces: CARGOS_PCES,   ppes: CARGOS_PPES,
     pmms: CARGOS_PMMS,   bmms: CARGOS_BMMS,   pcms: CARGOS_PCMS,   ppms: CARGOS_PPMS,
-    pmmt: CARGOS_PMMT,   pcmt: CARGOS_PCMT,   ppmt: CARGOS_PPMT,
+    pmmt: CARGOS_PMMT,   bmmt: CARGOS_BMMT,   pcmt: CARGOS_PCMT,   ppmt: CARGOS_PPMT,
     bmap: CARGOS_BMAP,};
   currTabela = CARGOS_ESTRUTURA_GENERICAS[inst] || map[inst] || CARGOS_PM;
 

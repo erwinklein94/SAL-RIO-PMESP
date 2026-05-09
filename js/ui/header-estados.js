@@ -14,6 +14,15 @@ const HEADER_ESTADOS = {
     pp: 'ppac',
     flag: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Acre.svg'
   },
+  al: {
+    nome: 'Alagoas',
+    sigla: 'AL',
+    pm: 'pmal',
+    bm: 'bmal',
+    pc: 'pcal',
+    pp: 'ppal',
+    flag: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Alagoas.svg'
+  },
   sp: {
     nome: 'São Paulo',
     sigla: 'SP',
@@ -69,6 +78,7 @@ const HEADER_ESTADOS = {
     nome: 'Santa Catarina',
     sigla: 'SC',
     pm: 'pmsc',
+    bm: 'bmsc',
     pc: 'pcsc',
     pp: 'ppsc',
     flag: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Santa_Catarina.svg'
@@ -77,6 +87,7 @@ const HEADER_ESTADOS = {
     nome: 'Espírito Santo',
     sigla: 'ES',
     pm: 'pmes',
+    bm: 'bmes',
     pc: 'pces',
     pp: 'ppes',
     flag: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Esp%C3%ADrito_Santo.svg'
@@ -94,6 +105,7 @@ const HEADER_ESTADOS = {
     nome: 'Mato Grosso',
     sigla: 'MT',
     pm: 'pmmt',
+    bm: 'bmmt',
     pc: 'pcmt',
     pp: 'ppmt',
     flag: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Mato_Grosso.svg'
@@ -102,6 +114,9 @@ const HEADER_ESTADOS = {
 
 const HEADER_INSTITUICOES_INFO = {
   pmac: { titulo: 'PMAC', desc: 'Polícia Militar do Acre' },
+  pmal: { titulo: 'PMAL', desc: 'Polícia Militar do Estado de Alagoas' },
+  pcal: { titulo: 'PCAL', desc: 'Polícia Civil do Estado de Alagoas' },
+  ppal: { titulo: 'PPAL', desc: 'Polícia Penal do Estado de Alagoas' },
   bmac: { titulo: 'BMAC', desc: 'Corpo de Bombeiros Militar do Acre' },
   pcac: { titulo: 'PCAC', desc: 'Polícia Civil do Acre' },
   ppac: { titulo: 'PPAC', desc: 'Polícia Penal do Acre' },
@@ -121,8 +136,10 @@ const HEADER_INSTITUICOES_INFO = {
   pmrs:  { titulo: 'PMRS',  desc: 'Brigada Militar do Rio Grande do Sul' },
   pcrs:  { titulo: 'PCRS',  desc: 'Polícia Civil do Rio Grande do Sul' },
   pmsc:  { titulo: 'PMSC',  desc: 'Polícia Militar de Santa Catarina' },
+  bmsc:  { titulo: 'CBMSC', desc: 'Corpo de Bombeiros Militar de Santa Catarina' },
   pcsc:  { titulo: 'PCSC',  desc: 'Polícia Civil de Santa Catarina' },
   pmes:  { titulo: 'PMES',  desc: 'Polícia Militar do Espírito Santo' },
+  bmes:  { titulo: 'CBMES', desc: 'Corpo de Bombeiros Militar do Estado do Espírito Santo' },
   pces:  { titulo: 'PCES',  desc: 'Polícia Civil do Espírito Santo' },
   ppsp: { titulo: 'PPSP', desc: 'Polícia Penal do Estado de São Paulo — PPESP/PPSP' },
   pprj: { titulo: 'PPRJ', desc: 'Polícia Penal do Rio de Janeiro' },
@@ -137,6 +154,7 @@ const HEADER_INSTITUICOES_INFO = {
   pcms: { titulo: 'PCMS', desc: 'Polícia Civil de Mato Grosso do Sul' },
   ppms: { titulo: 'PPMS', desc: 'Polícia Penal de Mato Grosso do Sul' },
   pmmt: { titulo: 'PMMT', desc: 'Polícia Militar de Mato Grosso' },
+  bmmt: { titulo: 'CBMMT', desc: 'Corpo de Bombeiros Militar do Estado de Mato Grosso' },
   pcmt: { titulo: 'PCMT', desc: 'Polícia Judiciária Civil de Mato Grosso' },
   ppmt: { titulo: 'PPMT', desc: 'Polícia Penal de Mato Grosso' }
 };
@@ -857,6 +875,40 @@ const HEADER_INSTITUICOES_RESUMO = {
     "fonte": "IBGE 2025; FBSP/Anuário 2025; Pesquisa Perfil/SENASP; transparências estaduais quando disponível",
     "atualizado": "Base numérica inserida em 01/05/2026"
   },
+  "bmsc": {
+    "nome": "Corpo de Bombeiros Militar de Santa Catarina",
+    "sigla": "CBMSC",
+    "siglaInterna": "BMSC",
+    "estado": "Santa Catarina",
+    "estadoSigla": "SC",
+    "tipo": "Bombeiro Militar",
+    "criacao": "26/09/1926 · Seção de Bombeiros da Força Pública",
+    "ativa": 5000,
+    "ativaLabel": "5.000 profissionais (estimado/projeção centenário)",
+    "reserva": 0,
+    "reservaLabel": "Dados em breve",
+    "femininas": 0,
+    "femininasLabel": "Dados em breve",
+    "efetivoTotalLabel": "5.000 profissionais projetados para 2026 · carreira, temporários e especialistas",
+    "populacao": 8187029,
+    "populacaoTitulo": "População do Estado · IBGE 2025",
+    "relacaoLabel": "1 profissional / 1.637 hab. · 0,061% (estimado)",
+    "relacaoTitulo": "Relação efetivo projetado/população",
+    "governador": "Jorginho Mello",
+    "comando": "Cel BM Fabiano de Souza — Comandante-Geral",
+    "estrutura": "Comando-Geral, Subcomando-Geral, Estado-Maior, diretorias setoriais, Centro de Ensino, batalhões e cinco Regiões Bombeiro Militar, com atuação em prevenção, combate a incêndio, salvamento, atendimento pré-hospitalar, defesa civil e segurança contra incêndio.",
+    "sede": "Centro Administrativo da SSP — Av. Gov. Ivo Silveira, 1521, Bloco A, Capoeiras, Florianópolis/SC, 88085-000",
+    "emergencia": "193",
+    "linksOficiais": [
+      "https://www.cbm.sc.gov.br",
+      "https://www.cbm.sc.gov.br/index.php/sobre-o-cbmsc/historia",
+      "https://concurso.idib.org.br/",
+      "https://leis.alesc.sc.gov.br/ato-normativo/22843",
+      "https://www.transparencia.sc.gov.br/"
+    ],
+    "fonte": "CBMSC; ALESC/SC; IDIB; IBGE Estimativas 2025; Governo de SC; Portal da Transparência/SC",
+    "atualizado": "CBMSC revisado em 09/05/2026 — efetivo ativo sem consolidação pública tratado como estimado/projeção; reserva e efetivo feminino em Dados em breve"
+  },
   "pcsc": {
     "nome": "Polícia Civil de Santa Catarina",
     "sigla": "PCSC",
@@ -922,6 +974,41 @@ const HEADER_INSTITUICOES_RESUMO = {
     "comando": "Cel PM Ríodo Lopes Rubim — Comandante-Geral",
     "fonte": "IBGE 2025; FBSP/Anuário 2025; Pesquisa Perfil/SENASP; transparências estaduais quando disponível",
     "atualizado": "Base numérica inserida em 01/05/2026"
+  },
+  "bmes": {
+    "nome": "Corpo de Bombeiros Militar do Estado do Espírito Santo",
+    "sigla": "CBMES",
+    "siglaInterna": "BMES",
+    "estado": "Espírito Santo",
+    "estadoSigla": "ES",
+    "tipo": "Bombeiro Militar",
+    "criacao": "26/12/1912 · Lei ES nº 874",
+    "ativa": 1955,
+    "ativaLabel": "1.955 cargos legais (estimado)",
+    "reserva": 0,
+    "reservaLabel": "Dados em breve",
+    "femininas": 0,
+    "femininasLabel": "Dados em breve",
+    "efetivoTotalLabel": "1.955 cargos legais/projetados (estimado); quadro anterior citado em 1.822",
+    "populacao": 4126854,
+    "populacaoTitulo": "População do Estado · IBGE 2025",
+    "relacaoLabel": "1 cargo legal / 2.111 hab. · 0,047% (estimado)",
+    "relacaoTitulo": "Relação quadro legal/população",
+    "governador": "Renato Casagrande",
+    "comando": "Cel BM Alexandre dos Santos Cerqueira — Comandante-Geral",
+    "estrutura": "Comando-Geral, Subcomando-Geral, Estado-Maior, Centro de Atividades Técnicas, Centro de Ensino e Instrução de Bombeiros, batalhões e companhias operacionais, com atuação em defesa civil, prevenção e combate a incêndios, perícia de incêndio e explosões, busca e salvamento, atendimento emergencial e segurança contra incêndio e pânico.",
+    "sede": "Rua Tenente Mário Francisco Brito, 100, Enseada do Suá, Vitória/ES, CEP 29050-555",
+    "emergencia": "193",
+    "linksOficiais": [
+      "https://cb.es.gov.br/",
+      "https://cb.es.gov.br/historia",
+      "https://cb.es.gov.br/comandante-geral",
+      "https://cb.es.gov.br/cfo2023",
+      "https://cb.es.gov.br/organograma",
+      "https://transparencia.es.gov.br/"
+    ],
+    "fonte": "CBMES; Governo do Espírito Santo; PMES/legislação; ALEES; IBGE; CFO 2026/IDECAN; tabela PM/CBM ES 01/12/2025; Lei ES 11.985/2023; Lei ES 12.783/2026; Portal da Transparência/ES",
+    "atualizado": "CBMES revisado em 09/05/2026 — efetivo ativo real não inferido; quadro legal tratado como estimado quando não consolidado em fonte oficial direta"
   },
   "pces": {
     "nome": "Polícia Civil do Espírito Santo",
@@ -1055,6 +1142,40 @@ const HEADER_INSTITUICOES_RESUMO = {
     "fonte": "IBGE 2025; FBSP/Anuário 2025; Pesquisa Perfil/SENASP; transparências estaduais quando disponível",
     "atualizado": "Base numérica inserida em 01/05/2026"
   },
+  "bmmt": {
+    "nome": "Corpo de Bombeiros Militar do Estado de Mato Grosso",
+    "sigla": "CBMMT",
+    "siglaInterna": "BMMT",
+    "estado": "Mato Grosso",
+    "estadoSigla": "MT",
+    "tipo": "Bombeiro Militar",
+    "criacao": "19/08/1964 · Lei MT nº 2.184; autonomia em 28/10/1994",
+    "ativa": 1800,
+    "ativaLabel": "1.800+ ativos (estimado)",
+    "reserva": 0,
+    "reservaLabel": "Dados em breve",
+    "femininas": 0,
+    "femininasLabel": "Dados em breve",
+    "efetivoTotalLabel": "Efetivo ativo real: Dados em breve; presença operacional registrada em 31 unidades/UBMs e cobertura aproximada de 70% a 80% da população",
+    "populacao": 3893659,
+    "populacaoTitulo": "População do Estado · IBGE 2025",
+    "relacaoLabel": "1 ativo estimado / 2.163 hab. · 0,046% (estimado)",
+    "relacaoTitulo": "Relação ativa/população",
+    "governador": "Otaviano Pivetta",
+    "comando": "Cel BM Flávio Glêdson Vieira Bezerra — Comandante-Geral",
+    "estrutura": "Comando-Geral, Comando-Geral Adjunto, Corregedoria-Geral, Estado-Maior, diretorias setoriais, Comandos Regionais Bombeiro Militar, batalhões, companhias independentes, pelotões independentes, núcleos bombeiro militar, unidades bombeiro militar e Grupamento de Aviação Bombeiro Militar, conforme LC MT nº 775/2023 e informações institucionais do CBMMT.",
+    "sede": "Quartel do Comando-Geral — Avenida Historiador Rubens de Mendonça, Cuiabá/MT",
+    "emergencia": "193",
+    "linksOficiais": [
+      "https://www.bombeiros.mt.gov.br/",
+      "https://www.bombeiros.mt.gov.br/legislacao",
+      "https://www.bombeiros.mt.gov.br/concursos-e-seletivos",
+      "https://www.transparencia.mt.gov.br/",
+      "https://www.iomat.mt.gov.br/"
+    ],
+    "fonte": "CBMMT; Governo de Mato Grosso; LC MT 541/2014; LC MT 775/2023; Lei MT 13.220/2026; Edital SEPLAG/SESP/CBMMT nº 007/2022; IBGE; IOMAT; Portal da Transparência/MT",
+    "atualizado": "CBMMT revisado em 09/05/2026 — efetivo ativo real não inferido; estimativas marcadas explicitamente"
+  },
   "pcmt": {
     "nome": "Polícia Judiciária Civil de Mato Grosso",
     "sigla": "PCMT",
@@ -1166,26 +1287,36 @@ const HEADER_INSTITUICOES_RESUMO = {
     "atualizado": "Base numérica inserida em 01/05/2026"
   },
   "pmal": {
-    "nome": "Polícia Militar de Alagoas",
+    "nome": "Polícia Militar do Estado de Alagoas",
     "sigla": "PMAL",
     "estado": "Alagoas",
     "estadoSigla": "AL",
     "tipo": "Polícia Militar",
-    "criacao": "03/02/1832",
-    "ativa": 6960,
-    "ativaLabel": "6.960",
+    "criacao": "03/02/1832 · Decisão Imperial nº 52 e Corpo de Guardas Municipais da Província",
+    "ativa": 7493,
+    "ativaLabel": "7.493 ativos · Governo de Alagoas/PMAL 2026",
     "reserva": 7308,
-    "reservaLabel": "7.308 · estimativa técnica",
+    "reservaLabel": "7.308 inativos/reserva · estimado",
     "femininas": 905,
-    "femininasLabel": "905 · estimado",
+    "femininasLabel": "905 mulheres · estimado",
     "populacao": 3220848,
     "populacaoTitulo": "População do Estado",
-    "relacaoLabel": "1 ativo / 463 hab. · 0,216%",
+    "populacaoLabel": "3.220.848 habitantes",
+    "relacaoLabel": "1 ativo / 430 hab. · 0,233%",
     "relacaoTitulo": "Relação ativa/população",
     "governador": "Paulo Dantas",
-    "comando": "Cel PM Paulo Amorim — Comandante-Geral da PMAL",
-    "fonte": "IBGE 2025; FBSP/Anuário 2025; Pesquisa Perfil/SENASP; transparências estaduais quando disponível",
-    "atualizado": "Base numérica inserida em 01/05/2026"
+    "comando": "Cel QOC PM Paulo Amorim Feitosa Filho — Comandante-Geral",
+    "estrutura": "Sete grandes comandos de região, batalhões, companhias, unidades administrativas, de ensino, diretorias, seções e setores, com policiamento ostensivo e preservação da ordem pública nos 102 municípios alagoanos.",
+    "sede": "Avenida Assis Chateaubriand, s/n, Trapiche da Barra, Maceió/AL, CEP 57020-410",
+    "emergencia": "190",
+    "linksOficiais": [
+      "https://www.pm.al.gov.br/",
+      "https://www.cebraspe.org.br/concursos/pm_al_26",
+      "https://central.pm.al.gov.br/sistemas/public/sislegis/publico/index/param/2",
+      "https://transparencia.al.gov.br/pessoal/servidores-ativos/?codigo_orgao=12442570000110"
+    ],
+    "fonte": "PMAL; Governo de Alagoas; Cebraspe PM_AL_26; SAPL/ALEAL; Portal da Transparência/AL; Lei AL 7.580/2014; Lei AL 8.671/2022; Lei AL 9.852/2026; IBGE 2025",
+    "atualizado": "PMAL revisada em 09/05/2026 — efetivo ativo oficial; reserva, feminino e postos sem tabela consolidada de 2026 marcados como estimados"
   },
   "pcal": {
     "nome": "Polícia Civil de Alagoas",
@@ -1210,26 +1341,36 @@ const HEADER_INSTITUICOES_RESUMO = {
     "atualizado": "Base numérica inserida em 01/05/2026"
   },
   "ppal": {
-    "nome": "Polícia Penal de Alagoas",
+    "nome": "Polícia Penal do Estado de Alagoas",
     "sigla": "PPAL",
     "estado": "Alagoas",
     "estadoSigla": "AL",
     "tipo": "Polícia Penal",
-    "criacao": "EC 104/2019 · Polícia Penal estadual/distrital",
+    "criacao": "EC 104/2019 · Lei AL 8.650/2022 · Lei AL 7.993/2018",
     "ativa": 508,
-    "ativaLabel": "508",
+    "ativaLabel": "508 policiais penais · estimado",
     "reserva": 0,
-    "reservaLabel": "0 · carreira civil sem reserva militar; inativos dependem do RPPS local",
+    "reservaLabel": "Inativos: conferir AL Previdência/RPPS-AL",
     "femininas": 153,
-    "femininasLabel": "153",
-    "populacao": 5536,
-    "populacaoTitulo": "Presos atendidos",
-    "relacaoLabel": "1 servidor / 11 presos",
+    "femininasLabel": "153 mulheres · estimado",
+    "populacao": 6386,
+    "populacaoTitulo": "Presos recolhidos",
+    "relacaoLabel": "1 policial penal / 13 presos · estimado",
     "relacaoTitulo": "Relação ativa/presos",
     "governador": "Paulo Dantas",
-    "comando": "Diretor/Secretário da PPAL — nome a confirmar em fonte oficial",
-    "fonte": "SISDEPEN/SENAPPEN 1º semestre/2025; IBGE 2025; FBSP/Anuário 2025; transparências estaduais quando disponível",
-    "atualizado": "Base numérica inserida em 01/05/2026"
+    "comando": "Diogo Zeferino do Carmo Teixeira — Secretário de Estado da Ressocialização e Inclusão Social; Carlos Henrique Toledo Voss — Secretário Executivo de Gestão Penitenciária",
+    "fonte": "SERIS/AL; Alagoas Digital; SAPL/ALEAL; Lei AL 7.993/2018; Lei AL 8.650/2022; Lei AL 9.849/2026; Cebraspe/SERIS 2021; Mapa de População Carcerária SERIS abr/2026",
+    "atualizado": "PPAL revisada em 09/05/2026 — efetivo ativo e feminino mantidos como estimativa quando não localizados em fonte oficial consolidada",
+    "estrutura": "SERIS/AL com gabinete, corregedoria, ouvidoria, gestão interna, Chefia Especial de Gestão Penitenciária, Comando de Operações Penitenciárias, GERT, monitoramento eletrônico, Escola Penitenciária, saúde, educação, produção, laborterapia, inteligência e chefias de unidades prisionais.",
+    "sede": "Rua 10 de Novembro, 256, Farol, Maceió/AL, CEP 57050-220",
+    "emergencia": "Administração prisional: (82) 3315-1744 · Emergências gerais: 190",
+    "linksOficiais": [
+      "https://www.seris.al.gov.br/",
+      "https://www.seris.al.gov.br/institucional",
+      "https://www.seris.al.gov.br/institucional/quem-e-quem",
+      "https://www.seris.al.gov.br/populacao-carceraria",
+      "https://sapl.al.al.leg.br/norma/3810"
+    ]
   },
   "pmam": {
     "nome": "Polícia Militar do Amazonas",
@@ -2794,12 +2935,12 @@ const BOMBEIROS_MILITARES_ESTRUTURA = [
   { estado: 'ba', nome: 'Bahia', sigla: 'BA', inst: 'bmba', titulo: 'BMBA', desc: 'Corpo de Bombeiros Militar da Bahia' },
   { estado: 'ce', nome: 'Ceará', sigla: 'CE', inst: 'bmce', titulo: 'BMCE', desc: 'Corpo de Bombeiros Militar do Ceará' },
   { estado: 'df', nome: 'Distrito Federal', sigla: 'DF', inst: 'bmdf', titulo: 'BMDF', desc: 'Corpo de Bombeiros Militar do Distrito Federal' },
-  { estado: 'es', nome: 'Espírito Santo', sigla: 'ES', inst: 'bmes', titulo: 'BMES', desc: 'Corpo de Bombeiros Militar do Espírito Santo' },
+  { estado: 'es', nome: 'Espírito Santo', sigla: 'ES', inst: 'bmes', titulo: 'CBMES', desc: 'Corpo de Bombeiros Militar do Estado do Espírito Santo' },
   { estado: 'go', nome: 'Goiás', sigla: 'GO', inst: 'bmgo', titulo: 'BMGO', desc: 'Corpo de Bombeiros Militar do Estado de Goiás' },
   { estado: 'ma', nome: 'Maranhão', sigla: 'MA', inst: 'bmma', titulo: 'BMMA', desc: 'Corpo de Bombeiros Militar do Maranhão' },
   { estado: 'mg', nome: 'Minas Gerais', sigla: 'MG', inst: 'bmmg', titulo: 'CBMMG', desc: 'Corpo de Bombeiros Militar de Minas Gerais' },
   { estado: 'ms', nome: 'Mato Grosso do Sul', sigla: 'MS', inst: 'bmms', titulo: 'CBMMS', desc: 'Corpo de Bombeiros Militar de Mato Grosso do Sul' },
-  { estado: 'mt', nome: 'Mato Grosso', sigla: 'MT', inst: 'bmmt', titulo: 'BMMT', desc: 'Corpo de Bombeiros Militar de Mato Grosso' },
+  { estado: 'mt', nome: 'Mato Grosso', sigla: 'MT', inst: 'bmmt', titulo: 'CBMMT', desc: 'Corpo de Bombeiros Militar do Estado de Mato Grosso' },
   { estado: 'pa', nome: 'Pará', sigla: 'PA', inst: 'bmpa', titulo: 'BMPA', desc: 'Corpo de Bombeiros Militar do Pará' },
   { estado: 'pb', nome: 'Paraíba', sigla: 'PB', inst: 'bmpb', titulo: 'BMPB', desc: 'Corpo de Bombeiros Militar da Paraíba' },
   { estado: 'pe', nome: 'Pernambuco', sigla: 'PE', inst: 'bmpe', titulo: 'BMPE', desc: 'Corpo de Bombeiros Militar de Pernambuco' },
@@ -3334,6 +3475,324 @@ function aplicarEstruturaEstadosFaltantesDados() {
   });
 }
 
+function aplicarDadosEspecificosPmal() {
+  const inst = 'pmal';
+  const estado = 'al';
+  if (!INSTITUICOES_VALIDAS.includes(inst)) INSTITUICOES_VALIDAS.push(inst);
+
+  HEADER_ESTADOS[estado] = {
+    nome: 'Alagoas',
+    sigla: 'AL',
+    pm: inst,
+    bm: 'bmal',
+    pc: 'pcal',
+    pp: 'ppal',
+    flag: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Alagoas.svg'
+  };
+  HEADER_INSTITUICOES_INFO[inst] = { titulo: 'PMAL', desc: 'Polícia Militar do Estado de Alagoas' };
+  HEADER_INSTITUICOES_IMAGENS[inst] = 'img/MILITAR/pmal.webp';
+  HEADER_INSTITUICOES_RESUMO[inst] = {
+    nome: 'Polícia Militar do Estado de Alagoas',
+    sigla: 'PMAL',
+    estado: 'Alagoas',
+    estadoSigla: 'AL',
+    tipo: 'Polícia Militar',
+    criacao: '03/02/1832 · Decisão Imperial nº 52 e Corpo de Guardas Municipais da Província',
+    ativa: 7493,
+    ativaLabel: '7.493 ativos · Governo de Alagoas/PMAL 2026',
+    reserva: 7308,
+    reservaLabel: '7.308 inativos/reserva · estimado',
+    femininas: 905,
+    femininasLabel: '905 mulheres · estimado',
+    populacao: 3220848,
+    populacaoTitulo: 'População do Estado',
+    populacaoLabel: '3.220.848 habitantes',
+    relacaoLabel: '1 ativo / 430 hab. · 0,233%',
+    relacaoTitulo: 'Relação ativa/população',
+    governador: 'Paulo Dantas',
+    comando: 'Cel QOC PM Paulo Amorim Feitosa Filho — Comandante-Geral',
+    estrutura: 'Sete grandes comandos de região, batalhões, companhias, unidades administrativas, de ensino, diretorias, seções e setores, com policiamento ostensivo e preservação da ordem pública nos 102 municípios alagoanos.',
+    sede: 'Avenida Assis Chateaubriand, s/n, Trapiche da Barra, Maceió/AL, CEP 57020-410',
+    emergencia: '190',
+    linksOficiais: [
+      'https://www.pm.al.gov.br/',
+      'https://www.cebraspe.org.br/concursos/pm_al_26',
+      'https://central.pm.al.gov.br/sistemas/public/sislegis/publico/index/param/2',
+      'https://transparencia.al.gov.br/pessoal/servidores-ativos/?codigo_orgao=12442570000110'
+    ],
+    fonte: 'PMAL; Governo de Alagoas; Cebraspe PM_AL_26; SAPL/ALEAL; Portal da Transparência/AL; Lei AL 7.580/2014; Lei AL 8.671/2022; Lei AL 9.852/2026; IBGE 2025',
+    atualizado: 'PMAL revisada em 09/05/2026 — efetivo ativo oficial; reserva, feminino e postos sem tabela consolidada de 2026 marcados como estimados'
+  };
+  if (typeof REMUNERACAO_FONTES_OFICIAIS !== 'undefined') {
+    REMUNERACAO_FONTES_OFICIAIS[inst] = {
+      nome: 'PMAL — Edital nº 1/2026/Cebraspe para Soldado-Aluno, Soldado, Cadete e Aspirante; Lei AL nº 7.580/2014, Anexo IV, para estimativas por posto/graduação; Lei AL nº 9.852/2026 e SPSM/AL — Lei AL nº 8.671/2022',
+      url: 'https://www.cebraspe.org.br/concursos/pm_al_26'
+    };
+  }
+  if (typeof CARGOS_PMAL !== 'undefined') {
+    CARGOS_ESTRUTURA_GENERICAS[inst] = CARGOS_PMAL;
+  }
+  CONFIGS_INSTITUICOES_GENERICAS[inst] = {
+    titulo: 'PMAL',
+    desc: 'Polícia Militar do Estado de Alagoas',
+    cor: '#1f4f7a',
+    alertaPrev: 'PMAL/SPSM-AL: conferir contribuição de 10,5%, base de cálculo, subsídio, nível, serviço voluntário, indenizações e rubricas pessoais no contracheque e na Lei AL 8.671/2022.'
+  };
+  CONCURSOS[inst] = CONCURSOS[inst] || {
+    edital: 'PMAL 2026 — Edital nº 1/PMAL, de 19/03/2026, para admissão ao CFO e CFP, executado pelo Cebraspe, SEPLAG/AL e PMAL.',
+    salario: 'CFO: Cadete 1º ano R$ 3.874,43; Cadete 2º ano R$ 4.163,78; Cadete 3º ano R$ 4.716,51; Aspirante após CFO R$ 11.563,77. CFP: Soldado-Aluno R$ 2.354,67; Soldado após CFP R$ 6.067,51.',
+    vagas: '530 vagas imediatas + cadastro de reserva: Oficial 30 imediatas + 30 CR; Soldado 500 imediatas + 500 CR.',
+    cotas: 'Distribuição por ampla concorrência e reserva para pessoas pretas, pardas, indígenas ou quilombolas conforme edital PMAL 2026.',
+    idade: '18 anos completos na matrícula e máximo de 30 anos até a data limite de inscrição, com exceção prevista no edital para integrante da PMAL no QOEM.',
+    escolaridade: 'Ensino médio completo, CNH categoria B, nacionalidade, altura mínima, aptidão física, sanidade física/mental, idoneidade e demais requisitos do edital.',
+    materias: 'Provas objetivas e discursiva com conhecimentos básicos, específicos e legislação pertinente ao policial militar de Alagoas, conforme conteúdo programático do edital.',
+    banca: 'Cebraspe.',
+    inscritos: 'Inscrições de 30/03/2026 a 30/04/2026, taxa R$ 150,00, pagamento até 05/05/2026; provas objetivas e discursiva previstas para 19/07/2026 em Arapiraca/AL e Maceió/AL.',
+    etapas: 'Provas objetivas, prova discursiva, teste de aptidão física, avaliação médica, avaliação psicológica, comprovação documental, investigação social, exame toxicológico e procedimento de heteroidentificação/verificação quando aplicável.',
+    cfsd: 'CFO para Oficial de Estado-Maior e CFP para Soldado do Quadro de Praças, em regime de dedicação integral, conforme edital e normas da Diretoria de Ensino/PMAL.',
+    estagio: 'Curso de formação, nomeação, estágio probatório e desenvolvimento na carreira seguem edital, Estatuto dos Policiais Militares de Alagoas e atos da PMAL/SEPLAG.',
+    validade: 'Conforme edital PMAL 2026 e atos de homologação/prorrogação que forem publicados.',
+    previsao: 'Há edital PMAL 2026 em andamento; não publicar novo concurso aberto sem fonte oficial posterior.',
+    site: 'https://www.cebraspe.org.br/concursos/pm_al_26'
+  };
+  ASSOCIACOES[inst] = ASSOCIACOES[inst] || [
+    {
+      nome: 'AMEAL — Associação dos Militares do Estado de Alagoas',
+      foco: 'Policiais e bombeiros militares de Alagoas, ativos, veteranos e pensionistas, conforme regras de associação.',
+      acao: 'Representação associativa, orientação institucional, pautas remuneratórias, apoio administrativo/jurídico e comunicação de interesse da classe.',
+      site: 'https://ameal.org.br',
+      telefone: 'Consultar diretamente na entidade',
+      mensalidade: 'Consultar diretamente na entidade',
+      servicos: 'Jurídico, notícias de classe, convênios, orientação ao associado e acompanhamento de temas de carreira.'
+    },
+    {
+      nome: 'Entidades representativas de praças e oficiais da PMAL',
+      foco: 'Militares estaduais de Alagoas por posto, graduação, quadro ou situação funcional.',
+      acao: 'Acompanhamento de demandas administrativas, remuneratórias, previdenciárias e de valorização profissional.',
+      site: 'https://www.pm.al.gov.br/',
+      telefone: 'Consultar canais oficiais e entidades locais',
+      mensalidade: 'Consultar diretamente na entidade',
+      servicos: 'Orientação, comunicação institucional, convênios e encaminhamento de demandas coletivas.'
+    }
+  ];
+  ACOES_JUDICIAIS[inst] = ACOES_JUDICIAIS[inst] || [
+    {
+      titulo: 'Subsídio PMAL — enquadramento por posto/graduação e nível',
+      status: 'Conferência individual',
+      ano: 'Lei AL 7.580/2014 e revisões posteriores',
+      tipo: 'individual',
+      desc: 'Verificar enquadramento no subsídio, nível I/II, evolução, promoções e diferenças remuneratórias. Não tratar como ganho automático.',
+      base: 'Lei AL nº 7.580/2014, leis de revisão remuneratória e atos de promoção/enquadramento.',
+      fonte: 'Lei AL 7.580/2014; SAPL/ALEAL; Portal da Transparência/AL; contracheque',
+      fonteUrl: 'https://sapl.al.al.leg.br/',
+      atualizado: 'Maio/2026'
+    },
+    {
+      titulo: 'SPSM/AL — contribuição, inatividade e pensão militar',
+      status: 'Análise previdenciária/proteção social',
+      ano: '2022 em diante',
+      tipo: 'individual',
+      desc: 'Conferir base de cálculo, alíquota, verbas indenizatórias excluídas, tempo de serviço, reserva/reforma e regras de pensão conforme situação funcional.',
+      base: 'Lei AL nº 8.671/2022, Decreto-Lei 667/1969, Lei Federal 13.954/2019 e atos estaduais.',
+      fonte: 'Lei AL 8.671/2022',
+      fonteUrl: 'https://sapl.al.al.leg.br/norma/2283',
+      atualizado: 'Maio/2026'
+    },
+    {
+      titulo: 'Serviço voluntário remunerado / Força Tarefa / indenizações',
+      status: 'Conferência de escala e rubrica',
+      ano: '2014/2017 em diante',
+      tipo: 'individual/coletivo',
+      desc: 'Possível discussão sobre pagamento, escala, limite, natureza indenizatória e reflexos de rubricas vinculadas a serviço extraordinário ou força-tarefa.',
+      base: 'Lei AL nº 7.581/2014, Decreto AL nº 35.142/2014, Lei AL nº 7.952/2017 e atos administrativos aplicáveis.',
+      fonte: 'PMAL/Sislegis; Diário Oficial/AL',
+      fonteUrl: 'https://central.pm.al.gov.br/sistemas/public/sislegis/publico/index/param/2',
+      atualizado: 'Maio/2026'
+    },
+    {
+      titulo: 'Concurso PMAL 2026 — etapas, cotas, TAF, saúde e investigação social',
+      status: 'Controle de edital',
+      ano: '2026',
+      tipo: 'individual',
+      desc: 'Demandas podem envolver eliminação em fase objetiva/discursiva, TAF, saúde, psicológico, investigação social, heteroidentificação, documentação e prazos.',
+      base: 'Edital nº 1 — PMAL, de 19/03/2026, Lei AL nº 5.346/1992, Lei AL nº 6.568/2005 e Lei Federal nº 14.751/2023.',
+      fonte: 'Cebraspe PM_AL_26',
+      fonteUrl: 'https://www.cebraspe.org.br/concursos/pm_al_26',
+      atualizado: 'Maio/2026'
+    }
+  ];
+}
+
+
+function aplicarDadosEspecificosPcal() {
+  const inst = 'pcal';
+  const estado = 'al';
+  if (!INSTITUICOES_VALIDAS.includes(inst)) INSTITUICOES_VALIDAS.push(inst);
+
+  HEADER_ESTADOS[estado] = {
+    nome: 'Alagoas',
+    sigla: 'AL',
+    pm: 'pmal',
+    bm: 'bmal',
+    pc: inst,
+    pp: 'ppal',
+    flag: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Alagoas.svg'
+  };
+  HEADER_INSTITUICOES_INFO[inst] = { titulo: 'PCAL', desc: 'Polícia Civil do Estado de Alagoas' };
+  HEADER_INSTITUICOES_IMAGENS[inst] = 'img/CIVIL/pcal.webp';
+  HEADER_INSTITUICOES_RESUMO[inst] = {
+    nome: 'Polícia Civil do Estado de Alagoas',
+    sigla: 'PCAL',
+    estado: 'Alagoas',
+    estadoSigla: 'AL',
+    tipo: 'Polícia Civil',
+    criacao: '25/06/1975 · Lei AL nº 3.437 estrutura cargos da Polícia Civil; origem administrativa anterior na Guarda Civil de 1912',
+    ativa: 2000,
+    ativaLabel: 'cerca de 2.000 integrantes (estimado) · portal PCAL',
+    reserva: 0,
+    reservaLabel: 'Dados em breve',
+    femininas: 0,
+    femininasLabel: 'Dados em breve',
+    populacao: 3220848,
+    populacaoTitulo: 'População do Estado',
+    populacaoLabel: '3.220.848 habitantes',
+    relacaoLabel: '1 ativo / 1.610 hab. · 0,062% (estimado)',
+    relacaoTitulo: 'Relação ativa/população',
+    governador: 'Paulo Dantas',
+    comando: 'Delegado Thales Silva Araújo — Delegado-Geral interino',
+    estrutura: 'Delegacia-Geral, Delegado-Geral Adjunto, diretorias de polícia judiciária, DRACCO, corregedoria, diretoria administrativa, unidades metropolitanas/interior, delegacias especializadas, regionais, Academia de Polícia de Alagoas e serviços de apoio.',
+    sede: 'Avenida General de França Albuquerque (AL-101 Norte), Jacarecica, Maceió/AL, CEP 57038-640',
+    emergencia: '197 · Delegacia Virtual/SINESP e canais PCAL',
+    linksOficiais: [
+      'https://pc.al.gov.br/',
+      'https://pc.al.gov.br/institucional',
+      'https://pc.al.gov.br/delegacias-e-contatos',
+      'https://gestaointegrada.seplag.al.gov.br/',
+      'https://alagoas.al.gov.br/noticia/governo-de-alagoas-divulga-comissoes-dos-concursos-da-policia-civil-e-fapeal'
+    ],
+    fonte: 'PCAL; Governo de Alagoas; SEPLAG/AL Gestão Integrada; SAPL/ALEAL; Diário Oficial/AL; Lei AL 3.437/1975; Lei AL 6.441/2003; Lei AL 7.602/2014; Lei AL 8.641/2022; Lei AL 9.551/2025; IBGE 2025',
+    atualizado: 'PCAL revisada em 09/05/2026 — efetivo ativo como ordem de grandeza institucional; reserva, gênero e tabela sem fonte direta marcados como Dados em breve/estimados'
+  };
+  if (typeof REMUNERACAO_FONTES_OFICIAIS !== 'undefined') {
+    REMUNERACAO_FONTES_OFICIAIS[inst] = {
+      nome: 'PCAL — Leis AL nº 6.276/2001, nº 6.277/2001 e nº 7.602/2014 para Agente/Escrivão; Lei AL nº 8.641/2022 para Delegado; Lei AL nº 9.551/2025 revisão geral; valores sem tabela consolidada 2026 marcados como estimados',
+      url: 'https://gestaointegrada.seplag.al.gov.br/'
+    };
+  }
+  if (typeof CARGOS_PCAL !== 'undefined') {
+    CARGOS_ESTRUTURA_GENERICAS[inst] = CARGOS_PCAL;
+  }
+  CONFIGS_INSTITUICOES_GENERICAS[inst] = {
+    titulo: 'PCAL',
+    desc: 'Polícia Civil do Estado de Alagoas',
+    cor: '#4b5563',
+    alertaPrev: 'PCAL/AL Previdência/IPASEAL Saúde: conferir RPPS, contribuição, abono de permanência, aposentadoria policial, subsídio, plantões, acúmulo extraordinário e rubricas pessoais no contracheque e na norma vigente.'
+  };
+  CONCURSOS[inst] = CONCURSOS[inst] || {
+    edital: 'PCAL 2026 — comissão formada para novo concurso de Agente e Escrivão; 300 vagas previstas, sendo 150 imediatas e 150 cadastro de reserva; edital e banca em definição.',
+    salario: 'Agente/Escrivão: referência inicial R$ 5.318,61 e final até R$ 15.065,12 (estimado por tabela de carreira/revisões). Delegado: tabela específica pela Lei AL 8.641/2022; novo edital de Delegado não publicado nesta revisão.',
+    vagas: '300 vagas previstas para Agente e Escrivão: 150 imediatas + 150 cadastro de reserva.',
+    cotas: 'A definir em edital, observadas a legislação estadual/federal e eventuais regras de reserva.',
+    idade: 'A definir no edital. Não fixar limite sem edital publicado.',
+    escolaridade: 'Agente/Escrivão: nível superior; Agente costuma exigir CNH B conforme legislação/edital; Delegado exige bacharelado em Direito nos certames próprios.',
+    materias: 'Estrutura esperada: Português, Raciocínio Lógico, Informática/segurança cibernética, Direitos Humanos, Atualidades/Ética, Direito Penal, Processo Penal, Constitucional, Administrativo, legislação estadual e legislação penal especial.',
+    banca: 'A definir; último concurso Agente/Escrivão 2021 foi Cebraspe.',
+    inscritos: 'Sem inscrições abertas nesta revisão; comissão formada em janeiro/2026 e banca em definição.',
+    etapas: 'Objetivas, discursiva, TAF, prova prática de digitação quando aplicável, exames médicos/laboratoriais, psicológica, investigação social, curso de formação; Delegado pode ter prova oral/títulos conforme edital.',
+    cfsd: 'Curso de Formação Policial na Academia de Polícia de Alagoas/APOCAL.',
+    estagio: 'Estágio probatório, posse e exercício conforme estatuto estadual, Lei Orgânica Nacional das Polícias Civis e edital.',
+    validade: 'A definir no edital.',
+    previsao: 'Concurso autorizado/comissão formada; não publicar como edital aberto até sair ato oficial.',
+    site: 'https://pc.al.gov.br/'
+  };
+  ASSOCIACOES[inst] = ASSOCIACOES[inst] || [
+    {
+      nome: 'SINDPOL-AL — Sindicato dos Policiais Civis de Alagoas',
+      foco: 'Agentes, escrivães e demais policiais civis de Alagoas conforme base sindical.',
+      acao: 'Representação sindical, pautas remuneratórias, condições de trabalho, defesa institucional, comunicação e apoio jurídico/sindical.',
+      site: 'https://sindpolalagoas.com.br/',
+      telefone: 'Consultar site/canais da entidade',
+      mensalidade: 'Consultar diretamente na entidade',
+      servicos: 'Jurídico, notícias de classe, mobilização, convênios, atendimento ao filiado e acompanhamento de legislação.'
+    },
+    {
+      nome: 'ADEPOL-AL — Associação dos Delegados de Polícia de Alagoas',
+      foco: 'Delegados de Polícia Civil de Alagoas.',
+      acao: 'Representação associativa, defesa institucional da carreira, comunicação, apoio jurídico e acompanhamento de pautas de delegados.',
+      site: 'https://adepol-al.com.br/portal/',
+      telefone: 'Consultar diretamente na entidade',
+      mensalidade: 'Consultar diretamente na entidade',
+      servicos: 'Notícias, representação institucional, apoio jurídico, convênios e orientação ao associado.'
+    },
+    {
+      nome: 'PCAL — canais institucionais',
+      foco: 'Cidadãos, servidores e unidades da Polícia Civil de Alagoas.',
+      acao: 'Atendimento institucional, localização de delegacias, contatos oficiais e informações públicas.',
+      site: 'https://pc.al.gov.br/',
+      telefone: '(82) 3315-7722 / (82) 3315-2625',
+      mensalidade: 'Não se aplica',
+      servicos: 'Delegacias e contatos, delegacia virtual, notícias, serviços digitais e orientação pública.'
+    }
+  ];
+  ACOES_JUDICIAIS[inst] = ACOES_JUDICIAIS[inst] || [
+    {
+      titulo: 'Subsídio Agente/Escrivão PCAL — enquadramento, progressão e revisões',
+      status: 'Conferência individual',
+      ano: '2001/2014 em diante',
+      tipo: 'individual',
+      desc: 'Verificar classe, nível, referência, progressão, revisão geral, atraso de implantação e diferenças em ficha financeira/contracheque. Não tratar como ganho automático.',
+      base: 'Leis AL nº 6.276/2001, nº 6.277/2001, nº 7.602/2014, nº 9.032/2023, nº 9.551/2025 e atos de progressão/enquadramento.',
+      fonte: 'SEPLAG/AL Gestão Integrada; SAPL/ALEAL; contracheque',
+      fonteUrl: 'https://gestaointegrada.seplag.al.gov.br/',
+      atualizado: 'Maio/2026'
+    },
+    {
+      titulo: 'Delegado PCAL — subsídio, classe DPC-1 a DPC-4 e acúmulo extraordinário',
+      status: 'Conferência individual',
+      ano: '2022/2025 em diante',
+      tipo: 'individual',
+      desc: 'Conferir classe, enquadramento, revisão, designação, acúmulo extraordinário, atos publicados e rubricas do contracheque.',
+      base: 'Lei AL nº 8.641/2022, Lei AL nº 9.592/2025, atos de designação e ficha financeira.',
+      fonte: 'SAPL/ALEAL; Diário Oficial/AL; contracheque',
+      fonteUrl: 'https://sapl.al.al.leg.br/norma/2234',
+      atualizado: 'Maio/2026'
+    },
+    {
+      titulo: 'Aposentadoria policial, abono de permanência e paridade/integralidade',
+      status: 'Análise previdenciária individual',
+      ano: 'EC 103/2019 e regras policiais',
+      tipo: 'individual',
+      desc: 'Exige análise da data de ingresso, idade, tempo policial, tempo total, cargo, regra de transição, ato de aposentadoria, abono de permanência e regime próprio.',
+      base: 'LC nº 51/1985, LC nº 144/2014, EC nº 103/2019, Lei Complementar Estadual nº 52/2019, AL Previdência e registros funcionais.',
+      fonte: 'Legislação previdenciária e AL Previdência',
+      fonteUrl: 'https://alprevidencia.al.gov.br/',
+      atualizado: 'Maio/2026'
+    },
+    {
+      titulo: 'Concurso PCAL 2026 — comissão, edital, etapas, TAF e prova prática',
+      status: 'Controle de edital',
+      ano: '2026',
+      tipo: 'individual/coletivo',
+      desc: 'Demandas podem envolver publicação de edital, banca, requisitos, cotas, TAF, digitação, psicológico, investigação social, curso de formação, cronograma e eliminação em fases.',
+      base: 'Ato de comissão do Governo de Alagoas, edital futuro e legislação da carreira policial civil.',
+      fonte: 'Governo de Alagoas — comissões dos concursos PCAL e Fapeal',
+      fonteUrl: 'https://alagoas.al.gov.br/noticia/governo-de-alagoas-divulga-comissoes-dos-concursos-da-policia-civil-e-fapeal',
+      atualizado: 'Maio/2026'
+    },
+    {
+      titulo: 'Plantões, diárias, adicional noturno, acúmulo e rubricas eventuais',
+      status: 'Conferência de escala e rubrica',
+      ano: 'Caso a caso',
+      tipo: 'individual',
+      desc: 'Verificar escala, ordem de serviço, designação, cumprimento efetivo, natureza indenizatória/remuneratória, reflexos e pagamento no contracheque.',
+      base: 'Leis estaduais, atos da PCAL/SEPLAG, escala, portaria de designação, Diário Oficial e ficha financeira.',
+      fonte: 'PCAL/SEPLAG/DOE-AL',
+      fonteUrl: 'https://pc.al.gov.br/',
+      atualizado: 'Maio/2026'
+    }
+  ];
+}
+
 function criarOptionInstituicao(inst, texto) {
   const opt = document.createElement('option');
   opt.value = inst;
@@ -3585,6 +4044,8 @@ function aplicarRevisaoResumosInstitucionais() {
 }
 
 aplicarEstruturaEstadosFaltantesDados();
+aplicarDadosEspecificosPmal();
+aplicarDadosEspecificosPcal();
 aplicarEstruturaBombeirosMilitaresDados();
 aplicarDadosEspecificosBmac();
 aplicarDadosEspecificosBmal();
@@ -4923,6 +5384,7 @@ function mudarInstituicao(novaInstituicao) {
     pmac: { titulo: 'PMAC', desc: 'Polícia Militar do Acre', cor: '#006b3f', alertaPrev: 'PMAC: conferir Acreprevidência, LC AC 164/2006, tabela remuneratória, adicionais por tempo, serviço complementar, localização especial e contracheque.' },
     pcac: { titulo: 'PCAC', desc: 'Polícia Civil do Acre', cor: '#5b6472', alertaPrev: 'PCAC: conferir Acreprevidência, cargo, classe, titulação, serviço complementar, tabela oficial e regra de aposentadoria policial aplicada ao caso concreto.' },
     ppac: { titulo: 'PPAC', desc: POLICIAS_PENAIS_INFO.ppac.nome, cor: '#536b2f', alertaPrev: `${POLICIAS_PENAIS_INFO.ppac.sigla}: ${POLICIAS_PENAIS_INFO.ppac.previdencia} ${POLICIAS_PENAIS_INFO.ppac.vantagens}` },
+    ppal: { titulo: 'PPAL', desc: POLICIAS_PENAIS_INFO.ppal.nome, cor: '#6b5b2f', alertaPrev: `${POLICIAS_PENAIS_INFO.ppal.sigla}: ${POLICIAS_PENAIS_INFO.ppal.previdencia} ${POLICIAS_PENAIS_INFO.ppal.vantagens}` },
     pmesp: { titulo: "PMESP", desc: "Polícia Militar do Estado de São Paulo", cor: "#e60000", alertaPrev: "PMESP/SPPREV/SPSM: conferir a contribuição e a base de cálculo no holerite e na norma vigente. Não fixar percentual único sem validar cargo, situação funcional e rubricas." },
     bmsp: { titulo: "CBPMESP", desc: "Corpo de Bombeiros da Polícia Militar do Estado de São Paulo", cor: "#b91c1c", alertaPrev: "CBPMESP/BMSP: carreira militar estadual vinculada à PMESP; conferir SPPREV/SPSM, RETP, DEJEM, CBPM/Cruz Azul, insalubridade, escalas e rubricas no holerite e na norma vigente." },
     pcsp:  { titulo: "PCSP",  desc: "Polícia Civil do Estado de São Paulo", cor: "#4f4f4f", alertaPrev: "PCSP/SPPREV/IAMSPE: conferir contribuição previdenciária, assistência, quinquênios, sexta-parte, RETP, DEJEC, insalubridade e demais rubricas no holerite e na norma vigente. Não tratar os 14% como regra isolada sem validar base e situação funcional." },
@@ -4938,8 +5400,10 @@ function mudarInstituicao(novaInstituicao) {
     pmrs:  { titulo: "PMRS",  desc: "Brigada Militar do Rio Grande do Sul",     cor: "#0f3d75", alertaPrev: "IPE Prev/RS e sistema de proteção dos militares estaduais: conferir contribuição previdenciária, rubricas e auxílio-alimentação no contracheque." },
     pcrs:  { titulo: "PCRS",  desc: "Polícia Civil do Rio Grande do Sul",       cor: "#5b6472", alertaPrev: "IPE Prev/RS: contribuição previdenciária conforme regra estadual; adicionais e indenizações dependem de rubrica e situação funcional." },
     pmsc:  { titulo: "PMSC",  desc: "Polícia Militar de Santa Catarina",        cor: "#1b4f8a", alertaPrev: "IPREV/SC e sistema de proteção dos militares estaduais: conferir contribuição previdenciária, subsídio, rubricas e auxílio-alimentação no contracheque." },
+    bmsc:  { titulo: "CBMSC", desc: "Corpo de Bombeiros Militar de Santa Catarina", cor: "#b91c1c", alertaPrev: "CBMSC/SC: conferir IPREV/SC, sistema de proteção social dos militares estaduais, subsídio por posto/graduação, auxílio-alimentação, diárias, indenizações e rubricas pessoais no contracheque." },
     pcsc:  { titulo: "PCSC",  desc: "Polícia Civil de Santa Catarina",          cor: "#4b5563", alertaPrev: "IPREV/SC: contribuição previdenciária conforme regra estadual; classes, subsídios e indenizações dependem de cargo, rubrica e situação funcional." },
     pmes:  { titulo: "PMES",  desc: "Polícia Militar do Espírito Santo",        cor: "#0b5c9e", alertaPrev: "IPAJM/ES e sistema estadual: conferir subsídio, referência, auxílio-alimentação, fardamento, serviço extra e demais rubricas no contracheque." },
+    bmes:  { titulo: "CBMES", desc: "Corpo de Bombeiros Militar do Estado do Espírito Santo", cor: "#b91c1c", alertaPrev: "CBMES/ES: conferir IPAJM/ES, sistema de proteção social militar, subsídio por posto/graduação e referência, auxílio-alimentação, GSE, fardamento, diárias, indenizações e rubricas pessoais no contracheque." },
     pces:  { titulo: "PCES",  desc: "Polícia Civil do Espírito Santo",          cor: "#4b3f72", alertaPrev: "IPAJM/ES: contribuição previdenciária conforme regra estadual; OIP, Delegado e demais carreiras exigem conferência de categoria, referência e rubricas." },
     ppsp: { titulo: "PPSP", desc: POLICIAS_PENAIS_INFO.ppsp.nome, cor: "#6f4e37", alertaPrev: `${POLICIAS_PENAIS_INFO.ppsp.sigla}: ${POLICIAS_PENAIS_INFO.ppsp.previdencia} ${POLICIAS_PENAIS_INFO.ppsp.vantagens}` },
     pprj: { titulo: "PPRJ", desc: POLICIAS_PENAIS_INFO.pprj.nome, cor: "#5a4b81", alertaPrev: `${POLICIAS_PENAIS_INFO.pprj.sigla}: ${POLICIAS_PENAIS_INFO.pprj.previdencia} ${POLICIAS_PENAIS_INFO.pprj.vantagens}` },
@@ -4954,6 +5418,7 @@ function mudarInstituicao(novaInstituicao) {
     pcms: { titulo: "PCMS", desc: "Polícia Civil de Mato Grosso do Sul", cor: "#4b5563", alertaPrev: "PCMS: conferir LC MS 114/2005, LC MS 343/2024, AGEPREV/MS, cargo, classe, referência, tempo em atividade policial e regra de aposentadoria aplicada." },
     ppms: { titulo: "PPMS", desc: POLICIAS_PENAIS_INFO.ppms.nome, cor: "#516b3b", alertaPrev: `${POLICIAS_PENAIS_INFO.ppms.sigla}: ${POLICIAS_PENAIS_INFO.ppms.previdencia} ${POLICIAS_PENAIS_INFO.ppms.vantagens}` },
     pmmt: { titulo: "PMMT", desc: "Polícia Militar de Mato Grosso", cor: "#1f7a4d", alertaPrev: "PMMT: conferir sistema de proteção social dos militares estaduais, MTPREV/MT, regra de ingresso, averbações, reserva remunerada e reforma conforme legislação estadual." },
+    bmmt: { titulo: "CBMMT", desc: "Corpo de Bombeiros Militar do Estado de Mato Grosso", cor: "#b91c1c", alertaPrev: "CBMMT/MT: conferir MTPREV/MT, sistema de proteção social militar, subsídio por posto/graduação e nível, etapa alimentação, fardamento, diárias, indenizações, temporários, PTTC e rubricas pessoais no contracheque." },
     pcmt: { titulo: "PCMT", desc: "Polícia Judiciária Civil de Mato Grosso", cor: "#5b6472", alertaPrev: "PCMT: conferir tabela salarial do Portal do Servidor/SEPLAG-MT, cargo, classe, nível, tempo em atividade policial, MTPREV/MT e regra de aposentadoria aplicada." },
     ppmt: { titulo: "PPMT", desc: POLICIAS_PENAIS_INFO.ppmt.nome, cor: "#6b5f2f", alertaPrev: `${POLICIAS_PENAIS_INFO.ppmt.sigla}: ${POLICIAS_PENAIS_INFO.ppmt.previdencia} ${POLICIAS_PENAIS_INFO.ppmt.vantagens}` }
   };
@@ -5521,10 +5986,16 @@ function imagemPrincipalBrasaoInstituicao(inst) {
 
 function getCriadorInstitucional(inst, tipo, estadoNome) {
   if (inst === 'pmesp') return 'Brigadeiro Rafael Tobias de Aguiar — então presidente da Província de São Paulo, pela lei provincial de 15/12/1831.';
+  if (inst === 'pmal') return 'Presidência da Província de Alagoas e Ministério da Justiça do Império — Decisão Imperial nº 52, de 03/02/1832, aprovando o Corpo de Guardas Municipais da província.';
+  if (inst === 'pcal') return 'Estado de Alagoas — Lei AL nº 3.437, de 25/06/1975, estrutura cargos da Polícia Civil; Lei AL nº 6.441/2003 concede autonomia administrativa e financeira.';
+  if (inst === 'ppal') return 'Estado de Alagoas — Lei AL nº 7.993/2018 reestruturou a carreira; Lei AL nº 8.650/2022 redenominou Agentes Penitenciários para Policiais Penais; Lei AL nº 9.849/2026 atualizou jornada e subsídios.';
   if (inst === 'pmerj') return 'D. João VI — criação da Divisão Militar da Guarda Real da Polícia da Corte em 13/05/1809.';
   if (inst === 'bmms') return 'Governo de Mato Grosso — Lei MT nº 3.322/1973, origem histórica do Comando do Corpo de Bombeiros; Mato Grosso do Sul reorganizou a corporação após a criação do Estado.';
   if (inst === 'bmmg') return 'Júlio Bueno Brandão — Lei MG nº 557, de 31/08/1911, que autorizou a organização da Seção de Bombeiros Profissionais.';
   if (inst === 'bmpr') return 'Carlos Cavalcanti de Albuquerque — Lei PR nº 1.133, de 23/03/1912, que criou o Corpo de Bombeiros do Estado do Paraná.';
+  if (inst === 'bmsc') return 'Antônio Vicente Bulcão Vianna — instalação da Seção de Bombeiros da Força Pública em 26/09/1926; origem autorizada pela Lei SC nº 1.288/1919 no governo Hercílio Luz.';
+  if (inst === 'bmes') return 'Marcondes Alves de Souza — Lei ES nº 874, de 26/12/1912; primeira estrutura efetiva pela Lei ES nº 920, de 13/11/1913.';
+  if (inst === 'bmmt') return 'Fernando Corrêa da Costa — Lei MT nº 2.184, de 19/08/1964; autonomia institucional em 28/10/1994.';
   if (inst === 'bmrj') return 'Dom Pedro II — Decreto Imperial nº 1.775, de 02/07/1856, criou o Corpo Provisório de Bombeiros da Corte.';
   const esfera = getEsferaConsultaInstituicao(inst);
   if (inst === 'pf') return 'União — estrutura federal organizada pela Constituição, legislação federal e atos do Poder Executivo federal.';
@@ -5555,7 +6026,54 @@ function getHistoricoPorTipo(inst, dados) {
     };
   }
 
+  if (inst === 'pmal') {
+    return {
+      origem: `A ${nome} tem origem oficial reconhecida em 3 de fevereiro de 1832, quando a Decisão Imperial nº 52 aprovou o plano do Corpo de Guardas Municipais da Província de Alagoas. Em 2026, a PMAL aparece como corporação quase bicentenária, com atuação de policiamento ostensivo e preservação da ordem pública nos 102 municípios alagoanos, efetivo ativo informado de 7.493 integrantes e Comando-Geral exercido pelo Cel QOC PM Paulo Amorim Feitosa Filho.`,
+      marcos: [
+        '1832: Decisão Imperial nº 52 aprova o plano do Corpo de Guardas Municipais da Província de Alagoas, marco reconhecido da origem da PMAL.',
+        '1851: criação da Banda de Música da PMAL, posteriormente reconhecida como patrimônio histórico, artístico e cultural imaterial do povo alagoano.',
+        '1912: extinção e reativação da Força Pública/Batalhão de Polícia no mesmo ano, marco de reorganização institucional.',
+        '1947/1993: criação da Formação de Bombeiros dentro da PM e posterior autonomia do Corpo de Bombeiros Militar de Alagoas.',
+        '1991: Decreto nº 35.021 passa a regular assistência médico-hospitalar do policial militar e dependentes.',
+        '2014: Lei AL nº 7.580 fixa subsídios dos militares estaduais; usar tabela por posto/graduação com cautela em atualizações posteriores.',
+        '2022: Lei AL nº 8.671 disciplina o Sistema de Proteção Social dos Militares do Estado de Alagoas — SPSM/AL.',
+        '2026: edital PMAL/Cebraspe para CFO e CFP, com 530 vagas imediatas e cadastro de reserva.'
+      ]
+    };
+  }
 
+  if (inst === 'pcal') {
+    return {
+      origem: `A ${nome} é a polícia judiciária estadual de Alagoas, com raízes administrativas na reorganização da Força Pública e da Guarda Civil em 1912 e estrutura policial civil consolidada pela Lei AL nº 3.437/1975. A Lei AL nº 6.441/2003 marcou a autonomia administrativa e financeira da instituição, e em 2026 o Governo de Alagoas formou comissão para novo concurso de Agente e Escrivão, com 300 vagas previstas.`,
+      marcos: [
+        '1808: criação da Intendência Geral de Polícia da Corte e do Brasil, marco nacional de organização policial que antecede as polícias civis estaduais.',
+        '1912: reorganização das forças estaduais em Alagoas e criação da Guarda Civil, junto à Polícia Militar, formando a Força Pública estadual.',
+        '1975: Lei AL nº 3.437 institui cargos e estrutura a Polícia Civil do Estado de Alagoas.',
+        '1982: criação da Escola de Polícia Civil de Alagoas — EPOCA, depois Academia de Polícia de Alagoas/APOCAL.',
+        '1987: carreira de Delegado de Polícia Civil e departamentos de polícia judiciária ganham desenho próprio.',
+        '2003: Lei AL nº 6.441 concede autonomia administrativa e financeira à Polícia Civil e organiza a Direção-Geral.',
+        '2007: Lei Delegada nº 43 reorganiza a estrutura, incluindo Delegado-Geral e diretorias.',
+        '2026: Governo de Alagoas divulga comissão para concurso PCAL de Agente e Escrivão, com 150 vagas imediatas e 150 cadastro de reserva.'
+      ]
+    };
+  }
+
+
+  if (inst === 'ppal') {
+    return {
+      origem: `A ${nome} integra a segurança pública estadual como carreira constitucionalizada pela EC 104/2019. Em Alagoas, a base funcional vem da carreira de Agente Penitenciário reestruturada pela Lei AL nº 7.993/2018 e redenominada pela Lei AL nº 8.650/2022 como carreira de Policiais Penais. A gestão do sistema prisional é executada pela SERIS/AL, responsável pela administração das unidades, custódia, disciplina, ressocialização e programas de inclusão social. Em 2026, a Lei AL nº 9.849 atualizou a jornada de 40h, a escala 24x72 em regime de plantão e a tabela de subsídios da carreira.`,
+      marcos: [
+        '1995: Lei AL nº 5.676 cria a Secretaria de Justiça, marco da gestão penitenciária estadual especializada.',
+        '2004: Lei AL nº 6.448 cria a Secretaria Executiva de Ressocialização, com foco na execução penal e administração prisional.',
+        '2015: Lei Delegada nº 47 estrutura a SERIS no modelo contemporâneo de ressocialização e inclusão social.',
+        '2018: Lei AL nº 7.993 reestrutura a carreira de Agente Penitenciário do serviço civil estadual.',
+        '2019/2022: EC 104/2019 constitucionaliza a Polícia Penal; Lei AL nº 8.650/2022 redenomina a carreira para Policiais Penais.',
+        '2021/2022: concurso SERIS/AL Cebraspe oferta 300 vagas e reforça o quadro de policiais penais.',
+        '2026: Lei AL nº 9.849 fixa jornada de 40h, escala 24x72 quando em plantão e subsídios de R$ 7.200,00 a R$ 17.734,04.',
+        '2026: mapa SERIS indica 6.386 presos recolhidos nas unidades prisionais em abril/maio de 2026.'
+      ]
+    };
+  }
 
   if (inst === 'bmms') {
     return {
@@ -5600,6 +6118,53 @@ function getHistoricoPorTipo(inst, dados) {
         'Lei PR nº 22.916/2025: fixa o efetivo do CBMPR em 5.704 cargos.',
         '2025: Cel QOBM Antônio Geraldo Hiller Lino assume o Comando-Geral do CBMPR.',
         'Concursos 2025: Soldado Bombeiro Militar com 600 vagas e Cadete Bombeiro Militar com 20 vagas.'
+      ]
+    };
+  }
+
+
+  if (inst === 'bmsc') {
+    return {
+      origem: `O ${nome} tem origem operacional na instalação da Seção de Bombeiros da Força Pública de Santa Catarina, em 26 de setembro de 1926, em Florianópolis, após autorização legal anterior para organização do serviço. A corporação tornou-se autônoma com a Emenda Constitucional estadual nº 33/2003 e atua em prevenção, combate a incêndio, salvamento, atendimento pré-hospitalar, defesa civil e segurança contra incêndio e pânico.`,
+      marcos: [
+        '1919: Lei SC nº 1.288 autoriza a criação de uma Seção de Bombeiros vinculada à Força Pública de Santa Catarina.',
+        '1926: instalação da Seção de Bombeiros em Florianópolis, em 26/09/1926, marco histórico da corporação.',
+        '2003: Emenda Constitucional estadual nº 33 concede autonomia administrativa e financeira ao CBMSC.',
+        '2025: nova organização básica amplia a estrutura regional de três para cinco Regiões Bombeiro Militar e cria novas diretorias setoriais.',
+        'LC SC 872/2025: reajuste remuneratório em três etapas, com efeitos em 05/2025, 12/2025 e 04/2026.',
+        'LC SC 880/2025: cria o Serviço Militar Estadual Temporário e o Quadro de Oficiais Especialistas, com impacto estrutural no efetivo projetado.',
+        'Concursos 2026: editais CBMSC/IDIB para 100 vagas de Aluno-Soldado e 10 vagas de Cadete/Oficial, ambos com nível superior.'
+      ]
+    };
+  }
+
+
+  if (inst === 'bmes') {
+    return {
+      origem: `O ${nome} tem origem legal na Lei ES nº 874, de 26 de dezembro de 1912, sancionada por Marcondes Alves de Souza, e teve a primeira estrutura operacional implantada pela Lei ES nº 920, de 13 de novembro de 1913. A corporação se consolidou como instituição militar estadual de prevenção, combate a incêndios, salvamento, defesa civil, perícias de incêndio e segurança contra incêndio e pânico, com autonomia institucional após a Emenda Constitucional estadual nº 12/1997.`,
+      marcos: [
+        '1912: Lei ES nº 874 determina a criação do Corpo de Bombeiros no Espírito Santo.',
+        '1913: Lei ES nº 920 implanta a primeira Seção de Bombeiros, com um cabo, 12 soldados e comando do 1º Ten Ignácio Pinto de Siqueira.',
+        'Treinamento inicial organizado com apoio do 2º Ten Mário Francisco de Brito, oficial do Corpo de Bombeiros do Rio de Janeiro.',
+        '1921 a 1938: evolução nominal e estrutural de Seção para Pelotão, Companhia e Corpo de Bombeiros.',
+        '1997: Emenda Constitucional estadual nº 12 permite a desvinculação da Polícia Militar e consolida o Corpo de Bombeiros Militar como instituição autônoma.',
+        'LC ES 420/2007: remuneração dos militares estaduais por subsídio; LC ES 910/2019 e LC ES 911/2019 tratam de promoções de oficiais e praças.',
+        '2026: CFO CBMES/IDECAN abre 6 vagas imediatas e 400 de cadastro de reserva para Oficial Combatente Bombeiro Militar.'
+      ]
+    };
+  }
+
+  if (inst === 'bmmt') {
+    return {
+      origem: `O ${nome} tem origem legal em 19 de agosto de 1964, com a autorização para organização do serviço de bombeiros em Mato Grosso, e iniciou a operação em fevereiro de 1967 como 1ª Companhia Independente, com 42 homens. A autonomia institucional foi consolidada em 28 de outubro de 1994. Em 2026, a corporação atua como instituição militar estadual de prevenção, combate a incêndios, busca e salvamento, defesa civil, atendimento emergencial e segurança contra incêndio e pânico, sob comando do Cel BM Flávio Glêdson Vieira Bezerra.`,
+      marcos: [
+        '1964: Lei MT nº 2.184 autoriza a organização do serviço de bombeiros no Estado de Mato Grosso.',
+        '1967: início operacional em Cuiabá como 1ª Companhia Independente, com 42 homens.',
+        '1994: autonomia institucional do Corpo de Bombeiros Militar de Mato Grosso em 28/10/1994.',
+        'LC MT 541/2014: estrutura a remuneração/subsídio dos militares estaduais, com referências usadas na aba de remuneração.',
+        'LC MT 775/2023: organiza a estrutura básica do CBMMT, com níveis de direção geral, superior, assessoramento, execução programática e regionalizada.',
+        '2025/2026: publicações institucionais indicam expansão operacional, Grupamento de Aviação Bombeiro Militar e cobertura aproximada de 70% a 80% da população.',
+        'Editais SEPLAG/SESP/CBMMT 2022: referências cadastradas para Aluno-a-Oficial, Aspirante e concursos de ingresso; convocações posteriores devem ser conferidas no site oficial.'
       ]
     };
   }

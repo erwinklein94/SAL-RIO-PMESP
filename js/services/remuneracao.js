@@ -13,6 +13,14 @@ const REMUNERACAO_FONTES_OFICIAIS = {
     nome: 'Portal do Estado do Acre e ALEAC — estrutura remuneratória PMAC/CBMAC; LC AC 349/2018, LC AC 164/2006, Lei AC 2.009/2008 e editais CBMAC/IBFC',
     url: 'https://estado.ac.gov.br/servidor-publico/legislacao-e-pccr/legislacao-e-pccr-diretas/'
   },
+  pmal: {
+    nome: 'PMAL — Edital nº 1/2026/Cebraspe para Soldado-Aluno, Soldado, Cadete e Aspirante; Lei AL nº 7.580/2014, Anexo IV, para estimativas por posto/graduação; Lei AL nº 9.852/2026 e SPSM/AL — Lei AL nº 8.671/2022',
+    url: 'https://www.cebraspe.org.br/concursos/pm_al_26'
+  },
+  pcal: {
+    nome: 'PCAL — Leis AL nº 6.276/2001, nº 6.277/2001 e nº 7.602/2014 para Agente/Escrivão; Lei AL nº 8.641/2022 para Delegado; Lei AL nº 9.551/2025 revisão geral; valores sem tabela consolidada 2026 marcados como estimados',
+    url: 'https://gestaointegrada.seplag.al.gov.br/'
+  },
   bmal: {
     nome: 'CBMAL, Transparência/AL e SAPL/ALEAL — Lei AL 7.580/2014, Lei AL 7.581/2014, Lei AL 8.668/2022 e revisões gerais até a Lei AL 9.852/2026; tabela exibida como estimativa técnica de maio/2026',
     url: 'https://www.cbm.al.gov.br/paginas/legislacao'
@@ -113,6 +121,10 @@ const REMUNERACAO_FONTES_OFICIAIS = {
     nome: 'PMES/ES — LC 420/2007, legislação PMES e tabela PM/CBM a partir de 01/12/2025',
     url: 'https://pm.es.gov.br/legislacao'
   },
+  bmes: {
+    nome: 'CBMES/ES — tabela PM/CBM a partir de 01/12/2025; LC ES 420/2007; Lei ES 11.985/2023; Lei ES 12.783/2026 para oficiais superiores; Edital CFO CBMES 001/2026',
+    url: 'https://cb.es.gov.br/cfo2023'
+  },
   pces: {
     nome: 'PCES/ES — LC 1.093/2024, concurso OIP 2025, tabelas de Delegado e PCIES/Perícia Oficial',
     url: 'https://pc.es.gov.br/Media/PCES/Legisla%C3%A7%C3%A3o/LC_%20n_%201093_cria_OIP.pdf'
@@ -124,6 +136,10 @@ const REMUNERACAO_FONTES_OFICIAIS = {
   bmms: {
     nome: 'CBMMS — Subsídio militar estadual por posto/graduação e nível; LC MS 127/2008, LC MS 291/2021, tabela militar 05/2025 e RGA 3,81% da Lei MS 6.562/2026',
     url: 'https://legislacao.bombeiros.ms.gov.br/tabelas-de-subsidios/'
+  },
+  bmmt: {
+    nome: 'CBMMT/MT — LC MT 541/2014; Lei MT 12.007/2023; LC MT 775/2023; Edital SEPLAG/SESP/CBMMT nº 007/2022; Lei MT 13.220/2026 para RGA 2026',
+    url: 'https://www.bombeiros.mt.gov.br/legislacao'
   },
   pcms: {
     nome: 'PCMS — Edital APJ/2025; LC MS nº 343/2024; LC MS nº 290/2021 para Delegado',
@@ -193,6 +209,10 @@ const REMUNERACAO_FONTES_OFICIAIS = {
     nome: 'PPSC — ALESC — LC SC 774/2021 e atualização remuneratória 2025/2026',
     url: 'https://leis.alesc.sc.gov.br/ato-normativo/21250'
   },
+  bmsc: {
+    nome: 'CBMSC/SC — LC SC 765/2020, LC SC 872/2025 e LC SC 880/2025; CBMSC/IDIB — editais CFP/CFO 2026',
+    url: 'https://leis.alesc.sc.gov.br/ato-normativo/22843'
+  },
   ppes: {
     nome: 'PPES — SEGER/ES e PPES — Edital nº 001/2025, LC ES 1.059/2023 e tabela da carreira',
     url: 'https://seger.es.gov.br/concurso-ppes-edital-no-01-2025-policial-penal'
@@ -226,6 +246,12 @@ function getAdicionaisRemuneracaoResumo(inst, linha = {}) {
     return `${detalhesLinha}${info.sigla}: ${info.atribuicoes} ${info.vantagens} Fonte principal: ${info.fonte}.`;
   }
 
+  if (inst === 'pmal') {
+    return linha.benefDesc || 'PMAL: regime de subsídio por posto/graduação e nível. Soldado-Aluno, Soldado, Cadete e Aspirante vêm do edital PMAL 2026; demais linhas marcadas como “estimado” usam projeção técnica a partir da Lei AL 7.580/2014 e devem ser confirmadas no DOE/AL, SEPLAG/AL, transparência e contracheque. SPSM/AL, serviço voluntário, Força Tarefa, diárias, indenizações e parcelas pessoais não foram somados automaticamente.';
+  }
+  if (inst === 'pcal') {
+    return linha.benefDesc || 'PCAL: regime de subsídio por cargo, classe, nível e referência. Delegado segue tabela própria da Lei AL 8.641/2022; Agente e Escrivão usam carreira estruturada pelas Leis AL 6.276/2001, 6.277/2001 e 7.602/2014. Valores marcados como estimado devem ser conferidos no DOE/AL, SEPLAG/AL, Gestão Integrada, transparência e contracheque. Plantões, acúmulo extraordinário, adicionais e parcelas pessoais não foram somados automaticamente.';
+  }
   if (inst === 'bmms') {
     return linha.benefDesc || 'CBMMS: subsídio por posto/graduação e nível; SPSM/MS, AGEPREV/MS, ajuda de custo, fardamento, diárias, indenizações, função, escala e parcelas pessoais dependem da legislação estadual e do contracheque; não foram somados automaticamente.';
   }
@@ -340,6 +366,9 @@ function getAdicionaisRemuneracaoResumo(inst, linha = {}) {
   if (inst === 'pmrs') return `RHE/RS: linhas inicial e final por posto/graduação, com competência 11/2025. Editais BM/RS 2025: referências de ingresso para Soldado, Aluno-Oficial e Capitão. Auxílio-alimentação BM/RS: ${fmt(AUX_ALIM_RS_BM)} informado em edital; não somado automaticamente ao bruto.`;
   if (inst === 'pcrs') return 'Carreira PCRS: classes de Delegado, Escrivão, Inspetor e Comissário, com valores de referência dos editais/tabelas 2025 e conferência na relação RHE 11/2025. Adicionais/indenizações: dependem de rubrica, lotação, legislação e situação funcional; não são somados automaticamente.';
   if (inst === 'pmsc') return `Regime por subsídio da PMSC: valores atualizados pela LC SC 872/2025 e Soldado unificado pela LC SC 880/2025. Auxílio-alimentação SC de referência: ${fmt(AUX_ALIM_SC_PADRAO)}, verba indenizatória não somada ao bruto. Diárias, indenizações e eventuais serviços extraordinários dependem de escala, local, função ou situação funcional.`;
+  if (inst === 'bmsc') return `Regime por subsídio do CBMSC: valores por posto/graduação; linhas com “(estimado)” usam equivalência com a tabela dos militares estaduais de SC e a etapa de 01/04/2026 da LC SC 872/2025. Auxílio-alimentação SC de referência: ${fmt(AUX_ALIM_SC_PADRAO)}, verba indenizatória não somada ao bruto. Diárias, indenizações, escalas especiais e rubricas pessoais dependem de ato, escala, lotação e contracheque.`;
+  if (inst === 'bmes') return `Regime por subsídio do CBMES: tabela PM/CBM por posto/graduação e referências, com valores oficiais a partir de 01/12/2025; Coronel, Tenente-Coronel e Major recebem destaque da Lei ES 12.783/2026 quando selecionada a linha 2026. Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}, não somado automaticamente ao bruto. Gratificação de Serviço Extraordinário, fardamento, diárias, indenizações e rubricas pessoais dependem de escala, ato, lotação e contracheque.`;
+  if (inst === 'bmmt') return linha.benefDesc || 'CBMMT: regime por subsídio dos militares estaduais de MT, com valores de referência da LC MT 541/2014/Lei MT 12.007/2023 e linhas oficiais do Edital 007/2022 para Aluno-a-Oficial e Aspirante. Etapa alimentação, fardamento, diárias, indenizações, temporários, PTTC e parcelas pessoais dependem de lei, escala, ato administrativo e contracheque; não foram somadas automaticamente.';
   if (inst === 'pcsc') return `Regime por subsídio da PCSC: classes de Delegado, Agente, Escrivão e Psicólogo Policial conforme legislação estadual. Auxílio-alimentação SC: ${fmt(AUX_ALIM_SC_PADRAO)}, já citado nos editais de Agente/Escrivão 2025, mas não somado automaticamente ao bruto.`;
   if (inst === 'pmes') return `Regime por subsídio da PMES: tabela PM/CBM por posto/graduação e referências, com base na LC ES 420/2007 e valores de referência a partir de 01/12/2025. Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado automaticamente ao bruto.`;
   if (inst === 'pces') return `Regime por subsídio da PCES: Delegado e Oficial Investigador por categorias/referências. Carreiras periciais aparecem sinalizadas como PCIES/Perícia Oficial após segregação institucional. Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado automaticamente ao bruto.`;
@@ -440,6 +469,71 @@ REMUNERACAO_SP_OFICIAL.bmsp = REMUNERACAO_SP_OFICIAL.pmesp.map(linha => Object.a
 }));
 
 
+
+REMUNERACAO_SP_OFICIAL.bmsc = [
+  linhaRemuneracaoOficial('CEL BM — Coronel CBMSC (estimado)', 39623.58, 0, 'Subsídio bruto mensal por posto/graduação; estimativa técnica por equivalência com a tabela dos militares estaduais de SC e legislação remuneratória vigente. Confirmar em tabela consolidada oficial ou contracheque.', `Auxílio-alimentação SC de referência: ${fmt(AUX_ALIM_SC_PADRAO)}; não somado ao bruto. Diárias, indenizações, adicional de serviço, escala e parcelas pessoais dependem de ato e contracheque.`, 'bmsc', 'Abr/2026 estimado'),
+  linhaRemuneracaoOficial('TEN CEL BM — Tenente-Coronel CBMSC (estimado)', 35661.46, 0, 'Subsídio bruto mensal por posto/graduação; estimativa técnica por equivalência com a tabela dos militares estaduais de SC e legislação remuneratória vigente. Confirmar em tabela consolidada oficial ou contracheque.', `Auxílio-alimentação SC de referência: ${fmt(AUX_ALIM_SC_PADRAO)}; não somado ao bruto.`, 'bmsc', 'Abr/2026 estimado'),
+  linhaRemuneracaoOficial('MAJ BM — Major CBMSC (estimado)', 31699.35, 0, 'Subsídio bruto mensal por posto/graduação; estimativa técnica por equivalência com a tabela dos militares estaduais de SC e legislação remuneratória vigente. Confirmar em tabela consolidada oficial ou contracheque.', `Auxílio-alimentação SC de referência: ${fmt(AUX_ALIM_SC_PADRAO)}; não somado ao bruto.`, 'bmsc', 'Abr/2026 estimado'),
+  linhaRemuneracaoOficial('CAP BM — Capitão CBMSC (estimado)', 27737.23, 0, 'Subsídio bruto mensal por posto/graduação; estimativa técnica por equivalência com a tabela dos militares estaduais de SC e legislação remuneratória vigente. Confirmar em tabela consolidada oficial ou contracheque.', `Auxílio-alimentação SC de referência: ${fmt(AUX_ALIM_SC_PADRAO)}; não somado ao bruto.`, 'bmsc', 'Abr/2026 estimado'),
+  linhaRemuneracaoOficial('1º TEN BM — 1º Tenente CBMSC (estimado)', 25359.48, 0, 'Subsídio bruto mensal por posto/graduação; estimativa técnica por equivalência com a tabela dos militares estaduais de SC e legislação remuneratória vigente. Confirmar em tabela consolidada oficial ou contracheque.', `Auxílio-alimentação SC de referência: ${fmt(AUX_ALIM_SC_PADRAO)}; não somado ao bruto.`, 'bmsc', 'Abr/2026 estimado'),
+  linhaRemuneracaoOficial('2º TEN BM — 2º Tenente CBMSC — edital CFO 2026', 21284.40, 0, 'Valor oficial divulgado pelo CBMSC para 2º Tenente após conclusão do CFO 2026; referência do concurso, sem somar auxílio-alimentação ao bruto.', `Auxílio-alimentação informado no edital: ${fmt(AUX_ALIM_SC_PADRAO)}; não somado ao bruto.`, 'bmsc', 'Edital 2026'),
+  linhaRemuneracaoOficial('2º TEN BM — 2º Tenente CBMSC — abr/2026 (estimado)', 22774.31, 0, 'Estimativa técnica com aplicação da etapa de 7% de 01/04/2026 da LC SC 872/2025 sobre o valor oficial de R$ 21.284,40 do edital CFO 2026; confirmar em folha/tabela oficial posterior.', `Auxílio-alimentação SC de referência: ${fmt(AUX_ALIM_SC_PADRAO)}; não somado ao bruto.`, 'bmsc', 'Abr/2026 estimado'),
+  linhaRemuneracaoOficial('ASP OF BM / CAD BM — Aspirante/Cadete CBMSC — edital CFO 2026', 18670.37, 0, 'Valor oficial divulgado pelo CBMSC para Cadete no CFO 2026; usar como referência de ingresso/curso, sem somar auxílio-alimentação ao bruto.', `Auxílio-alimentação informado no edital: ${fmt(AUX_ALIM_SC_PADRAO)}; não somado ao bruto.`, 'bmsc', 'Edital 2026'),
+  linhaRemuneracaoOficial('ASP OF BM — Aspirante Oficial CBMSC — abr/2026 (estimado)', 19977.30, 0, 'Estimativa técnica com aplicação da etapa de 7% de 01/04/2026 da LC SC 872/2025 sobre o valor oficial de R$ 18.670,37 do edital CFO 2026; confirmar em folha/tabela oficial posterior.', `Auxílio-alimentação SC de referência: ${fmt(AUX_ALIM_SC_PADRAO)}; não somado ao bruto.`, 'bmsc', 'Abr/2026 estimado'),
+  linhaRemuneracaoOficial('SUBTEN BM — Subtenente CBMSC (estimado)', 19440.00, 0, 'Subsídio bruto mensal estimado por posto/graduação; confirmar em tabela oficial consolidada ou contracheque.', `Auxílio-alimentação SC de referência: ${fmt(AUX_ALIM_SC_PADRAO)}; não somado ao bruto.`, 'bmsc', 'Abr/2026 estimado'),
+  linhaRemuneracaoOficial('1º SGT BM — 1º Sargento CBMSC (estimado)', 15181.42, 0, 'Subsídio bruto mensal estimado por posto/graduação; confirmar em tabela oficial consolidada ou contracheque.', `Auxílio-alimentação SC de referência: ${fmt(AUX_ALIM_SC_PADRAO)}; não somado ao bruto.`, 'bmsc', 'Abr/2026 estimado'),
+  linhaRemuneracaoOficial('2º SGT BM — 2º Sargento CBMSC (estimado)', 12904.51, 0, 'Subsídio bruto mensal estimado por posto/graduação; confirmar em tabela oficial consolidada ou contracheque.', `Auxílio-alimentação SC de referência: ${fmt(AUX_ALIM_SC_PADRAO)}; não somado ao bruto.`, 'bmsc', 'Abr/2026 estimado'),
+  linhaRemuneracaoOficial('3º SGT BM — 3º Sargento CBMSC (estimado)', 10969.02, 0, 'Subsídio bruto mensal estimado por posto/graduação; confirmar em tabela oficial consolidada ou contracheque.', `Auxílio-alimentação SC de referência: ${fmt(AUX_ALIM_SC_PADRAO)}; não somado ao bruto.`, 'bmsc', 'Abr/2026 estimado'),
+  linhaRemuneracaoOficial('CABO BM — Cabo CBMSC (estimado)', 9720.00, 0, 'Subsídio bruto mensal estimado por posto/graduação; confirmar em tabela oficial consolidada ou contracheque.', `Auxílio-alimentação SC de referência: ${fmt(AUX_ALIM_SC_PADRAO)}; não somado ao bruto.`, 'bmsc', 'Abr/2026 estimado'),
+  linhaRemuneracaoOficial('AL SD BM / SD BM — Aluno-Soldado/Soldado CBMSC — edital CFP 2026', 8015.00, 0, 'Valor oficial do edital CFP 001/2026/DP/CBMSC para Aluno-Soldado/Soldado, referência dezembro/2025, sem somar auxílio-alimentação ao bruto.', `Auxílio-alimentação informado no edital: ${fmt(AUX_ALIM_SC_PADRAO)}; não somado ao bruto.`, 'bmsc', 'Edital 2026'),
+  linhaRemuneracaoOficial('SD BM — Soldado CBMSC — abr/2026 (estimado)', 8576.05, 0, 'Estimativa técnica com aplicação da etapa de 7% de 01/04/2026 da LC SC 872/2025 sobre o valor oficial de R$ 8.015,00 do edital CFP 2026; confirmar em folha/tabela oficial posterior.', `Auxílio-alimentação SC de referência: ${fmt(AUX_ALIM_SC_PADRAO)}; não somado ao bruto.`, 'bmsc', 'Abr/2026 estimado')
+];
+
+
+REMUNERACAO_SP_OFICIAL.bmes = [
+  linhaRemuneracaoOficial('CEL BM — Coronel CBMES — Ref. 1 — dez/2025', 25197.24, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025, referência inicial.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado. Rubricas pessoais e indenizatórias dependem do contracheque.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('CEL BM — Coronel CBMES — Ref. 15 — dez/2025', 33247.22, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025, referência final.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('CEL BM — Coronel CBMES — Ref. 15 — dez/2026', 36132.91, 0, 'Linha de topo para oficial superior conforme Lei ES 12.783/2026; usar somente para referência final indicada na lei.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Lei ES 12.783/2026'),
+  linhaRemuneracaoOficial('TEN CEL BM — Tenente-Coronel CBMES — Ref. 1 — dez/2025', 22906.55, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025, referência inicial.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('TEN CEL BM — Tenente-Coronel CBMES — Ref. 15 — dez/2025', 30224.76, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025, referência final.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('TEN CEL BM — Tenente-Coronel CBMES — Ref. 15 — dez/2026', 32282.28, 0, 'Linha de topo para oficial superior conforme Lei ES 12.783/2026; usar somente para referência final indicada na lei.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Lei ES 12.783/2026'),
+  linhaRemuneracaoOficial('MAJ BM — Major CBMES — Ref. 1 — dez/2025', 19088.81, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025, referência inicial.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('MAJ BM — Major CBMES — Ref. 15 — dez/2025', 25187.30, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025, referência final.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('MAJ BM — Major CBMES — Ref. 15 — dez/2026', 27137.77, 0, 'Linha de topo para oficial superior conforme Lei ES 12.783/2026; usar somente para referência final indicada na lei.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Lei ES 12.783/2026'),
+  linhaRemuneracaoOficial('CAP BM — Capitão CBMES — Ref. 1 — dez/2025', 15519.36, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('CAP BM — Capitão CBMES — Ref. 15 — dez/2025', 20477.47, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('1º TEN BM — 1º Tenente CBMES — Ref. 1 — dez/2025', 13364.21, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('1º TEN BM — 1º Tenente CBMES — Ref. 15 — dez/2025', 17633.78, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('2º TEN BM — 2º Tenente CBMES — Ref. 1 — dez/2025', 12452.99, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('2º TEN BM — 2º Tenente CBMES — Ref. 15 — dez/2025', 16431.48, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('AL OF BM — Aluno-Oficial CBMES — 1º ano CFO 2026', 4113.27, 0, 'Valor bruto oficial do Anexo II do Edital de Abertura nº 001/2026/CFO CBMES, desconsiderando auxílio-alimentação.', `Auxílio-alimentação não somado; GSE não aplicada à linha de Aluno-Oficial conforme observação do edital.`, 'bmes', 'Edital CFO 2026'),
+  linhaRemuneracaoOficial('AL OF BM — Aluno-Oficial CBMES — 2º ano CFO 2026', 5027.34, 0, 'Valor bruto oficial do Anexo II do Edital de Abertura nº 001/2026/CFO CBMES, desconsiderando auxílio-alimentação.', `Auxílio-alimentação não somado; GSE não aplicada à linha de Aluno-Oficial conforme observação do edital.`, 'bmes', 'Edital CFO 2026'),
+  linhaRemuneracaoOficial('AL OF BM — Aluno-Oficial CBMES — 3º ano CFO 2026', 5484.36, 0, 'Valor bruto oficial do Anexo II do Edital de Abertura nº 001/2026/CFO CBMES, desconsiderando auxílio-alimentação.', `Auxílio-alimentação não somado; GSE não aplicada à linha de Aluno-Oficial conforme observação do edital.`, 'bmes', 'Edital CFO 2026'),
+  linhaRemuneracaoOficial('ASP OF BM — Aspirante a Oficial CBMES — pós-CFO 2026', 10221.74, 0, 'Valor bruto oficial do Anexo II do Edital de Abertura nº 001/2026/CFO CBMES, desconsiderando auxílio-alimentação e Gratificação de Serviço Extraordinário.', `Auxílio-alimentação e GSE não somados; conferir escala, lotação e contracheque.`, 'bmes', 'Edital CFO 2026'),
+  linhaRemuneracaoOficial('SUBTEN BM — Subtenente CBMES — Ref. 1 — dez/2025', 10326.86, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('SUBTEN BM — Subtenente CBMES — Ref. 15 — dez/2025', 13626.12, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('1º SGT BM — 1º Sargento CBMES — Ref. 1 — dez/2025', 9719.42, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('1º SGT BM — 1º Sargento CBMES — Ref. 15 — dez/2025', 12824.58, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('2º SGT BM — 2º Sargento CBMES — Ref. 1 — dez/2025', 8808.23, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('2º SGT BM — 2º Sargento CBMES — Ref. 15 — dez/2025', 11622.30, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('3º SGT BM — 3º Sargento CBMES — Ref. 1 — dez/2025', 7897.06, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('3º SGT BM — 3º Sargento CBMES — Ref. 15 — dez/2025', 10419.99, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('CABO BM — Cabo CBMES — Ref. 1 — dez/2025', 6378.37, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('CABO BM — Cabo CBMES — Ref. 15 — dez/2025', 8416.16, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('SD BM — Soldado CBMES — Ref. 1 — dez/2025', 5741.46, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025'),
+  linhaRemuneracaoOficial('SD BM — Soldado CBMES — Ref. 15 — dez/2025', 7575.15, 0, 'Subsídio bruto mensal oficial da tabela PM/CBM ES a partir de 01/12/2025.', `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado.`, 'bmes', 'Dez/2025')
+];
+
+REMUNERACAO_SP_OFICIAL.bmmt = CARGOS_BMMT.map(cargo => linhaRemuneracaoOficial(
+  cargo.text,
+  cargo.padrao,
+  0,
+  cargo.criterio || 'Subsídio bruto mensal de referência do CBMMT por posto/graduação e nível; conferir RGAs posteriores, ato de enquadramento, edital ou contracheque.',
+  cargo.benefDesc || 'Benefícios e rubricas pessoais não somados; conferir etapa alimentação, fardamento, diárias, indenizações, escala, lotação, temporários/PTTC e contracheque.',
+  'bmmt',
+  cargo.badge || 'CBMMT/MT'
+));
+
 REMUNERACAO_SP_OFICIAL.bmrj = [
   linhaRemuneracaoOficial('CEL BM — Coronel CBMERJ', 24050.02, 0, 'Total bruto oficial: soldo R$ 3.270,72 + GRET 192,5% + GHP 160% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios não somados: auxílio-transporte R$ 100,00/mês; triênio 10% a 60% quando preservado; PTTC, diárias, indenizações, SPSMERJ e rubricas pessoais dependem de ato/contracheque.', 'bmrj', 'SEDEC jan/2026'),
   linhaRemuneracaoOficial('TEN CEL BM — Tenente-Coronel CBMERJ', 21644.95, 0, 'Total bruto oficial: soldo R$ 2.943,64 + GRET 192,5% + GHP 160% + GRAM 62,5%. Referência: janeiro/2026.', 'Benefícios não somados: auxílio-transporte R$ 100,00/mês; triênio 10% a 60% quando preservado; PTTC, diárias, indenizações, SPSMERJ e rubricas pessoais dependem de ato/contracheque.', 'bmrj', 'SEDEC jan/2026'),
@@ -530,16 +624,16 @@ REMUNERACAO_MG_OFICIAL.bmmg = [
 function getTabelaCargosRemuneracao(inst) {
   const map = {
     pmesp: CARGOS_PM,    pcsp: CARGOS_PC,    ppsp: CARGOS_PPSP, pf: CARGOS_PF, prf: CARGOS_PRF,
-    pmac: CARGOS_PMAC,   bmac: CARGOS_BMAC,   bmal: CARGOS_BMAL,   bmam: CARGOS_BMAM,   bmap: CARGOS_BMAP,   pcac: CARGOS_PCAC,   ppac: CARGOS_PPAC,
+    pmac: CARGOS_PMAC,   pmal: CARGOS_PMAL,   pcal: CARGOS_PCAL,   bmac: CARGOS_BMAC,   bmal: CARGOS_BMAL,   bmam: CARGOS_BMAM,   bmap: CARGOS_BMAP,   pcac: CARGOS_PCAC,   ppac: CARGOS_PPAC,   ppal: CARGOS_PPAL,
     pmerj: CARGOS_PMERJ, bmrj: CARGOS_BMRJ, pcerj: CARGOS_PCERJ, pprj: CARGOS_PPRJ,
     pmmg: CARGOS_PMMG,   bmmg: CARGOS_BMMG,   pcmg: CARGOS_PCMG,   ppmg: CARGOS_PPMG,
     pmba: CARGOS_PMBA,   bmba: CARGOS_BMBA,   pcba: CARGOS_PCBA,   ppba: CARGOS_PPBA,
     pmpr: CARGOS_PMPR,   bmpr: CARGOS_BMPR,   pcpr: CARGOS_PCPR,   pppr: CARGOS_PPPR,
     pmrs: CARGOS_PMRS,   pcrs: CARGOS_PCRS,   pprs: CARGOS_PPRS,
-    pmsc: CARGOS_PMSC,   pcsc: CARGOS_PCSC,   ppsc: CARGOS_PPSC,
-    pmes: CARGOS_PMES,   pces: CARGOS_PCES,   ppes: CARGOS_PPES,
+    pmsc: CARGOS_PMSC,   bmsc: CARGOS_BMSC,   pcsc: CARGOS_PCSC,   ppsc: CARGOS_PPSC,
+    pmes: CARGOS_PMES,   bmes: CARGOS_BMES,   pces: CARGOS_PCES,   ppes: CARGOS_PPES,
     pmms: CARGOS_PMMS,   bmms: CARGOS_BMMS,   pcms: CARGOS_PCMS,   ppms: CARGOS_PPMS,
-    pmmt: CARGOS_PMMT,   pcmt: CARGOS_PCMT,   ppmt: CARGOS_PPMT,};
+    pmmt: CARGOS_PMMT,   bmmt: CARGOS_BMMT,   pcmt: CARGOS_PCMT,   ppmt: CARGOS_PPMT,};
   const instNorm = normalizarInstituicao(inst);
   return CARGOS_ESTRUTURA_GENERICAS[instNorm] || map[instNorm] || CARGOS_PM;
 }
@@ -569,7 +663,14 @@ function calcularRemuneracaoTabelada(inst, cargo) {
     benefDesc = cargo.benefDesc || 'Benefícios e indenizações federais não somados automaticamente; dependem da legislação, lotação, exercício, faixa aplicável e situação funcional.';
     fonteKey = cargo.fonteKey || inst;
     badge = cargo.valorPendente || padrao <= 0 ? 'Dados em breve' : (cargo.badge || 'Federal 2026');
-  } else if (inst === 'pmac' || inst === 'bmac' || inst === 'bmal' || inst === 'bmam' || inst === 'bmap') {
+  } else if (inst === 'pcal') {
+    remuneracao = padrao;
+    beneficios = Number(cargo.beneficios || 0);
+    criterio = cargo.criterio || 'Subsídio bruto mensal de referência da PCAL por cargo/classe/referência; valores estimados devem ser confirmados em tabela oficial, ficha financeira e contracheque.';
+    benefDesc = cargo.benefDesc || 'Plantões, adicional noturno, diárias, acúmulo extraordinário, representação, indenizações, função, retroativos e parcelas pessoais dependem de lei, ato, escala, lotação e contracheque; não foram somados automaticamente.';
+    fonteKey = cargo.fonteKey || 'pcal';
+    badge = cargo.valorPendente || padrao <= 0 ? 'Dados em breve' : (cargo.badge || 'PCAL estimado');
+  } else if (inst === 'pmac' || inst === 'pmal' || inst === 'bmac' || inst === 'bmal' || inst === 'bmam' || inst === 'bmap') {
     remuneracao = padrao;
     beneficios = Number(cargo.beneficios || 0);
     criterio = cargo.criterio || 'Total bruto mensal de referência para militares estaduais, conforme tabela remuneratória cadastrada para a instituição.';
@@ -604,6 +705,13 @@ function calcularRemuneracaoTabelada(inst, cargo) {
     benefDesc = cargo.benefDesc || 'Adicionais, indenizações, etapas, auxílio, escala, fardamento e demais rubricas dependem da legislação estadual, lotação, escala e contracheque; não foram somados automaticamente.';
     fonteKey = cargo.fonteKey || 'pmmt';
     badge = cargo.valorPendente || padrao <= 0 ? 'Dados em breve' : (cargo.badge || 'Edital/portal oficial');
+  } else if (inst === 'bmmt') {
+    remuneracao = padrao;
+    beneficios = 0;
+    criterio = cargo.criterio || 'Subsídio bruto mensal de referência do CBMMT por posto/graduação e nível. Conferir LC MT 541/2014, Lei MT 12.007/2023, RGA 2026, edital, ato de enquadramento e contracheque.';
+    benefDesc = cargo.benefDesc || 'Etapa alimentação, fardamento, indenizações, diárias, serviço extraordinário, temporários, PTTC, função e rubricas pessoais dependem de lei, escala, lotação, ato administrativo e contracheque; não foram somados automaticamente.';
+    fonteKey = cargo.fonteKey || 'bmmt';
+    badge = cargo.valorPendente || padrao <= 0 ? 'Dados em breve' : (cargo.badge || 'CBMMT/MT');
   } else if (inst === 'pcmt') {
     remuneracao = padrao;
     beneficios = 0;
@@ -651,6 +759,13 @@ function calcularRemuneracaoTabelada(inst, cargo) {
     beneficios = AUX_ALIM_SC_PADRAO;
     criterio = 'Subsídio bruto mensal por posto/graduação conforme LC SC 765/2020, LC SC 776/2021, LC SC 872/2025 e LC SC 880/2025.';
     benefDesc = `Auxílio-alimentação SC de referência: ${fmt(AUX_ALIM_SC_PADRAO)}; verba indenizatória não somada automaticamente ao bruto.`;
+  } else if (inst === 'bmsc') {
+    remuneracao = padrao;
+    beneficios = AUX_ALIM_SC_PADRAO;
+    criterio = cargo.criterio || 'Subsídio bruto mensal do CBMSC por posto/graduação; valores marcados como estimados devem ser confirmados em tabela oficial consolidada ou contracheque.';
+    benefDesc = cargo.benefDesc || `Auxílio-alimentação SC de referência: ${fmt(AUX_ALIM_SC_PADRAO)}; verba indenizatória não somada automaticamente ao bruto.`;
+    fonteKey = cargo.fonteKey || 'bmsc';
+    badge = cargo.badge || 'CBMSC 2026';
   } else if (inst === 'pcsc') {
     remuneracao = padrao;
     beneficios = AUX_ALIM_SC_PADRAO;
@@ -661,6 +776,13 @@ function calcularRemuneracaoTabelada(inst, cargo) {
     beneficios = AUX_ALIM_ES_PADRAO;
     criterio = 'Subsídio bruto mensal por posto/graduação conforme regime de subsídio dos militares estaduais do ES, tabela PM/CBM a partir de 01/12/2025 e editais PMES para linhas de formação.';
     benefDesc = `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado automaticamente ao bruto. Auxílio-fardamento e serviço extraordinário dependem de regra, escala e situação funcional.`;
+  } else if (inst === 'bmes') {
+    remuneracao = padrao;
+    beneficios = AUX_ALIM_ES_PADRAO;
+    criterio = cargo.criterio || 'Subsídio bruto mensal do CBMES por posto/graduação e referência; tabela PM/CBM ES a partir de 01/12/2025, com linhas de oficiais superiores 2026 quando marcadas.';
+    benefDesc = cargo.benefDesc || `Auxílio-alimentação ES de referência: ${fmt(AUX_ALIM_ES_PADRAO)}; não somado automaticamente ao bruto. GSE, fardamento, diárias, indenizações e rubricas pessoais dependem de ato, escala, lotação e contracheque.`;
+    fonteKey = cargo.fonteKey || 'bmes';
+    badge = cargo.badge || 'CBMES/ES';
   } else if (inst === 'pces') {
     remuneracao = padrao;
     beneficios = AUX_ALIM_ES_PADRAO;

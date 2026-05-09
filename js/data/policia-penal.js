@@ -371,6 +371,40 @@ const POLICIAS_PENAIS_INFO = {
     fonte: 'SEAD/IAPEN/AC — Edital 001/2023 e publicações posteriores; Portal do Estado do Acre — Lei 2.180/IAPEN e tabelas salariais' ,
     url: 'https://sead.ac.gov.br/gestao-governamental/editais-e-concursos/iapen-instituto-de-administracao-penitenciaria-do-acre/',
     atualizado: 'Atualizado em 01/05/2026'
+
+  },
+  ppal: {
+    sigla: 'PPAL',
+    nome: 'Polícia Penal do Estado de Alagoas',
+    uf: 'Alagoas',
+    criacao: 'EC 104/2019 · Lei AL 8.650/2022 · Polícia Penal de Alagoas',
+    marco: 'Lei AL 9.849/2026 atualizou a Lei AL 7.993/2018, fixou jornada de 40h, escala 24x72 em regime de plantão e nova tabela de subsídios de R$ 7.200,00 a R$ 17.734,04.',
+    orgao: 'SERIS/AL — Secretaria de Estado da Ressocialização e Inclusão Social',
+    direcao: 'Diogo Zeferino do Carmo Teixeira — Secretário de Estado; Carlos Henrique Toledo Voss — Secretário Executivo de Gestão Penitenciária',
+    subordinacao: 'Sistema prisional estadual de Alagoas, sob administração da SERIS/AL, com atuação em segurança, disciplina, custódia, escolta, monitoramento, inteligência prisional e execução penal.',
+    efetivoAtivoLabel: '508 policiais penais · estimado',
+    reservaLabel: 'Inativos: conferir AL Previdência/RPPS-AL e atos da SERIS/SEPLAG',
+    totalLabel: 'Efetivo oficial consolidado: Dados em breve; população recolhida abr/2026: 6.386 presos',
+    relacaoLabel: '1 policial penal / 13 presos · estimado',
+    quadro: 'Carreira civil estadual de segurança pública, estruturada em quatro níveis e sete classes; Lei AL 9.849/2026 atualiza a tabela remuneratória do Policial Penal.',
+    ingresso: 'Concurso público, curso de formação e posse conforme edital SERIS/SEPLAG; último concurso Cebraspe 2021 ofertou 300 vagas.',
+    escolaridade: 'Nível superior completo no edital SERIS/AL 2021; confirmar requisitos no próximo edital.',
+    formacao: 'Curso de formação técnico-policial e capacitação continuada pela SERIS/Escola Penitenciária, com foco em segurança prisional, disciplina, escolta, monitoramento e execução penal.',
+    atribuicoes: 'Segurança interna e externa das unidades prisionais, custódia, escolta, controle disciplinar, prevenção de ilícitos, monitoramento eletrônico, apoio à execução penal, inteligência prisional e proteção das instalações.',
+    remuneracao: 'Lei AL 9.849/2026: subsídio por nível/classe de R$ 7.200,00 a R$ 17.734,04; parcela única, com ressalvas legais para função de confiança e adicional noturno.',
+    vantagens: 'Não somar automaticamente periculosidade, insalubridade, abono, prêmio, verba de representação ou gratificação ao subsídio. Lei ressalva função de confiança e adicional noturno; demais rubricas dependem de norma, escala e contracheque.',
+    saude: 'Assistência do servidor estadual, saúde ocupacional, perícia e apoio psicossocial devem ser conferidos na SERIS/AL, IPASEAL Saúde/AL Previdência e regras de adesão/contribuição vigentes.',
+    previdencia: 'RPPS/AL Previdência; aposentadoria policial, regras de transição, abono de permanência, pensão e contribuição exigem análise individual do vínculo, tempo, idade e ficha funcional.',
+    concurso: {
+      vagas: 'Último edital SERIS/AL 2021: 300 vagas para Agente/Policial Penal. Novo pedido citado por portais de concurso: 350 vagas solicitadas; sem edital oficial aberto localizado nesta revisão.',
+      salario: 'Edital 2021: R$ 3.800,00. Tabela atual da Lei AL 9.849/2026: R$ 7.200,00 a R$ 17.734,04 por nível/classe.',
+      banca: 'Cebraspe no concurso SERIS/AL 2021; futura banca a confirmar em edital oficial.',
+      escolaridade: 'Nível superior completo no edital 2021; confirmar CNH, idade, TAF, investigação social e demais requisitos no edital vigente.'
+    },
+    associacaoBusca: 'SINASPPEN-AL / ASPEN-AL — entidades da Polícia Penal e do sistema prisional alagoano',
+    fonte: 'SERIS/AL; SAPL/ALEAL; Leis AL 7.993/2018, 8.650/2022 e 9.849/2026; Cebraspe SERIS/AL 2021; Mapa de População Carcerária SERIS abr/2026',
+    url: 'https://www.seris.al.gov.br/',
+    atualizado: 'Atualizado em 09/05/2026'
   }
 };
 
@@ -781,6 +815,44 @@ const CARGOS_PPAC = mapearTabelaPoliciaPenal(
   'Auxílio saúde, risco de vida, etapa alimentação, titulação, sexta-parte, prêmio anual, plantões, indenizações e vantagens pessoais não foram somados automaticamente.',
   'ppac',
   { badge: 'Edital 2023' }
+);
+
+const CARGOS_PPAL = mapearTabelaPoliciaPenal(
+  'ppal',
+  [
+    { id: 'nivel_i_classe_a', text: 'PPAL — Policial Penal — Nível I / Classe A', valor: 7200.00, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_i_classe_b', text: 'PPAL — Policial Penal — Nível I / Classe B', valor: 8280.00, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_i_classe_c', text: 'PPAL — Policial Penal — Nível I / Classe C', valor: 9522.00, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_i_classe_d', text: 'PPAL — Policial Penal — Nível I / Classe D', valor: 10950.30, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_i_classe_e', text: 'PPAL — Policial Penal — Nível I / Classe E', valor: 12592.85, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_i_classe_f', text: 'PPAL — Policial Penal — Nível I / Classe F', valor: 14481.77, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_i_classe_g', text: 'PPAL — Policial Penal — Nível I / Classe G', valor: 16654.04, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_ii_classe_a', text: 'PPAL — Policial Penal — Nível II / Classe A', valor: 7560.00, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_ii_classe_b', text: 'PPAL — Policial Penal — Nível II / Classe B', valor: 8640.00, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_ii_classe_c', text: 'PPAL — Policial Penal — Nível II / Classe C', valor: 9882.00, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_ii_classe_d', text: 'PPAL — Policial Penal — Nível II / Classe D', valor: 11310.30, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_ii_classe_e', text: 'PPAL — Policial Penal — Nível II / Classe E', valor: 12952.85, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_ii_classe_f', text: 'PPAL — Policial Penal — Nível II / Classe F', valor: 14841.77, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_ii_classe_g', text: 'PPAL — Policial Penal — Nível II / Classe G', valor: 17014.04, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_iii_classe_a', text: 'PPAL — Policial Penal — Nível III / Classe A', valor: 7920.00, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_iii_classe_b', text: 'PPAL — Policial Penal — Nível III / Classe B', valor: 9000.00, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_iii_classe_c', text: 'PPAL — Policial Penal — Nível III / Classe C', valor: 10242.00, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_iii_classe_d', text: 'PPAL — Policial Penal — Nível III / Classe D', valor: 11670.30, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_iii_classe_e', text: 'PPAL — Policial Penal — Nível III / Classe E', valor: 13312.85, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_iii_classe_f', text: 'PPAL — Policial Penal — Nível III / Classe F', valor: 15201.77, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_iii_classe_g', text: 'PPAL — Policial Penal — Nível III / Classe G', valor: 17374.04, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_iv_classe_a', text: 'PPAL — Policial Penal — Nível IV / Classe A', valor: 8280.00, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_iv_classe_b', text: 'PPAL — Policial Penal — Nível IV / Classe B', valor: 9360.00, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_iv_classe_c', text: 'PPAL — Policial Penal — Nível IV / Classe C', valor: 10602.00, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_iv_classe_d', text: 'PPAL — Policial Penal — Nível IV / Classe D', valor: 12030.30, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_iv_classe_e', text: 'PPAL — Policial Penal — Nível IV / Classe E', valor: 13672.85, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_iv_classe_f', text: 'PPAL — Policial Penal — Nível IV / Classe F', valor: 15561.77, badge: 'Lei AL 9.849/2026' },
+    { id: 'nivel_iv_classe_g', text: 'PPAL — Policial Penal — Nível IV / Classe G', valor: 17734.04, badge: 'Lei AL 9.849/2026' }
+  ],
+  'Subsídio mensal oficial por nível/classe da carreira de Policial Penal/AL conforme Lei AL 9.849/2026, publicada em 01/04/2026, com valores de R$ 7.200,00 a R$ 17.734,04.',
+  'Subsídio em parcela única. Não somar periculosidade, insalubridade, abono, prêmio, verba de representação ou gratificação. A lei ressalva função de confiança e adicional noturno; demais rubricas dependem de norma, escala e contracheque.',
+  'ppal',
+  { badge: 'Lei AL 9.849/2026' }
 );
 
 /* BLOCO 15.4 — Base de dados das ações judiciais por instituição */
