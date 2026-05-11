@@ -25,6 +25,14 @@ const REMUNERACAO_FONTES_OFICIAIS = {
     nome: 'PMAP, SEAD/AP e Diário Oficial do Amapá — LC AP nº 113/2018 alterada pela LC AP nº 173/2025; Tabela de Progressão Horizontal 2026 I, vigente a partir de 01/04/2026',
     url: 'https://editor.amapa.gov.br/arquivos_portais/publicacoes/SEAD_6df4154451d39fe1495462a15d40471c.pdf'
   },
+  pcam: {
+    nome: 'PCAM, ALEAM/SAPL e Legisla.AM — Lei AM nº 7.446/2025; remuneração dos servidores da Polícia Civil com efeitos financeiros em 01/12/2025; tabela de Delegados, Comissários, Peritos, Escrivães e Investigadores',
+    url: 'https://sapl.al.am.leg.br/norma/13903'
+  },
+  pcap: {
+    nome: 'PCAP, SEAD/AP e Diário Oficial do Amapá — Grupo Polícia Civil; tabela de subsídios com vigência a partir de 01/04/2024 pela Lei AP nº 3.037/2024',
+    url: 'https://editor.amapa.gov.br/arquivos_portais/publicacoes/SEAD_0a28adc21c77ae9d1d3acefd6ae760af.pdf'
+  },
   pcal: {
     nome: 'PCAL — Leis AL nº 6.276/2001, nº 6.277/2001 e nº 7.602/2014 para Agente/Escrivão; Lei AL nº 8.641/2022 para Delegado; Lei AL nº 9.551/2025 revisão geral; valores sem tabela consolidada 2026 marcados como estimados',
     url: 'https://gestaointegrada.seplag.al.gov.br/'
@@ -262,6 +270,18 @@ function getAdicionaisRemuneracaoResumo(inst, linha = {}) {
     return linha.benefDesc || 'PMAP: subsídio legal dos militares estaduais do Amapá pela LC AP nº 113/2018, alterada pela LC AP nº 173/2025, com progressão horizontal por tempo de efetivo serviço. Diárias, serviço extraordinário, alimentação/etapa, fardamento, função, vantagens pessoais, retroativos, reserva/reforma e quadros federais de ex-território não foram somados automaticamente.';
   }
 
+  if (inst === 'pcam') {
+    return linha.benefDesc || 'PCAM: remuneração bruta mensal por cargo e classe conforme Lei AM nº 7.446/2025, Anexo III, com vencimento e Gratificação de Exercício Policial. Escrivães e Investigadores usam a quinta parcela de escalonamento da Lei AM nº 4.576/2018. Plantões, adicional noturno, diárias, função, retroativos, previdência, saúde, parcelas pessoais e decisões judiciais não foram somados automaticamente.';
+  }
+
+  if (inst === 'pcap') {
+    return linha.benefDesc || 'PCAP: subsídio bruto mensal por cargo, classe, nível e padrão conforme tabela da SEAD/AP com vigência em 01/04/2024, em virtude da Lei AP nº 3.037/2024. Plantões, adicional noturno, funções de chefia, diárias, auxílios, retroativos, previdência, saúde, parcelas pessoais e decisões judiciais não foram somados automaticamente.';
+  }
+
+  if (inst === 'pcce') {
+    return linha.benefDesc || 'PCCE: remuneração/subsídio bruto mensal por cargo, classe e nível conforme editais 2025, Decreto CE nº 35.521/2023 e atualização DOE/CE de 2025. Plantões, adicional noturno, diárias, funções, acúmulo, retroativos, ISSEC, previdência, parcelas pessoais e decisões judiciais não foram somados automaticamente.';
+  }
+
   if (inst === 'pmal') {
     return linha.benefDesc || 'PMAL: regime de subsídio por posto/graduação e nível. Soldado-Aluno, Soldado, Cadete e Aspirante vêm do edital PMAL 2026; demais linhas marcadas como “estimado” usam projeção técnica a partir da Lei AL 7.580/2014 e devem ser confirmadas no DOE/AL, SEPLAG/AL, transparência e contracheque. SPSM/AL, serviço voluntário, Força Tarefa, diárias, indenizações e parcelas pessoais não foram somados automaticamente.';
   }
@@ -487,6 +507,36 @@ REMUNERACAO_SP_OFICIAL.pmam = CARGOS_PMAM.map(cargo => linhaRemuneracaoOficial(
 ));
 
 
+REMUNERACAO_SP_OFICIAL.pcam = CARGOS_PCAM.map(cargo => linhaRemuneracaoOficial(
+  cargo.text,
+  cargo.padrao,
+  0,
+  cargo.criterio || 'Remuneração bruta mensal da PCAM por cargo e classe, com efeitos em 01/12/2025, conforme Lei AM nº 7.446/2025.',
+  cargo.benefDesc || 'Benefícios, indenizações, auxílios e rubricas pessoais não somados automaticamente.',
+  'pcam',
+  cargo.badge || 'Lei AM 7.446/2025 · 12/2025'
+));
+
+REMUNERACAO_SP_OFICIAL.pcap = CARGOS_PCAP.map(cargo => linhaRemuneracaoOficial(
+  cargo.text,
+  cargo.padrao,
+  0,
+  cargo.criterio || 'Subsídio bruto mensal da PCAP com vigência em 01/04/2024, conforme tabela SEAD/AP e Lei AP nº 3.037/2024.',
+  cargo.benefDesc || 'Benefícios, indenizações, auxílios e rubricas pessoais não somados automaticamente.',
+  'pcap',
+  cargo.badge || 'Lei AP 3.037/2024 · 04/2024'
+));
+
+REMUNERACAO_SP_OFICIAL.pcce = CARGOS_PCCE.map(cargo => linhaRemuneracaoOficial(
+  cargo.text,
+  cargo.padrao,
+  0,
+  cargo.criterio || 'Remuneração/subsídio bruto mensal da PCCE por cargo, classe e nível, com referência nos editais 2025 e atualização DOE/CE 2025.',
+  cargo.benefDesc || 'Benefícios, indenizações, auxílios e rubricas pessoais não somados automaticamente.',
+  'pcce',
+  cargo.badge || 'PCCE 2025'
+));
+
 REMUNERACAO_SP_OFICIAL.pmap = CARGOS_PMAP.map(cargo => linhaRemuneracaoOficial(
   cargo.text,
   cargo.padrao,
@@ -662,7 +712,7 @@ REMUNERACAO_MG_OFICIAL.bmmg = [
 function getTabelaCargosRemuneracao(inst) {
   const map = {
     pmesp: CARGOS_PM,    pcsp: CARGOS_PC,    ppsp: CARGOS_PPSP, pf: CARGOS_PF, prf: CARGOS_PRF,
-    pmac: CARGOS_PMAC,   pmal: CARGOS_PMAL,   pmam: CARGOS_PMAM,   pmap: CARGOS_PMAP,   pcal: CARGOS_PCAL,   bmac: CARGOS_BMAC,   bmal: CARGOS_BMAL,   bmam: CARGOS_BMAM,   bmap: CARGOS_BMAP,   pcac: CARGOS_PCAC,   ppac: CARGOS_PPAC,   ppal: CARGOS_PPAL,
+    pmac: CARGOS_PMAC,   pmal: CARGOS_PMAL,   pmam: CARGOS_PMAM,   pcam: CARGOS_PCAM,   pcap: CARGOS_PCAP,   pcce: CARGOS_PCCE,   pmap: CARGOS_PMAP,   pcal: CARGOS_PCAL,   bmac: CARGOS_BMAC,   bmal: CARGOS_BMAL,   bmam: CARGOS_BMAM,   bmap: CARGOS_BMAP,   pcac: CARGOS_PCAC,   ppac: CARGOS_PPAC,   ppal: CARGOS_PPAL,
     pmerj: CARGOS_PMERJ, bmrj: CARGOS_BMRJ, pcerj: CARGOS_PCERJ, pprj: CARGOS_PPRJ,
     pmmg: CARGOS_PMMG,   bmmg: CARGOS_BMMG,   pcmg: CARGOS_PCMG,   ppmg: CARGOS_PPMG,
     pmba: CARGOS_PMBA,   bmba: CARGOS_BMBA,   pcba: CARGOS_PCBA,   ppba: CARGOS_PPBA,

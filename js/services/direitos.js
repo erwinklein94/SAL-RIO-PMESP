@@ -27,7 +27,7 @@ function analisarDireitos() {
   if (!c) return;
 
   const nomesInst = {
-    pmac: 'PMAC', pmal: 'PMAL', pmam: 'PMAM', pmap: 'PMAP', pcal: 'PCAL', ppal: 'PPAL', pcac: 'PCAC', ppac: 'PPAC', pmesp: 'PMESP', pcsp: 'PCSP', ppsp: 'PPSP', pmerj: 'PMERJ', bmrj: 'CBMERJ', pcerj: 'PCERJ', pprj: 'PPRJ',
+    pmac: 'PMAC', pmal: 'PMAL', pmam: 'PMAM', pcam: 'PCAM', pcap: 'PCAP', pcce: 'PCCE', pmap: 'PMAP', pcal: 'PCAL', ppal: 'PPAL', pcac: 'PCAC', ppac: 'PPAC', pmesp: 'PMESP', pcsp: 'PCSP', ppsp: 'PPSP', pmerj: 'PMERJ', bmrj: 'CBMERJ', pcerj: 'PCERJ', pprj: 'PPRJ',
     pmmg: 'PMMG', bmmg: 'CBMMG', pcmg: 'PCMG', ppmg: 'PPMG', pmba: 'PMBA', pcba: 'PCBA', ppba: 'PPBA', pmpr: 'PMPR', bmpr: 'CBMPR', pcpr: 'PCPR', pppr: 'PPPR',
     pmrs: 'PMRS', pcrs: 'PCRS', pprs: 'PPRS', pmsc: 'PMSC', bmsc: 'CBMSC', pcsc: 'PCSC', ppsc: 'PPSC',
     pmes: 'PMES', bmes: 'CBMES', pces: 'PCES', ppes: 'PPES',
@@ -109,6 +109,18 @@ function analisarDireitos() {
     html += direitoItem('AMPRev/AP / proteção social militar', 'condicionado',
       'Proteção social, saúde, perícia, reserva, reforma e pensão dos militares estaduais do Amapá devem ser conferidas conforme vínculo, contribuição, dependentes, situação funcional, legislação estadual, AMPRev, SEAD/AP e contracheque.',
       'Base: LC AP nº 113/2018, LC AP nº 173/2025, normas da PMAP/SEAD-AP, AMPRev/AP, ficha funcional e contracheque.');
+  } else if (inst === 'pcam') {
+    html += direitoItem('Amazonprev / assistência e perícia estadual', 'condicionado',
+      'Servidores da PCAM devem conferir RPPS, assistência à saúde, perícia, dependentes, contribuição, abono de permanência, aposentadoria policial, Gratificação de Exercício Policial, escalonamento e rubricas eventuais conforme vínculo e contracheque.',
+      'Base: Amazonprev, Lei Orgânica Nacional das Polícias Civis, LC Federal nº 51/1985, LC Federal nº 144/2014, Lei AM nº 2.875/2004, Lei AM nº 4.576/2018, Lei AM nº 7.446/2025 e normas estaduais.');
+  } else if (inst === 'pcap') {
+    html += direitoItem('AMPRev/AP / assistência e perícia estadual', 'condicionado',
+      'Servidores da PCAP devem conferir RPPS, assistência/perícia, dependentes, contribuição, abono de permanência, aposentadoria policial, subsídio por classe/padrão, plantões, função e rubricas eventuais conforme vínculo, ficha funcional e contracheque.',
+      'Base: AMPRev/AP, Lei Orgânica Nacional das Polícias Civis, LC Federal nº 51/1985, LC Federal nº 144/2014, Lei AP nº 637/2001, Lei AP nº 883/2005, Lei AP nº 3.037/2024 e normas estaduais.');
+  } else if (inst === 'pcce') {
+    html += direitoItem('CEPREV / ISSEC / assistência e perícia estadual', 'condicionado',
+      'Servidores da PCCE devem conferir RPPS estadual, assistência à saúde, perícia, dependentes, contribuição, abono de permanência, aposentadoria policial, subsídio, plantões, adicional noturno, diárias, funções e rubricas eventuais conforme vínculo, ficha funcional e contracheque.',
+      'Base: CEPREV/CE, ISSEC, Lei Orgânica Nacional das Polícias Civis, LC Federal nº 51/1985, LC Federal nº 144/2014, Lei CE nº 12.124/1993, Lei CE nº 19.128/2024, Lei CE nº 19.186/2025, Lei CE nº 19.706/2026 e normas estaduais.');
   } else if (inst === 'pcal') {
     html += direitoItem('AL Previdência / IPASEAL Saúde', 'condicionado',
       'Servidores da PCAL devem conferir RPPS, assistência à saúde, perícia, dependentes, contribuição, abono de permanência, aposentadoria policial, subsídio e rubricas eventuais conforme vínculo e contracheque.',
@@ -315,6 +327,9 @@ function getSaudeTexto(inst) {
   }
   const textos = {
     pmac: 'PMAC: assistência à saúde e proteção social devem ser conferidas na PMAC, SEAD/AC, Acreprevidência e normas estaduais; benefício, cobertura e dependentes variam por vínculo, contribuição e ato funcional.',
+    pcam: 'PCAM: assistência, perícia, Amazonprev, dependentes e aposentadoria policial devem ser conferidos conforme vínculo, cargo, classe, contribuição, situação funcional e contracheque.',
+    pcap: 'PCAP: assistência, perícia oficial, AMPRev/AP, dependentes, aposentadoria policial, abono de permanência e rubricas eventuais devem ser conferidos conforme vínculo, cargo, classe/padrão, contribuição, situação funcional e contracheque.',
+    pcce: 'PCCE: assistência, perícia oficial, CEPREV/ISSEC, dependentes, aposentadoria policial, abono de permanência, subsídio, plantões, adicional noturno e rubricas eventuais devem ser conferidos conforme vínculo, cargo, classe/nível, contribuição, situação funcional e contracheque.',
     pmam: 'PMAM: assistência institucional, Diretoria de Saúde, proteção social militar do Amazonas/Amazonprev, perícia e dependentes devem ser conferidos conforme vínculo, contribuição, situação funcional e contracheque.',
     pmap: 'PMAP: assistência institucional, Diretoria de Saúde, junta médica, proteção social militar do Amapá/AMPRev, perícia e dependentes devem ser conferidos conforme vínculo, contribuição, situação funcional, contracheque e eventual regra de ex-Território.',
     pmal: 'PMAL: assistência institucional, saúde da PMAL, proteção social SPSM/AL, perícia e regras de dependentes devem ser conferidas conforme vínculo, contribuição, situação funcional e contracheque.',
@@ -360,6 +375,9 @@ function getSaudeBase(inst) {
   if (inst === 'bmrj') return 'Base: SEDEC/CBMERJ, Lei RJ 9.537/2021, normas do SPSMERJ, assistência médica estadual e regras administrativas de dependentes/contribuição.';
   if (inst === 'bmms') return 'Base: LC MS nº 127/2008, LC MS nº 291/2021, Estatuto dos Militares Estaduais de MS, AGEPREV/MS, normas do CBMMS e contracheque.';
   if (inst === 'pmam') return 'Base: Lei AM nº 3.725/2012, Lei AM nº 7.445/2025, Estatuto dos Militares Estaduais do Amazonas, PMAM/SEAD-AM, Amazonprev, normas de saúde/perícia e contracheque.';
+  if (inst === 'pcam') return 'Base: Amazonprev, Lei Orgânica Nacional das Polícias Civis, LC Federal nº 51/1985, LC Federal nº 144/2014, Lei AM nº 2.875/2004, Lei AM nº 4.576/2018, Lei AM nº 7.446/2025, normas de saúde/perícia e contracheque.';
+  if (inst === 'pcap') return 'Base: AMPRev/AP, Lei Orgânica Nacional das Polícias Civis, LC Federal nº 51/1985, LC Federal nº 144/2014, Lei AP nº 637/2001, Lei AP nº 883/2005, Lei AP nº 3.037/2024, normas de saúde/perícia e contracheque.';
+  if (inst === 'pcce') return 'Base: CEPREV/CE, ISSEC, Lei Orgânica Nacional das Polícias Civis, LC Federal nº 51/1985, LC Federal nº 144/2014, Lei CE nº 12.124/1993, Lei CE nº 19.128/2024, Lei CE nº 19.186/2025, Lei CE nº 19.706/2026, normas de saúde/perícia e contracheque.';
   if (inst === 'pmap') return 'Base: LC AP nº 113/2018, LC AP nº 173/2025, normas da PMAP/SEAD-AP, AMPRev/AP, ficha funcional, perícia oficial e contracheque.';
   if (inst === 'pmal') return 'Base: Lei AL nº 8.671/2022, Decreto AL nº 35.021/1991, Estatuto dos Policiais Militares de Alagoas, normas da PMAL/SEPLAG e contracheque.';
   if (inst === 'pcal') return 'Base: AL Previdência, IPASEAL Saúde, Lei Orgânica Nacional das Polícias Civis, LC Federal nº 51/1985, LC Federal nº 144/2014, LC Estadual nº 52/2019, leis estaduais da PCAL e contracheque.';
@@ -388,6 +406,9 @@ function getTempoServicoTexto(inst, tempo) {
   if (inst === 'pmesp' || inst === 'pcsp') return `Em SP, há indicativo de <strong>${Math.floor(tempo / 5)}</strong> quinquênio(s), calculados em regra a cada 5 anos de efetivo exercício, observadas as exceções legais.`;
   if (inst === 'bmms') return `No CBMMS, a carreira usa subsídio por posto/graduação e nível. O tempo informado indica <strong>${tempo}</strong> ano(s) para conferir promoção, interstício, nível, reserva/reforma, licença especial e enquadramento no contracheque.`;
   if (inst === 'pmam') return `Na PMAM, a carreira usa tabela legal por posto/graduação. O tempo informado indica <strong>${tempo}</strong> ano(s) para conferir promoção, interstício, GAMS quando aplicável, reserva/reforma, inatividade, efeitos da Lei AM nº 7.445/2025 e ficha funcional.`;
+  if (inst === 'pcam') return `Na PCAM, o tempo informado indica <strong>${tempo}</strong> ano(s) para conferir classe, promoção/progressão, escalonamento, aposentadoria policial, abono de permanência, data-base, ficha funcional e contracheque.`;
+  if (inst === 'pcap') return `Na PCAP, o tempo informado indica <strong>${tempo}</strong> ano(s) para conferir classe, padrão, promoção/progressão, aposentadoria policial, abono de permanência, ficha funcional, ato publicado e contracheque.`;
+  if (inst === 'pcce') return `Na PCCE, o tempo informado indica <strong>${tempo}</strong> ano(s) para conferir classe, nível, promoção/progressão, aposentadoria policial, abono de permanência, ficha funcional, ato publicado e contracheque.`;
   if (inst === 'pmap') return `Na PMAP, a carreira usa subsídio por posto/graduação e progressão horizontal a cada 30 meses de efetivo serviço. O tempo informado indica <strong>${tempo}</strong> ano(s) para conferir nível, promoção, reserva/reforma, transposição/ex-Território quando houver e ficha funcional.`;
   if (inst === 'pmal') return `Na PMAL, a carreira usa subsídio por posto/graduação e nível. O tempo informado indica <strong>${tempo}</strong> ano(s) para conferir nível I/II, promoção, interstício, reserva/reforma, inatividade, serviço voluntário, efeitos de revisões e ficha funcional.`;
   if (inst === 'pcal') return `Na PCAL, o tempo informado indica <strong>${tempo}</strong> ano(s) para conferir classe, nível, referência, progressão, aposentadoria policial, abono de permanência, eventual acúmulo extraordinário e ficha funcional.`;
@@ -425,6 +446,9 @@ function getTempoServicoBase(inst) {
   if (inst === 'pcerj') return 'Base: Lei Orgânica/Reestruturação da Polícia Civil do RJ e normas complementares.';
   if (inst === 'bmms') return 'Base: LC MS nº 127/2008, LC MS nº 188/2014, LC MS nº 291/2021, LC MS nº 354/2025, Lei MS nº 6.562/2026, boletins, ficha funcional e contracheque.';
   if (inst === 'pmam') return 'Base: Lei AM nº 3.725/2012, Lei AM nº 7.445/2025, Estatuto dos Militares Estaduais do Amazonas, boletins, ficha funcional, atos de promoção/enquadramento e contracheque.';
+  if (inst === 'pcam') return 'Base: Lei AM nº 2.875/2004, Lei AM nº 4.576/2018, Lei AM nº 7.446/2025, Lei Orgânica Nacional das Polícias Civis, atos PCAM/SEAD-AM, ficha funcional, atos de promoção/enquadramento e contracheque.';
+  if (inst === 'pcap') return 'Base: Lei AP nº 637/2001, Lei AP nº 883/2005, Lei AP nº 3.037/2024, Lei Orgânica Nacional das Polícias Civis, atos da PCAP/SEAD-AP, ficha funcional, atos de promoção/progressão e contracheque.';
+  if (inst === 'pcce') return 'Base: Lei CE nº 12.124/1993, Lei CE nº 19.128/2024, Lei CE nº 19.186/2025, Lei CE nº 19.706/2026, Lei Orgânica Nacional das Polícias Civis, atos da PCCE/SEPLAG-CE, ficha funcional, atos de promoção/progressão e contracheque.';
   if (inst === 'pmap') return 'Base: LC AP nº 113/2018, LC AP nº 173/2025, LC AP nº 084/2014, boletins, ficha funcional, atos de promoção/progressão e contracheque.';
   if (inst === 'pmal') return 'Base: Lei AL nº 7.580/2014, Lei AL nº 8.671/2022, Lei AL nº 9.852/2026, Estatuto PMAL, boletins, ficha funcional, atos de promoção/enquadramento e contracheque.';
   if (inst === 'pcal') return 'Base: Leis AL nº 3.437/1975, nº 6.276/2001, nº 6.277/2001, nº 7.602/2014, nº 8.641/2022, nº 9.551/2025, Lei Orgânica Nacional das Polícias Civis, ficha funcional e contracheque.';
@@ -458,6 +482,9 @@ function getInsalubridadeTexto(inst) {
   if (inst === 'pcerj') return 'Na PCERJ, a insalubridade aparece entre vantagens possíveis, mas deve ser separada do adicional de atividade perigosa. Depende de previsão legal e enquadramento.';
   if (inst === 'bmms') return 'No CBMMS, não lançar insalubridade/periculosidade automática sem previsão, laudo, rubrica, escala, lotação, decisão ou ato administrativo aplicável ao caso.';
   if (inst === 'pmam') return 'Na PMAM, não lançar insalubridade, periculosidade, indenização técnica ou verba de risco automática sem previsão legal, rubrica específica, escala, habilitação, lotação, laudo, decisão ou ato administrativo aplicável ao caso.';
+  if (inst === 'pcam') return 'Na PCAM, insalubridade, periculosidade, adicional de risco, plantões e gratificações eventuais não devem ser lançados automaticamente; verificar rubrica legal, cargo, lotação, escala, laudo, decisão, ato administrativo e contracheque.';
+  if (inst === 'pcap') return 'Na PCAP, insalubridade, periculosidade, adicional noturno, plantões, função de chefia, diárias e gratificações eventuais não devem ser lançados automaticamente; verificar rubrica legal, cargo, lotação, escala, laudo quando exigido, ato administrativo e contracheque.';
+  if (inst === 'pcce') return 'Na PCCE, adicional noturno, plantões, função de chefia, diárias, gratificações eventuais e parcelas indenizatórias não devem ser lançados automaticamente; verificar rubrica legal, cargo, lotação, jornada, escala, laudo quando exigido, ato administrativo e contracheque.';
   if (inst === 'pmap') return 'Na PMAP, não lançar insalubridade, periculosidade, serviço extraordinário, diárias, alimentação, fardamento ou verba de risco automática sem previsão legal, rubrica específica, escala, lotação, laudo, decisão ou ato administrativo aplicável.';
   if (inst === 'pmal') return 'Na PMAL, não lançar insalubridade, periculosidade ou verba de risco automática sem previsão legal, rubrica específica, escala, lotação, laudo, decisão ou ato administrativo aplicável ao caso.';
   if (inst === 'pcal') return 'Na PCAL, insalubridade, periculosidade, adicional de risco, plantões e acúmulo extraordinário não devem ser lançados automaticamente; verificar rubrica legal, cargo, lotação, escala, laudo, decisão, ato administrativo e contracheque.';
@@ -487,6 +514,9 @@ function getInsalubridadeBase(inst) {
   if (inst === 'pmesp' || inst === 'pcsp') return 'Conferir grau, base de cálculo, laudo e holerite. Para PMESP, a tabela SGGD/SP informa faixas de adicional, mas valor final depende da classificação oficial. Não confundir com periculosidade.';
   if (inst === 'bmms') return 'Base: Estatuto dos Militares Estaduais de MS, normas internas do CBMMS, laudo quando exigido, ato de designação, ficha funcional e contracheque.';
   if (inst === 'pmam') return 'Base: Lei AM nº 3.725/2012, Lei AM nº 7.445/2025, Anexos III e IV, normas internas da PMAM, laudo quando exigido, ato de designação, ficha funcional e contracheque.';
+  if (inst === 'pcam') return 'Base: Lei AM nº 2.875/2004, Lei AM nº 4.576/2018, Lei AM nº 7.446/2025, atos da PCAM/SEAD-AM, escala, laudo quando exigido, ficha financeira e contracheque.';
+  if (inst === 'pcap') return 'Base: Lei AP nº 637/2001, Lei AP nº 883/2005, Lei AP nº 3.037/2024, atos da PCAP/SEAD-AP, escala, laudo quando exigido, ficha financeira e contracheque.';
+  if (inst === 'pcce') return 'Base: Lei CE nº 12.124/1993, Lei CE nº 19.128/2024, Lei CE nº 19.186/2025, atos da PCCE/SEPLAG-CE, escala, laudo quando exigido, ficha financeira e contracheque.';
   if (inst === 'pmap') return 'Base: LC AP nº 113/2018, LC AP nº 173/2025, normas internas da PMAP/SEAD-AP, laudo quando exigido, escala, ato de designação, ficha funcional e contracheque.';
   if (inst === 'pmal') return 'Base: Lei AL nº 7.580/2014, Lei AL nº 7.581/2014, Lei AL nº 7.952/2017, normas internas da PMAL, laudo quando exigido, ato de designação, ficha funcional e contracheque.';
   if (inst === 'pcal') return 'Base: Leis da carreira PCAL, Lei AL nº 9.592/2025 quando houver acúmulo extraordinário de Delegado, atos da PCAL/SEPLAG, escala, laudo quando exigido, ficha financeira e contracheque.';
@@ -516,6 +546,9 @@ function getPericulosidadeTexto(inst) {
   if (inst === 'pcrs') return 'Na PCRS, eventual adicional ligado ao risco/atividade deve ser conferido em lei estadual, rubrica e contracheque; não aplicar automaticamente regra de outro Estado.';
   if (inst === 'pcsc') return 'Na PCSC, eventual adicional ligado ao risco/atividade deve ser conferido em lei estadual, rubrica e contracheque; não aplicar automaticamente regra de outro Estado.';
   if (inst === 'pces') return 'Na PCES, eventual adicional ligado ao risco/atividade deve ser conferido em lei estadual, rubrica e contracheque; no OIP e demais carreiras por subsídio, verificar se a vantagem foi absorvida pelo regime legal.';
+  if (inst === 'pcam') return 'Na PCAM, eventual verba de risco/atividade policial deve ser conferida na Gratificação de Exercício Policial e nas rubricas específicas; não aplicar automaticamente modelo de outro Estado.';
+  if (inst === 'pcap') return 'Na PCAP, eventual verba de risco/atividade policial, plantão ou função deve ser conferida nas rubricas específicas e na tabela de subsídio; não aplicar automaticamente modelo de outro Estado.';
+  if (inst === 'pcce') return 'Na PCCE, eventual verba de risco/atividade policial, plantão, adicional noturno, diária ou função deve ser conferida nas rubricas específicas e na tabela aplicável; não aplicar automaticamente modelo de outro Estado.';
   if (inst === 'pcal') return 'Na PCAL, eventual verba de risco/atividade policial deve ser conferida no regime de subsídio e nas rubricas específicas; não aplicar automaticamente modelo de outro Estado.';
   if (inst === 'pmesp' || inst === 'pmal' || inst === 'pmam' || inst === 'pmap' || inst === 'bmpr' || inst === 'bmsc' || inst === 'bmmt' || inst === 'bmrj' || inst === 'pmerj' || inst === 'pmmg' || inst === 'bmmg' || inst === 'pmba' || inst === 'pmpr' || inst === 'pmrs' || inst === 'pmsc' || inst === 'pmes' || inst === 'bmes') return 'Para militares estaduais, o risco da atividade costuma estar absorvido no regime remuneratório ou em verbas próprias. Não aplicar automaticamente o modelo da PCERJ.';
   return 'Pode haver gratificação ou adicional ligado ao risco/atividade, mas a regra muda bastante por Estado e carreira. Verificar norma específica.';
@@ -532,6 +565,9 @@ function getPericulosidadeBase(inst) {
   if (inst === 'pcac') return 'Base: leis remuneratórias da PCAC, Lei Orgânica Nacional das Polícias Civis, atos administrativos, escalas e contracheque.';
   if (inst === 'pmam') return 'Base: Lei AM nº 3.725/2012, Lei AM nº 7.445/2025, Anexos III e IV, Estatuto dos Militares Estaduais do Amazonas, atos PMAM/SEAD-AM, escalas, habilitação, função e contracheque.';
   if (inst === 'pmap') return 'Base: LC AP nº 113/2018, LC AP nº 173/2025, sistema de proteção social militar, atos PMAP/SEAD-AP, escalas, habilitação, função, ficha funcional e contracheque.';
+  if (inst === 'pcam') return 'Base: Lei AM nº 2.875/2004, Lei AM nº 4.576/2018, Lei AM nº 7.446/2025, Lei Orgânica Nacional das Polícias Civis, atos administrativos, escala e contracheque.';
+  if (inst === 'pcap') return 'Base: Lei AP nº 637/2001, Lei AP nº 883/2005, Lei AP nº 3.037/2024, Lei Orgânica Nacional das Polícias Civis, atos administrativos, escala e contracheque.';
+  if (inst === 'pcce') return 'Base: Lei CE nº 12.124/1993, Lei CE nº 19.128/2024, Lei CE nº 19.186/2025, Lei Orgânica Nacional das Polícias Civis, atos administrativos, escala e contracheque.';
   if (inst === 'pcal') return 'Base: Leis AL nº 3.437/1975, nº 6.276/2001, nº 6.277/2001, nº 7.602/2014, nº 8.641/2022, nº 9.551/2025, Lei Orgânica Nacional das Polícias Civis, atos administrativos, escala e contracheque.';
   if (inst === 'pcerj') return 'Base: Lei 11.003/2025/RJ, art. sobre adicional de atividade perigosa e verba de representação.';
   if (inst === 'bmms') return 'Base: Estatuto dos Militares Estaduais de MS, normas internas do CBMMS, laudo quando exigido, ato de designação, ficha funcional e contracheque.';
@@ -638,6 +674,45 @@ function getVantagensEspecificas(inst) {
     html += direitoItem('Concurso PMAM 2021/2026 — convocações', 'atenção',
       'O concurso PMAM/FGV 2021 segue como referência histórica/vigente para convocações e apresentação documental em 2026. Não publicar como novo edital aberto sem ato oficial posterior.',
       'Base: Edital PMAM/FGV 2021, portarias DPA-1/PMAM de 2026, DOE/AM e página oficial da PMAM.');
+  } else if (inst === 'pcam') {
+    html += direitoItem('Lei AM 7.446/2025 — remuneração PCAM', 'verificar',
+      'A tabela da PCAM foi atualizada por vencimento e Gratificação de Exercício Policial, com efeitos financeiros em 01/12/2025. Delegados, Comissário, Peritos, Escrivães e Investigadores devem conferir cargo, classe, implantação, diferença de data-base e descontos na ficha financeira.',
+      'Base: Lei AM nº 2.875/2004, Lei AM nº 4.576/2018, Lei AM nº 7.446/2025, DOE/AM e contracheque.');
+    html += direitoItem('Escalonamento Escrivão/Investigador — Lei AM 4.576/2018', 'condicionado',
+      'Escrivães e Investigadores possuem escalonamento próprio; a tabela do portal usa a quinta parcela do escalonamento, mas diferenças, retroativos e enquadramento dependem do histórico individual.',
+      'Base: Lei AM nº 4.576/2018, Lei AM nº 7.446/2025, ficha funcional e demonstrativo de pagamento.');
+    html += direitoItem('Plantões, diárias e rubricas eventuais', 'condicionado',
+      'Plantões, adicional noturno, diárias, função, indenizações, retroativos e decisões judiciais dependem de escala, ato, lotação, cumprimento efetivo, previsão normativa e contracheque.',
+      'Base: leis estaduais, atos da PCAM/SEAD-AM, escala, ordem de serviço, DOE/AM e contracheque.');
+    html += direitoItem('Concurso PCAM FGV 2021/2022 — posse e convocações', 'verificar',
+      'O concurso PCAM/FGV 2021/2022 segue como referência para nomeações e posses em 2026. Questões de convocação, documentação, fase, classificação e posse exigem leitura do edital, portarias e publicações oficiais.',
+      'Base: Editais FGV PCAM 2021, Portaria GDG/PCAM 2026, DOE/AM, PCAM e Governo do Amazonas.');
+  } else if (inst === 'pcap') {
+    html += direitoItem('Lei AP 3.037/2024 — tabela de subsídios PCAP', 'verificar',
+      'A tabela do Grupo Polícia Civil tem vigência indicada em 01/04/2024 e deve ser lida por cargo, classe, nível e padrão. Não substituir contracheque por tabela: descontos, dependentes, abono, decisões, retroativos, plantões e rubricas pessoais variam por situação funcional.',
+      'Base: Lei AP nº 3.037/2024, tabela SEAD/AP Grupo Polícia Civil, ficha funcional e contracheque.');
+    html += direitoItem('Classe, padrão, promoção e progressão', 'condicionado',
+      'Progressão, promoção e enquadramento dependem de interstício, requisitos, curso, avaliação, ausência de impedimento, publicação de ato administrativo e histórico funcional.',
+      'Base: Lei AP nº 637/2001, Lei AP nº 883/2005, Lei AP nº 3.037/2024 e atos da PCAP/SEAD-AP.');
+    html += direitoItem('Plantões, adicional noturno, diárias e funções', 'condicionado',
+      'Plantões, adicional noturno, função de chefia, diárias, indenizações, retroativos e decisões judiciais dependem de escala, ato, lotação, cumprimento efetivo, previsão normativa e contracheque.',
+      'Base: leis estaduais, atos da PCAP/SEAD-AP, escala, ordem de serviço, DOE/AP e contracheque.');
+    html += direitoItem('Concurso PCAP 2017/2026 e novo edital', 'verificar',
+      'O concurso PCAP 2017 segue com atos de curso de formação em 2026. Novo concurso deve permanecer como previsão até edital oficial; questões de convocação, matrícula, documentação, fase, classificação e posse exigem leitura dos editais e publicações da SEAD/AP.',
+      'Base: Editais SEAD/AP do concurso Polícia Civil 2017, Editais nº 328, 329 e 330/2026, DOE/AP e futura publicação oficial para novo concurso.');
+  } else if (inst === 'pcce') {
+    html += direitoItem('Lei CE 19.128/2024 e Lei CE 19.186/2025 — Oficial Investigador', 'verificar',
+      'A carreira de Oficial Investigador de Polícia substitui/integra atribuições de investigação e apoio cartorário conforme normas recentes. Conferir enquadramento, classe, nível, curso de formação, lotação, jornada e ficha funcional antes de qualquer cálculo.',
+      'Base: Lei CE nº 19.128/2024, Lei CE nº 19.186/2025, edital PCCE/CEV-UECE 2025, DOE/CE e contracheque.');
+    html += direitoItem('Lei CE 19.706/2026 — criação de 2.000 cargos', 'atenção',
+      'A criação de cargos amplia o quadro e o aproveitamento de aprovados, mas não gera posse automática: nomeação, disponibilidade orçamentária, classificação, cotas, curso de formação e ato publicado continuam indispensáveis.',
+      'Base: Lei CE nº 19.706/2026, edital PCCE 2025, atos CEV/UECE, DOE/CE e publicações da SSPDS/SEPLAG.');
+    html += direitoItem('Plantões, adicional noturno, diárias e funções', 'condicionado',
+      'Plantões, adicional noturno, diárias, funções de chefia, acúmulo, indenizações, retroativos e decisões judiciais dependem de escala, ato formal, lotação, cumprimento efetivo, previsão normativa e contracheque.',
+      'Base: Estatuto da Polícia Civil do Ceará, atos da PCCE/SSPDS/SEPLAG, escalas, Diário Oficial e ficha financeira.');
+    html += direitoItem('Concursos Delegado e Oficial Investigador 2025/2026', 'verificar',
+      'Os certames de Delegado e Oficial Investigador seguem com atos, fases e convocações em 2025/2026. Questões de prova, TAF, oral, psicológica, investigação social, cotas, curso de formação, posse e eliminação dependem do edital específico.',
+      'Base: Edital Cebraspe Delegado PCCE 2025, Edital CEV/UECE Oficial Investigador PCCE 2025, cronogramas, comunicados e DOE/CE.');
   } else if (inst === 'pcsp') {
     html += direitoItem('DEJEC / Diária Especial por Jornada Extraordinária', 'condicionado',
       'Verba eventual para jornada extraordinária na Polícia Civil/SP, quando autorizada e efetivamente cumprida. A Lei 18.440/2026 prevê jornada extraordinária de 8 horas contínuas fora da jornada normal, com limite mensal e coeficientes próprios por carreira.',

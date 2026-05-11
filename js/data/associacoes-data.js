@@ -21,10 +21,73 @@ const ASSOCIACOES = {
     { nome: 'Entidades de oficiais militares estaduais do Amazonas', foco: 'Oficiais da ativa, reserva, reformados e pensionistas da PMAM', acao: 'Acompanhamento de temas de carreira, promoção, comando, remuneração, proteção social e representação institucional.', site: 'Consultar canais oficiais da entidade', telefone: 'Consultar diretamente na entidade', mensalidade: 'Consultar diretamente na entidade', servicos: 'Representação associativa, orientação ao associado, convênios e apoio institucional conforme estatuto.' },
     { nome: 'Canais institucionais da PMAM', foco: 'Policiais militares, candidatos e público externo', acao: 'Canal oficial para editais, convocações, comunicação social, história institucional e orientações administrativas.', site: 'https://www.pm.am.gov.br/', telefone: '(92) 98842-1841', mensalidade: 'Não se aplica', servicos: 'Notícias, editais, comunicação social, protocolo e informações institucionais.' }
   ],
+  pcam: [
+    {
+      nome: 'ADEPOL-AM — Associação dos Delegados de Polícia do Estado do Amazonas',
+      foco: 'Delegados de Polícia Civil do Amazonas',
+      acao: 'Representação institucional da carreira de Delegado, valorização profissional, comunicação de classe, convênios, eventos e defesa de prerrogativas.',
+      site: 'https://adepolam.org.br/',
+      telefone: 'Consultar diretamente na entidade',
+      mensalidade: 'Consultar diretamente na entidade',
+      servicos: 'Notícias de classe, convênios, eventos, apoio institucional, campanhas e orientação ao associado.'
+    },
+    {
+      nome: 'SINDEIPOL-AM — Sindicato dos Escrivães e Investigadores da Polícia Civil do Amazonas',
+      foco: 'Escrivães e Investigadores da PCAM',
+      acao: 'Representação sindical de escrivães e investigadores, pautas de carreira, escalonamento, promoções, valorização e acompanhamento de atos administrativos.',
+      site: 'https://www.instagram.com/sindeipolam/',
+      telefone: 'Consultar diretamente na entidade',
+      mensalidade: 'Consultar diretamente na entidade',
+      servicos: 'Comunicação institucional, mobilização de categoria, notícias, orientação ao filiado e acompanhamento de pautas remuneratórias.'
+    },
+    {
+      nome: 'ASSINPOL-AM — Associação dos Investigadores da Polícia Civil do Amazonas',
+      foco: 'Investigadores da Polícia Civil do Amazonas',
+      acao: 'Representação associativa, apoio institucional e defesa de pautas específicas dos investigadores.',
+      site: 'https://www.facebook.com/CorePco/',
+      telefone: 'Consultar diretamente na entidade',
+      mensalidade: 'Consultar diretamente na entidade',
+      servicos: 'Comunicação de classe, notícias, orientação ao associado e apoio a pautas de carreira.'
+    }
+  ],
+  pcap: [
+    { nome: 'SINPOL-AP — Sindicato dos Policiais Civis do Estado do Amapá', foco: 'Policiais civis do Amapá, ativos, aposentados e pensionistas conforme base sindical.', acao: 'Representação sindical, mobilização de categoria, acompanhamento de pautas remuneratórias, condições de trabalho, concurso, saúde e valorização profissional.', site: 'https://www.instagram.com/sinpolapoficial/', telefone: 'Consultar diretamente na entidade', mensalidade: 'Consultar diretamente na entidade', servicos: 'Comunicação sindical, assembleias, notícias, orientação ao filiado, apoio jurídico conforme contrato/estatuto e acompanhamento de pautas da carreira.' },
+    { nome: 'ADEPOL-AP — Associação dos Delegados de Polícia do Amapá', foco: 'Delegados de Polícia Civil do Estado do Amapá.', acao: 'Representação associativa da carreira de Delegado, defesa institucional, prerrogativas, valorização profissional e diálogo com o Governo/Delegacia-Geral.', site: 'https://www.instagram.com/adepolapdelegados/', telefone: 'Consultar diretamente na entidade', mensalidade: 'Consultar diretamente na entidade', servicos: 'Comunicação de classe, eventos, orientação associativa, defesa institucional, convênios e eventual apoio jurídico conforme regras internas.' },
+    { nome: 'Canais institucionais da PCAP', foco: 'Policiais civis, candidatos e sociedade amapaense.', acao: 'Divulgação oficial de notícias, unidades policiais, delegacias, contatos, concursos, curso de formação e serviços ao cidadão.', site: 'https://policiacivil.portal.ap.gov.br/', telefone: '(96) 2101-2800 / 2101-8200 / 2101-8202 / 2101-8203', mensalidade: 'Não se aplica', servicos: 'Delegacia virtual, boletim de ocorrência, unidades policiais, contatos institucionais, notícias, serviços digitais e orientação pública.' }
+  ],
   pmap: [
     { nome: 'ASMEAP — Associação dos Servidores Militares do Estado do Amapá', foco: 'Policiais militares e bombeiros militares do Amapá, ativos, veteranos e pensionistas', acao: 'Representação associativa, acompanhamento de pautas de carreira, remuneração, proteção social, promoções e condições de serviço.', site: 'Consultar canais oficiais da entidade', telefone: 'Consultar diretamente', mensalidade: 'Consultar diretamente na entidade', servicos: 'Orientação associativa, plano de saúde, atendimento jurídico, convênios e comunicação de pautas conforme informações públicas da entidade.' },
     { nome: 'ASPOMETERFA — associação vinculada a militares do Amapá e ex-Território', foco: 'Militares estaduais/federais, veteranos, pensionistas e pautas ligadas a transposição e proteção social, conforme atuação da entidade', acao: 'Acompanhamento associativo de demandas funcionais, previdenciárias e remuneratórias. Conferir escopo atualizado diretamente com a entidade.', site: 'https://www.facebook.com/ASPOMETERFA', telefone: 'Consultar diretamente', mensalidade: 'Consultar diretamente', servicos: 'Representação, orientação ao associado e acompanhamento de pautas administrativas/judiciais.' },
     { nome: 'Canais institucionais da PMAP', foco: 'Informação oficial para policiais militares, candidatos e sociedade amapaense', acao: 'Publicações, editais, serviços à tropa, notícias, batalhões, diretorias, história, comando e comunicação institucional.', site: 'https://pm.ap.gov.br/', telefone: 'Emergência 190; administrativo (96) 3212-1528 / 2101-2252', mensalidade: 'Não se aplica', servicos: 'Emergência, informações institucionais, concursos, boletins, saúde, pessoal, batalhões, notícias e comunicação oficial.' }
+  ],
+  pcce: [
+    {
+      nome: 'SINPOL-CE — Sindicato dos Policiais Civis de Carreira do Estado do Ceará',
+      foco: 'Policiais civis de carreira do Estado do Ceará, especialmente Oficiais Investigadores, Inspetores, Escrivães e demais servidores representados pela entidade.',
+      acao: 'Representação sindical, pautas remuneratórias, condições de trabalho, acompanhamento legislativo, comunicação de classe e apoio jurídico/administrativo aos filiados.',
+      site: 'https://sinpolce.org.br/',
+      telefone: '(85) 3253-4379 / (85) 3254-7904',
+      mensalidade: 'Consultar diretamente na entidade',
+      servicos: 'Jurídico, atendimento a filiados, notícias de classe, aposentados, convênios, mobilização institucional e orientação sobre carreira.'
+    },
+    {
+      nome: 'ADEPOL-CE — Associação dos Delegados de Polícia Civil do Estado do Ceará',
+      foco: 'Delegados e Delegadas de Polícia Civil do Estado do Ceará.',
+      acao: 'Defesa de prerrogativas, valorização da carreira jurídica policial, acompanhamento de pautas institucionais, eventos e articulação com órgãos de segurança e justiça.',
+      site: 'https://www.instagram.com/adepolceoficial/',
+      telefone: '(85) 3254-2776',
+      mensalidade: 'Consultar diretamente na entidade',
+      servicos: 'Representação associativa, comunicação institucional, defesa de prerrogativas, eventos, convênios e apoio aos associados.'
+    },
+    {
+      nome: 'ASSPOL/entidades representativas locais da PCCE',
+      foco: 'Servidores policiais civis e categorias vinculadas à segurança pública cearense.',
+      acao: 'Acompanhamento de demandas funcionais, mobilização de classe, orientação associativa e defesa administrativa conforme atuação da entidade.',
+      site: 'https://www.policiacivil.ce.gov.br/',
+      telefone: 'Dados em breve',
+      mensalidade: 'Consultar diretamente na entidade',
+      servicos: 'Orientação institucional, notícias, representação de interesses funcionais e encaminhamento para canais oficiais quando necessário.'
+    }
   ],
   pcal: [
     { nome: 'SINDPOL-AL — Sindicato dos Policiais Civis de Alagoas', foco: 'Agentes, escrivães e demais policiais civis de Alagoas conforme base sindical.', acao: 'Representação sindical, pautas remuneratórias, condições de trabalho, defesa institucional, comunicação e apoio jurídico/sindical.', site: 'https://sindpolalagoas.com.br/', telefone: 'Consultar site/canais da entidade', mensalidade: 'Consultar diretamente na entidade', servicos: 'Jurídico, notícias de classe, mobilização, convênios, atendimento ao filiado e acompanhamento de legislação.' },

@@ -173,6 +173,9 @@ function atualizarHeaderDesc(descInstituicao) {
     pmesp: 'Polícia Militar do Estado de São Paulo',
     pmal: 'Polícia Militar do Estado de Alagoas',
     pmam: 'Polícia Militar do Estado do Amazonas',
+    pcam: 'Polícia Civil do Estado do Amazonas',
+    pcap: 'Polícia Civil do Estado do Amapá',
+    pcce: 'Polícia Civil do Estado do Ceará',
     pmap: 'Polícia Militar do Estado do Amapá',
     pcal: 'Polícia Civil do Estado de Alagoas',
     ppal: 'Polícia Penal do Estado de Alagoas',
@@ -265,7 +268,7 @@ function initTheme() {
 function popularCargos(inst) {
   const map = {
     pmesp: CARGOS_PM,    pcsp: CARGOS_PC,    ppsp: CARGOS_PPSP,
-    pmac: CARGOS_PMAC,   pmal: CARGOS_PMAL,   pmam: CARGOS_PMAM,   pmap: CARGOS_PMAP,   pcal: CARGOS_PCAL,   ppal: CARGOS_PPAL,   pcac: CARGOS_PCAC,   ppac: CARGOS_PPAC,
+    pmac: CARGOS_PMAC,   pmal: CARGOS_PMAL,   pmam: CARGOS_PMAM,   pcam: CARGOS_PCAM,   pcap: CARGOS_PCAP,   pcce: CARGOS_PCCE,   pmap: CARGOS_PMAP,   pcal: CARGOS_PCAL,   ppal: CARGOS_PPAL,   pcac: CARGOS_PCAC,   ppac: CARGOS_PPAC,
     pmerj: CARGOS_PMERJ, bmrj: CARGOS_BMRJ, pcerj: CARGOS_PCERJ, pprj: CARGOS_PPRJ,
     pmmg: CARGOS_PMMG,   bmmg: CARGOS_BMMG,   pcmg: CARGOS_PCMG,   ppmg: CARGOS_PPMG,
     pmba: CARGOS_PMBA,   pcba: CARGOS_PCBA,   ppba: CARGOS_PPBA,

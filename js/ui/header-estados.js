@@ -75,6 +75,14 @@ const HEADER_ESTADOS = {
     pp: 'ppba',
     flag: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_da_Bahia.svg'
   },
+  ce: {
+    nome: 'Ceará',
+    sigla: 'CE',
+    pm: 'pmce',
+    pc: 'pcce',
+    pp: 'ppce',
+    flag: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Cear%C3%A1.svg'
+  },
   pr: {
     nome: 'Paraná',
     sigla: 'PR',
@@ -134,6 +142,9 @@ const HEADER_INSTITUICOES_INFO = {
   pmac: { titulo: 'PMAC', desc: 'Polícia Militar do Acre' },
   pmal: { titulo: 'PMAL', desc: 'Polícia Militar do Estado de Alagoas' },
   pmam: { titulo: 'PMAM', desc: 'Polícia Militar do Estado do Amazonas' },
+  pcam: { titulo: 'PCAM', desc: 'Polícia Civil do Estado do Amazonas' },
+  pcap: { titulo: 'PCAP', desc: 'Polícia Civil do Estado do Amapá' },
+  pcce: { titulo: 'PCCE', desc: 'Polícia Civil do Estado do Ceará' },
   pmap: { titulo: 'PMAP', desc: 'Polícia Militar do Estado do Amapá' },
   pcal: { titulo: 'PCAL', desc: 'Polícia Civil do Estado de Alagoas' },
   ppal: { titulo: 'PPAL', desc: 'Polícia Penal do Estado de Alagoas' },
@@ -1447,26 +1458,37 @@ const HEADER_INSTITUICOES_RESUMO = {
     ]
   },
   "pcam": {
-    "nome": "Polícia Civil do Amazonas",
+    "nome": "Polícia Civil do Estado do Amazonas",
     "sigla": "PCAM",
     "estado": "Amazonas",
     "estadoSigla": "AM",
     "tipo": "Polícia Civil",
-    "criacao": "Polícia Civil estadual · origem histórica republicana",
-    "ativa": 1867,
-    "ativaLabel": "1.867",
-    "reserva": 2054,
-    "reservaLabel": "2.054 · estimativa técnica",
-    "femininas": 485,
-    "femininasLabel": "485 · estimado",
+    "criacao": "1922 · criação da Polícia Judiciária de carreira no Amazonas; estrutura orgânica regulamentada pelo Decreto AM nº 2.291/1972",
+    "ativa": 2160,
+    "ativaLabel": "2.000+ policiais e 160+ administrativos",
+    "reserva": 0,
+    "reservaLabel": "Inativos/RPPS: Dados em breve",
+    "femininas": 0,
+    "femininasLabel": "Efetivo feminino: Dados em breve",
     "populacao": 4321616,
+    "populacaoLabel": "4.321.616 habitantes · IBGE 2025",
     "populacaoTitulo": "População do Estado",
-    "relacaoLabel": "1 ativo / 2.315 hab. · 0,043%",
+    "relacaoLabel": "1 ativo / 2.001 hab. · 0,050% (estimado)",
     "relacaoTitulo": "Relação ativa/população",
-    "governador": "Roberto Cidade — Governador em exercício",
-    "comando": "Delegado-Geral da PCAM — nome a confirmar em fonte oficial",
-    "fonte": "IBGE 2025; FBSP/Anuário 2025; Pesquisa Perfil/SENASP; transparências estaduais quando disponível",
-    "atualizado": "Base numérica inserida em 01/05/2026"
+    "governador": "Roberto Cidade",
+    "comando": "Delegado Bruno de Paula Fraga — Delegado-Geral",
+    "estrutura": "Delegacia-Geral, Delegacia-Geral Adjunta, Departamento de Polícia Metropolitana, Departamento de Polícia do Interior, Departamento de Repressão ao Crime Organizado, Departamento de Investigação sobre Narcóticos, Coordenadoria de Operações e Recursos Especiais, 30 Distritos Integrados de Polícia na capital, 19 delegacias especializadas, 6 seccionais, 61 Delegacias Interativas no interior, 10 especializadas no interior e 2 Postos de Policiamento Integrados.",
+    "sede": "Delegacia-Geral da Polícia Civil — Av. Pedro Teixeira, nº 180, bairro Dom Pedro, Manaus/AM",
+    "emergencia": "181 Disk-Denúncia · 190 Polícia/CIOPS",
+    "linksOficiais": [
+      "https://www.policiacivil.am.gov.br/",
+      "https://museu.policiacivil.am.gov.br/?page_id=431",
+      "https://www.amazonas.am.gov.br/orgaos_entidades/policia-civil-do-estado-do-amazonas-pc/",
+      "https://conhecimento.fgv.br/concursos/pcam21",
+      "https://sapl.al.am.leg.br/norma/13903"
+    ],
+    "fonte": "PCAM; Museu da Polícia Civil do Amazonas; Governo do Amazonas; SSP/AM; Lei AM nº 2.875/2004; Lei AM nº 4.576/2018; Lei AM nº 7.446/2025; FGV PCAM 2021/2022; IBGE 2025",
+    "atualizado": "PCAM revisada em 10/05/2026 — efetivo ativo exibido conforme página histórica oficial; inativos e efetivo feminino sem número oficial consolidado; remuneração pela Lei AM nº 7.446/2025 com efeitos em 01/12/2025"
   },
   "ppam": {
     "nome": "Polícia Penal do Amazonas",
@@ -1526,26 +1548,38 @@ const HEADER_INSTITUICOES_RESUMO = {
     "atualizado": "PMAP revisada em 10/05/2026 — comando atualizado por pauta oficial de passagem de comando; efetivo, reserva e mulheres marcados como estimados; remuneração por subsídio da LC AP nº 173/2025, Anexo III, com efeitos em 01/04/2026"
   },
   "pcap": {
-    "nome": "Polícia Civil do Amapá",
+    "nome": "Polícia Civil do Estado do Amapá",
     "sigla": "PCAP",
     "estado": "Amapá",
     "estadoSigla": "AP",
     "tipo": "Polícia Civil",
-    "criacao": "Polícia Civil estadual · estrutura estadual",
+    "criacao": "14/12/2001 · Lei AP nº 637 · estrutura organizacional básica",
     "ativa": 1010,
-    "ativaLabel": "1.010",
+    "ativaLabel": "1.010 · estimado",
     "reserva": 1111,
-    "reservaLabel": "1.111 · estimativa técnica",
+    "reservaLabel": "1.111 inativos · estimado",
     "femininas": 263,
-    "femininasLabel": "263 · estimado",
+    "femininasLabel": "263 mulheres · estimado",
     "populacao": 806517,
     "populacaoTitulo": "População do Estado",
-    "relacaoLabel": "1 ativo / 799 hab. · 0,125%",
+    "relacaoLabel": "1 ativo / 799 hab. · 0,125% · estimado",
     "relacaoTitulo": "Relação ativa/população",
     "governador": "Clécio Luís",
-    "comando": "Delegado-Geral da PCAP — nome a confirmar em fonte oficial",
-    "fonte": "IBGE 2025; FBSP/Anuário 2025; Pesquisa Perfil/SENASP; transparências estaduais quando disponível",
-    "atualizado": "Base numérica inserida em 01/05/2026"
+    "comando": "Delegado Victor Crispim Vinagre — Delegado-Geral de Polícia Civil",
+    "siglaInterna": "PCAP",
+    "efetivoTotalLabel": "Efetivo ativo/inativo em revisão · usar valores estimados até publicação oficial consolidada",
+    "estrutura": "Delegacia-Geral de Polícia Civil, Conselho Superior, Corregedoria-Geral, Departamento de Polícia da Capital, Departamento de Polícia do Interior, Departamento de Polícia Especializada, delegacias distritais, especializadas, CIOSPs, unidades administrativas e apoio técnico-operacional.",
+    "sede": "Av. FAB, nº 84, bairro Central, CEP 68.900-073, Macapá/AP",
+    "emergencia": "197 · Polícia Civil / 181 · Disque-Denúncia / 190 · emergência integrada",
+    "linksOficiais": [
+      "https://policiacivil.portal.ap.gov.br/",
+      "https://policiacivil.ap.gov.br/conteudo/institucional/historico",
+      "https://policiacivil.ap.gov.br/conteudo/institucional/delegacia-geral",
+      "https://sead.portal.ap.gov.br/concursos/vigentes/3736",
+      "https://editor.amapa.gov.br/arquivos_portais/publicacoes/SEAD_0a28adc21c77ae9d1d3acefd6ae760af.pdf"
+    ],
+    "fonte": "PCAP; Governo do Amapá; SEAD/AP; Diário Oficial do Amapá; Lei AP nº 637/2001; Lei AP nº 883/2005; Lei AP nº 3.037/2024; tabela de subsídios SEAD/AP 2025; IBGE 2025; FBSP/SENASP para efetivo estimado",
+    "atualizado": "PCAP revisada em 10/05/2026 — comando atualizado por Diário Oficial/Conselho Superior; efetivo, reserva e mulheres marcados como estimados; remuneração por subsídio com vigência de 01/04/2024"
   },
   "ppap": {
     "nome": "Polícia Penal do Amapá",
@@ -1592,26 +1626,39 @@ const HEADER_INSTITUICOES_RESUMO = {
     "atualizado": "Base numérica inserida em 01/05/2026"
   },
   "pcce": {
-    "nome": "Polícia Civil do Ceará",
+    "nome": "Polícia Civil do Estado do Ceará",
     "sigla": "PCCE",
     "estado": "Ceará",
     "estadoSigla": "CE",
     "tipo": "Polícia Civil",
-    "criacao": "Polícia Civil estadual · origem histórica republicana",
+    "criacao": "10/05/1808 · alvará da Intendência Geral de Polícia · origem histórica; Polícia Civil estadual organizada por normas do Ceará",
     "ativa": 4149,
-    "ativaLabel": "4.149",
+    "ativaLabel": "4.149 ativos (estimado)",
     "reserva": 4564,
-    "reservaLabel": "4.564 · estimativa técnica",
+    "reservaLabel": "4.564 inativos (estimado)",
     "femininas": 1079,
-    "femininasLabel": "1.079 · estimado",
+    "femininasLabel": "1.079 mulheres (estimado)",
     "populacao": 9268836,
     "populacaoTitulo": "População do Estado",
-    "relacaoLabel": "1 ativo / 2.234 hab. · 0,045%",
+    "relacaoLabel": "1 ativo / 2.234 hab. · 0,045% (estimado)",
     "relacaoTitulo": "Relação ativa/população",
     "governador": "Elmano de Freitas",
-    "comando": "Delegado-Geral da PCCE — nome a confirmar em fonte oficial",
-    "fonte": "IBGE 2025; FBSP/Anuário 2025; Pesquisa Perfil/SENASP; transparências estaduais quando disponível",
-    "atualizado": "Base numérica inserida em 01/05/2026"
+    "comando": "Delegado Márcio Rodrigo Gutiérrez Rocha — Delegado-Geral",
+    "siglaInterna": "PCCE",
+    "efetivoTotalLabel": "Efetivo ativo/inativo em revisão · números operacionais marcados como estimados até publicação oficial consolidada",
+    "estrutura": "Delegacia-Geral, Delegacia-Geral Adjunta, Diretoria de Planejamento e Gestão Interna, Gabinete, assessorias, Ouvidoria, Conselho Superior, Departamento de Polícia da Capital, Departamento de Polícia Metropolitana, Departamento de Polícia do Interior Norte, Departamento de Polícia do Interior Sul, DHPP, DPE, DRCO, DEPATRI, DRA, DTO, DIP, DPGV, CORE, CODIP, COGEP, COAFI, COLOG, COTIC, CO-SAÚDE e rede de delegacias distritais, metropolitanas, municipais, regionais e especializadas.",
+    "sede": "Centro Integrado de Segurança Pública — CISP, Rua Professor Guilhon, s/n, Aeroporto, Fortaleza/CE — CEP 60.415-390",
+    "emergencia": "197 · Disque-Denúncia 181 · emergência geral 190",
+    "linksOficiais": [
+      "https://www.policiacivil.ce.gov.br/",
+      "https://www.policiacivil.ce.gov.br/institucional/",
+      "https://www.policiacivil.ce.gov.br/quem-e-quem/",
+      "https://www.policiacivil.ce.gov.br/contatos/",
+      "https://www.cev.uece.br/oippcce/",
+      "https://www.cebraspe.org.br/concursos/pc_ce_25_delegado"
+    ],
+    "fonte": "PCCE; SSPDS/CE; Governo do Ceará; CEV/UECE; Cebraspe; DOE/CE; Lei CE nº 12.124/1993; Lei CE nº 14.868/2011; Lei CE nº 19.128/2024; Lei CE nº 19.186/2025; Lei CE nº 19.706/2026; Decreto CE nº 35.521/2023; IBGE 2025; FBSP/SENASP para efetivo estimado",
+    "atualizado": "PCCE revisada em 10/05/2026 — comando, estrutura, contatos, concursos e remuneração atualizados; efetivo ativo, inativos e mulheres marcados como estimados; tabela remuneratória de 2025/2026 deve ser conferida no DOE/CE e no contracheque"
   },
   "ppce": {
     "nome": "Polícia Penal do Ceará",
@@ -5576,6 +5623,8 @@ function mudarInstituicao(novaInstituicao) {
     pmac: { titulo: 'PMAC', desc: 'Polícia Militar do Acre', cor: '#006b3f', alertaPrev: 'PMAC: conferir Acreprevidência, LC AC 164/2006, tabela remuneratória, adicionais por tempo, serviço complementar, localização especial e contracheque.' },
     pmam: { titulo: "PMAM", desc: "Polícia Militar do Estado do Amazonas", cor: "#0b5d3b", alertaPrev: "PMAM/Amazonprev/Sistema de Proteção Social Militar AM: conferir contribuição, base de cálculo, posto/graduação, reserva/reforma, pensão, GAMS, gratificação de tropa, indenizações técnicas, escalas e rubricas pessoais diretamente na lei vigente e no contracheque." },
     pcac: { titulo: 'PCAC', desc: 'Polícia Civil do Acre', cor: '#5b6472', alertaPrev: 'PCAC: conferir Acreprevidência, cargo, classe, titulação, serviço complementar, tabela oficial e regra de aposentadoria policial aplicada ao caso concreto.' },
+    pcap: { titulo: 'PCAP', desc: 'Polícia Civil do Estado do Amapá', cor: '#1f4e79', alertaPrev: 'PCAP/AMPRev: conferir contribuição previdenciária, abono de permanência, aposentadoria policial, subsídio por classe/padrão, plantões, funções, adicionais, diárias, retroativos e rubricas pessoais diretamente no contracheque e na norma vigente.' },
+    pcce: { titulo: 'PCCE', desc: 'Polícia Civil do Estado do Ceará', cor: '#1f4e79', alertaPrev: 'PCCE/CEPREV/ISSEC: conferir contribuição previdenciária, assistência, aposentadoria policial, subsídio, plantões, adicional noturno, diárias, funções, retroativos e rubricas pessoais diretamente no contracheque e na norma vigente.' },
     ppac: { titulo: 'PPAC', desc: POLICIAS_PENAIS_INFO.ppac.nome, cor: '#536b2f', alertaPrev: `${POLICIAS_PENAIS_INFO.ppac.sigla}: ${POLICIAS_PENAIS_INFO.ppac.previdencia} ${POLICIAS_PENAIS_INFO.ppac.vantagens}` },
     ppal: { titulo: 'PPAL', desc: POLICIAS_PENAIS_INFO.ppal.nome, cor: '#6b5b2f', alertaPrev: `${POLICIAS_PENAIS_INFO.ppal.sigla}: ${POLICIAS_PENAIS_INFO.ppal.previdencia} ${POLICIAS_PENAIS_INFO.ppal.vantagens}` },
     pmesp: { titulo: "PMESP", desc: "Polícia Militar do Estado de São Paulo", cor: "#e60000", alertaPrev: "PMESP/SPPREV/SPSM: conferir a contribuição e a base de cálculo no holerite e na norma vigente. Não fixar percentual único sem validar cargo, situação funcional e rubricas." },
@@ -6179,6 +6228,9 @@ function imagemPrincipalBrasaoInstituicao(inst) {
 function getCriadorInstitucional(inst, tipo, estadoNome) {
   if (inst === 'pmesp') return 'Brigadeiro Rafael Tobias de Aguiar — então presidente da Província de São Paulo, pela lei provincial de 15/12/1831.';
   if (inst === 'pmam') return 'Província do Amazonas — criação da Guarda Policial em 04/04/1837; a denominação Polícia Militar do Amazonas foi consolidada em 14/11/1938.';
+  if (inst === 'pcam') return 'Estado do Amazonas — organização histórica da Polícia Judiciária de carreira em 1922; Decreto AM nº 2.291/1972 regulamentou a estrutura orgânica da Polícia Civil.';
+  if (inst === 'pcap') return 'Estado do Amapá — Lei AP nº 637, de 14/12/2001, estruturou a organização básica da Polícia Civil; Lei AP nº 883/2005 consolidou órgãos de direção superior como a Delegacia-Geral.';
+  if (inst === 'pcce') return 'Príncipe Regente D. João — Alvará de 10/05/1808, origem histórica da polícia judiciária brasileira; no Ceará, carreira organizada pelo Estatuto da Polícia Civil, Lei CE nº 12.124/1993, e normas posteriores.';
   if (inst === 'pmap') return 'Presidência da República — Lei Federal nº 6.270, de 26/11/1975, sancionada por Ernesto Geisel, criou a Polícia Militar do Território Federal do Amapá; antecedente histórico: Guarda Territorial do Amapá.';
   if (inst === 'pmal') return 'Presidência da Província de Alagoas e Ministério da Justiça do Império — Decisão Imperial nº 52, de 03/02/1832, aprovando o Corpo de Guardas Municipais da província.';
   if (inst === 'pcal') return 'Estado de Alagoas — Lei AL nº 3.437, de 25/06/1975, estrutura cargos da Polícia Civil; Lei AL nº 6.441/2003 concede autonomia administrativa e financeira.';
@@ -6235,6 +6287,53 @@ function getHistoricoPorTipo(inst, dados) {
     };
   }
 
+  if (inst === 'pcam') {
+    return {
+      origem: `A ${nome} tem raízes na polícia judiciária brasileira organizada a partir do Alvará Régio de 10 de maio de 1808 e na estrutura provincial do Amazonas. No Estado, a página histórica da instituição registra a criação da Polícia Judiciária de carreira em 1922, a organização da Polícia Civil com carreiras funcionais em 1971 e a regulamentação da estrutura orgânica pelo Decreto nº 2.291, de 12 de maio de 1972. Em 2026, a PCAM segue dirigida pelo Delegado Bruno de Paula Fraga, com remuneração atualizada pela Lei AM nº 7.446/2025 e reforço de efetivo oriundo do concurso FGV 2021/2022.`,
+      marcos: [
+        '1808: marco nacional da polícia judiciária com a Intendência Geral de Polícia da Corte e do Brasil, referência histórica das Polícias Civis brasileiras.',
+        '1854: criação do cargo de Chefe de Polícia para a Província do Amazonas; Policarpo Nunes Leão é registrado como primeiro chefe de polícia nomeado no período imperial.',
+        '1871: Lei nº 2.033 separa funções policiais e judiciais e consolida o inquérito policial como instrumento central da investigação criminal.',
+        '1922: o Estado do Amazonas cria a Polícia Judiciária de carreira, formalizando a Polícia Civil e suas carreiras no plano estadual.',
+        '1971/1972: Emenda Constitucional Estadual nº 03/1971 organiza carreiras funcionais e o Decreto AM nº 2.291/1972 regulamenta a Delegacia-Geral, delegacias especializadas, distritos, regionais e apoio técnico.',
+        '2004: Lei AM nº 2.875 institui plano de classificação, cargos, carreiras e remuneração dos servidores da Polícia Civil do Amazonas.',
+        '2025: Lei AM nº 7.446 atualiza a remuneração dos servidores da Polícia Civil, com implementação principal a partir de 01/12/2025 e pagamento de diferenças em 2026.',
+        '2026: posse de 97 novos policiais aprovados no concurso PCAM/FGV 2021/2022, incluindo delegados, escrivães, investigadores e peritos.'
+      ]
+    };
+  }
+
+
+  if (inst === 'pcap') {
+    return {
+      origem: `A ${nome} é a polícia judiciária estadual do Amapá, com trajetória ligada à organização administrativa do antigo Território Federal e à consolidação do Estado do Amapá. A página histórica institucional registra a Lei AP nº 637, de 14 de dezembro de 2001, como marco da estrutura organizacional básica da Polícia Civil, e a Lei AP nº 883/2005 posiciona a Delegacia-Geral entre os órgãos de direção superior. Em 2026, a PCAP segue dirigida pelo Delegado Victor Crispim Vinagre e utiliza tabela de subsídios do Grupo Polícia Civil com vigência de 01/04/2024, sem somar rubricas pessoais automaticamente.`,
+      marcos: [
+        'Antecedentes territoriais: organização da polícia judiciária no antigo Território Federal do Amapá, antes da consolidação da estrutura estadual própria.',
+        '14/12/2001: Lei AP nº 637 aprova a estrutura organizacional básica da Polícia Civil do Estado do Amapá, marco institucional citado no histórico oficial.',
+        '2005: Lei AP nº 883 organiza a Delegacia-Geral de Polícia Civil como órgão de direção superior, com papel de coordenação da instituição.',
+        '2017/2026: concurso PCAP 2017 segue com convocações, matrículas em curso de formação e atos administrativos publicados pela SEAD/AP.',
+        '2024: Lei AP nº 3.037 atualiza a tabela de subsídios do Grupo Polícia Civil, com vigência informada a partir de 01/04/2024.',
+        '2026: Diário Oficial registra Victor Crispim Vinagre como Delegado-Geral de Polícia Civil e Presidente do Conselho Superior da Polícia Civil.',
+        '2026: novo concurso para Delegado e Oficial Investigador aparece em planejamento público, mas não deve ser tratado como edital aberto até publicação oficial da SEAD/AP.'
+      ]
+    };
+  }
+
+  if (inst === 'pcce') {
+    return {
+      origem: `A ${nome} é a polícia judiciária estadual do Ceará e sua origem histórica é vinculada ao Alvará de 10 de maio de 1808, que criou a Intendência Geral de Polícia da Corte e do Brasil. No plano estadual, a carreira foi estruturada pelo Estatuto da Polícia Civil do Ceará e por leis posteriores que modernizaram direção, cargos e remuneração. Em 2026, a PCCE está sob comando do Delegado Márcio Rodrigo Gutiérrez Rocha, com concursos recentes para Delegado e Oficial Investigador e ampliação legal de cargos pela Lei CE nº 19.706/2026.`,
+      marcos: [
+        '10/05/1808: marco histórico nacional da polícia judiciária, com a criação da Intendência Geral de Polícia da Corte e do Brasil por alvará do Príncipe Regente D. João.',
+        '1841: Lei nº 261 reorganiza a polícia no Império e consolida delegados e subdelegados sob a autoridade do Chefe de Polícia, referência histórica das polícias civis estaduais.',
+        '1969: publicação do primeiro Estatuto da Polícia Civil de Carreira do Estado do Ceará, marco de profissionalização citado no histórico institucional.',
+        '1993: Lei CE nº 12.124 institui o Estatuto da Polícia Civil de Carreira do Estado do Ceará, base funcional da carreira.',
+        '2011: Lei CE nº 14.868 muda a nomenclatura para Delegado-Geral e Delegado-Geral Adjunto, aproximando a estrutura do modelo atual.',
+        '2024/2025: Lei CE nº 19.128/2024 e Lei CE nº 19.186/2025 reorganizam a carreira de Oficial Investigador de Polícia e o curso de formação.',
+        '2025/2026: concursos para Delegado e Oficial Investigador seguem em andamento por Cebraspe e CEV/UECE/FUNECE, com etapas, resultados e convocações publicadas oficialmente.',
+        '2026: Lei CE nº 19.706 cria 2.000 cargos de Oficial Investigador de Polícia e amplia o aproveitamento de candidatos aprovados, sem dispensar leitura de edital, ato de nomeação e disponibilidade orçamentária.'
+      ]
+    };
+  }
   if (inst === 'pmap') {
     return {
       origem: `A ${nome} tem origem formal na Lei Federal nº 6.270, de 26 de novembro de 1975, que criou a Polícia Militar do Território Federal do Amapá, a partir da transformação histórica da Guarda Territorial. Em 2026, a PMAP segue como força militar estadual de policiamento ostensivo e preservação da ordem pública, com comando atualizado para o Cel PM Márcio Allan e tabela remuneratória estadual organizada por subsídio e progressão horizontal pela LC AP nº 173/2025.`,
