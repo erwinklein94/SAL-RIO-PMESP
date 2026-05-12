@@ -4586,3 +4586,207 @@ html[data-theme="light"] .comparador-table td {
 html[data-theme="light"] .menu-overlay.active {
   background: rgba(15, 23, 42, .22) !important;
 }
+
+/* ============================================================
+   Ajuste 2026-05-11 — Produtos laterais discretos no desktop
+   ============================================================
+   Mostra produtos da aba Produtos nas laterais do conteúdo em
+   telas de computador, sem diminuir a largura dos cards centrais.
+*/
+.usp-affiliate-side-shell {
+  --usp-affiliate-main-width: min(1120px, calc(100vw - 28px));
+  --usp-affiliate-rail-width: clamp(92px, 7.2vw, 128px);
+  --usp-affiliate-rail-gap: clamp(10px, 0.9vw, 18px);
+  display: flow-root;
+  position: relative;
+  width: var(--usp-affiliate-main-width);
+  max-width: calc(100% - 28px);
+  margin-left: auto;
+  margin-right: auto;
+  isolation: isolate;
+}
+
+.usp-affiliate-side-shell > main.page-section {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.usp-affiliate-rail {
+  display: none;
+}
+
+@media (min-width: 1360px) {
+  body:not([data-page="produtos"]) .usp-affiliate-rail {
+    display: block;
+    position: absolute;
+    top: clamp(18px, 3vw, 40px);
+    width: var(--usp-affiliate-rail-width);
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  body:not([data-page="produtos"]) .usp-affiliate-rail--left {
+    right: calc(100% + var(--usp-affiliate-rail-gap));
+  }
+
+  body:not([data-page="produtos"]) .usp-affiliate-rail--right {
+    left: calc(100% + var(--usp-affiliate-rail-gap));
+  }
+
+  .usp-affiliate-rail__inner {
+    position: sticky;
+    top: 92px;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(26px, 4vh, 44px);
+    pointer-events: auto;
+  }
+
+  .usp-affiliate-rail__title {
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto -10px;
+    padding: 4px 8px;
+    border-radius: 999px;
+    border: 1px solid color-mix(in srgb, var(--vermelho) 22%, rgba(148, 163, 184, 0.30));
+    background: color-mix(in srgb, var(--bg-card) 88%, transparent);
+    color: var(--text-muted);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 9px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.08em;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08);
+  }
+
+  .usp-affiliate-card {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 8px;
+    border: 1px solid color-mix(in srgb, var(--vermelho) 18%, var(--border-card));
+    border-radius: 18px;
+    background: color-mix(in srgb, var(--bg-card) 90%, transparent);
+    color: var(--text-main);
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.12);
+    backdrop-filter: blur(12px) saturate(118%);
+    -webkit-backdrop-filter: blur(12px) saturate(118%);
+    overflow: hidden;
+  }
+
+  html[data-theme="dark"] .usp-affiliate-card,
+  [data-theme="dark"] .usp-affiliate-card {
+    background: color-mix(in srgb, var(--bg-card) 88%, rgba(255, 255, 255, 0.03));
+    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.34);
+  }
+
+  .usp-affiliate-card__media {
+    display: block;
+    width: 100%;
+    height: clamp(64px, 5.7vw, 88px);
+    border-radius: 13px;
+    overflow: hidden;
+    background: color-mix(in srgb, var(--vermelho) 9%, var(--item-bg));
+    border: 1px solid color-mix(in srgb, var(--vermelho) 14%, var(--border-card));
+    text-decoration: none;
+  }
+
+  .usp-affiliate-card__media img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .usp-affiliate-card__media.is-missing-image {
+    display: grid;
+    place-items: center;
+    min-height: 64px;
+  }
+
+  .usp-affiliate-card__media.is-missing-image::before {
+    content: "Produto";
+    color: var(--text-muted);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .usp-affiliate-card h3 {
+    margin: 0;
+    color: var(--text-main);
+    font-family: 'Oswald', sans-serif;
+    font-size: clamp(10.5px, 0.86vw, 13px);
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .usp-affiliate-card__note {
+    display: block;
+    color: var(--text-muted);
+    font-size: 7.5px;
+    line-height: 1.2;
+    opacity: 0.78;
+  }
+
+  .usp-affiliate-card__store,
+  .usp-affiliate-card__more {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 999px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+    line-height: 1.1;
+    transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease, color 0.18s ease;
+  }
+
+  .usp-affiliate-card__store {
+    min-height: 28px;
+    padding: 7px 8px;
+    background: linear-gradient(135deg, var(--vermelho), var(--vermelho-escuro));
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    box-shadow: 0 8px 16px color-mix(in srgb, var(--vermelho) 20%, transparent);
+  }
+
+  .usp-affiliate-card__more {
+    margin-top: -2px;
+    padding: 2px 4px;
+    color: var(--text-muted);
+    font-size: 8.5px;
+    letter-spacing: 0.02em;
+    text-transform: none;
+  }
+
+  .usp-affiliate-card__store:hover,
+  .usp-affiliate-card__store:focus-visible,
+  .usp-affiliate-card__more:hover,
+  .usp-affiliate-card__more:focus-visible {
+    color: #ffffff;
+    background: var(--vermelho-escuro);
+    transform: translateY(-1px);
+    outline: none;
+  }
+}
+
+@media (max-width: 1359px), print {
+  .usp-affiliate-rail {
+    display: none !important;
+  }
+}
