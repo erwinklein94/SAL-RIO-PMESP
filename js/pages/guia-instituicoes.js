@@ -23,7 +23,10 @@
         { inst: 'pmesp', estadoNome: 'São Paulo', uf: 'SP', sigla: 'PMESP', nome: 'Polícia Militar do Estado de São Paulo', ramo: 'Polícia Militar' },
         { inst: 'bmsp', estadoNome: 'São Paulo', uf: 'SP', sigla: 'Bombeiros SP', nome: 'Corpo de Bombeiros da Polícia Militar do Estado de São Paulo', ramo: 'Bombeiro Militar' },
         { inst: 'pcsp', estadoNome: 'São Paulo', uf: 'SP', sigla: 'PCSP', nome: 'Polícia Civil do Estado de São Paulo', ramo: 'Polícia Civil' },
-        { inst: 'ppsp', estadoNome: 'São Paulo', uf: 'SP', sigla: 'PPSP', nome: 'Polícia Penal do Estado de São Paulo', ramo: 'Polícia Penal' }
+        { inst: 'ppsp', estadoNome: 'São Paulo', uf: 'SP', sigla: 'PPSP', nome: 'Polícia Penal do Estado de São Paulo', ramo: 'Polícia Penal' },
+        { inst: 'pmerj', estadoNome: 'Rio de Janeiro', uf: 'RJ', sigla: 'PMERJ', nome: 'Polícia Militar do Estado do Rio de Janeiro', ramo: 'Polícia Militar' },
+        { inst: 'pcerj', estadoNome: 'Rio de Janeiro', uf: 'RJ', sigla: 'PCERJ', nome: 'Polícia Civil do Estado do Rio de Janeiro', ramo: 'Polícia Civil' },
+        { inst: 'pprj', estadoNome: 'Rio de Janeiro', uf: 'RJ', sigla: 'PPRJ', nome: 'Polícia Penal do Estado do Rio de Janeiro', ramo: 'Polícia Penal' }
       ];
     }
     return [];
