@@ -56,13 +56,13 @@
   </url>
   <url>
     <loc>https://universosegpub.com.br/guia-instituicoes.html</loc>
-    <lastmod>2026-05-12</lastmod>
+    <lastmod>2026-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://universosegpub.com.br/acoes-judiciais.html</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -154,6 +154,12 @@
   <url>
     <loc>https://universosegpub.com.br/novidades/pcdf-delegado-inscricoes-abertas-2026.html</loc>
     <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://universosegpub.com.br/artigos/salario-pcdf-2026.html</loc>
+    <lastmod>2026-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>

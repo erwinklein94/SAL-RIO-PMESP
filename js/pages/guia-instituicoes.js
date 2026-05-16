@@ -25,7 +25,8 @@
     if (esfera === 'federal') {
       return [
         { inst: 'pf', estadoNome: 'Brasil', uf: 'BR', sigla: 'PF', nome: 'Polícia Federal', ramo: 'Polícia Federal' },
-        { inst: 'prf', estadoNome: 'Brasil', uf: 'BR', sigla: 'PRF', nome: 'Polícia Rodoviária Federal', ramo: 'Polícia Rodoviária Federal' }
+        { inst: 'prf', estadoNome: 'Brasil', uf: 'BR', sigla: 'PRF', nome: 'Polícia Rodoviária Federal', ramo: 'Polícia Rodoviária Federal' },
+        { inst: 'pcdf', estadoNome: 'Distrito Federal', uf: 'DF', sigla: 'PCDF', nome: 'Polícia Civil do Distrito Federal', ramo: 'Polícia Civil' }
       ];
     }
     if (esfera === 'estadual') {

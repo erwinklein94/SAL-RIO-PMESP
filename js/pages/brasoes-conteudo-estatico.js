@@ -188,6 +188,32 @@
       if (lista) lista.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
 
+    function instInicialDaUrl() {
+      try {
+        const params = new URLSearchParams(window.location.search || '');
+        const instParam = normalizar(params.get('inst') || params.get('instituicao'));
+        if (instParam && cardDaInstituicao(instParam)) return instParam;
+      } catch (erro) { /* silencioso */ }
+      const hash = String(window.location.hash || '').replace(/^#/, '');
+      if (!hash) return '';
+      const alvo = document.getElementById(hash);
+      return normalizar(alvo?.dataset?.inst || '');
+    }
+
+    function aplicarInstInicialDaUrl() {
+      const inst = instInicialDaUrl();
+      if (!inst) return false;
+      const card = cardDaInstituicao(inst);
+      if (!card) return false;
+      seletorEsfera.value = card.dataset.esfera || '';
+      seletorInstituicao.value = inst;
+      paginaAtual = 1;
+      renderizar();
+      selecionarInstituicao(inst, false);
+      window.setTimeout(() => (document.getElementById(window.location.hash.replace(/^#/, '')) || card).scrollIntoView({ behavior: 'smooth', block: 'start' }), 0);
+      return true;
+    }
+
     document.addEventListener('click', event => {
       const botao = event.target.closest('[data-brasoes-load]');
       if (!botao) return;
@@ -204,6 +230,6 @@
     });
 
     esconderDetalhe();
-    renderizar();
+    if (!aplicarInstInicialDaUrl()) renderizar();
   });
 })();

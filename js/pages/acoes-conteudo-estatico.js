@@ -51,6 +51,27 @@
     if (atual && atual.hidden) seletorInstituicao.value = '';
   }
 
+
+  function garantirOpcaoPcdfNoSeletor(seletorInstituicao) {
+    if (!seletorInstituicao) return;
+    const jaExiste = Array.from(seletorInstituicao.options || []).some(option => option.value === 'pcdf');
+    if (jaExiste) return;
+
+    const option = document.createElement('option');
+    option.value = 'pcdf';
+    option.dataset.esfera = 'federal';
+    option.textContent = 'PCDF — Polícia Civil do Distrito Federal';
+
+    let grupoUniao = Array.from(seletorInstituicao.querySelectorAll('optgroup')).find(grupo => /união|uniao/i.test(grupo.label || ''));
+    if (!grupoUniao) {
+      grupoUniao = document.createElement('optgroup');
+      grupoUniao.label = 'União';
+      const primeiraOpcaoReal = Array.from(seletorInstituicao.children || []).find(el => el.tagName && el.tagName.toLowerCase() === 'optgroup');
+      seletorInstituicao.insertBefore(grupoUniao, primeiraOpcaoReal || null);
+    }
+    grupoUniao.appendChild(option);
+  }
+
   function cardsFiltrados(seletorEsfera, seletorInstituicao) {
     const esfera = normalizar(seletorEsfera?.value);
     const inst = normalizar(seletorInstituicao?.value);
@@ -87,6 +108,21 @@
     if (span) span.textContent = sigla;
   }
 
+
+  function classeTipoAcaoFallback(tipo) {
+    const normalizado = String(tipo || '').toLowerCase();
+    if (normalizado.includes('coletiva') && !normalizado.includes('individual')) return 'coletiva';
+    if (normalizado.includes('híbrida') || normalizado.includes('hibrida') || normalizado.includes('individual/coletivo')) return 'coletiva';
+    return 'individual';
+  }
+
+  function textoTipoAcaoFallback(tipo) {
+    const normalizado = String(tipo || '').toLowerCase();
+    if (normalizado.includes('híbrida') || normalizado.includes('hibrida') || normalizado.includes('individual/coletivo')) return '⚖👤 Ação Híbrida';
+    if (normalizado.includes('coletiva') && !normalizado.includes('individual')) return '⚖ Ação Coletiva';
+    return '👤 Ação Individual';
+  }
+
   function acaoFallbackHtml(inst) {
     if (typeof ACOES_JUDICIAIS === 'undefined' || !ACOES_JUDICIAIS[inst]) return '';
     const lista = ACOES_JUDICIAIS[inst] || [];
@@ -95,7 +131,7 @@
         <span class="direito-nome">${textoSeguro(a.titulo || 'Tema jurídico em conferência')}</span>
         <span class="direito-status" style="color: var(--vermelho);">${textoSeguro(a.status || 'Conferência individual')}</span>
         <div>
-          <span class="badge-info ${a.tipo === 'coletiva' ? 'coletiva' : 'individual'}">${a.tipo === 'coletiva' ? '⚖ Ação Coletiva' : '👤 Ação Individual'}</span>
+          <span class="badge-info ${classeTipoAcaoFallback(a.tipo)}">${textoTipoAcaoFallback(a.tipo)}</span>
           <span class="badge-info ativa">${textoSeguro(a.ano || 'Caso a caso')}</span>
         </div>
         <span class="direito-desc">${textoSeguro(a.desc || 'Tema dependente de documentos individuais e conferência jurídica.')}</span>
@@ -151,6 +187,7 @@
     let paginaAtual = 1;
 
     if (!seletorEsfera || !seletorInstituicao || !paginacao) return;
+    garantirOpcaoPcdfNoSeletor(seletorInstituicao);
 
     function renderizar() {
       atualizarOpcoesInstituicao(seletorEsfera, seletorInstituicao);
@@ -215,6 +252,32 @@
       if (lista) lista.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
 
+    function instInicialDaUrl() {
+      try {
+        const params = new URLSearchParams(window.location.search || '');
+        const instParam = normalizar(params.get('inst') || params.get('instituicao'));
+        if (instParam && qs(`[data-acoes-card][data-inst="${escapeCss(instParam)}"]`)) return instParam;
+      } catch (erro) { /* silencioso */ }
+      const hash = String(window.location.hash || '').replace(/^#/, '');
+      if (!hash) return '';
+      const alvo = document.getElementById(hash);
+      return normalizar(alvo?.dataset?.inst || '');
+    }
+
+    function aplicarInstInicialDaUrl() {
+      const inst = instInicialDaUrl();
+      if (!inst) return false;
+      const card = qs(`[data-acoes-card][data-inst="${escapeCss(inst)}"]`);
+      if (!card) return false;
+      seletorEsfera.value = card.dataset.esfera || '';
+      seletorInstituicao.value = inst;
+      paginaAtual = 1;
+      renderizar();
+      selecionarInstituicao(inst, false);
+      window.setTimeout(() => (document.getElementById(window.location.hash.replace(/^#/, '')) || card).scrollIntoView({ behavior: 'smooth', block: 'start' }), 0);
+      return true;
+    }
+
     document.addEventListener('click', event => {
       const botao = event.target.closest('[data-acoes-load]');
       if (!botao) return;
@@ -232,6 +295,6 @@
 
     esconderDetalhe();
     if (listaDetalhe) listaDetalhe.innerHTML = '';
-    renderizar();
+    if (!aplicarInstInicialDaUrl()) renderizar();
   });
 })();

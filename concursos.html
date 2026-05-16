@@ -1,535 +1,120 @@
 <!DOCTYPE html>
-
-<html class="page-concursos" lang="pt-BR">
+<html class="usp-desktop-home usp-desktop-concursos" lang="pt-BR">
 <head>
-<!-- =======================================================
-     BLOCO 01 — HEAD / CONFIGURAÇÕES INICIAIS DO SITE
-     Tags de rastreamento, metadados, fontes, tema inicial e CSS.
-     ======================================================= -->
-<!-- BLOCO 01.1 — Google Analytics -->
-<!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XHR4TCCF9D"></script>
-<!-- BLOCO 01.2 — Google Ads -->
-<!-- Google Ads tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-18121830612"></script>
-<script src="js/ui/head.js"></script>
-<!-- BLOCO 01.3 — Conversão do Google Ads -->
-<!-- Event snippet for Visualização de página conversion page -->
-<!-- BLOCO 01.4 — Metadados, título e fontes externas -->
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Consulte informações de concursos, editais, requisitos, vagas, salários e bancas por instituição." name="description"/>
-<title>Concursos - Universo Segurança Pública</title>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://www.googletagmanager.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;family=Roboto+Condensed:wght@400;500;700&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet"/>
-<!-- BLOCO 01.5 — CSS dividido em chunks para carregamento mais leve -->
-<link as="style" href="css/dist/main.min.css" rel="preload"/>
-<link href="css/dist/main.min.css" rel="stylesheet"/>
-<link href="css/override-logoleao.css?v=20260503homeinst1" rel="stylesheet"/><link href="css/app-soft-mobile.css?v=20260516-menu-mobile-fix1" rel="stylesheet"/>
-<link href="css/pages/concursos-conteudo-estatico.css?v=20260511adsense1" rel="stylesheet"/>
-<!-- BLOCO SEO GERADO --
-     Canonical absoluto, Open Graph, Twitter Card e JSON-LD.
-     Gerado na revisão de manutenção.
-     -->
-<link href="https://universosegpub.com.br/concursos.html" rel="canonical"/>
-<meta property="og:type" content="website"/>
-<meta property="og:locale" content="pt_BR"/>
-<meta property="og:site_name" content="Universo Segurança Pública"/>
-<meta property="og:title" content="Concursos - Universo Segurança Pública"/>
-<meta property="og:description" content="Consulte informações de concursos, editais, requisitos, vagas, salários e bancas por instituição."/>
-<meta property="og:url" content="https://universosegpub.com.br/concursos.html"/>
-<meta property="og:image" content="https://universosegpub.com.br/img/LOGO/logoleao.webp"/>
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Concursos - Universo Segurança Pública"/>
-<meta name="twitter:description" content="Consulte informações de concursos, editais, requisitos, vagas, salários e bancas por instituição."/>
-<meta name="twitter:image" content="https://universosegpub.com.br/img/LOGO/logoleao.webp"/>
-<script type="application/ld+json">
-[{"@context":"https://schema.org","@type":"WebPage","name":"Concursos - Universo Segurança Pública","description":"Consulte informações de concursos, editais, requisitos, vagas, salários e bancas por instituição.","url":"https://universosegpub.com.br/concursos.html","isPartOf":{"@type":"WebSite","name":"Universo Segurança Pública","url":"https://universosegpub.com.br/"},"publisher":{"@type":"Organization","name":"Universo Segurança Pública","url":"https://universosegpub.com.br/","logo":{"@type":"ImageObject","url":"https://universosegpub.com.br/img/LOGO/logoleao.webp"}}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://universosegpub.com.br/"},{"@type":"ListItem","position":2,"name":"Concursos","item":"https://universosegpub.com.br/concursos.html"}]}]
-</script>
-<!-- /BLOCO SEO GERADO --><!-- BLOCO ADSENSE — Verificação e carregamento de anúncios Google AdSense -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4280112532471663"
-     crossorigin="anonymous"></script>
-<!-- /BLOCO ADSENSE -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Consulte concursos de segurança pública por instituição, com editais, vagas, salários, requisitos, etapas, banca e fontes oficiais de acompanhamento." />
+  <title>Concursos - Universo Segurança Pública</title>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XHR4TCCF9D"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18121830612"></script>
+  <script src="js/ui/head.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://www.googletagmanager.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link href="css/home-desktop-redesign.css?v=20260516-lightbox3" rel="stylesheet" />
+
+  <link href="https://universosegpub.com.br/concursos.html" rel="canonical" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Universo Segurança Pública" />
+  <meta property="og:title" content="Concursos - Universo Segurança Pública" />
+  <meta property="og:description" content="Consulte informações de concursos, editais, requisitos, vagas, salários e bancas por instituição." />
+  <meta property="og:url" content="https://universosegpub.com.br/concursos.html" />
+  <meta property="og:image" content="https://universosegpub.com.br/img/LOGO/logoleao.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Concursos - Universo Segurança Pública" />
+  <meta name="twitter:description" content="Consulte informações de concursos, editais, requisitos, vagas, salários e bancas por instituição." />
+  <meta name="twitter:image" content="https://universosegpub.com.br/img/LOGO/logoleao.webp" />
+  <script type="application/ld+json">
+  [{"@context":"https://schema.org","@type":"WebPage","name":"Concursos - Universo Segurança Pública","description":"Consulte informações de concursos, editais, requisitos, vagas, salários e bancas por instituição.","url":"https://universosegpub.com.br/concursos.html","isPartOf":{"@type":"WebSite","name":"Universo Segurança Pública","url":"https://universosegpub.com.br/"},"publisher":{"@type":"Organization","name":"Universo Segurança Pública","url":"https://universosegpub.com.br/","logo":{"@type":"ImageObject","url":"https://universosegpub.com.br/img/LOGO/logoleao.webp"}}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://universosegpub.com.br/"},{"@type":"ListItem","position":2,"name":"Concursos","item":"https://universosegpub.com.br/concursos.html"}]}]
+  </script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4280112532471663" crossorigin="anonymous"></script>
 </head>
-<body class="app-soft-theme" data-inst="portal" data-page="concursos">
-<div aria-label="Controles rápidos do visual app" class="app-floating-actions">
-<a aria-label="Voltar para a página inicial" class="app-floating-action app-floating-action--back" href="index.html">←</a>
-<button aria-label="Alternar tema claro e escuro" class="app-floating-action app-floating-action--theme" data-theme-toggle="true" data-toggle-style="icon" type="button"><span aria-hidden="true">☀️</span></button>
-</div>
-<nav aria-label="Navegação rápida inferior" class="app-bottom-nav">
-<a class="app-bottom-item" href="index.html"><span class="app-bottom-icon" aria-hidden="true">⌂</span><span class="app-bottom-label">Início</span></a>
-<a class="app-bottom-item" href="remuneracao.html"><span class="app-bottom-icon" aria-hidden="true">◈</span><span class="app-bottom-label">Remun.</span></a>
-<a class="app-bottom-item" href="concursos.html"><span class="app-bottom-icon" aria-hidden="true">▤</span><span class="app-bottom-label">Concursos</span></a>
-<a class="app-bottom-item" href="comparar-carreiras.html"><span class="app-bottom-icon" aria-hidden="true">⇄</span><span class="app-bottom-label">Comparar</span></a>
-<button aria-controls="sidebar" aria-expanded="false" aria-label="Navegação do portal" class="app-bottom-item menu-btn" type="button"><span class="app-bottom-icon" aria-hidden="true">☰</span><span class="app-bottom-label">Menu</span></button>
-</nav>
+<body class="usp-home usp-concursos" data-page="concursos">
+  <div class="usp-topline">
+    <div class="usp-container usp-topline__inner">
+      <p><span class="usp-dot" aria-hidden="true"></span>Portal independente · Não governamental</p>
+      <nav aria-label="Links rápidos institucionais">
+        <a href="https://www.instagram.com/universosegpub" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="anuncie.html">Anuncie</a>
+        <a href="anuncie.html#contato">Contato</a>
+      </nav>
+    </div>
+  </div>
 
-<!-- =======================================================
-     BLOCO 03 — HTML / ESTRUTURA VISÍVEL DO SITE
-     Cabeçalho, menu superior, páginas/abas, formulários e rodapé.
-     ======================================================= -->
-<!-- BLOCO 03.1 — Cabeçalho institucional premium com seletor, estado e carreira -->
-<!-- BLOCO 03.2 — Botão de menu superior: abre abas do portal e vitrine de produtos -->
-<!-- BLOCO 03.3 — Overlay da navegação superior -->
-<div aria-hidden="true" class="menu-overlay" id="menuOverlay"></div>
-<!-- BLOCO 03.4 — Menu superior: navegação institucional, grupos de consulta, Instagram e parceiros -->
-<aside aria-label="Menu superior do portal" class="sidebar" id="sidebar" role="navigation">
-<div class="sidebar-header">
-<div aria-label="Identidade da navegação" class="sidebar-brand">
-<strong>Universo Segurança Pública</strong>
-<span>Escolha o que consultar</span>
-</div>
-<button aria-label="Fechar navegação" class="close-btn" type="button"><span aria-hidden="true">✕</span></button>
-</div>
-<!-- BLOCO 03.4.2 — Links internos organizados por finalidade -->
-<nav aria-label="Páginas do portal" class="sidebar-nav">
-<div aria-label="Navegação inicial" class="sidebar-nav-group">
-<div class="sidebar-nav-title">
-<span>Visão geral</span>
-<small>Acesso inicial e contexto do portal</small>
-</div>
-<a href="index.html" id="menu-principal" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">🏠</span>
-<span class="sidebar-link-text">Principal</span>
-<small>Início do portal</small>
-</a>
-<a href="noticias.html" id="menu-noticias" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">📰</span>
-<span class="sidebar-link-text">Notícias</span>
-<small>Editais, reajustes e atualizações</small>
-</a>
-<a href="guia-instituicoes.html" id="menu-guia" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">📖</span>
-<span class="sidebar-link-text">Guia das instituições</span>
-<small>Artigos permanentes por instituição</small>
-</a>
-</div>
-<div aria-label="Produtos, conteúdos e parceiros" class="sidebar-nav-group">
-<div class="sidebar-nav-title">
-<span>Loja e parcerias</span>
-<small>Produtos, cursos e contato comercial</small>
-</div>
-<a href="produtos.html" id="menu-produtos" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">🛒</span>
-<span class="sidebar-link-text">Produtos</span>
-<small>Cursos, livros e equipamentos</small>
-</a>
-<a href="anuncie.html" id="menu-parceiros" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">📣</span>
-<span class="sidebar-link-text">Parceiros</span>
-<small>Anuncie ou fale conosco</small>
-</a>
-</div>
-<div aria-label="Informações de carreira e legislação" class="sidebar-nav-group">
-<div class="sidebar-nav-title">
-<span>Carreira e legislação</span>
-<small>Dados funcionais, normas e benefícios</small>
-</div>
-<a href="remuneracao.html" id="menu-remuneracao" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">💰</span>
-<span class="sidebar-link-text">Remuneração Tabelada</span>
-<small>Valores brutos por cargo</small>
-</a>
-<a href="direitos.html" id="menu-direitos" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">⚖️</span>
-<span class="sidebar-link-text">Direitos e Vantagens</span>
-<small>Benefícios, adicionais e alertas</small>
-</a>
-</div>
-<div aria-label="Pesquisa, concursos e comparação" class="sidebar-nav-group">
-<div class="sidebar-nav-title">
-<span>Pesquisa e comparação</span>
-<small>Escolha, compare e aprofunde</small>
-</div>
-<a aria-current="page" class="active" href="concursos.html" id="menu-concursos" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">📋</span>
-<span class="sidebar-link-text">Concursos</span>
-<small>Editais, requisitos e etapas</small>
-</a>
-<a href="comparar-carreiras.html" id="menu-comparar" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">⚔️</span>
-<span class="sidebar-link-text">Comparar Carreiras</span>
-<small>Salários, vagas e bancas</small>
-</a>
-<a href="brasoes.html" id="menu-brasoes" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">🛡️</span>
-<span class="sidebar-link-text">Brasões e história</span>
-<small>Origem, identidade e histórico</small>
-</a>
-</div>
-<div aria-label="Apoio jurídico e institucional" class="sidebar-nav-group">
-<div class="sidebar-nav-title">
-<span>Apoio institucional</span>
-<small>Entidades, teses e suporte</small>
-</div>
-<a href="acoes-judiciais.html" id="menu-acoes" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">🧾</span>
-<span class="sidebar-link-text">Ações Judiciais</span>
-<small>Teses, ações e orientações</small>
-</a>
-<a href="associacoes-sindicatos.html" id="menu-associacoes" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">🤝</span>
-<span class="sidebar-link-text">Associações e Sindicatos</span>
-<small>Entidades representativas</small>
-</a>
-</div>
+  <header class="usp-header" role="banner">
+    <div class="usp-container usp-header__inner">
+      <a class="usp-brand" href="index.html" aria-label="Universo Segurança Pública - página inicial">
+        <span class="usp-brand__mark"><img class="usp-brand__logo" src="img/LOGO/logoleao.webp" alt="Logo Universo Segurança Pública" width="56" height="56" loading="eager" decoding="async" /></span>
+        <span class="usp-brand__text">
+          <strong>Universo Seg Pub</strong>
+          <small>Portal de Segurança Pública</small>
+        </span>
+      </a>
 
-</nav>
-<!-- BLOCO 03.4.3 — Rede social destacada -->
-<div aria-label="Redes sociais" class="sidebar-social">
-<a aria-label="Abrir Instagram do Universo Segurança Pública" class="sidebar-social-btn" href="https://www.instagram.com/universosegpub" id="menu-instagram" rel="noopener noreferrer" role="link" tabindex="0" target="_blank">
-<span aria-hidden="true">📷</span>
-<strong>Seguir no Instagram</strong>
-</a>
-</div>
-<!-- BLOCO 03.4.3A — Produtos da vitrine no menu superior -->
-<section aria-label="Produtos" class="sidebar-products-vitrine">
-<div class="sidebar-products-title">
-<strong>Produtos</strong>
-<span>10 itens da vitrine</span>
-</div>
-<div class="sidebar-products-list">
-<a aria-label="Ver na loja Mochila Militar Tática Impermeável 50 L Grande Reforçada c/ 2 Bandeiras Brasil/EUA" class="sidebar-product-card" href="https://s.shopee.com.br/901i8h9IK5" rel="noopener noreferrer" target="_blank">
-<img alt="Mochila Militar Tática Impermeável 50 L Grande Reforçada c/ 2 Bandeiras Brasil/EUA" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/mochilaimpermeavel50l.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Mochila Militar Tática Impermeável 50 L Grande Reforçada c/ 2 Bandeiras Brasil/EUA</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Mochila Coban Tática Militar Reforçada 24 L" class="sidebar-product-card" href="https://s.shopee.com.br/8V5RQXr16n" rel="noopener noreferrer" target="_blank">
-<img alt="Mochila Coban Tática Militar Reforçada 24 L" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/mochilacoban.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Mochila Coban Tática Militar Reforçada 24 L</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Barra fixa para porta" class="sidebar-product-card" href="https://s.shopee.com.br/9fHIyi0uae" rel="noopener noreferrer" target="_blank">
-<img alt="Barra fixa para porta" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/barrafixa01.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Barra fixa para porta</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja BOTA ACERO COURO COLT PADRÃO POLICIA MILITAR SP" class="sidebar-product-card" href="https://s.shopee.com.br/1qYSZj5bki" rel="noopener noreferrer" target="_blank">
-<img alt="BOTA ACERO COURO COLT PADRÃO POLICIA MILITAR SP" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/botaacero.webp"/>
-<span class="sidebar-product-card-info">
-<strong>BOTA ACERO COURO COLT PADRÃO POLICIA MILITAR SP</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Power Rack Funcional com paralelas" class="sidebar-product-card" href="https://s.shopee.com.br/9fHJ0X4HVl" rel="noopener noreferrer" target="_blank">
-<img alt="Power Rack Funcional com paralelas, suporte de agachamento, supino, barra fixa e barra paralela" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/barrafixa02.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Power Rack Funcional com paralelas</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Colete à Prova d&#x27;Água Unissex para Peito - Bolsa para Corrida Esportiva ao Ar Livre (Preto)" class="sidebar-product-card" href="https://s.shopee.com.br/8V5UTFtI4n" rel="noopener noreferrer" target="_blank">
-<img alt="Colete à Prova d&#x27;Água Unissex para Peito - Bolsa para Corrida Esportiva ao Ar Livre (Preto)" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/coletepeito.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Colete à Prova d&#x27;Água Unissex para Peito - Bolsa para Corrida Esportiva ao Ar Livre (Preto)</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Calças De Carga De Alta Qualidade Novos Homens Táticas À Prova D&#x27;água Do Exército Usuários Fora De Esportes Long Hiking" class="sidebar-product-card" href="https://s.shopee.com.br/9fHRseGBA0" rel="noopener noreferrer" target="_blank">
-<img alt="Calças De Carga De Alta Qualidade Novos Homens Táticas À Prova D&#x27;água Do Exército Usuários Fora De Esportes Long Hiking" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/calcadecarga1.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Calças De Carga De Alta Qualidade Novos Homens Táticas À Prova D&#x27;água Do Exército Usuários Fora De Esportes Long Hiking</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Boné De Beisebol Masculino Camuflado Com Caveira, Chapéu Tático Para Pesca E Caminhada Ao Ar Livre O Verão" class="sidebar-product-card" href="https://s.shopee.com.br/8Km4Irus3i" rel="noopener noreferrer" target="_blank">
-<img alt="Boné De Beisebol Masculino Camuflado Com Caveira, Chapéu Tático Para Pesca E Caminhada Ao Ar Livre O Verão" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/bonecaveira.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Boné De Beisebol Masculino Camuflado Com Caveira, Chapéu Tático Para Pesca E Caminhada Ao Ar Livre O Verão</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Lanterna Led Militar 3 Em 1 T9 Tática Potente Forte Longo Alcance USB Recarregável Pesca Camping" class="sidebar-product-card" href="https://s.shopee.com.br/9Uy1hagpxm" rel="noopener noreferrer" target="_blank">
-<img alt="Lanterna Led Militar 3 Em 1 T9 Tática Potente Forte Longo Alcance USB Recarregável Pesca Camping" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/lanterna.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Lanterna Led Militar 3 Em 1 T9 Tática Potente Forte Longo Alcance USB Recarregável Pesca Camping</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Cinto Premium com Fivela de Liga Metálica - Cinto Militar Largo em Nylon com Fivela Unissex de Engate Rápido Resistente" class="sidebar-product-card" href="https://s.shopee.com.br/2qR7lnxjWo" rel="noopener noreferrer" target="_blank">
-<img alt="Cinto Premium com Fivela de Liga Metálica - Cinto Militar Largo em Nylon com Fivela Unissex de Engate Rápido Resistente" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/cintotatico.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Cinto Premium com Fivela de Liga Metálica - Cinto Militar Largo em Nylon com Fivela Unissex de Engate Rápido Resistente</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-</div>
-<a class="sidebar-products-more" href="produtos.html">
-<strong>Ver vitrine completa</strong>
-<span>Acessar todos os produtos →</span>
-</a>
-<small class="sidebar-affiliate-note">Links podem ser comerciais ou afiliados. Confira sempre a página do produto antes de comprar.</small>
-</section>
-</aside>
+            <nav class="usp-nav" aria-label="Navegação principal">
+        <a href="index.html">Página inicial</a>
+        <a href="noticias.html">Notícias</a>
+        <a href="remuneracao.html">Remuneração</a>
+        <a class="is-active" href="concursos.html">Concursos</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="brasoes.html">Brasões</a>
+        <a href="comparar-carreiras.html">Comparar</a>
+        <a href="direitos.html">Direitos</a>
+        <a href="guia-instituicoes.html">Guia das Instituições</a>
+        <a href="acoes-judiciais.html">Ações Judiciais</a>
+        <a href="associacoes-sindicatos.html">Associações e Sindicatos</a>
+      </nav>
 
-<header class="site-header" role="banner">
-<div class="header-content header-shell">
-<div class="header-topbar">
-<div aria-label="Controles rápidos" class="header-menu-tools">
-<button aria-controls="sidebar" aria-expanded="false" aria-label="Abrir menu do portal" class="menu-btn" type="button">
-<span class="menu-btn-bars" aria-hidden="true"><i></i><i></i><i></i></span>
-<span class="menu-btn-label">Menu</span>
-</button>
-<button aria-label="Alternar tema claro/escuro" class="theme-toggle-header" data-theme-toggle="true" data-toggle-style="text" id="theme-toggle-header" type="button">
-          <span aria-hidden="true">☀️</span> Claro
-        </button>
-</div>
-<div aria-label="Identidade do site" class="header-brand-block">
-<div class="header-kicker"> </div>
-<h1>Universo <span>Segurança Pública</span></h1>
-<p aria-label="Aviso de independência institucional" class="header-independent-note">Portal informativo independente • Não governamental</p>
-</div>
-</div>
-<div class="header-text" id="header-text">
-<section aria-label="Instituição selecionada" class="header-institution-card">
-<div class="header-institution-main">
-<div class="header-current-identity">
-<div aria-label="Imagem do brasão selecionado" class="current-flag-frame brand-logo-frame">
-<img alt="Logo Universo Segurança Pública" data-img-base="img/LOGO/logoleao" decoding="async" fetchpriority="high" height="96" id="header-active-flag" src="img/LOGO/logoleao.webp" width="96"/>
-</div>
-<div class="header-current-copy">
-<span class="header-current-label"> </span>
-<strong id="header-active-sigla">Universo</strong>
-<p id="header-active-name">Segurança Pública</p>
-<small id="header-desc">Escolha uma instituição</small>
-</div>
-</div>
-<aside aria-label="Resumo institucional atualizado" class="header-facts-panel">
-<div class="header-facts-head">
-<span id="header-resumo-titulo">Resumo do portal</span>
-<strong id="header-resumo-atualizado">Visão geral do portal</strong>
-</div>
-<div class="header-facts-grid">
-<div class="header-fact">
-<span id="header-label-natureza">Escopo</span>
-<strong id="header-resumo-natureza">Portal informativo</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-uf">Abrangência</span>
-<strong id="header-resumo-uf">Brasil</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-criacao">Instituições</span>
-<strong id="header-resumo-criacao">111</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-ativa">Efetivo total estimado</span>
-<strong id="header-resumo-ativa">≈ 1,2 milhão+</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-reserva">Reserva/inativos</span>
-<strong id="header-resumo-reserva">≈ 563 mil+</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-total">Mulheres no efetivo</span>
-<strong id="header-resumo-total">≈ 91,9 mil+</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-populacao">População abrangida</span>
-<strong id="header-resumo-populacao">213.421.037</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-relacao">UFs</span>
-<strong id="header-resumo-relacao">27 UFs</strong>
-</div>
-</div>
-<div class="header-leadership">
-<div class="header-leadership-item">
-<span id="header-label-governador">Cobertura</span>
-<strong id="header-resumo-governador">Polícia Rodoviária Federal, Polícia Federal, Polícia Militar, Polícia Civil, Polícia Penal e Bombeiro Militar</strong>
-</div>
-<div class="header-leadership-item header-command-item is-hidden" hidden>
-<span id="header-label-comando">Comando/Direção</span>
-<strong id="header-resumo-comando">—</strong>
-</div>
-</div>
-</aside>
-</div>
-</section>
-<div aria-label="Bandeiras dos estados disponíveis no site" class="header-state-flags">
-<div class="state-flags-title">Estados disponíveis</div>
-<button aria-label="Selecionar São Paulo" aria-pressed="false" class="state-flag" data-estado="sp" title="São Paulo" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg"/>
-<span>SP</span>
-</button>
-<button aria-label="Selecionar Rio de Janeiro" aria-pressed="false" class="state-flag" data-estado="rj" title="Rio de Janeiro" type="button">
-<img alt="Bandeira do Rio de Janeiro" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_estado_do_Rio_de_Janeiro.svg"/>
-<span>RJ</span>
-</button>
-<button aria-label="Selecionar Minas Gerais" aria-pressed="false" class="state-flag" data-estado="mg" title="Minas Gerais" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Minas_Gerais.svg"/>
-<span>MG</span>
-</button>
-<button aria-label="Selecionar Bahia" aria-pressed="false" class="state-flag" data-estado="ba" title="Bahia" type="button">
-<img alt="Bandeira da Bahia" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_da_Bahia.svg"/>
-<span>BA</span>
-</button>
-<button aria-label="Selecionar Paraná" aria-pressed="false" class="state-flag" data-estado="pr" title="Paraná" type="button">
-<img alt="Bandeira do Paraná" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Paran%C3%A1.svg"/>
-<span>PR</span>
-</button>
-<button aria-label="Selecionar Rio Grande do Sul" aria-pressed="false" class="state-flag" data-estado="rs" title="Rio Grande do Sul" type="button">
-<img alt="Bandeira do Rio Grande do Sul" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Rio_Grande_do_Sul.svg"/>
-<span>RS</span>
-</button>
-<button aria-label="Selecionar Santa Catarina" aria-pressed="false" class="state-flag" data-estado="sc" title="Santa Catarina" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Santa_Catarina.svg"/>
-<span>SC</span>
-</button>
-<button aria-label="Selecionar Espírito Santo" aria-pressed="false" class="state-flag" data-estado="es" title="Espírito Santo" type="button">
-<img alt="Bandeira do Espírito Santo" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Esp%C3%ADrito_Santo.svg"/>
-<span>ES</span>
-</button>
-<button aria-label="Selecionar Mato Grosso do Sul" aria-pressed="false" class="state-flag" data-estado="ms" title="Mato Grosso do Sul" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Mato_Grosso_do_Sul.svg"/>
-<span>MS</span>
-</button>
-<button aria-label="Selecionar Mato Grosso" aria-pressed="false" class="state-flag" data-estado="mt" title="Mato Grosso" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Mato_Grosso.svg"/>
-<span>MT</span>
-</button>
-<button aria-label="Selecionar Acre" aria-pressed="false" class="state-flag" data-estado="ac" title="Acre" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Acre.svg"/>
-<span>AC</span>
-</button>
-<button aria-label="Selecionar Alagoas" aria-pressed="false" class="state-flag" data-estado="al" title="Alagoas" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Alagoas.svg"/>
-<span>AL</span>
-</button>
-<button aria-label="Selecionar Amazonas" aria-pressed="false" class="state-flag" data-estado="am" title="Amazonas" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Amazonas.svg"/>
-<span>AM</span>
-</button>
-<button aria-label="Selecionar Amapá" aria-pressed="false" class="state-flag" data-estado="ap" title="Amapá" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Amap%C3%A1.svg"/>
-<span>AP</span>
-</button>
-<button aria-label="Selecionar Ceará" aria-pressed="false" class="state-flag" data-estado="ce" title="Ceará" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Cear%C3%A1.svg"/>
-<span>CE</span>
-</button>
-<button aria-label="Selecionar Distrito Federal" aria-pressed="false" class="state-flag" data-estado="df" title="Distrito Federal" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Distrito_Federal_(Brasil).svg"/>
-<span>DF</span>
-</button>
-<button aria-label="Selecionar Goiás" aria-pressed="false" class="state-flag" data-estado="go" title="Goiás" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Goi%C3%A1s.svg"/>
-<span>GO</span>
-</button>
-<button aria-label="Selecionar Maranhão" aria-pressed="false" class="state-flag" data-estado="ma" title="Maranhão" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Maranh%C3%A3o.svg"/>
-<span>MA</span>
-</button>
-<button aria-label="Selecionar Pará" aria-pressed="false" class="state-flag" data-estado="pa" title="Pará" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Par%C3%A1.svg"/>
-<span>PA</span>
-</button>
-<button aria-label="Selecionar Paraíba" aria-pressed="false" class="state-flag" data-estado="pb" title="Paraíba" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_da_Para%C3%ADba.svg"/>
-<span>PB</span>
-</button>
-<button aria-label="Selecionar Pernambuco" aria-pressed="false" class="state-flag" data-estado="pe" title="Pernambuco" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Pernambuco.svg"/>
-<span>PE</span>
-</button>
-<button aria-label="Selecionar Piauí" aria-pressed="false" class="state-flag" data-estado="pi" title="Piauí" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Piau%C3%AD.svg"/>
-<span>PI</span>
-</button>
-<button aria-label="Selecionar Rio Grande do Norte" aria-pressed="false" class="state-flag" data-estado="rn" title="Rio Grande do Norte" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Rio_Grande_do_Norte.svg"/>
-<span>RN</span>
-</button>
-<button aria-label="Selecionar Rondônia" aria-pressed="false" class="state-flag" data-estado="ro" title="Rondônia" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Rond%C3%B4nia.svg"/>
-<span>RO</span>
-</button>
-<button aria-label="Selecionar Roraima" aria-pressed="false" class="state-flag" data-estado="rr" title="Roraima" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Roraima.svg"/>
-<span>RR</span>
-</button>
-<button aria-label="Selecionar Sergipe" aria-pressed="false" class="state-flag" data-estado="se" title="Sergipe" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Sergipe.svg"/>
-<span>SE</span>
-</button>
-<button aria-label="Selecionar Tocantins" aria-pressed="false" class="state-flag" data-estado="to" title="Tocantins" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Tocantins.svg"/>
-<span>TO</span>
-</button>
-</div>
-</div>
-</div>
+      <form class="usp-search" action="guia-instituicoes.html" method="get" role="search">
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m21 21-4.3-4.3m1.3-5.2a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <input id="site-search" name="q" type="search" placeholder="Buscar instituição, edital, cargo..." autocomplete="off" />
+      </form>
+    </div>
+  </header>
 
-<div aria-hidden="true" class="header-js-contract header-js-contract--instituicao" hidden>
-<select id="instituicao_header" tabindex="-1">
-<option value=""></option>
-</select>
-</div>
-
-<div aria-hidden="true" class="header-js-contract" hidden>
-<button id="header-branch-pm" tabindex="-1" type="button"></button>
-<button id="header-branch-bm" tabindex="-1" type="button"></button>
-<button id="header-branch-pc" tabindex="-1" type="button"></button>
-<button id="header-branch-pp" tabindex="-1" type="button"></button>
-</div>
-</header>
-<!-- BLOCO 03.2 — Faixas decorativas abaixo do cabeçalho -->
-<div aria-hidden="true" class="stripe-container">
-<div class="stripe"></div>
-<div class="stripe-white"></div>
-<div class="stripe-black"></div>
-</div>
-<!-- BLOCO 03.5 — Toast/mensagem temporária controlada pelo JavaScript -->
-<div aria-live="polite" class="toast" id="toast" role="status"></div>
-<!-- BLOCO 04 — PÁGINA PRINCIPAL / RESUMO DO SITE -->
-<!-- BLOCO 04.3 — PÁGINA REMUNERAÇÃO TABELADA -->
-<!-- BLOCO 06 — PÁGINA DIREITOS E VANTAGENS -->
-<!-- BLOCO 06.6 — PÁGINA BRASÕES E HISTÓRIA -->
-<!-- BLOCO 07 — PÁGINA CONCURSOS -->
-<main class="page-section active" id="page-concursos" role="main">
-  <div class="concursos-page-shell">
-    <section class="card concursos-hero-card" aria-labelledby="concursos-titulo">
-      <span class="concursos-hero-kicker">Consulta por instituição</span>
-      <h1 id="concursos-titulo">Concursos</h1>
-      <p>
-        Encontre referências de concursos de instituições de segurança pública, com resumo de editais, vagas, requisitos, escolaridade, etapas, curso de formação, validade e canais oficiais de acompanhamento. As informações desta página servem como ponto de partida para o candidato organizar os estudos e comparar oportunidades entre carreiras.
-      </p>
-      <p>
-        Cada card apresenta um panorama da instituição e indica o que precisa ser confirmado no edital vigente. Como concursos podem mudar por retificação, decisão judicial, convocação, prorrogação ou novo ato administrativo, consulte sempre a banca organizadora e o órgão oficial antes de pagar inscrição, comprar material ou tomar uma decisão de carreira.
-      </p>
-
-      <div class="concursos-filtro-card consulta-instituicao-card" aria-label="Filtrar concursos por instituição">
-        <div class="consulta-instituicao-card__header">
-          <span class="concursos-card-kicker">Filtrar conteúdo</span>
-          <h2>Escolha uma instituição para ver os resumos relacionados</h2>
-          <p>Você pode navegar por todos os resumos ou selecionar uma corporação específica para abrir os dados completos do concurso.</p>
+  <main id="page-concursos" role="main">
+    <section class="usp-hero usp-concurso-hero" aria-labelledby="concursos-titulo">
+      <div class="usp-container usp-hero__grid">
+        <div class="usp-hero__copy">
+          <p class="usp-eyebrow"><span></span>Concursos & editais — edição 2026</p>
+          <h1 id="concursos-titulo">Editais, vagas e etapas das carreiras de segurança pública.</h1>
+          <p class="usp-hero__lead">Acompanhe concursos abertos, previstos e históricos por instituição. A página organiza requisitos, banca, remuneração de referência, etapas e fontes oficiais para você decidir o que estudar primeiro.</p>
+          <div class="usp-hero__actions" aria-label="Ações principais de concursos">
+            <a class="usp-btn usp-btn--dark" href="#consulta-concursos">Consultar por instituição <span>→</span></a>
+            <a class="usp-btn" href="#oportunidades">Ver oportunidades</a>
+            <a class="usp-btn" href="comparar-carreiras.html">Comparar salários</a>
+          </div>
+          <p class="usp-note"><strong>Aviso de precisão:</strong> use o portal como referência inicial e confirme sempre cronograma, requisitos e retificações no edital e na banca oficial.</p>
         </div>
-        <div class="consulta-instituicao-grid">
-          <label>
-            <span>Tipo de instituição</span>
-            <select id="concursos_esfera" aria-label="Filtrar concursos por tipo de instituição">
-              <option value="">Todas</option>
-              <option value="federal">Federal</option>
-              <option value="estadual">Estadual</option>
-            </select>
-          </label>
-          <label>
-            <span>Instituição</span>
-            <select id="concursos_instituicao" aria-label="Filtrar concursos por instituição">
+
+        <aside class="usp-quick-card usp-concurso-filter" id="consulta-concursos" aria-label="Filtro rápido de concursos">
+          <div class="usp-quick-card__head">
+            <span>Consulta rápida</span>
+            <strong>46 cards</strong>
+          </div>
+          <h2>Filtre por esfera e instituição</h2>
+          <p class="usp-filter-copy">Escolha uma instituição para abrir o resumo detalhado e manter a lista limpa.</p>
+          <div class="usp-form-grid usp-form-grid--stacked">
+            <label>
+              <span>Tipo de instituição</span>
+              <select id="concursos_esfera" aria-label="Filtrar concursos por tipo de instituição">
+                <option value="">Todas</option>
+                <option value="federal">Federal</option>
+                <option value="estadual">Estadual</option>
+              </select>
+            </label>
+            <label>
+              <span>Instituição</span>
+              <select id="concursos_instituicao" aria-label="Filtrar concursos por instituição">
 <option value="">Todas as instituições</option>
 <optgroup label="União">
 <option value="prf" data-esfera="federal">PRF — Polícia Rodoviária Federal</option>
-</optgroup>
-<optgroup label="Distrito Federal (DF)">
-<option value="pcdf" data-esfera="estadual">PCDF — Polícia Civil do Distrito Federal</option>
+<option value="pcdf" data-esfera="federal">PCDF — Polícia Civil do Distrito Federal</option>
 </optgroup>
 <optgroup label="São Paulo (SP)">
 <option value="pmesp" data-esfera="estadual">PMESP — Polícia Militar do Estado de São Paulo</option>
@@ -606,25 +191,135 @@
 <option value="pcce" data-esfera="estadual">PCCE — Polícia Civil do Estado do Ceará</option>
 </optgroup>
             </select>
-          </label>
+            </label>
+          </div>
+          <div class="concursos-filtro-acoes">
+            <button class="usp-btn usp-btn--gold" type="button" data-concursos-limpar>Ver todas as instituições <span>→</span></button>
+            <span id="concursos-contador-cards">46 instituições encontradas</span>
+          </div>
+          <div class="usp-quick-card__foot">
+            <span>Atualização <strong>2026</strong></span>
+            <span>Fontes <strong>oficiais</strong></span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="usp-stats" aria-label="Resumo de concursos">
+      <div class="usp-stat"><strong>46</strong><span>Instituições com resumo</span></div>
+      <div class="usp-stat"><strong>2</strong><span>Esferas de consulta</span></div>
+      <div class="usp-stat"><strong>27 <em>UFs</em></strong><span>Cobertura nacional</span></div>
+      <div class="usp-stat"><strong>2026</strong><span>Editais e previsões</span></div>
+      <div class="usp-stat"><strong>TAF</strong><span>Etapas e formação</span></div>
+    </section>
+
+    <section class="usp-section usp-contests" id="oportunidades" aria-labelledby="oportunidades-title">
+      <div class="usp-container">
+        <div class="usp-section__head">
+          <div>
+            <p class="usp-eyebrow"><span></span>Mapa rápido</p>
+            <h2 id="oportunidades-title">Oportunidades abertas, previstas e em acompanhamento</h2>
+            <p>Uma leitura direta para visualizar onde há edital, autorização, pedido de vagas ou histórico relevante.</p>
+          </div>
+          <a class="usp-inline-link" href="#lista-instituicoes">Ver todos os resumos →</a>
         </div>
-        <div class="concursos-filtro-acoes">
-          <button type="button" data-concursos-limpar>Ver todas</button>
-          <span id="concursos-contador-cards">46 instituições encontradas</span>
+
+        <div class="usp-table-wrap usp-concurso-table-wrap">
+          <table class="usp-table usp-concurso-table">
+            <thead>
+              <tr>
+                <th>Status</th>
+                <th>Instituição</th>
+                <th>Vagas</th>
+                <th>Remuneração inicial</th>
+                <th>Banca</th>
+                <th>Prazo / marco</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="usp-status open">Inscrições abertas</span></td>
+                <td><strong>Polícia Militar SP</strong><small>Soldado 2ª Classe</small></td>
+                <td><strong>2.700</strong><small>vagas</small></td>
+                <td><strong>R$ 4.281</strong><small>mensal bruto</small></td>
+                <td>VUNESP</td>
+                <td><span class="usp-deadline">30 jun</span></td>
+              </tr>
+              <tr>
+                <td><span class="usp-status open">Inscrições abertas</span></td>
+                <td><strong>Polícia Federal</strong><small>Agente / Escrivão</small></td>
+                <td><strong>1.200</strong><small>vagas</small></td>
+                <td><strong>R$ 23.692</strong><small>mensal bruto</small></td>
+                <td>CESPE</td>
+                <td><span class="usp-deadline">22 jun</span></td>
+              </tr>
+              <tr>
+                <td><span class="usp-status forecast">Previsto</span></td>
+                <td><strong>PRF</strong><small>Policial Rodoviário</small></td>
+                <td><strong>1.500</strong><small>vagas</small></td>
+                <td><strong>R$ 23.692</strong><small>mensal bruto</small></td>
+                <td>—</td>
+                <td><span class="usp-deadline">jul/26</span></td>
+              </tr>
+              <tr>
+                <td><span class="usp-status open">Inscrições abertas</span></td>
+                <td><strong>CBMERJ</strong><small>Soldado / Oficial</small></td>
+                <td><strong>1.450</strong><small>vagas</small></td>
+                <td><strong>R$ 5.890</strong><small>mensal bruto</small></td>
+                <td>FGV</td>
+                <td><span class="usp-deadline">18 jun</span></td>
+              </tr>
+              <tr>
+                <td><span class="usp-status forecast">Previsto</span></td>
+                <td><strong>PC Bahia</strong><small>Investigador</small></td>
+                <td><strong>1.000</strong><small>vagas</small></td>
+                <td><strong>R$ 5.120</strong><small>mensal bruto</small></td>
+                <td>—</td>
+                <td><span class="usp-deadline">ago/26</span></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </section>
 
-    <!-- BLOCO 07.0A — Espaço comercial contextual de concursos -->
-    <aside aria-label="Espaço de anúncio: Concursos antes da lista" class="ad-slot ad-slot--inline" data-ad-area="concursos_antes_lista">
-      <a class="ad-placeholder-link" href="anuncie.html?area=concursos_antes_lista">
-        <span class="ad-label">Publicidade</span>
-        <strong>Anuncie aqui</strong>
-        <small>Destaque para cursos preparatórios, materiais de estudo, TAF, psicotécnico, mentorias e equipamentos.</small>
-      </a>
-    </aside>
+    <section class="usp-section usp-concurso-guide" aria-labelledby="guia-title">
+      <div class="usp-container">
+        <div class="usp-section__head">
+          <div>
+            <p class="usp-eyebrow"><span></span>Como analisar</p>
+            <h2 id="guia-title">Leia o edital com método, não por impulso</h2>
+          </div>
+        </div>
+        <div class="usp-card-grid usp-concurso-guide-grid" aria-label="Critérios para avaliar concursos">
+          <article class="usp-consulta-card"><small>01</small><span class="usp-icon" aria-hidden="true">▤</span><h3>Edital e banca</h3><p>Identifique se há edital vigente, autorização ou apenas previsão. Banca e cronograma mudam toda a estratégia.</p><strong>Conferir fonte <span>→</span></strong></article>
+          <article class="usp-consulta-card"><small>02</small><span class="usp-icon" aria-hidden="true">◎</span><h3>Vagas e cargos</h3><p>Compare vagas imediatas, cadastro reserva, especialidades, cotas e requisitos específicos por carreira.</p><strong>Comparar cargos <span>→</span></strong></article>
+          <article class="usp-consulta-card"><small>03</small><span class="usp-icon" aria-hidden="true">△</span><h3>TAF e etapas</h3><p>Veja prova objetiva, discursiva, exames, investigação social, curso de formação e pontos que mais eliminam.</p><strong>Planejar etapas <span>→</span></strong></article>
+          <article class="usp-consulta-card"><small>04</small><span class="usp-icon" aria-hidden="true">▧</span><h3>Salário inicial</h3><p>Use remuneração como referência, mas confira adicionais, subsídios, indenizações e regras locais.</p><strong>Ver remuneração <span>→</span></strong></article>
+        </div>
+      </div>
+    </section>
 
-    <section class="concursos-conteudo-lista" id="concursos-conteudo-lista" aria-label="Resumos de concursos por instituição">
+    <section class="usp-section usp-concurso-list-section" id="lista-instituicoes" aria-labelledby="lista-title">
+      <div class="usp-container">
+        <div class="usp-section__head">
+          <div>
+            <p class="usp-eyebrow"><span></span>Consulta por instituição</p>
+            <h2 id="lista-title">Resumos objetivos por corporação</h2>
+            <p>Use os filtros no topo ou navegue pela lista. Cada card reúne edital de referência, vagas, banca, escolaridade, remuneração, etapas e acompanhamento.</p>
+          </div>
+          <a class="usp-inline-link" href="#consulta-concursos">Voltar ao filtro →</a>
+        </div>
+
+        <aside aria-label="Espaço de anúncio: Concursos antes da lista" class="ad-slot ad-slot--inline" data-ad-area="concursos_antes_lista">
+          <a class="ad-placeholder-link" href="anuncie.html?area=concursos_antes_lista">
+            <span class="ad-label">Publicidade</span>
+            <strong>Anuncie aqui</strong>
+            <small>Destaque para cursos preparatórios, materiais de estudo, TAF, psicotécnico, mentorias e equipamentos.</small>
+          </a>
+        </aside>
+
+        <section class="concursos-conteudo-lista usp-concurso-cards" id="concursos-conteudo-lista" aria-label="Resumos de concursos por instituição">
 <article class="card concursos-conteudo-card" data-concurso-card data-inst="prf" data-esfera="federal">
   <div class="concursos-card-topo">
     <div>
@@ -656,7 +351,7 @@
     </div>
   </div>
 </article>
-<article class="card concursos-conteudo-card" id="concurso-pcdf" data-concurso-card data-inst="pcdf" data-esfera="estadual">
+<article class="card concursos-conteudo-card" id="concurso-pcdf" data-concurso-card data-inst="pcdf" data-esfera="federal">
   <div class="concursos-card-topo">
     <div>
       <span class="concursos-card-kicker">Distrito Federal • PCDF · Polícia Civil</span>
@@ -2114,75 +1809,125 @@
 </article>
     </section>
 
-    <nav class="concursos-paginacao" id="concursos-paginacao" aria-label="Paginação dos cards de concursos"></nav>
 
-    <section class="card concursos-detalhe-card" id="consulta-concurso-detalhado" hidden aria-live="polite">
-      <span class="concursos-hero-kicker">Consulta detalhada</span>
-      <h2>Dados completos do concurso (<span id="txt-inst-concursos">—</span>)</h2>
-      <div class="alerta concursos-alerta-detalhe">
-        Confira abaixo o cadastro detalhado da instituição selecionada. As informações são referência inicial e podem mudar por edital, retificação, ato de convocação, prorrogação ou nova publicação oficial.
+        <nav class="concursos-paginacao" id="concursos-paginacao" aria-label="Paginação dos cards de concursos"></nav>
+
+        <section class="concursos-detalhe-card" id="consulta-concurso-detalhado" hidden aria-live="polite">
+          <span class="concursos-hero-kicker">Consulta detalhada</span>
+          <h2>Dados completos do concurso <span id="txt-inst-concursos">—</span></h2>
+          <div class="alerta concursos-alerta-detalhe">
+            Confira abaixo o cadastro detalhado da instituição selecionada. As informações são referência inicial e podem mudar por edital, retificação, ato de convocação, prorrogação ou nova publicação oficial.
+          </div>
+          <div class="result-list" id="lista-concursos"></div>
+        </section>
       </div>
-      <div class="result-list" id="lista-concursos"></div>
     </section>
-  </div>
-</main>
-<!-- BLOCO 07.1 — PÁGINA COMPARAR CARREIRAS -->
-<!-- BLOCO 08 — PÁGINA PRODUTOS -->
-<!-- BLOCO 09 — PÁGINA AÇÕES JUDICIAIS -->
-<!-- BLOCO 10 — PÁGINA ASSOCIAÇÕES E SINDICATOS -->
-<!-- BLOCO 11 — PÁGINA PARCEIROS E CONTATO -->
-<!-- BLOCO 12.5 — Espaço comercial antes do rodapé -->
-<aside aria-label="Espaço de anúncio antes do rodapé" class="ad-slot ad-slot--footer" data-ad-area="rodape_geral">
-<a class="ad-placeholder-link" href="anuncie.html?area=rodape_geral">
-<span class="ad-label">Publicidade</span>
-<strong>Anuncie aqui</strong>
-<small>Espaço final para reforço de marca, campanhas institucionais e chamadas comerciais gerais.</small>
-</a>
-</aside>
-<!-- BLOCO 13 — RODAPÉ DO SITE -->
-<footer role="contentinfo">
-<div aria-label="Aviso institucional do portal" class="footer-disclaimer">
-<p><strong>Universo Segurança Pública</strong> é um portal informativo independente e não governamental, criado para organizar consultas sobre instituições de segurança pública a partir de fontes públicas, legislações, editais e canais oficiais quando disponíveis. As informações servem como referência inicial e podem mudar conforme cargo, legislação, regulamento, edital, holerite e atualização dos órgãos competentes.</p>
-<nav class="footer-links" aria-label="Links legais e institucionais">
-<a href="privacidade.html">Política de Privacidade</a>
-<a href="termos.html">Termos de Uso</a>
-<a href="cookies.html">Política de Cookies</a>
-<a href="anuncie.html">Contato e Anúncios</a>
-</nav>
-<p class="small-note footer-credit">Desenvolvido por <strong>LOCKSTAGE</strong>.</p>
-</div>
-</footer>
-<!-- ============================================================ -->
-<!-- === CAMADA VISUAL GLASS / MODERNA ========================= -->
-<!-- === Apenas aparência: não altera HTML funcional nem JS ===== -->
-<!-- ============================================================ -->
-<!-- =======================================================
-     BLOCO 14 — CSS VISUAL GLASS / MODERNIZAÇÃO DE APARÊNCIA
-     Camada visual final: apenas aparência, sem alterar HTML funcional ou JavaScript.
-     ======================================================= -->
-<!-- CSS centralizado em css/dist/main.min.css e ajustes complementares -->
-<!-- JavaScript fonte reorganizado em js/data, js/services, js/ui e js/pages.
-     Produção: bundle único para reduzir requisições e preservar a ordem de execução. -->
-<!-- Scripts divididos por página para evitar carregar funcionalidades desnecessárias. -->
-<script defer="" src="js/data/parametros-cargos.js?v=20260506bmba1"></script>
-<script defer="" src="js/data/policia-penal.js"></script>
-<script defer="" src="js/data/acoes-judiciais-data.js"></script>
-<script defer="" src="js/data/associacoes-data.js"></script>
-<script defer="" src="js/data/concursos-data.js"></script>
-<script defer="" src="js/data/portal-config.js?v=20260506bmba1"></script>
-<script defer="" src="js/data/bases-conteudo.js"></script>
-<script defer="" src="js/ui/navegacao-ui.js?v=20260503homeinst1"></script>
-<script defer="" src="js/services/remuneracao.js?v=20260506bmba1"></script>
-<script defer="" src="js/data/header-brasoes-config.js?v=20260504headerbrasoes1"></script>
-<script defer="" src="js/ui/header-estados.js?v=20260510brasoes1"></script>
-<script defer="" src="js/pages/concursos-comparador.js?v=20260506comparador4"></script>
-<script defer="" src="js/pages/concursos-conteudo-estatico.js?v=20260511adsense1"></script>
-<script defer="" src="js/pages/contato-init.js?v=20260503homeinst1"></script>
-<script defer="" src="js/data/produtos-data.js?v=20260513escrivaopfimg1"></script>
-<script defer="" src="js/pages/produtos-laterais.js?v=20260515produtos-sem-rolagem"></script>
-<script defer="" src="js/ui/event-bindings.js?v=20260506comparador4"></script>
-<script defer="" src="js/core/page-context.js?v=20260506baselegal1"></script>
-<script defer="" src="js/brasao-lightbox.js?v=20260501"></script>
-<script defer="" src="js/ui/cookie-consent.js?v=20260509adsense1"></script>
+  </main>
+
+  <footer class="usp-footer" role="contentinfo">
+    <div class="usp-container usp-footer__grid">
+      <div class="usp-footer__brand">
+        <a class="usp-brand" href="index.html" aria-label="Universo Segurança Pública - página inicial">
+          <span class="usp-brand__mark"><img class="usp-brand__logo" src="img/LOGO/logoleao.webp" alt="Logo Universo Segurança Pública" width="56" height="56" loading="eager" decoding="async" /></span>
+          <span class="usp-brand__text">
+            <strong>Universo Seg Pub</strong>
+            <small>Portal de Segurança Pública</small>
+          </span>
+        </a>
+        <p>Portal informativo independente e não governamental, criado para organizar consultas sobre instituições de segurança pública a partir de fontes públicas, legislações, editais e canais oficiais.</p>
+        <small>Desenvolvido por LOCKSTAGE</small>
+      </div>
+      <nav aria-label="Consultas">
+        <strong>Consultas</strong>
+        <a href="remuneracao.html">Remuneração</a>
+        <a href="direitos.html">Direitos e Vantagens</a>
+        <a href="brasoes.html">Brasões e história</a>
+        <a href="comparar-carreiras.html">Comparar carreiras</a>
+      </nav>
+      <nav aria-label="Concursos">
+        <strong>Concursos</strong>
+        <a href="concursos.html">Editais abertos</a>
+        <a href="concursos.html#oportunidades">Editais previstos</a>
+        <a href="guia-instituicoes.html">Guia de instituições</a>
+        <a href="noticias.html">Notícias</a>
+      </nav>
+      <nav aria-label="Institucional">
+        <strong>Institucional</strong>
+        <a href="anuncie.html">Anuncie aqui</a>
+        <a href="anuncie.html#parcerias">Parcerias</a>
+        <a href="anuncie.html#contato">Contato</a>
+        <a href="https://www.instagram.com/universosegpub" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </nav>
+    </div>
+    <div class="usp-container usp-footer__bottom">
+      <span>© 2026 Universo Seg Pub. Todos os direitos reservados.</span>
+      <nav aria-label="Links legais">
+        <a href="privacidade.html">Privacidade</a>
+        <a href="termos.html">Termos</a>
+        <a href="cookies.html">Cookies</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script defer src="js/data/concursos-data.js?v=20260516concursosdesktop1"></script>
+  <script defer src="js/pages/concursos-conteudo-estatico.js?v=20260516concursosdesktop1"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var select = document.getElementById('concursos_instituicao');
+      var label = document.getElementById('txt-inst-concursos');
+      var detail = document.getElementById('consulta-concurso-detalhado');
+      var list = document.getElementById('lista-concursos');
+
+      function clean(text) { return String(text || '').replace(/\s+/g, ' ').trim(); }
+      function escapeHtml(text) {
+        return clean(text).replace(/[&<>"']/g, function (char) {
+          return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[char];
+        });
+      }
+      function cssEscape(value) {
+        if (window.CSS && typeof window.CSS.escape === 'function') return CSS.escape(value);
+        return String(value || '').replace(/[^a-zA-Z0-9_-]/g, '\\$&');
+      }
+      function currentName(inst) {
+        if (!select) return inst || '—';
+        var option = inst ? select.querySelector('option[value="' + cssEscape(inst) + '"]') : select.selectedOptions[0];
+        return option ? clean(option.textContent) : (inst || '—');
+      }
+      function updateLabel(inst) {
+        if (label) label.textContent = currentName(inst || (select && select.value) || '');
+      }
+      function renderFromVisibleCard(inst) {
+        if (!inst || !list || clean(list.textContent)) return;
+        var card = document.querySelector('[data-concurso-card][data-inst="' + cssEscape(inst) + '"]');
+        if (!card) return;
+        var title = clean(card.querySelector('h2') && card.querySelector('h2').textContent);
+        var intro = clean(card.querySelector('.concursos-card-topo p') && card.querySelector('.concursos-card-topo p').textContent);
+        var indicadores = Array.from(card.querySelectorAll('.concursos-card-indicadores > div')).map(function (item) {
+          var k = clean(item.querySelector('span') && item.querySelector('span').textContent);
+          var v = clean(item.querySelector('strong') && item.querySelector('strong').textContent);
+          return k && v ? '<span class="direito-desc"><strong>' + escapeHtml(k) + ':</strong> ' + escapeHtml(v) + '</span>' : '';
+        }).join('');
+        var corpo = Array.from(card.querySelectorAll('.concursos-card-corpo p')).map(function (p) { return '<span class="direito-desc">' + p.innerHTML + '</span>'; }).join('');
+        var link = card.querySelector('.concursos-card-links a');
+        var linkHtml = link ? '<a class="concurso-link" target="_blank" rel="noopener noreferrer" href="' + link.href + '">Abrir fonte oficial</a>' : '';
+        list.innerHTML = '<div class="direito-item acao"><span class="direito-nome">' + escapeHtml(title || currentName(inst)) + '</span>' + (intro ? '<span class="direito-desc">' + escapeHtml(intro) + '</span>' : '') + indicadores + corpo + linkHtml + '</div>';
+      }
+      function handle(inst) {
+        window.setTimeout(function () {
+          updateLabel(inst);
+          renderFromVisibleCard(inst || (select && select.value));
+        }, 80);
+      }
+      if (select) select.addEventListener('change', function () { handle(select.value); });
+      document.addEventListener('click', function (event) {
+        var btn = event.target.closest('[data-concurso-load]');
+        if (btn) handle(btn.dataset.concursoLoad);
+        var cleanBtn = event.target.closest('[data-concursos-limpar]');
+        if (cleanBtn && label) label.textContent = '—';
+      });
+      if (detail) detail.addEventListener('transitionend', function () { updateLabel(select && select.value); });
+    });
+  </script>
+  <script defer src="js/brasao-lightbox.js?v=20260516lightbox3"></script>
 </body>
 </html>

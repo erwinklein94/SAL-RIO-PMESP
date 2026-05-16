@@ -1,901 +1,282 @@
 <!DOCTYPE html>
-
-<html class="page-produtos" lang="pt-BR">
+<html class="usp-desktop-home usp-desktop-produtos" lang="pt-BR">
 <head>
-<!-- =======================================================
-     BLOCO 01 — HEAD / CONFIGURAÇÕES INICIAIS DO SITE
-     Tags de rastreamento, metadados, fontes, tema inicial e CSS.
-     ======================================================= -->
-<!-- BLOCO 01.1 — Google Analytics -->
-<!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XHR4TCCF9D"></script>
-<!-- BLOCO 01.2 — Google Ads -->
-<!-- Google Ads tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-18121830612"></script>
-<script src="js/ui/head.js"></script>
-<!-- BLOCO 01.3 — Conversão do Google Ads -->
-<!-- Event snippet for Visualização de página conversion page -->
-<!-- BLOCO 01.4 — Metadados, título e fontes externas -->
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Produtos, cursos, livros, equipamentos e recomendações selecionadas para segurança pública e concursos." name="description"/>
-<title>Produtos para Segurança Pública - Universo Segurança Pública</title>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://www.googletagmanager.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;family=Roboto+Condensed:wght@400;500;700&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet"/>
-<!-- BLOCO 01.5 — CSS dividido em chunks para carregamento mais leve -->
-<link as="style" href="css/dist/main.min.css" rel="preload"/>
-<link href="css/dist/main.min.css" rel="stylesheet"/>
-<link href="css/override-logoleao.css?v=20260503homeinst1" rel="stylesheet"/><link href="css/app-soft-mobile.css?v=20260516-menu-mobile-fix1" rel="stylesheet"/>
-<!-- BLOCO 01.6 — Ajuste da vitrine da aba Produtos -->
-<style>
-  .page-produtos #page-produtos {
-    max-width: min(1480px, calc(100% - 40px)) !important;
-  }
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Produtos, cursos, livros, equipamentos e recomendações selecionadas para segurança pública, estudo, preparação física e rotina operacional." />
+  <meta name="keywords" content="produtos segurança pública, equipamentos táticos, cursos policiais, livros concursos, PMESP, PCSP, Polícia Federal, PRF" />
+  <meta name="author" content="Universo Segurança Pública" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <title>Produtos - Universo Segurança Pública</title>
 
-  .page-produtos #page-produtos .produtos-vitrine {
-    display: grid !important;
-    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
-    gap: 18px !important;
-    align-items: stretch !important;
-    margin-bottom: 24px;
-  }
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XHR4TCCF9D"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18121830612"></script>
+  <script src="js/ui/head.js"></script>
 
-  .page-produtos #page-produtos .produtos-vitrine .produto-card {
-    display: flex !important;
-    flex-direction: column;
-    height: 100%;
-    min-height: 100%;
-    padding: 18px !important;
-  }
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://www.googletagmanager.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link href="css/home-desktop-redesign.css?v=20260516-lightbox3" rel="stylesheet" />
 
-  .page-produtos #page-produtos .produto-imagem {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    margin-bottom: 14px;
-    border-radius: 18px;
-    overflow: hidden;
-    border: 1px solid var(--border-card);
-    background: var(--bg-card);
-  }
+  <link href="https://universosegpub.com.br/produtos.html" rel="canonical" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Universo Segurança Pública" />
+  <meta property="og:title" content="Produtos - Universo Segurança Pública" />
+  <meta property="og:description" content="Vitrine de produtos, cursos, livros, equipamentos e recomendações para segurança pública e concursos." />
+  <meta property="og:url" content="https://universosegpub.com.br/produtos.html" />
+  <meta property="og:image" content="https://universosegpub.com.br/img/LOGO/logoleao.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Produtos - Universo Segurança Pública" />
+  <meta name="twitter:description" content="Produtos, cursos, livros e equipamentos selecionados para estudo, rotina operacional e carreira." />
+  <meta name="twitter:image" content="https://universosegpub.com.br/img/LOGO/logoleao.webp" />
+  <script type="application/ld+json">
+  [{"@context":"https://schema.org","@type":"CollectionPage","name":"Produtos - Universo Segurança Pública","description":"Vitrine de produtos, cursos, livros, equipamentos e recomendações para segurança pública e concursos.","url":"https://universosegpub.com.br/produtos.html","isPartOf":{"@type":"WebSite","name":"Universo Segurança Pública","url":"https://universosegpub.com.br/"},"publisher":{"@type":"Organization","name":"Universo Segurança Pública","url":"https://universosegpub.com.br/","logo":{"@type":"ImageObject","url":"https://universosegpub.com.br/img/LOGO/logoleao.webp"}}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://universosegpub.com.br/"},{"@type":"ListItem","position":2,"name":"Produtos","item":"https://universosegpub.com.br/produtos.html"}]}]
+  </script>
 
-  .page-produtos #page-produtos .produto-imagem img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .page-produtos #page-produtos .produtos-vitrine .produto-card h3 {
-    min-height: 2.6em;
-  }
-
-  .page-produtos #page-produtos .produtos-vitrine .produto-card p {
-    margin-bottom: 14px;
-  }
-
-  .page-produtos #page-produtos .produtos-vitrine .curso-meta {
-    margin-bottom: 16px;
-  }
-
-  .page-produtos #page-produtos .produtos-vitrine .curso-cta {
-    width: 100%;
-    min-height: 48px;
-    margin-top: auto !important;
-    border-radius: 999px !important;
-    text-align: center;
-  }
-
-  .page-produtos #page-produtos .produto-card--destaque .ad-label {
-    width: fit-content;
-    margin-bottom: 10px;
-  }
-
-  .page-produtos #page-produtos .cursos-preparatorios-geral {
-    display: grid !important;
-    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
-    justify-content: stretch !important;
-    gap: 18px !important;
-    margin: 0 0 20px !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-  }
-
-  .page-produtos #page-produtos .cursos-preparatorios-geral .produto-card--pmto {
-    display: flex !important;
-    flex-direction: column !important;
-    width: 100% !important;
-    max-width: 340px !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-  }
-
-  .page-produtos #page-produtos .produto-imagem--pmto {
-    aspect-ratio: 1 / 1;
-  }
-
-  .page-produtos #page-produtos .descricao-afiliado {
-    font-size: .92em;
-    opacity: .82;
-  }
-
-  .page-produtos #page-produtos .curso-badge {
-    display: inline-flex;
-    align-items: center;
-    width: fit-content;
-    margin-bottom: 10px;
-    padding: 7px 11px;
-    border: 1px solid var(--border-input);
-    border-radius: 999px;
-    background: var(--bg-card);
-    color: var(--text-main);
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 11px;
-    font-weight: 800;
-    letter-spacing: .9px;
-    line-height: 1;
-    text-transform: uppercase;
-  }
-
-  .page-produtos #page-produtos .curso-section-title--destaque {
-    margin-top: 0;
-  }
-
-  .page-produtos .produtos-filter-panel {
-    max-width: min(1480px, calc(100% - 40px));
-    margin: 18px auto 26px;
-  }
-
-  .page-produtos .produtos-filter-shell {
-    display: grid;
-    grid-template-columns: minmax(0, 1.4fr) minmax(260px, .6fr);
-    gap: 18px;
-    align-items: center;
-    padding: 20px;
-    border: 1px solid var(--border-card);
-    border-radius: 24px;
-    background: var(--bg-card);
-    box-shadow: var(--shadow-card);
-  }
-
-  .page-produtos .produtos-filter-kicker {
-    display: inline-flex;
-    width: fit-content;
-    margin-bottom: 8px;
-    padding: 6px 10px;
-    border: 1px solid var(--border-input);
-    border-radius: 999px;
-    color: var(--text-muted);
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 11px;
-    font-weight: 800;
-    letter-spacing: .9px;
-    text-transform: uppercase;
-  }
-
-  .page-produtos .produtos-filter-copy h2 {
-    margin: 0 0 8px;
-    font-family: 'Oswald', sans-serif;
-    font-size: clamp(22px, 3vw, 34px);
-    line-height: 1.05;
-    text-transform: uppercase;
-  }
-
-  .page-produtos .produtos-filter-copy p {
-    margin: 0;
-    color: var(--text-muted);
-    line-height: 1.5;
-  }
-
-  .page-produtos .produtos-filter-control {
-    display: grid;
-    gap: 8px;
-  }
-
-  .page-produtos .produtos-filter-control label {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 800;
-    letter-spacing: .6px;
-    text-transform: uppercase;
-  }
-
-  .page-produtos .produtos-filter-control select {
-    width: 100%;
-    min-height: 46px;
-    padding: 0 14px;
-    border: 1px solid var(--border-input);
-    border-radius: 14px;
-    background: var(--bg-input);
-    color: var(--text-main);
-    font: inherit;
-  }
-
-  .page-produtos .produtos-filter-control small {
-    color: var(--text-muted);
-    line-height: 1.35;
-  }
-
-  .page-produtos #page-produtos .produtos-vitrine[hidden] {
-    display: none !important;
-  }
-
-  @media (max-width: 1280px) {
-    .page-produtos #page-produtos .produtos-vitrine,
-    .page-produtos #page-produtos .cursos-preparatorios-geral {
-      grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
-    }
-  }
-
-  @media (max-width: 1024px) {
-    .page-produtos #page-produtos .produtos-vitrine,
-    .page-produtos #page-produtos .cursos-preparatorios-geral {
-      grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-    }
-  }
-
-  @media (max-width: 760px) {
-    .page-produtos #page-produtos {
-      max-width: calc(100% - 18px) !important;
-    }
-
-    .page-produtos .produtos-filter-panel {
-      max-width: calc(100% - 18px);
-      margin: 12px auto 18px;
-    }
-
-    .page-produtos .produtos-filter-shell {
-      grid-template-columns: 1fr;
-      gap: 14px;
-      padding: 14px;
-      border-radius: 18px;
-    }
-
-    .page-produtos .produtos-filter-copy h2 {
-      font-size: 22px;
-    }
-
-    .page-produtos .produtos-filter-copy p,
-    .page-produtos .produtos-filter-control small {
-      font-size: 12px;
-    }
-
-    .page-produtos #page-produtos .produtos-vitrine,
-
-    .page-produtos #page-produtos .cursos-preparatorios-geral {
-      grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-      gap: 10px !important;
-      margin-bottom: 18px !important;
-    }
-
-    .page-produtos #page-produtos .produtos-vitrine .produto-card {
-      min-height: 0 !important;
-      padding: 10px !important;
-      border-radius: 18px !important;
-    }
-
-    .page-produtos #page-produtos .produto-imagem {
-      aspect-ratio: 1 / 1;
-      margin-bottom: 8px;
-      border-radius: 14px;
-    }
-
-    .page-produtos #page-produtos .produtos-vitrine .produto-card h3 {
-      display: -webkit-box;
-      min-height: 0;
-      margin-bottom: 6px;
-      overflow: hidden;
-      -webkit-box-orient: vertical;
-      -webkit-line-clamp: 2;
-      font-size: 12.5px;
-      line-height: 1.18;
-      letter-spacing: .25px;
-    }
-
-    .page-produtos #page-produtos .produtos-vitrine .produto-card p {
-      display: -webkit-box;
-      margin-bottom: 8px;
-      overflow: hidden;
-      -webkit-box-orient: vertical;
-      -webkit-line-clamp: 2;
-      font-size: 11px;
-      line-height: 1.25;
-    }
-
-    .page-produtos #page-produtos .descricao-afiliado {
-      display: none;
-    }
-
-    .page-produtos #page-produtos .produtos-vitrine .curso-meta {
-      display: none;
-    }
-
-    .page-produtos #page-produtos .curso-badge,
-    .page-produtos #page-produtos .produto-card--destaque .ad-label {
-      margin-bottom: 6px;
-      padding: 5px 7px;
-      font-size: 8.5px;
-      letter-spacing: .45px;
-    }
-
-    .page-produtos #page-produtos .produtos-vitrine .curso-cta {
-      min-height: 34px;
-      padding: 8px 10px !important;
-      font-size: 10.5px !important;
-      letter-spacing: .65px;
-      line-height: 1.1;
-    }
-  }
-</style>
-<!-- BLOCO SEO GERADO --
-     Canonical absoluto, Open Graph, Twitter Card e JSON-LD.
-     Gerado na revisão de manutenção.
-     -->
-<link href="https://universosegpub.com.br/produtos.html" rel="canonical"/>
-<meta content="website" property="og:type"/>
-<meta content="pt_BR" property="og:locale"/>
-<meta content="Universo Segurança Pública" property="og:site_name"/>
-<meta content="Produtos para Segurança Pública - Universo Segurança Pública" property="og:title"/>
-<meta content="Produtos, cursos, livros, equipamentos e recomendações selecionadas para segurança pública e concursos." property="og:description"/>
-<meta content="https://universosegpub.com.br/produtos.html" property="og:url"/>
-<meta content="https://universosegpub.com.br/img/LOGO/logoleao.webp" property="og:image"/>
-<meta content="summary_large_image" name="twitter:card"/>
-<meta content="Produtos para Segurança Pública - Universo Segurança Pública" name="twitter:title"/>
-<meta content="Produtos, cursos, livros, equipamentos e recomendações selecionadas para segurança pública e concursos." name="twitter:description"/>
-<meta content="https://universosegpub.com.br/img/LOGO/logoleao.webp" name="twitter:image"/>
-<script type="application/ld+json">
-[{"@context":"https://schema.org","@type":"WebPage","name":"Produtos para Segurança Pública - Universo Segurança Pública","description":"Produtos, cursos, livros, equipamentos e recomendações selecionadas para segurança pública e concursos.","url":"https://universosegpub.com.br/produtos.html","isPartOf":{"@type":"WebSite","name":"Universo Segurança Pública","url":"https://universosegpub.com.br/"},"publisher":{"@type":"Organization","name":"Universo Segurança Pública","url":"https://universosegpub.com.br/","logo":{"@type":"ImageObject","url":"https://universosegpub.com.br/img/LOGO/logoleao.webp"}}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://universosegpub.com.br/"},{"@type":"ListItem","position":2,"name":"Produtos para Segurança Pública","item":"https://universosegpub.com.br/produtos.html"}]}]
-</script>
-<!-- /BLOCO SEO GERADO --><!-- BLOCO ADSENSE — Verificação e carregamento de anúncios Google AdSense -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4280112532471663"
-     crossorigin="anonymous"></script>
-<!-- /BLOCO ADSENSE -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4280112532471663" crossorigin="anonymous"></script>
 </head>
-<body class="app-soft-theme" data-inst="portal" data-page="produtos">
-<div aria-label="Controles rápidos do visual app" class="app-floating-actions">
-<a aria-label="Voltar para a página inicial" class="app-floating-action app-floating-action--back" href="index.html">←</a>
-<button aria-label="Alternar tema claro e escuro" class="app-floating-action app-floating-action--theme" data-theme-toggle="true" data-toggle-style="icon" type="button"><span aria-hidden="true">☀️</span></button>
-</div>
-<nav aria-label="Navegação rápida inferior" class="app-bottom-nav">
-<a class="app-bottom-item" href="index.html"><span aria-hidden="true" class="app-bottom-icon">⌂</span><span class="app-bottom-label">Início</span></a>
-<a class="app-bottom-item" href="remuneracao.html"><span aria-hidden="true" class="app-bottom-icon">◈</span><span class="app-bottom-label">Remun.</span></a>
-<a class="app-bottom-item" href="concursos.html"><span aria-hidden="true" class="app-bottom-icon">▤</span><span class="app-bottom-label">Concursos</span></a>
-<a class="app-bottom-item" href="comparar-carreiras.html"><span aria-hidden="true" class="app-bottom-icon">⇄</span><span class="app-bottom-label">Comparar</span></a>
-<button aria-controls="sidebar" aria-expanded="false" aria-label="Navegação do portal" class="app-bottom-item menu-btn" type="button"><span aria-hidden="true" class="app-bottom-icon">☰</span><span class="app-bottom-label">Menu</span></button>
-</nav>
-<!-- =======================================================
-     BLOCO 03 — HTML / ESTRUTURA VISÍVEL DO SITE
-     Cabeçalho, menu superior, páginas/abas, formulários e rodapé.
-     ======================================================= -->
-<!-- BLOCO 03.1 — Cabeçalho institucional premium com seletor, estado e carreira -->
-<!-- BLOCO 03.2 — Botão de menu superior: abre abas do portal e vitrine de produtos -->
-<!-- BLOCO 03.3 — Overlay da navegação superior -->
-<div aria-hidden="true" class="menu-overlay" id="menuOverlay"></div>
-<!-- BLOCO 03.4 — Menu superior: navegação institucional, grupos de consulta, Instagram e parceiros -->
-<aside aria-label="Menu superior do portal" class="sidebar" id="sidebar" role="navigation">
-<div class="sidebar-header">
-<div aria-label="Identidade da navegação" class="sidebar-brand">
-<strong>Universo Segurança Pública</strong>
-<span>Escolha o que consultar</span>
-</div>
-<button aria-label="Fechar navegação" class="close-btn" type="button"><span aria-hidden="true">✕</span></button>
-</div>
-<!-- BLOCO 03.4.2 — Links internos organizados por finalidade -->
-<nav aria-label="Páginas do portal" class="sidebar-nav">
-<div aria-label="Navegação inicial" class="sidebar-nav-group">
-<div class="sidebar-nav-title">
-<span>Visão geral</span>
-<small>Acesso inicial e contexto do portal</small>
-</div>
-<a href="index.html" id="menu-principal" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">🏠</span>
-<span class="sidebar-link-text">Principal</span>
-<small>Início do portal</small>
-</a>
-<a href="noticias.html" id="menu-noticias" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">📰</span>
-<span class="sidebar-link-text">Notícias</span>
-<small>Editais, reajustes e atualizações</small>
-</a>
-<a href="guia-instituicoes.html" id="menu-guia" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">📖</span>
-<span class="sidebar-link-text">Guia das instituições</span>
-<small>Artigos permanentes por instituição</small>
-</a>
-</div>
-<div aria-label="Produtos, conteúdos e parceiros" class="sidebar-nav-group">
-<div class="sidebar-nav-title">
-<span>Loja e parcerias</span>
-<small>Produtos, cursos e contato comercial</small>
-</div>
-<a aria-current="page" class="active" href="produtos.html" id="menu-produtos" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">🛒</span>
-<span class="sidebar-link-text">Produtos</span>
-<small>Cursos, livros e equipamentos</small>
-</a>
-<a href="anuncie.html" id="menu-parceiros" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">📣</span>
-<span class="sidebar-link-text">Parceiros</span>
-<small>Anuncie ou fale conosco</small>
-</a>
-</div>
-<div aria-label="Informações de carreira e legislação" class="sidebar-nav-group">
-<div class="sidebar-nav-title">
-<span>Carreira e legislação</span>
-<small>Dados funcionais, normas e benefícios</small>
-</div>
-<a href="remuneracao.html" id="menu-remuneracao" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">💰</span>
-<span class="sidebar-link-text">Remuneração Tabelada</span>
-<small>Valores brutos por cargo</small>
-</a>
-<a href="direitos.html" id="menu-direitos" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">⚖️</span>
-<span class="sidebar-link-text">Direitos e Vantagens</span>
-<small>Benefícios, adicionais e alertas</small>
-</a>
-</div>
-<div aria-label="Pesquisa, concursos e comparação" class="sidebar-nav-group">
-<div class="sidebar-nav-title">
-<span>Pesquisa e comparação</span>
-<small>Escolha, compare e aprofunde</small>
-</div>
-<a href="concursos.html" id="menu-concursos" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">📋</span>
-<span class="sidebar-link-text">Concursos</span>
-<small>Editais, requisitos e etapas</small>
-</a>
-<a href="comparar-carreiras.html" id="menu-comparar" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">⚔️</span>
-<span class="sidebar-link-text">Comparar Carreiras</span>
-<small>Salários, vagas e bancas</small>
-</a>
-<a href="brasoes.html" id="menu-brasoes" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">🛡️</span>
-<span class="sidebar-link-text">Brasões e história</span>
-<small>Origem, identidade e histórico</small>
-</a>
-</div>
-<div aria-label="Apoio jurídico e institucional" class="sidebar-nav-group">
-<div class="sidebar-nav-title">
-<span>Apoio institucional</span>
-<small>Entidades, teses e suporte</small>
-</div>
-<a href="acoes-judiciais.html" id="menu-acoes" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">🧾</span>
-<span class="sidebar-link-text">Ações Judiciais</span>
-<small>Teses, ações e orientações</small>
-</a>
-<a href="associacoes-sindicatos.html" id="menu-associacoes" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">🤝</span>
-<span class="sidebar-link-text">Associações e Sindicatos</span>
-<small>Entidades representativas</small>
-</a>
-</div>
-
-</nav>
-<!-- BLOCO 03.4.3 — Rede social destacada -->
-<div aria-label="Redes sociais" class="sidebar-social">
-<a aria-label="Abrir Instagram do Universo Segurança Pública" class="sidebar-social-btn" href="https://www.instagram.com/universosegpub" id="menu-instagram" rel="noopener noreferrer" role="link" tabindex="0" target="_blank">
-<span aria-hidden="true">📷</span>
-<strong>Seguir no Instagram</strong>
-</a>
-</div>
-<!-- BLOCO 03.4.3A — Produtos da vitrine no menu superior -->
-<section aria-label="Produtos" class="sidebar-products-vitrine">
-<div class="sidebar-products-title">
-<strong>Produtos</strong>
-<span>10 itens da vitrine</span>
-</div>
-<div class="sidebar-products-list">
-<a aria-label="Ver na loja Mochila Militar Tática Impermeável 50 L Grande Reforçada c/ 2 Bandeiras Brasil/EUA" class="sidebar-product-card" href="https://s.shopee.com.br/901i8h9IK5" rel="noopener noreferrer" target="_blank">
-<img alt="Mochila Militar Tática Impermeável 50 L Grande Reforçada c/ 2 Bandeiras Brasil/EUA" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/mochilaimpermeavel50l.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Mochila Militar Tática Impermeável 50 L Grande Reforçada c/ 2 Bandeiras Brasil/EUA</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Mochila Coban Tática Militar Reforçada 24 L" class="sidebar-product-card" href="https://s.shopee.com.br/8V5RQXr16n" rel="noopener noreferrer" target="_blank">
-<img alt="Mochila Coban Tática Militar Reforçada 24 L" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/mochilacoban.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Mochila Coban Tática Militar Reforçada 24 L</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Barra fixa para porta" class="sidebar-product-card" href="https://s.shopee.com.br/9fHIyi0uae" rel="noopener noreferrer" target="_blank">
-<img alt="Barra fixa para porta" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/barrafixa01.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Barra fixa para porta</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja BOTA ACERO COURO COLT PADRÃO POLICIA MILITAR SP" class="sidebar-product-card" href="https://s.shopee.com.br/1qYSZj5bki" rel="noopener noreferrer" target="_blank">
-<img alt="BOTA ACERO COURO COLT PADRÃO POLICIA MILITAR SP" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/botaacero.webp"/>
-<span class="sidebar-product-card-info">
-<strong>BOTA ACERO COURO COLT PADRÃO POLICIA MILITAR SP</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Power Rack Funcional com paralelas" class="sidebar-product-card" href="https://s.shopee.com.br/9fHJ0X4HVl" rel="noopener noreferrer" target="_blank">
-<img alt="Power Rack Funcional com paralelas, suporte de agachamento, supino, barra fixa e barra paralela" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/barrafixa02.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Power Rack Funcional com paralelas</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Colete à Prova d&#x27;Água Unissex para Peito - Bolsa para Corrida Esportiva ao Ar Livre (Preto)" class="sidebar-product-card" href="https://s.shopee.com.br/8V5UTFtI4n" rel="noopener noreferrer" target="_blank">
-<img alt="Colete à Prova d&#x27;Água Unissex para Peito - Bolsa para Corrida Esportiva ao Ar Livre (Preto)" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/coletepeito.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Colete à Prova d&#x27;Água Unissex para Peito - Bolsa para Corrida Esportiva ao Ar Livre (Preto)</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Calças De Carga De Alta Qualidade Novos Homens Táticas À Prova D&#x27;água Do Exército Usuários Fora De Esportes Long Hiking" class="sidebar-product-card" href="https://s.shopee.com.br/9fHRseGBA0" rel="noopener noreferrer" target="_blank">
-<img alt="Calças De Carga De Alta Qualidade Novos Homens Táticas À Prova D&#x27;água Do Exército Usuários Fora De Esportes Long Hiking" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/calcadecarga1.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Calças De Carga De Alta Qualidade Novos Homens Táticas À Prova D&#x27;água Do Exército Usuários Fora De Esportes Long Hiking</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Boné De Beisebol Masculino Camuflado Com Caveira, Chapéu Tático Para Pesca E Caminhada Ao Ar Livre O Verão" class="sidebar-product-card" href="https://s.shopee.com.br/8Km4Irus3i" rel="noopener noreferrer" target="_blank">
-<img alt="Boné De Beisebol Masculino Camuflado Com Caveira, Chapéu Tático Para Pesca E Caminhada Ao Ar Livre O Verão" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/bonecaveira.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Boné De Beisebol Masculino Camuflado Com Caveira, Chapéu Tático Para Pesca E Caminhada Ao Ar Livre O Verão</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Lanterna Led Militar 3 Em 1 T9 Tática Potente Forte Longo Alcance USB Recarregável Pesca Camping" class="sidebar-product-card" href="https://s.shopee.com.br/9Uy1hagpxm" rel="noopener noreferrer" target="_blank">
-<img alt="Lanterna Led Militar 3 Em 1 T9 Tática Potente Forte Longo Alcance USB Recarregável Pesca Camping" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/lanterna.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Lanterna Led Militar 3 Em 1 T9 Tática Potente Forte Longo Alcance USB Recarregável Pesca Camping</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Cinto Premium com Fivela de Liga Metálica - Cinto Militar Largo em Nylon com Fivela Unissex de Engate Rápido Resistente" class="sidebar-product-card" href="https://s.shopee.com.br/2qR7lnxjWo" rel="noopener noreferrer" target="_blank">
-<img alt="Cinto Premium com Fivela de Liga Metálica - Cinto Militar Largo em Nylon com Fivela Unissex de Engate Rápido Resistente" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/cintotatico.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Cinto Premium com Fivela de Liga Metálica - Cinto Militar Largo em Nylon com Fivela Unissex de Engate Rápido Resistente</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-</div>
-<a class="sidebar-products-more" href="produtos.html">
-<strong>Ver vitrine completa</strong>
-<span>Acessar todos os produtos →</span>
-</a>
-<small class="sidebar-affiliate-note">Links podem ser comerciais ou afiliados. Confira sempre a página do produto antes de comprar.</small>
-</section>
-</aside>
-
-<header class="site-header" role="banner">
-<div class="header-content header-shell">
-<div class="header-topbar">
-<div aria-label="Controles rápidos" class="header-menu-tools">
-<button aria-controls="sidebar" aria-expanded="false" aria-label="Abrir menu do portal" class="menu-btn" type="button">
-<span class="menu-btn-bars" aria-hidden="true"><i></i><i></i><i></i></span>
-<span class="menu-btn-label">Menu</span>
-</button>
-<button aria-label="Alternar tema claro/escuro" class="theme-toggle-header" data-theme-toggle="true" data-toggle-style="text" id="theme-toggle-header" type="button">
-          <span aria-hidden="true">☀️</span> Claro
-        </button>
-</div>
-<div aria-label="Identidade do site" class="header-brand-block">
-<div class="header-kicker"> </div>
-<h1>Universo <span>Segurança Pública</span></h1>
-<p aria-label="Aviso de independência institucional" class="header-independent-note">Portal informativo independente • Não governamental</p>
-</div>
-</div>
-<div class="header-text" id="header-text">
-<section aria-label="Instituição selecionada" class="header-institution-card">
-<div class="header-institution-main">
-<div class="header-current-identity">
-<div aria-label="Imagem do brasão selecionado" class="current-flag-frame brand-logo-frame">
-<img alt="Logo Universo Segurança Pública" data-img-base="img/LOGO/logoleao" decoding="async" fetchpriority="high" height="96" id="header-active-flag" src="img/LOGO/logoleao.webp" width="96"/>
-</div>
-<div class="header-current-copy">
-<span class="header-current-label"> </span>
-<strong id="header-active-sigla">Universo</strong>
-<p id="header-active-name">Segurança Pública</p>
-<small id="header-desc">Escolha uma instituição</small>
-</div>
-</div>
-<aside aria-label="Resumo institucional atualizado" class="header-facts-panel">
-<div class="header-facts-head">
-<span id="header-resumo-titulo">Resumo do portal</span>
-<strong id="header-resumo-atualizado">Visão geral do portal</strong>
-</div>
-<div class="header-facts-grid">
-<div class="header-fact">
-<span id="header-label-natureza">Escopo</span>
-<strong id="header-resumo-natureza">Portal informativo</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-uf">Abrangência</span>
-<strong id="header-resumo-uf">Brasil</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-criacao">Instituições</span>
-<strong id="header-resumo-criacao">111</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-ativa">Efetivo total estimado</span>
-<strong id="header-resumo-ativa">≈ 1,2 milhão+</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-reserva">Reserva/inativos</span>
-<strong id="header-resumo-reserva">≈ 563 mil+</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-total">Mulheres no efetivo</span>
-<strong id="header-resumo-total">≈ 91,9 mil+</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-populacao">População abrangida</span>
-<strong id="header-resumo-populacao">213.421.037</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-relacao">UFs</span>
-<strong id="header-resumo-relacao">27 UFs</strong>
-</div>
-</div>
-<div class="header-leadership">
-<div class="header-leadership-item">
-<span id="header-label-governador">Cobertura</span>
-<strong id="header-resumo-governador">Polícia Rodoviária Federal, Polícia Federal, Polícia Militar, Polícia Civil, Polícia Penal e Bombeiro Militar</strong>
-</div>
-<div class="header-leadership-item header-command-item is-hidden" hidden>
-<span id="header-label-comando">Comando/Direção</span>
-<strong id="header-resumo-comando">—</strong>
-</div>
-</div>
-</aside>
-</div>
-</section>
-<div aria-label="Bandeiras dos estados disponíveis no site" class="header-state-flags">
-<div class="state-flags-title">Estados disponíveis</div>
-<button aria-label="Selecionar São Paulo" aria-pressed="false" class="state-flag" data-estado="sp" title="São Paulo" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg"/>
-<span>SP</span>
-</button>
-<button aria-label="Selecionar Rio de Janeiro" aria-pressed="false" class="state-flag" data-estado="rj" title="Rio de Janeiro" type="button">
-<img alt="Bandeira do Rio de Janeiro" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_estado_do_Rio_de_Janeiro.svg"/>
-<span>RJ</span>
-</button>
-<button aria-label="Selecionar Minas Gerais" aria-pressed="false" class="state-flag" data-estado="mg" title="Minas Gerais" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Minas_Gerais.svg"/>
-<span>MG</span>
-</button>
-<button aria-label="Selecionar Bahia" aria-pressed="false" class="state-flag" data-estado="ba" title="Bahia" type="button">
-<img alt="Bandeira da Bahia" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_da_Bahia.svg"/>
-<span>BA</span>
-</button>
-<button aria-label="Selecionar Paraná" aria-pressed="false" class="state-flag" data-estado="pr" title="Paraná" type="button">
-<img alt="Bandeira do Paraná" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Paran%C3%A1.svg"/>
-<span>PR</span>
-</button>
-<button aria-label="Selecionar Rio Grande do Sul" aria-pressed="false" class="state-flag" data-estado="rs" title="Rio Grande do Sul" type="button">
-<img alt="Bandeira do Rio Grande do Sul" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Rio_Grande_do_Sul.svg"/>
-<span>RS</span>
-</button>
-<button aria-label="Selecionar Santa Catarina" aria-pressed="false" class="state-flag" data-estado="sc" title="Santa Catarina" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Santa_Catarina.svg"/>
-<span>SC</span>
-</button>
-<button aria-label="Selecionar Espírito Santo" aria-pressed="false" class="state-flag" data-estado="es" title="Espírito Santo" type="button">
-<img alt="Bandeira do Espírito Santo" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Esp%C3%ADrito_Santo.svg"/>
-<span>ES</span>
-</button>
-<button aria-label="Selecionar Mato Grosso do Sul" aria-pressed="false" class="state-flag" data-estado="ms" title="Mato Grosso do Sul" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Mato_Grosso_do_Sul.svg"/>
-<span>MS</span>
-</button>
-<button aria-label="Selecionar Mato Grosso" aria-pressed="false" class="state-flag" data-estado="mt" title="Mato Grosso" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Mato_Grosso.svg"/>
-<span>MT</span>
-</button>
-<button aria-label="Selecionar Acre" aria-pressed="false" class="state-flag" data-estado="ac" title="Acre" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Acre.svg"/>
-<span>AC</span>
-</button>
-<button aria-label="Selecionar Alagoas" aria-pressed="false" class="state-flag" data-estado="al" title="Alagoas" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Alagoas.svg"/>
-<span>AL</span>
-</button>
-<button aria-label="Selecionar Amazonas" aria-pressed="false" class="state-flag" data-estado="am" title="Amazonas" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Amazonas.svg"/>
-<span>AM</span>
-</button>
-<button aria-label="Selecionar Amapá" aria-pressed="false" class="state-flag" data-estado="ap" title="Amapá" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Amap%C3%A1.svg"/>
-<span>AP</span>
-</button>
-<button aria-label="Selecionar Ceará" aria-pressed="false" class="state-flag" data-estado="ce" title="Ceará" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Cear%C3%A1.svg"/>
-<span>CE</span>
-</button>
-<button aria-label="Selecionar Distrito Federal" aria-pressed="false" class="state-flag" data-estado="df" title="Distrito Federal" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Distrito_Federal_(Brasil).svg"/>
-<span>DF</span>
-</button>
-<button aria-label="Selecionar Goiás" aria-pressed="false" class="state-flag" data-estado="go" title="Goiás" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Goi%C3%A1s.svg"/>
-<span>GO</span>
-</button>
-<button aria-label="Selecionar Maranhão" aria-pressed="false" class="state-flag" data-estado="ma" title="Maranhão" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Maranh%C3%A3o.svg"/>
-<span>MA</span>
-</button>
-<button aria-label="Selecionar Pará" aria-pressed="false" class="state-flag" data-estado="pa" title="Pará" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Par%C3%A1.svg"/>
-<span>PA</span>
-</button>
-<button aria-label="Selecionar Paraíba" aria-pressed="false" class="state-flag" data-estado="pb" title="Paraíba" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_da_Para%C3%ADba.svg"/>
-<span>PB</span>
-</button>
-<button aria-label="Selecionar Pernambuco" aria-pressed="false" class="state-flag" data-estado="pe" title="Pernambuco" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Pernambuco.svg"/>
-<span>PE</span>
-</button>
-<button aria-label="Selecionar Piauí" aria-pressed="false" class="state-flag" data-estado="pi" title="Piauí" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Piau%C3%AD.svg"/>
-<span>PI</span>
-</button>
-<button aria-label="Selecionar Rio Grande do Norte" aria-pressed="false" class="state-flag" data-estado="rn" title="Rio Grande do Norte" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Rio_Grande_do_Norte.svg"/>
-<span>RN</span>
-</button>
-<button aria-label="Selecionar Rondônia" aria-pressed="false" class="state-flag" data-estado="ro" title="Rondônia" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Rond%C3%B4nia.svg"/>
-<span>RO</span>
-</button>
-<button aria-label="Selecionar Roraima" aria-pressed="false" class="state-flag" data-estado="rr" title="Roraima" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Roraima.svg"/>
-<span>RR</span>
-</button>
-<button aria-label="Selecionar Sergipe" aria-pressed="false" class="state-flag" data-estado="se" title="Sergipe" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Sergipe.svg"/>
-<span>SE</span>
-</button>
-<button aria-label="Selecionar Tocantins" aria-pressed="false" class="state-flag" data-estado="to" title="Tocantins" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Tocantins.svg"/>
-<span>TO</span>
-</button>
-</div>
-</div>
-</div>
-
-<div aria-hidden="true" class="header-js-contract" hidden>
-<button id="header-branch-pm" tabindex="-1" type="button"></button>
-<button id="header-branch-bm" tabindex="-1" type="button"></button>
-<button id="header-branch-pc" tabindex="-1" type="button"></button>
-<button id="header-branch-pp" tabindex="-1" type="button"></button>
-</div>
-</header>
-<!-- BLOCO 03.2 — Faixas decorativas abaixo do cabeçalho -->
-<div aria-hidden="true" class="stripe-container">
-<div class="stripe"></div>
-<div class="stripe-white"></div>
-<div class="stripe-black"></div>
-</div>
-<section aria-label="Filtro de produtos por instituição" class="produtos-filter-panel">
-<div class="produtos-filter-shell">
-<div class="produtos-filter-copy">
-<span class="produtos-filter-kicker">Filtro da vitrine</span>
-<h2>Produtos por instituição</h2>
-<p>Escolha uma instituição para exibir os itens gerais da vitrine e também os produtos compatíveis com a UF ou instituição selecionada.</p>
-</div>
-<div class="produtos-filter-control">
-<label for="produtos_instituicao">Filtrar por instituição</label>
-<select aria-label="Filtrar produtos por instituição" id="produtos_instituicao">
-<option selected="" value="">Todos os produtos</option>
-</select>
-<small id="produtos-filtro-status">Mostrando todos os produtos da vitrine.</small>
-</div>
-</div>
-</section>
-<!-- BLOCO 03.5 — Toast/mensagem temporária controlada pelo JavaScript -->
-<div aria-live="polite" class="toast" id="toast" role="status"></div>
-<!-- BLOCO 04 — PÁGINA PRINCIPAL / RESUMO DO SITE -->
-<!-- BLOCO 04.3 — PÁGINA REMUNERAÇÃO TABELADA -->
-<!-- BLOCO 06 — PÁGINA DIREITOS E VANTAGENS -->
-<!-- BLOCO 06.6 — PÁGINA BRASÕES E HISTÓRIA -->
-<!-- BLOCO 07 — PÁGINA CONCURSOS -->
-<!-- BLOCO 07.1 — PÁGINA COMPARAR CARREIRAS -->
-<!-- BLOCO 08 — PÁGINA PRODUTOS -->
-<main class="page-section active" id="page-produtos" role="main">
-<div class="card">
-<h2>Produtos<span id="txt-inst-produtos" hidden></span></h2>
-<div class="alerta" style="margin-top: 0; margin-bottom: 24px;">
-<strong>Aviso:</strong> esta aba concentra cursos, livros, e-books, produtos físicos e materiais úteis para estudo, preparação física, carreira e desenvolvimento pessoal.
+<body class="usp-home usp-produtos" data-page="produtos">
+  <div class="usp-topline">
+    <div class="usp-container usp-topline__inner">
+      <p><span class="usp-dot" aria-hidden="true"></span>Portal independente · Não governamental</p>
+      <nav aria-label="Links rápidos institucionais">
+        <a href="https://www.instagram.com/universosegpub" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="anuncie.html">Anuncie</a>
+        <a href="anuncie.html#contato">Contato</a>
+      </nav>
     </div>
-<div class="curso-section-title">Produtos físicos</div>
-<div aria-label="Produtos físicos com link de compra" class="curso-grid produtos-vitrine" data-produtos-categoria="produtosFisicos">
-<!-- Cards renderizados por js/pages/produtos-render.js a partir de js/data/produtos-data.js (produtosFisicos). -->
-<noscript>Ative o JavaScript para visualizar a vitrine de produtos.</noscript>
-</div>
-<div class="curso-section-title">Cursos preparatórios e materiais de estudo</div>
-<div class="alerta" style="margin-top: 0; margin-bottom: 16px;">
-      Confira cursos preparatórios, mentorias e materiais de estudo disponíveis para candidatos e profissionais da segurança pública.
+  </div>
+
+  <header class="usp-header" role="banner">
+    <div class="usp-container usp-header__inner">
+      <a class="usp-brand" href="index.html" aria-label="Universo Segurança Pública - página inicial">
+        <span class="usp-brand__mark"><img class="usp-brand__logo" src="img/LOGO/logoleao.webp" alt="Logo Universo Segurança Pública" width="56" height="56" loading="eager" decoding="async" /></span>
+        <span class="usp-brand__text">
+          <strong>Universo Seg Pub</strong>
+          <small>Portal de Segurança Pública</small>
+        </span>
+      </a>
+
+            <nav class="usp-nav" aria-label="Navegação principal">
+        <a href="index.html">Página inicial</a>
+        <a href="noticias.html">Notícias</a>
+        <a href="remuneracao.html">Remuneração</a>
+        <a href="concursos.html">Concursos</a>
+        <a class="is-active" href="produtos.html">Produtos</a>
+        <a href="brasoes.html">Brasões</a>
+        <a href="comparar-carreiras.html">Comparar</a>
+        <a href="direitos.html">Direitos</a>
+        <a href="guia-instituicoes.html">Guia das Instituições</a>
+        <a href="acoes-judiciais.html">Ações Judiciais</a>
+        <a href="associacoes-sindicatos.html">Associações e Sindicatos</a>
+      </nav>
+
+      <form class="usp-search" action="guia-instituicoes.html" method="get" role="search">
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m21 21-4.3-4.3m1.3-5.2a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <input id="site-search" name="q" type="search" placeholder="Buscar instituição, cargo, produto..." autocomplete="off" />
+      </form>
     </div>
-<div aria-label="Cursos preparatórios e materiais de estudo com link de compra" class="curso-grid produtos-vitrine cursos-preparatorios-geral" data-produtos-categoria="cursosGerais">
-<!-- Cards renderizados por js/pages/produtos-render.js a partir de js/data/produtos-data.js (cursosGerais). -->
-<noscript>Ative o JavaScript para visualizar a vitrine de produtos.</noscript>
-</div>
-<div class="curso-grid produtos-vitrine curso-pmesp-only" data-produtos-categoria="cursosPmesp">
-<!-- Cards renderizados por js/pages/produtos-render.js a partir de js/data/produtos-data.js (cursosPmesp). -->
-<noscript>Ative o JavaScript para visualizar a vitrine de produtos.</noscript>
-</div>
-<div class="curso-grid produtos-vitrine curso-pcsp-only" data-produtos-categoria="cursosPcsp">
-<!-- Cards renderizados por js/pages/produtos-render.js a partir de js/data/produtos-data.js (cursosPcsp). -->
-<noscript>Ative o JavaScript para visualizar a vitrine de produtos.</noscript>
-</div>
-<div class="curso-section-title">Livros e e-books</div>
-<div class="alerta" style="margin-top: 0; margin-bottom: 16px;">
-      Livros, e-books e materiais de desenvolvimento para estudo, carreira, disciplina, produtividade e transição profissional.
+  </header>
+
+  <main>
+    <nav class="usp-breadcrumb" aria-label="Caminho da página">
+      <div class="usp-container">
+        <a href="index.html">Início</a><span>/</span><strong>Produtos</strong>
+      </div>
+    </nav>
+
+    <section class="usp-hero usp-produtos-hero" aria-labelledby="produtos-title">
+      <div class="usp-container usp-produtos-hero__grid">
+        <div class="usp-hero__copy">
+          <p class="usp-eyebrow"><span></span>Vitrine · produtos selecionados</p>
+          <h1 id="produtos-title">Equipamentos, cursos e materiais para estudo, preparo e rotina operacional.</h1>
+          <p class="usp-hero__lead">Uma vitrine separada das consultas do portal, com itens táticos, cursos preparatórios, livros e materiais digitais. O foco é leitura clara, escolha rápida e conferência direta na página do produto.</p>
+          <div class="usp-hero__actions" aria-label="Ações rápidas da loja">
+            <a class="usp-btn usp-btn--dark" href="#produtos-fisicos">Ver produtos físicos <span>→</span></a>
+            <a class="usp-btn" href="#cursos">Cursos e materiais</a>
+            <a class="usp-btn" href="#livros">Livros e e-books</a>
+          </div>
+          <p class="usp-note"><strong>Aviso comercial:</strong> alguns links podem ser comerciais ou afiliados. Antes de comprar, confira preço, prazo, avaliações, garantia, reembolso e descrição atualizada diretamente na loja.</p>
+        </div>
+
+        <aside class="usp-quick-card usp-produtos-filter-card" aria-label="Filtro da vitrine">
+          <div class="usp-quick-card__head">
+            <span>Filtro da vitrine</span>
+            <strong>Por instituição</strong>
+          </div>
+          <h2>Produtos compatíveis com sua instituição</h2>
+          <p>Escolha uma instituição para manter os itens gerais e destacar produtos ligados à UF ou à corporação selecionada.</p>
+          <label class="usp-produtos-select-label" for="produtos_instituicao">
+            <span>Filtrar por instituição</span>
+            <select aria-label="Filtrar produtos por instituição" id="produtos_instituicao">
+              <option selected value="">Todos os produtos</option>
+            </select>
+          </label>
+          <small id="produtos-filtro-status">Mostrando todos os produtos da vitrine.</small>
+        </aside>
+      </div>
+    </section>
+
+    <section class="usp-stats usp-produtos-stats" aria-label="Resumo da vitrine">
+      <div class="usp-stat"><strong>Físicos</strong><span>Mochilas, botas, lanternas e acessórios</span></div>
+      <div class="usp-stat"><strong>Cursos</strong><span>Preparação e materiais online</span></div>
+      <div class="usp-stat"><strong>PM-SP</strong><span>Itens e cursos específicos</span></div>
+      <div class="usp-stat"><strong>PC-SP</strong><span>Materiais com foco VUNESP</span></div>
+      <div class="usp-stat"><strong>Livros</strong><span>Desenvolvimento e estudo</span></div>
+    </section>
+
+    <section class="usp-section usp-produtos-section" id="produtos-fisicos" data-produtos-section aria-labelledby="produtos-fisicos-title">
+      <div class="usp-container">
+        <div class="usp-section__head">
+          <div>
+            <p class="usp-eyebrow"><span></span>Equipamentos e acessórios</p>
+            <h2 id="produtos-fisicos-title">Produtos físicos</h2>
+            <p>Itens úteis para deslocamento, organização, treino, estudo e rotina profissional.</p>
+          </div>
+          <a class="usp-inline-link" href="#aviso-compra">Conferir aviso de compra →</a>
+        </div>
+        <div aria-label="Produtos físicos com link de compra" class="usp-produtos-grid produtos-vitrine" data-produtos-categoria="produtosFisicos">
+          <noscript>Ative o JavaScript para visualizar a vitrine de produtos.</noscript>
+        </div>
+      </div>
+    </section>
+
+    <section class="usp-section usp-produtos-section usp-produtos-section--soft" id="cursos" data-produtos-section aria-labelledby="cursos-title">
+      <div class="usp-container">
+        <div class="usp-section__head">
+          <div>
+            <p class="usp-eyebrow"><span></span>Estudo e preparação</p>
+            <h2 id="cursos-title">Cursos preparatórios e materiais gerais</h2>
+            <p>Materiais digitais, cursos e conteúdos de apoio para candidatos e profissionais da segurança pública.</p>
+          </div>
+        </div>
+        <div aria-label="Cursos preparatórios e materiais de estudo" class="usp-produtos-grid produtos-vitrine cursos-preparatorios-geral" data-produtos-categoria="cursosGerais">
+          <noscript>Ative o JavaScript para visualizar a vitrine de produtos.</noscript>
+        </div>
+      </div>
+    </section>
+
+    <section class="usp-section usp-produtos-section" id="cursos-pmesp" data-produtos-section aria-labelledby="cursos-pmesp-title">
+      <div class="usp-container">
+        <div class="usp-section__head">
+          <div>
+            <p class="usp-eyebrow"><span></span>Instituição em destaque</p>
+            <h2 id="cursos-pmesp-title">Cursos e materiais específicos para PM-SP</h2>
+            <p>Conteúdos voltados ao candidato que acompanha editais, etapas e preparação para a Polícia Militar de São Paulo.</p>
+          </div>
+        </div>
+        <div aria-label="Cursos e materiais para PMESP" class="usp-produtos-grid produtos-vitrine curso-pmesp-only" data-produtos-categoria="cursosPmesp">
+          <noscript>Ative o JavaScript para visualizar a vitrine de produtos.</noscript>
+        </div>
+      </div>
+    </section>
+
+    <section class="usp-section usp-produtos-section usp-produtos-section--soft" id="cursos-pcsp" data-produtos-section aria-labelledby="cursos-pcsp-title">
+      <div class="usp-container">
+        <div class="usp-section__head">
+          <div>
+            <p class="usp-eyebrow"><span></span>Instituição em destaque</p>
+            <h2 id="cursos-pcsp-title">Cursos e materiais específicos para PC-SP</h2>
+            <p>Materiais com foco em disciplinas recorrentes, banca VUNESP e preparação para cargos da Polícia Civil paulista.</p>
+          </div>
+        </div>
+        <div aria-label="Cursos e materiais para PCSP" class="usp-produtos-grid produtos-vitrine curso-pcsp-only" data-produtos-categoria="cursosPcsp">
+          <noscript>Ative o JavaScript para visualizar a vitrine de produtos.</noscript>
+        </div>
+      </div>
+    </section>
+
+    <section class="usp-section usp-produtos-section" id="livros" data-produtos-section aria-labelledby="livros-title">
+      <div class="usp-container">
+        <div class="usp-section__head">
+          <div>
+            <p class="usp-eyebrow"><span></span>Leitura e desenvolvimento</p>
+            <h2 id="livros-title">Livros, e-books e materiais digitais</h2>
+            <p>Conteúdos para estudo, disciplina, produtividade, carreira, transição profissional e desenvolvimento pessoal.</p>
+          </div>
+        </div>
+        <div aria-label="Livros e e-books com link de compra" class="usp-produtos-grid produtos-vitrine" data-produtos-categoria="livrosEbooks">
+          <noscript>Ative o JavaScript para visualizar a vitrine de produtos.</noscript>
+        </div>
+      </div>
+    </section>
+
+    <section class="usp-remu-warning usp-produtos-warning" id="aviso-compra" aria-label="Aviso de compra e transparência">
+      <div class="usp-container">
+        <p class="usp-eyebrow usp-eyebrow--gold"><span></span>Aviso de transparência</p>
+        <p>Esta vitrine tem caráter informativo e comercial. Links podem ser afiliados, patrocinados ou externos. O Universo Segurança Pública não controla estoque, preço, entrega, suporte, reembolso, garantia ou alterações feitas pelas lojas e plataformas de venda. Confirme todos os detalhes antes de comprar.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="usp-footer" role="contentinfo">
+    <div class="usp-container usp-footer__grid">
+      <div class="usp-footer__brand">
+        <a class="usp-brand" href="index.html" aria-label="Universo Segurança Pública - página inicial">
+          <span class="usp-brand__mark"><img class="usp-brand__logo" src="img/LOGO/logoleao.webp" alt="Logo Universo Segurança Pública" width="56" height="56" loading="eager" decoding="async" /></span>
+          <span class="usp-brand__text"><strong>Universo Seg Pub</strong><small>Portal de Segurança Pública</small></span>
+        </a>
+        <p>Portal informativo independente e não governamental, criado para organizar consultas sobre instituições de segurança pública.</p>
+        <small>Desenvolvido por LOCKSTAGE</small>
+      </div>
+      <nav aria-label="Consultas">
+        <strong>Consultas</strong>
+        <a href="remuneracao.html">Remuneração</a>
+        <a href="direitos.html">Direitos</a>
+        <a href="brasoes.html">Brasões</a>
+        <a href="comparar-carreiras.html">Comparar</a>
+      </nav>
+      <nav aria-label="Concursos">
+        <strong>Concursos</strong>
+        <a href="concursos.html#oportunidades">Editais abertos</a>
+        <a href="concursos.html#lista-instituicoes">Editais previstos</a>
+        <a href="noticias.html">Notícias</a>
+      </nav>
+      <nav aria-label="Institucional">
+        <strong>Institucional</strong>
+        <a href="produtos.html">Loja</a>
+        <a href="anuncie.html">Anuncie</a>
+        <a href="anuncie.html#contato">Contato</a>
+        <a href="https://www.instagram.com/universosegpub" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </nav>
     </div>
-<div aria-label="Livros e e-books com link de compra" class="curso-grid produtos-vitrine" data-produtos-categoria="livrosEbooks">
-<!-- Cards renderizados por js/pages/produtos-render.js a partir de js/data/produtos-data.js (livrosEbooks). -->
-<noscript>Ative o JavaScript para visualizar a vitrine de produtos.</noscript>
-</div>
-<p class="produto-aviso-compra">
-      Antes de comprar, confira preço, prazo, avaliações, garantia, política de reembolso e descrição atualizada diretamente na página do produto.
-    </p>
-</div>
-</main>
-<!-- BLOCO 09 — PÁGINA AÇÕES JUDICIAIS -->
-<!-- BLOCO 10 — PÁGINA ASSOCIAÇÕES E SINDICATOS -->
-<!-- BLOCO 11 — PÁGINA PARCEIROS E CONTATO -->
-<!-- BLOCO 12.5 — Espaço comercial antes do rodapé -->
-<aside aria-label="Espaço de anúncio antes do rodapé" class="ad-slot ad-slot--footer" data-ad-area="rodape_geral">
-<a class="ad-placeholder-link" href="anuncie.html?area=rodape_geral">
-<span class="ad-label">Publicidade</span>
-<strong>Anuncie aqui</strong>
-<small>Espaço final para reforço de marca, campanhas institucionais e chamadas comerciais gerais.</small>
-</a>
-</aside>
-<!-- BLOCO 13 — RODAPÉ DO SITE -->
-<footer role="contentinfo">
-<div aria-label="Aviso institucional do portal" class="footer-disclaimer">
-<p><strong>Universo Segurança Pública</strong> é um portal informativo independente e não governamental, criado para organizar consultas sobre instituições de segurança pública a partir de fontes públicas, legislações, editais e canais oficiais quando disponíveis. As informações servem como referência inicial e podem mudar conforme cargo, legislação, regulamento, edital, holerite e atualização dos órgãos competentes.</p>
-<nav class="footer-links" aria-label="Links legais e institucionais">
-<a href="privacidade.html">Política de Privacidade</a>
-<a href="termos.html">Termos de Uso</a>
-<a href="cookies.html">Política de Cookies</a>
-<a href="anuncie.html">Contato e Anúncios</a>
-</nav>
-<p class="small-note footer-credit">Desenvolvido por <strong>LOCKSTAGE</strong>.</p>
-</div>
-</footer>
-<!-- ============================================================ -->
-<!-- === CAMADA VISUAL GLASS / MODERNA ========================= -->
-<!-- === Apenas aparência: não altera HTML funcional nem JS ===== -->
-<!-- ============================================================ -->
-<!-- =======================================================
-     BLOCO 14 — CSS VISUAL GLASS / MODERNIZAÇÃO DE APARÊNCIA
-     Camada visual final: apenas aparência, sem alterar HTML funcional ou JavaScript.
-     ======================================================= -->
-<!-- CSS centralizado em css/dist/main.min.css e ajustes complementares -->
-<!-- JavaScript fonte reorganizado em js/data, js/services, js/ui e js/pages.
-     Produção: bundle único para reduzir requisições e preservar a ordem de execução. -->
-<!-- Scripts divididos por página para evitar carregar funcionalidades desnecessárias. -->
-<script defer="" src="js/data/parametros-cargos.js?v=20260506bmba1"></script>
-<script defer="" src="js/data/policia-penal.js"></script>
-<script defer="" src="js/data/acoes-judiciais-data.js"></script>
-<script defer="" src="js/data/associacoes-data.js"></script>
-<script defer="" src="js/data/concursos-data.js"></script>
-<script defer="" src="js/data/portal-config.js?v=20260506bmba1"></script>
-<script defer="" src="js/data/bases-conteudo.js"></script>
-<script defer="" src="js/ui/navegacao-ui.js?v=20260503homeinst1"></script>
-<script defer="" src="js/services/remuneracao.js?v=20260506bmba1"></script>
-<script defer="" src="js/data/header-brasoes-config.js?v=20260504headerbrasoes1"></script>
-<script defer="" src="js/ui/header-estados.js?v=20260510brasoes1"></script>
-<script defer="" src="js/pages/contato-init.js?v=20260503homeinst1"></script>
-<script defer="" src="js/data/produtos-data.js?v=20260513escrivaopfimg1"></script>
-<script defer="" src="js/pages/produtos-render.js?v=20260512produtosfiltro1"></script>
-<script defer="" src="js/ui/event-bindings.js?v=20260506comparador4"></script>
-<script defer="" src="js/core/page-context.js?v=20260506baselegal1"></script>
-<script defer="" src="js/brasao-lightbox.js?v=20260501"></script>
-<script defer="" src="js/ui/cookie-consent.js?v=20260509adsense1"></script>
+    <div class="usp-container usp-footer__bottom">
+      <span>© 2026 Universo Seg Pub. Todos os direitos reservados.</span>
+      <nav aria-label="Links legais">
+        <a href="privacidade.html">Privacidade</a>
+        <a href="termos.html">Termos</a>
+        <a href="cookies.html">Cookies</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script defer src="js/data/produtos-data.js?v=20260516produtosdesktop1"></script>
+  <script defer src="js/pages/produtos-render.js?v=20260516produtosdesktop1"></script>
+  <script>
+    (function () {
+      document.addEventListener('DOMContentLoaded', function () {
+        var search = document.getElementById('site-search');
+        document.addEventListener('keydown', function (event) {
+          var key = String(event.key || '').toLowerCase();
+          if ((event.metaKey || event.ctrlKey) && key === 'k') {
+            event.preventDefault();
+            if (search) search.focus();
+          }
+        });
+
+        document.querySelectorAll('[data-produtos-section]').forEach(function (section) {
+          var grid = section.querySelector('[data-produtos-categoria]');
+          if (!grid || typeof MutationObserver !== 'function') return;
+          var sync = function () { section.hidden = grid.hidden; };
+          new MutationObserver(sync).observe(grid, { attributes: true, attributeFilter: ['hidden'] });
+          sync();
+        });
+      });
+    })();
+  </script>
+  <script defer src="js/brasao-lightbox.js?v=20260516lightbox3"></script>
+  <script defer src="js/ui/cookie-consent.js?v=20260509adsense1"></script>
 </body>
 </html>

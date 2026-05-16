@@ -2681,7 +2681,8 @@ function criarAssociacoesEstrutura(info, estadoNome) {
 /* ============================================================ */
 const INSTITUICOES_FEDERAIS_ESTRUTURA = [
   { inst: 'pf', titulo: 'PF', desc: 'Polícia Federal', tipo: 'Polícia Federal', cor: '#1f4f7a' },
-  { inst: 'prf', titulo: 'PRF', desc: 'Polícia Rodoviária Federal', tipo: 'Polícia Rodoviária Federal', cor: '#1f5f8a' }
+  { inst: 'prf', titulo: 'PRF', desc: 'Polícia Rodoviária Federal', tipo: 'Polícia Rodoviária Federal', cor: '#1f5f8a' },
+  { inst: 'pcdf', titulo: 'PCDF', desc: 'Polícia Civil do Distrito Federal', tipo: 'Polícia Civil', cor: '#4b5563' }
 ];
 
 function criarResumoFederalEstrutura(item) {
@@ -5646,7 +5647,8 @@ function mudarInstituicao(novaInstituicao) {
     pmmt: { titulo: "PMMT", desc: "Polícia Militar de Mato Grosso", cor: "#1f7a4d", alertaPrev: "PMMT: conferir sistema de proteção social dos militares estaduais, MTPREV/MT, regra de ingresso, averbações, reserva remunerada e reforma conforme legislação estadual." },
     bmmt: { titulo: "CBMMT", desc: "Corpo de Bombeiros Militar do Estado de Mato Grosso", cor: "#b91c1c", alertaPrev: "CBMMT/MT: conferir MTPREV/MT, sistema de proteção social militar, subsídio por posto/graduação e nível, etapa alimentação, fardamento, diárias, indenizações, temporários, PTTC e rubricas pessoais no contracheque." },
     pcmt: { titulo: "PCMT", desc: "Polícia Judiciária Civil de Mato Grosso", cor: "#5b6472", alertaPrev: "PCMT: conferir tabela salarial do Portal do Servidor/SEPLAG-MT, cargo, classe, nível, tempo em atividade policial, MTPREV/MT e regra de aposentadoria aplicada." },
-    ppmt: { titulo: "PPMT", desc: POLICIAS_PENAIS_INFO.ppmt.nome, cor: "#6b5f2f", alertaPrev: `${POLICIAS_PENAIS_INFO.ppmt.sigla}: ${POLICIAS_PENAIS_INFO.ppmt.previdencia} ${POLICIAS_PENAIS_INFO.ppmt.vantagens}` }
+    ppmt: { titulo: "PPMT", desc: POLICIAS_PENAIS_INFO.ppmt.nome, cor: "#6b5f2f", alertaPrev: `${POLICIAS_PENAIS_INFO.ppmt.sigla}: ${POLICIAS_PENAIS_INFO.ppmt.previdencia} ${POLICIAS_PENAIS_INFO.ppmt.vantagens}` },
+    pcdf: { titulo: "PCDF", desc: "Polícia Civil do Distrito Federal", cor: "#4b5563", alertaPrev: "PCDF: corporação distrital organizada e mantida pela União; conferir RPPS da União, LC 51/1985, Lei 9.264/1996, tabela federal/distrital vigente, contracheque e situação funcional individual." }
   };
 
   Object.assign(configs, CONFIGS_INSTITUICOES_GENERICAS || {});
@@ -5752,7 +5754,7 @@ function instituicaoConsultaFoiSelecionada() {
 
 function getEsferaConsultaInstituicao(inst) {
   inst = String(inst || '').toLowerCase();
-  if (inst === 'pf' || inst === 'prf') return 'federal';
+  if (inst === 'pf' || inst === 'prf' || inst === 'pcdf') return 'federal';
   return 'estadual';
 }
 
@@ -5772,6 +5774,7 @@ function getOrdemConsultaInstituicao(inst) {
   const dadosEstado = HEADER_ESTADOS[estado] || {};
   if (inst === 'pf') return 1;
   if (inst === 'prf') return 2;
+  if (inst === 'pcdf') return 3;
   if (dadosEstado.pm === inst) return 1;
   if (dadosEstado.bm === inst) return 2;
   if (dadosEstado.pc === inst) return 3;
@@ -5784,7 +5787,7 @@ function getInstituicoesParaConsulta(esfera) {
   let base = [];
 
   if (esferaNormalizada === 'federal') {
-    base = ['pf', 'prf'];
+    base = ['pf', 'prf', 'pcdf'];
   } else if (esferaNormalizada === 'estadual') {
     base = INSTITUICOES_VALIDAS.filter(inst => getEsferaConsultaInstituicao(inst) === 'estadual');
   }

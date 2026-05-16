@@ -621,6 +621,21 @@ function carregarConcursos() {
 /* ============================================================ */
 /* === AÇÕES JUDICIAIS ======================================== */
 /* ============================================================ */
+
+function classeTipoAcao(tipo) {
+  const normalizado = String(tipo || '').toLowerCase();
+  if (normalizado.includes('coletiva') && !normalizado.includes('individual')) return 'coletiva';
+  if (normalizado.includes('híbrida') || normalizado.includes('hibrida') || normalizado.includes('individual/coletivo')) return 'coletiva';
+  return 'individual';
+}
+
+function textoTipoAcao(tipo) {
+  const normalizado = String(tipo || '').toLowerCase();
+  if (normalizado.includes('híbrida') || normalizado.includes('hibrida') || normalizado.includes('individual/coletivo')) return '⚖👤 Ação Híbrida';
+  if (normalizado.includes('coletiva') && !normalizado.includes('individual')) return '⚖ Ação Coletiva';
+  return '👤 Ação Individual';
+}
+
 function carregarAcoes() {
   const cont = document.getElementById('lista-acoes');
   if (!cont) return;
@@ -651,7 +666,7 @@ function carregarAcoes() {
         <span class="direito-nome">${textoConteudoSeguro(titulo)}</span>
         <span class="direito-status" style="color: var(--vermelho);">${textoConteudoSeguro(a.status)}</span>
         <div>
-          <span class="badge-info ${a.tipo === 'coletiva' ? 'coletiva' : 'individual'}">${a.tipo === 'coletiva' ? '⚖ Ação Coletiva' : '👤 Ação Individual'}</span>
+          <span class="badge-info ${classeTipoAcao(a.tipo)}">${textoTipoAcao(a.tipo)}</span>
           <span class="badge-info ativa">${textoConteudoSeguro(a.ano)}</span>
         </div>
         <span class="direito-desc">${textoConteudoSeguro(a.desc)}</span>

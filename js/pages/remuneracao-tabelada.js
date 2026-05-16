@@ -283,6 +283,6 @@
     });
 
     ocultarConsultaDetalhada();
-    renderizar();
+    if (!aplicarInstituicaoInicialDaUrl()) renderizar();
   });
 })();

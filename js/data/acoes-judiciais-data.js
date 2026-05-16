@@ -8,6 +8,85 @@ const ACOES_JUDICIAIS = {
     { titulo: 'Indenização de fronteira, diárias e verbas de missão', status: 'Condicionado à lotação/missão', ano: 'Lei nº 12.855/2013 e atos administrativos', tipo: 'individual', desc: 'Indenização de fronteira, diárias, ajuda de custo e deslocamentos dependem de localidade, ato de designação, dias efetivos e rubrica própria. Não somar como parcela fixa da remuneração.', base: 'Lei nº 12.855/2013, Lei nº 8.112/1990, portarias de localidade/missão, ordens de serviço e contracheques.', fonte: 'Legislação federal e SouGov', fonteUrl: 'https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12855.htm', atualizado: 'Maio/2026' },
     { titulo: 'Aposentadoria policial federal, integralidade/paridade e abono de permanência', status: 'Tema previdenciário individual', ano: 'EC 103/2019', tipo: 'individual', desc: 'A análise exige data de ingresso, tempo policial, tempo total, idade, sexo, regra de transição, cargo e ato concessório. Integralidade, paridade e abono não devem ser presumidos sem estudo da ficha funcional.', base: 'Constituição Federal, EC 103/2019, LC nº 51/1985, LC nº 144/2014, Lei nº 8.112/1990 e registros funcionais.', fonte: 'Constituição Federal e legislação previdenciária federal', fonteUrl: 'https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm', atualizado: 'Maio/2026' }
   ],
+  pcdf: [
+    {
+      titulo: 'PCDF — aposentadoria especial com integralidade e paridade',
+      status: 'Tema com precedente forte',
+      ano: 'STF Tema 1019 e Tema 1307',
+      tipo: 'individual',
+      desc: 'Policial civil do DF que preencheu os requisitos da LC nº 51/1985 pode discutir aposentadoria especial com proventos integrais. A paridade exige previsão aplicável e análise da data de ingresso, tempo de contribuição, sexo, regra de transição e situação funcional.',
+      base: 'CF/88 art. 40; LC nº 51/1985; LC nº 144/2014; EC nº 41/2003; EC nº 47/2005; EC nº 103/2019; ficha funcional, CTC e holerites dos últimos 24 meses. Entidades acompanhando: SINPOL-DF, ADEPOL-Brasil e FENADEPOL.',
+      fonte: 'STF Tema 1019 — aposentadoria especial do servidor policial civil',
+      fonteUrl: 'https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?numeroTema=1019',
+      atualizado: 'Maio/2026'
+    },
+    {
+      titulo: 'PCDF — abono de permanência ao optante pela aposentadoria especial',
+      status: 'Tema com precedente forte',
+      ano: 'ARE 954.408, STF Tema 1326 e STJ Tema 1233',
+      tipo: 'individual',
+      desc: 'Servidor que cumpriu os requisitos da aposentadoria especial e permaneceu em atividade pode discutir abono de permanência equivalente à contribuição previdenciária. Há ponto pendente sobre o termo final do pagamento e tese do STJ sobre reflexos em férias e 13º.',
+      base: 'Art. 40, § 19, CF/88; LC nº 51/1985; Lei nº 10.887/2004; ficha funcional, requerimento administrativo e contracheques. Entidades acompanhando: SINPOL-DF e ADEPOL-Brasil.',
+      fonte: 'STF — repercussão geral',
+      fonteUrl: 'https://portal.stf.jus.br/jurisprudenciaRepercussao/',
+      atualizado: 'Maio/2026'
+    },
+    {
+      titulo: 'PCDF — alíquotas progressivas de contribuição previdenciária da EC 103/2019',
+      status: 'Em discussão',
+      ano: 'STF Tema 1226',
+      tipo: 'híbrida',
+      desc: 'A EC nº 103/2019 criou alíquotas progressivas para servidores federais ativos, aposentados e pensionistas. Como a PCDF integra o RPPS da União, a discussão alcança seus integrantes e envolve legalidade, anterioridade, isonomia, capacidade contributiva e vedação ao confisco.',
+      base: 'EC nº 103/2019, art. 11; Lei nº 10.887/2004; contracheques com base de cálculo e alíquota incidente; atenção à prescrição quinquenal e eventual modulação de efeitos. Entidades acompanhando: SINPOL-DF e ADEPOL-Brasil.',
+      fonte: 'STF Tema 1226 — alíquotas progressivas da EC 103/2019',
+      fonteUrl: 'https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?numeroTema=1226',
+      atualizado: 'Maio/2026'
+    },
+    {
+      titulo: 'PCDF — conversão de licença-prêmio não gozada em pecúnia',
+      status: 'Tema com precedente forte',
+      ano: 'STF Tema 635 e STJ Tema 1086',
+      tipo: 'individual',
+      desc: 'Policial civil que adquiriu licença-prêmio sob a Lei nº 4.878/1965 e não usufruiu até a aposentadoria ou desligamento pode discutir conversão em pecúnia, desde que comprove o não-gozo e a inatividade/desligamento.',
+      base: 'Lei nº 4.878/1965; CF/88 art. 7º, XVII; ato concessivo da licença-prêmio, ficha funcional e ato de aposentadoria ou desligamento; prescrição quinquenal contada da aposentadoria ou desligamento. Entidade acompanhando: SINPOL-DF.',
+      fonte: 'STF Tema 635 — conversão de licença-prêmio não gozada em pecúnia',
+      fonteUrl: 'https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?numeroTema=635',
+      atualizado: 'Maio/2026'
+    },
+    {
+      titulo: 'PCDF — diferenças remuneratórias da URV de 11,98%',
+      status: 'Possível cobrança',
+      ano: 'STF Tema 5',
+      tipo: 'híbrida',
+      desc: 'Servidores em atividade na implantação da URV, em março de 1994, podem ter discussão sobre defasagem de até 11,98%. A tese é histórica e exige cautela: prescrição, absorção administrativa, data de ingresso e perícia contábil podem limitar ou afastar o pleito.',
+      base: 'Lei nº 8.880/1994; ficha funcional com data de ingresso; contracheques do período de março/1994; parecer contábil; para ingressos após 1994, em regra a tese não se aplica. Entidade acompanhando: SINPOL-DF.',
+      fonte: 'STF Tema 5 — diferenças de URV',
+      fonteUrl: 'https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?numeroTema=5',
+      atualizado: 'Maio/2026'
+    },
+    {
+      titulo: 'PCDF — paridade remuneratória com a Polícia Federal',
+      status: 'Tema permanente',
+      ano: 'Lei nº 9.264/1996 e RE 275438',
+      tipo: 'coletiva',
+      desc: 'A PCDF é organizada e mantida pela União. A tese envolve paridade estrutural com a Polícia Federal, análise de parcelas específicas, gratificações suprimidas ou mantidas e competência da Justiça Federal em ações em que a União tem interesse na manutenção da corporação.',
+      base: 'Art. 21, XIV, CF/88; Lei nº 9.264/1996; Lei nº 9.266/1996; legislação federal sobre parcelas da PF; contracheques comparativos. Entidades acompanhando: SINPOL-DF, ADEPOL-Brasil e FENADEPOL.',
+      fonte: 'Planalto — Lei nº 9.264/1996',
+      fonteUrl: 'https://www.planalto.gov.br/ccivil_03/leis/l9264.htm',
+      atualizado: 'Maio/2026'
+    },
+    {
+      titulo: 'PCDF — reenquadramento e reestruturação pela MP nº 1.326/2025',
+      status: 'Em discussão',
+      ano: 'MP nº 1.326/2025',
+      tipo: 'individual',
+      desc: 'A recomposição salarial escalonada e a discussão sobre unificação de Agente, Escrivão e Agente de Custódia no cargo de Oficial Investigador podem gerar conferência de enquadramento, data, rubrica, retroativos e diferenças. Tabela legal não gera diferença automática.',
+      base: 'MP nº 1.326/2025 e projeto de conversão; Lei nº 9.264/1996; Lei nº 14.724/2023; ficha funcional e contracheques de outubro/2025 a fevereiro/2026. Entidades acompanhando: SINPOL-DF, ADEPOL-Brasil e FENADEPOL.',
+      fonte: 'Planalto — Medidas Provisórias 2025',
+      fonteUrl: 'https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/mpv/',
+      atualizado: 'Maio/2026'
+    }
+  ],
   pmac: [
     { titulo: 'PMAC — sexta-parte e adicionais por tempo de serviço', status: 'Verificar ficha individual', ano: 'Tema permanente', tipo: 'individual', desc: 'Conferir se sexta-parte, adicional por tempo de serviço e reflexos foram implantados corretamente após o cumprimento dos requisitos legais e se a base usada no contracheque corresponde à legislação estadual.', base: 'LC AC 39/1993, LC AC 164/2006 e tabela remuneratória estadual; depende de histórico funcional e ficha financeira.', fonte: 'Portal do Estado do Acre — tabelas salariais', fonteUrl: 'https://estado.ac.gov.br/tabelas-salariais/', atualizado: 'Maio/2026' },
     { titulo: 'PMAC — serviço complementar, localização especial e chefia', status: 'Depende de escala/designação', ano: 'Tema de conferência', tipo: 'individual', desc: 'Pode haver discussão quando houver serviço complementar, lotação especial, designação de chefia ou ato funcional formal com pagamento ausente, incompleto ou calculado em base divergente.', base: 'Tabela PMAC/CBMAC e normas estaduais de vantagens; exige ordem de serviço, boletins, escalas e contracheques.', fonte: 'Portal do Estado do Acre — tabela LC 164', fonteUrl: 'https://estado.ac.gov.br/tabelas-salariais/', atualizado: 'Maio/2026' },

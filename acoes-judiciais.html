@@ -1,532 +1,128 @@
 <!DOCTYPE html>
-
-<html class="page-acoes" lang="pt-BR">
+<html class="usp-desktop-home usp-desktop-acoes" lang="pt-BR">
 <head>
-<!-- =======================================================
-     BLOCO 01 — HEAD / CONFIGURAÇÕES INICIAIS DO SITE
-     Tags de rastreamento, metadados, fontes, tema inicial e CSS.
-     ======================================================= -->
-<!-- BLOCO 01.1 — Google Analytics -->
-<!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XHR4TCCF9D"></script>
-<!-- BLOCO 01.2 — Google Ads -->
-<!-- Google Ads tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-18121830612"></script>
-<script src="js/ui/head.js"></script>
-<!-- BLOCO 01.3 — Conversão do Google Ads -->
-<!-- Event snippet for Visualização de página conversion page -->
-<!-- BLOCO 01.4 — Metadados, título e fontes externas -->
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Informações sobre teses, ações judiciais e orientações para servidores da segurança pública." name="description"/>
-<title>Ações Judiciais - Universo Segurança Pública</title>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://www.googletagmanager.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;family=Roboto+Condensed:wght@400;500;700&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet"/>
-<!-- BLOCO 01.5 — CSS dividido em chunks para carregamento mais leve -->
-<link as="style" href="css/dist/main.min.css" rel="preload"/>
-<link href="css/dist/main.min.css" rel="stylesheet"/>
-<link href="css/override-logoleao.css?v=20260503homeinst1" rel="stylesheet"/><link href="css/app-soft-mobile.css?v=20260516-menu-mobile-fix1" rel="stylesheet"/><link href="css/pages/acoes-conteudo-estatico.css?v=20260511adsense1" rel="stylesheet"/>
-<!-- BLOCO SEO GERADO --
-     Canonical absoluto, Open Graph, Twitter Card e JSON-LD.
-     Gerado na revisão de manutenção.
-     -->
-<link href="https://universosegpub.com.br/acoes-judiciais.html" rel="canonical"/>
-<meta content="website" property="og:type"/>
-<meta content="pt_BR" property="og:locale"/>
-<meta content="Universo Segurança Pública" property="og:site_name"/>
-<meta content="Ações Judiciais - Universo Segurança Pública" property="og:title"/>
-<meta content="Informações sobre teses, ações judiciais e orientações para servidores da segurança pública." property="og:description"/>
-<meta content="https://universosegpub.com.br/acoes-judiciais.html" property="og:url"/>
-<meta content="https://universosegpub.com.br/img/LOGO/logoleao.webp" property="og:image"/>
-<meta content="summary_large_image" name="twitter:card"/>
-<meta content="Ações Judiciais - Universo Segurança Pública" name="twitter:title"/>
-<meta content="Informações sobre teses, ações judiciais e orientações para servidores da segurança pública." name="twitter:description"/>
-<meta content="https://universosegpub.com.br/img/LOGO/logoleao.webp" name="twitter:image"/>
-<script type="application/ld+json">
-[{"@context":"https://schema.org","@type":"WebPage","name":"Ações Judiciais - Universo Segurança Pública","description":"Informações sobre teses, ações judiciais e orientações para servidores da segurança pública.","url":"https://universosegpub.com.br/acoes-judiciais.html","isPartOf":{"@type":"WebSite","name":"Universo Segurança Pública","url":"https://universosegpub.com.br/"},"publisher":{"@type":"Organization","name":"Universo Segurança Pública","url":"https://universosegpub.com.br/","logo":{"@type":"ImageObject","url":"https://universosegpub.com.br/img/LOGO/logoleao.webp"}}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://universosegpub.com.br/"},{"@type":"ListItem","position":2,"name":"Ações Judiciais","item":"https://universosegpub.com.br/acoes-judiciais.html"}]}]
-</script>
-<!-- /BLOCO SEO GERADO --><!-- BLOCO ADSENSE — Verificação e carregamento de anúncios Google AdSense -->
-<script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4280112532471663"></script>
-<!-- /BLOCO ADSENSE -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Informações sobre teses, ações judiciais e orientações para servidores da segurança pública." />
+  <title>Ações Judiciais - Universo Segurança Pública</title>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XHR4TCCF9D"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18121830612"></script>
+  <script src="js/ui/head.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://www.googletagmanager.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link href="css/home-desktop-redesign.css?v=20260516-lightbox3" rel="stylesheet" />
+
+  <link href="https://universosegpub.com.br/acoes-judiciais.html" rel="canonical" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Universo Segurança Pública" />
+  <meta property="og:title" content="Ações Judiciais - Universo Segurança Pública" />
+  <meta property="og:description" content="Teses, alertas e orientações jurídicas informativas por instituição de segurança pública." />
+  <meta property="og:url" content="https://universosegpub.com.br/acoes-judiciais.html" />
+  <meta property="og:image" content="https://universosegpub.com.br/img/LOGO/logoleao.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ações Judiciais - Universo Segurança Pública" />
+  <meta name="twitter:description" content="Teses e alertas jurídicos informativos para carreiras de segurança pública." />
+  <meta name="twitter:image" content="https://universosegpub.com.br/img/LOGO/logoleao.webp" />
+  <script type="application/ld+json">
+  [{"@context":"https://schema.org","@type":"CollectionPage","name":"Ações Judiciais - Universo Segurança Pública","description":"Informações sobre teses, ações judiciais e orientações para servidores da segurança pública.","url":"https://universosegpub.com.br/acoes-judiciais.html","isPartOf":{"@type":"WebSite","name":"Universo Segurança Pública","url":"https://universosegpub.com.br/"},"publisher":{"@type":"Organization","name":"Universo Segurança Pública","url":"https://universosegpub.com.br/","logo":{"@type":"ImageObject","url":"https://universosegpub.com.br/img/LOGO/logoleao.webp"}}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://universosegpub.com.br/"},{"@type":"ListItem","position":2,"name":"Ações Judiciais","item":"https://universosegpub.com.br/acoes-judiciais.html"}]}]
+  </script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4280112532471663" crossorigin="anonymous"></script>
 </head>
-<body class="app-soft-theme" data-inst="portal" data-page="acoes">
-<div aria-label="Controles rápidos do visual app" class="app-floating-actions">
-<a aria-label="Voltar para a página inicial" class="app-floating-action app-floating-action--back" href="index.html">←</a>
-<button aria-label="Alternar tema claro e escuro" class="app-floating-action app-floating-action--theme" data-theme-toggle="true" data-toggle-style="icon" type="button"><span aria-hidden="true">☀️</span></button>
-</div>
-<nav aria-label="Navegação rápida inferior" class="app-bottom-nav">
-<a class="app-bottom-item" href="index.html"><span aria-hidden="true" class="app-bottom-icon">⌂</span><span class="app-bottom-label">Início</span></a>
-<a class="app-bottom-item" href="remuneracao.html"><span aria-hidden="true" class="app-bottom-icon">◈</span><span class="app-bottom-label">Remun.</span></a>
-<a class="app-bottom-item" href="concursos.html"><span aria-hidden="true" class="app-bottom-icon">▤</span><span class="app-bottom-label">Concursos</span></a>
-<a class="app-bottom-item" href="comparar-carreiras.html"><span aria-hidden="true" class="app-bottom-icon">⇄</span><span class="app-bottom-label">Comparar</span></a>
-<button aria-controls="sidebar" aria-expanded="false" aria-label="Navegação do portal" class="app-bottom-item menu-btn" type="button"><span aria-hidden="true" class="app-bottom-icon">☰</span><span class="app-bottom-label">Menu</span></button>
-</nav>
-<!-- =======================================================
-     BLOCO 03 — HTML / ESTRUTURA VISÍVEL DO SITE
-     Cabeçalho, menu superior, páginas/abas, formulários e rodapé.
-     ======================================================= -->
-<!-- BLOCO 03.1 — Cabeçalho institucional premium com seletor, estado e carreira -->
-<!-- BLOCO 03.2 — Botão de menu superior: abre abas do portal e vitrine de produtos -->
-<!-- BLOCO 03.3 — Overlay da navegação superior -->
-<div aria-hidden="true" class="menu-overlay" id="menuOverlay"></div>
-<!-- BLOCO 03.4 — Menu superior: navegação institucional, grupos de consulta, Instagram e parceiros -->
-<aside aria-label="Menu superior do portal" class="sidebar" id="sidebar" role="navigation">
-<div class="sidebar-header">
-<div aria-label="Identidade da navegação" class="sidebar-brand">
-<strong>Universo Segurança Pública</strong>
-<span>Escolha o que consultar</span>
-</div>
-<button aria-label="Fechar navegação" class="close-btn" type="button"><span aria-hidden="true">✕</span></button>
-</div>
-<!-- BLOCO 03.4.2 — Links internos organizados por finalidade -->
-<nav aria-label="Páginas do portal" class="sidebar-nav">
-<div aria-label="Navegação inicial" class="sidebar-nav-group">
-<div class="sidebar-nav-title">
-<span>Visão geral</span>
-<small>Acesso inicial e contexto do portal</small>
-</div>
-<a href="index.html" id="menu-principal" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">🏠</span>
-<span class="sidebar-link-text">Principal</span>
-<small>Início do portal</small>
-</a>
-<a href="noticias.html" id="menu-noticias" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">📰</span>
-<span class="sidebar-link-text">Notícias</span>
-<small>Editais, reajustes e atualizações</small>
-</a>
-<a href="guia-instituicoes.html" id="menu-guia" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">📖</span>
-<span class="sidebar-link-text">Guia das instituições</span>
-<small>Artigos permanentes por instituição</small>
-</a>
-</div>
-<div aria-label="Produtos, conteúdos e parceiros" class="sidebar-nav-group">
-<div class="sidebar-nav-title">
-<span>Loja e parcerias</span>
-<small>Produtos, cursos e contato comercial</small>
-</div>
-<a href="produtos.html" id="menu-produtos" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">🛒</span>
-<span class="sidebar-link-text">Produtos</span>
-<small>Cursos, livros e equipamentos</small>
-</a>
-<a href="anuncie.html" id="menu-parceiros" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">📣</span>
-<span class="sidebar-link-text">Parceiros</span>
-<small>Anuncie ou fale conosco</small>
-</a>
-</div>
-<div aria-label="Informações de carreira e legislação" class="sidebar-nav-group">
-<div class="sidebar-nav-title">
-<span>Carreira e legislação</span>
-<small>Dados funcionais, normas e benefícios</small>
-</div>
-<a href="remuneracao.html" id="menu-remuneracao" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">💰</span>
-<span class="sidebar-link-text">Remuneração Tabelada</span>
-<small>Valores brutos por cargo</small>
-</a>
-<a href="direitos.html" id="menu-direitos" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">⚖️</span>
-<span class="sidebar-link-text">Direitos e Vantagens</span>
-<small>Benefícios, adicionais e alertas</small>
-</a>
-</div>
-<div aria-label="Pesquisa, concursos e comparação" class="sidebar-nav-group">
-<div class="sidebar-nav-title">
-<span>Pesquisa e comparação</span>
-<small>Escolha, compare e aprofunde</small>
-</div>
-<a href="concursos.html" id="menu-concursos" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">📋</span>
-<span class="sidebar-link-text">Concursos</span>
-<small>Editais, requisitos e etapas</small>
-</a>
-<a href="comparar-carreiras.html" id="menu-comparar" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">⚔️</span>
-<span class="sidebar-link-text">Comparar Carreiras</span>
-<small>Salários, vagas e bancas</small>
-</a>
-<a href="brasoes.html" id="menu-brasoes" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">🛡️</span>
-<span class="sidebar-link-text">Brasões e história</span>
-<small>Origem, identidade e histórico</small>
-</a>
-</div>
-<div aria-label="Apoio jurídico e institucional" class="sidebar-nav-group">
-<div class="sidebar-nav-title">
-<span>Apoio institucional</span>
-<small>Entidades, teses e suporte</small>
-</div>
-<a aria-current="page" class="active" href="acoes-judiciais.html" id="menu-acoes" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">🧾</span>
-<span class="sidebar-link-text">Ações Judiciais</span>
-<small>Teses, ações e orientações</small>
-</a>
-<a href="associacoes-sindicatos.html" id="menu-associacoes" role="link" tabindex="0">
-<span aria-hidden="true" class="sidebar-link-icon">🤝</span>
-<span class="sidebar-link-text">Associações e Sindicatos</span>
-<small>Entidades representativas</small>
-</a>
-</div>
+<body class="usp-home usp-acoes" data-page="acoes" data-inst="portal">
+  <div class="usp-topline">
+    <div class="usp-container usp-topline__inner">
+      <p><span class="usp-dot" aria-hidden="true"></span>Portal independente · Não governamental</p>
+      <nav aria-label="Links rápidos institucionais">
+        <a href="https://www.instagram.com/universosegpub" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="anuncie.html">Anuncie</a>
+        <a href="anuncie.html#contato">Contato</a>
+      </nav>
+    </div>
+  </div>
 
-</nav>
-<!-- BLOCO 03.4.3 — Rede social destacada -->
-<div aria-label="Redes sociais" class="sidebar-social">
-<a aria-label="Abrir Instagram do Universo Segurança Pública" class="sidebar-social-btn" href="https://www.instagram.com/universosegpub" id="menu-instagram" rel="noopener noreferrer" role="link" tabindex="0" target="_blank">
-<span aria-hidden="true">📷</span>
-<strong>Seguir no Instagram</strong>
-</a>
-</div>
-<!-- BLOCO 03.4.3A — Produtos da vitrine no menu superior -->
-<section aria-label="Produtos" class="sidebar-products-vitrine">
-<div class="sidebar-products-title">
-<strong>Produtos</strong>
-<span>10 itens da vitrine</span>
-</div>
-<div class="sidebar-products-list">
-<a aria-label="Ver na loja Mochila Militar Tática Impermeável 50 L Grande Reforçada c/ 2 Bandeiras Brasil/EUA" class="sidebar-product-card" href="https://s.shopee.com.br/901i8h9IK5" rel="noopener noreferrer" target="_blank">
-<img alt="Mochila Militar Tática Impermeável 50 L Grande Reforçada c/ 2 Bandeiras Brasil/EUA" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/mochilaimpermeavel50l.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Mochila Militar Tática Impermeável 50 L Grande Reforçada c/ 2 Bandeiras Brasil/EUA</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Mochila Coban Tática Militar Reforçada 24 L" class="sidebar-product-card" href="https://s.shopee.com.br/8V5RQXr16n" rel="noopener noreferrer" target="_blank">
-<img alt="Mochila Coban Tática Militar Reforçada 24 L" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/mochilacoban.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Mochila Coban Tática Militar Reforçada 24 L</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Barra fixa para porta" class="sidebar-product-card" href="https://s.shopee.com.br/9fHIyi0uae" rel="noopener noreferrer" target="_blank">
-<img alt="Barra fixa para porta" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/barrafixa01.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Barra fixa para porta</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja BOTA ACERO COURO COLT PADRÃO POLICIA MILITAR SP" class="sidebar-product-card" href="https://s.shopee.com.br/1qYSZj5bki" rel="noopener noreferrer" target="_blank">
-<img alt="BOTA ACERO COURO COLT PADRÃO POLICIA MILITAR SP" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/botaacero.webp"/>
-<span class="sidebar-product-card-info">
-<strong>BOTA ACERO COURO COLT PADRÃO POLICIA MILITAR SP</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Power Rack Funcional com paralelas" class="sidebar-product-card" href="https://s.shopee.com.br/9fHJ0X4HVl" rel="noopener noreferrer" target="_blank">
-<img alt="Power Rack Funcional com paralelas, suporte de agachamento, supino, barra fixa e barra paralela" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/barrafixa02.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Power Rack Funcional com paralelas</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Colete à Prova d'Água Unissex para Peito - Bolsa para Corrida Esportiva ao Ar Livre (Preto)" class="sidebar-product-card" href="https://s.shopee.com.br/8V5UTFtI4n" rel="noopener noreferrer" target="_blank">
-<img alt="Colete à Prova d'Água Unissex para Peito - Bolsa para Corrida Esportiva ao Ar Livre (Preto)" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/coletepeito.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Colete à Prova d'Água Unissex para Peito - Bolsa para Corrida Esportiva ao Ar Livre (Preto)</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Calças De Carga De Alta Qualidade Novos Homens Táticas À Prova D'água Do Exército Usuários Fora De Esportes Long Hiking" class="sidebar-product-card" href="https://s.shopee.com.br/9fHRseGBA0" rel="noopener noreferrer" target="_blank">
-<img alt="Calças De Carga De Alta Qualidade Novos Homens Táticas À Prova D'água Do Exército Usuários Fora De Esportes Long Hiking" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/calcadecarga1.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Calças De Carga De Alta Qualidade Novos Homens Táticas À Prova D'água Do Exército Usuários Fora De Esportes Long Hiking</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Boné De Beisebol Masculino Camuflado Com Caveira, Chapéu Tático Para Pesca E Caminhada Ao Ar Livre O Verão" class="sidebar-product-card" href="https://s.shopee.com.br/8Km4Irus3i" rel="noopener noreferrer" target="_blank">
-<img alt="Boné De Beisebol Masculino Camuflado Com Caveira, Chapéu Tático Para Pesca E Caminhada Ao Ar Livre O Verão" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/bonecaveira.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Boné De Beisebol Masculino Camuflado Com Caveira, Chapéu Tático Para Pesca E Caminhada Ao Ar Livre O Verão</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Lanterna Led Militar 3 Em 1 T9 Tática Potente Forte Longo Alcance USB Recarregável Pesca Camping" class="sidebar-product-card" href="https://s.shopee.com.br/9Uy1hagpxm" rel="noopener noreferrer" target="_blank">
-<img alt="Lanterna Led Militar 3 Em 1 T9 Tática Potente Forte Longo Alcance USB Recarregável Pesca Camping" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/lanterna.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Lanterna Led Militar 3 Em 1 T9 Tática Potente Forte Longo Alcance USB Recarregável Pesca Camping</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-<a aria-label="Ver na loja Cinto Premium com Fivela de Liga Metálica - Cinto Militar Largo em Nylon com Fivela Unissex de Engate Rápido Resistente" class="sidebar-product-card" href="https://s.shopee.com.br/2qR7lnxjWo" rel="noopener noreferrer" target="_blank">
-<img alt="Cinto Premium com Fivela de Liga Metálica - Cinto Militar Largo em Nylon com Fivela Unissex de Engate Rápido Resistente" data-hide-on-error="true" decoding="async" loading="lazy" src="img/SHOPEE/cintotatico.webp"/>
-<span class="sidebar-product-card-info">
-<strong>Cinto Premium com Fivela de Liga Metálica - Cinto Militar Largo em Nylon com Fivela Unissex de Engate Rápido Resistente</strong>
-<em>Ver na loja</em>
-</span>
-</a>
-</div>
-<a class="sidebar-products-more" href="produtos.html">
-<strong>Ver vitrine completa</strong>
-<span>Acessar todos os produtos →</span>
-</a>
-<small class="sidebar-affiliate-note">Links podem ser comerciais ou afiliados. Confira sempre a página do produto antes de comprar.</small>
-</section>
-</aside>
+  <header class="usp-header" role="banner">
+    <div class="usp-container usp-header__inner">
+      <a class="usp-brand" href="index.html" aria-label="Universo Segurança Pública - página inicial">
+        <span class="usp-brand__mark"><img class="usp-brand__logo" src="img/LOGO/logoleao.webp" alt="Logo Universo Segurança Pública" width="56" height="56" loading="eager" decoding="async" /></span>
+        <span class="usp-brand__text">
+          <strong>Universo Seg Pub</strong>
+          <small>Portal de Segurança Pública</small>
+        </span>
+      </a>
 
-<header class="site-header" role="banner">
-<div class="header-content header-shell">
-<div class="header-topbar">
-<div aria-label="Controles rápidos" class="header-menu-tools">
-<button aria-controls="sidebar" aria-expanded="false" aria-label="Abrir menu do portal" class="menu-btn" type="button">
-<span class="menu-btn-bars" aria-hidden="true"><i></i><i></i><i></i></span>
-<span class="menu-btn-label">Menu</span>
-</button>
-<button aria-label="Alternar tema claro/escuro" class="theme-toggle-header" data-theme-toggle="true" data-toggle-style="text" id="theme-toggle-header" type="button">
-<span aria-hidden="true">☀️</span> Claro
-        </button>
-</div>
-<div aria-label="Identidade do site" class="header-brand-block">
-<div class="header-kicker"> </div>
-<h1>Universo <span>Segurança Pública</span></h1>
-<p aria-label="Aviso de independência institucional" class="header-independent-note">Portal informativo independente • Não governamental</p>
-</div>
-</div>
-<div class="header-text" id="header-text">
-<section aria-label="Instituição selecionada" class="header-institution-card">
-<div class="header-institution-main">
-<div class="header-current-identity">
-<div aria-label="Imagem do brasão selecionado" class="current-flag-frame brand-logo-frame">
-<img alt="Logo Universo Segurança Pública" data-img-base="img/LOGO/logoleao" decoding="async" fetchpriority="high" height="96" id="header-active-flag" src="img/LOGO/logoleao.webp" width="96"/>
-</div>
-<div class="header-current-copy">
-<span class="header-current-label"> </span>
-<strong id="header-active-sigla">Universo</strong>
-<p id="header-active-name">Segurança Pública</p>
-<small id="header-desc">Escolha uma instituição</small>
-</div>
-</div>
-<aside aria-label="Resumo institucional atualizado" class="header-facts-panel">
-<div class="header-facts-head">
-<span id="header-resumo-titulo">Resumo do portal</span>
-<strong id="header-resumo-atualizado">Visão geral do portal</strong>
-</div>
-<div class="header-facts-grid">
-<div class="header-fact">
-<span id="header-label-natureza">Escopo</span>
-<strong id="header-resumo-natureza">Portal informativo</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-uf">Abrangência</span>
-<strong id="header-resumo-uf">Brasil</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-criacao">Instituições</span>
-<strong id="header-resumo-criacao">111</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-ativa">Efetivo total estimado</span>
-<strong id="header-resumo-ativa">≈ 1,2 milhão+</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-reserva">Reserva/inativos</span>
-<strong id="header-resumo-reserva">≈ 563 mil+</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-total">Mulheres no efetivo</span>
-<strong id="header-resumo-total">≈ 91,9 mil+</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-populacao">População abrangida</span>
-<strong id="header-resumo-populacao">213.421.037</strong>
-</div>
-<div class="header-fact">
-<span id="header-label-relacao">UFs</span>
-<strong id="header-resumo-relacao">27 UFs</strong>
-</div>
-</div>
-<div class="header-leadership">
-<div class="header-leadership-item">
-<span id="header-label-governador">Cobertura</span>
-<strong id="header-resumo-governador">Polícia Rodoviária Federal, Polícia Federal, Polícia Militar, Polícia Civil, Polícia Penal e Bombeiro Militar</strong>
-</div>
-<div class="header-leadership-item header-command-item is-hidden" hidden="">
-<span id="header-label-comando">Comando/Direção</span>
-<strong id="header-resumo-comando">—</strong>
-</div>
-</div>
-</aside>
-</div>
-</section>
-<div aria-label="Bandeiras dos estados disponíveis no site" class="header-state-flags">
-<div class="state-flags-title">Estados disponíveis</div>
-<button aria-label="Selecionar São Paulo" aria-pressed="false" class="state-flag" data-estado="sp" title="São Paulo" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg"/>
-<span>SP</span>
-</button>
-<button aria-label="Selecionar Rio de Janeiro" aria-pressed="false" class="state-flag" data-estado="rj" title="Rio de Janeiro" type="button">
-<img alt="Bandeira do Rio de Janeiro" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_estado_do_Rio_de_Janeiro.svg"/>
-<span>RJ</span>
-</button>
-<button aria-label="Selecionar Minas Gerais" aria-pressed="false" class="state-flag" data-estado="mg" title="Minas Gerais" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Minas_Gerais.svg"/>
-<span>MG</span>
-</button>
-<button aria-label="Selecionar Bahia" aria-pressed="false" class="state-flag" data-estado="ba" title="Bahia" type="button">
-<img alt="Bandeira da Bahia" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_da_Bahia.svg"/>
-<span>BA</span>
-</button>
-<button aria-label="Selecionar Paraná" aria-pressed="false" class="state-flag" data-estado="pr" title="Paraná" type="button">
-<img alt="Bandeira do Paraná" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Paran%C3%A1.svg"/>
-<span>PR</span>
-</button>
-<button aria-label="Selecionar Rio Grande do Sul" aria-pressed="false" class="state-flag" data-estado="rs" title="Rio Grande do Sul" type="button">
-<img alt="Bandeira do Rio Grande do Sul" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Rio_Grande_do_Sul.svg"/>
-<span>RS</span>
-</button>
-<button aria-label="Selecionar Santa Catarina" aria-pressed="false" class="state-flag" data-estado="sc" title="Santa Catarina" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Santa_Catarina.svg"/>
-<span>SC</span>
-</button>
-<button aria-label="Selecionar Espírito Santo" aria-pressed="false" class="state-flag" data-estado="es" title="Espírito Santo" type="button">
-<img alt="Bandeira do Espírito Santo" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Esp%C3%ADrito_Santo.svg"/>
-<span>ES</span>
-</button>
-<button aria-label="Selecionar Mato Grosso do Sul" aria-pressed="false" class="state-flag" data-estado="ms" title="Mato Grosso do Sul" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Mato_Grosso_do_Sul.svg"/>
-<span>MS</span>
-</button>
-<button aria-label="Selecionar Mato Grosso" aria-pressed="false" class="state-flag" data-estado="mt" title="Mato Grosso" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Mato_Grosso.svg"/>
-<span>MT</span>
-</button>
-<button aria-label="Selecionar Acre" aria-pressed="false" class="state-flag" data-estado="ac" title="Acre" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Acre.svg"/>
-<span>AC</span>
-</button>
-<button aria-label="Selecionar Alagoas" aria-pressed="false" class="state-flag" data-estado="al" title="Alagoas" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Alagoas.svg"/>
-<span>AL</span>
-</button>
-<button aria-label="Selecionar Amazonas" aria-pressed="false" class="state-flag" data-estado="am" title="Amazonas" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Amazonas.svg"/>
-<span>AM</span>
-</button>
-<button aria-label="Selecionar Amapá" aria-pressed="false" class="state-flag" data-estado="ap" title="Amapá" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Amap%C3%A1.svg"/>
-<span>AP</span>
-</button>
-<button aria-label="Selecionar Ceará" aria-pressed="false" class="state-flag" data-estado="ce" title="Ceará" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Cear%C3%A1.svg"/>
-<span>CE</span>
-</button>
-<button aria-label="Selecionar Distrito Federal" aria-pressed="false" class="state-flag" data-estado="df" title="Distrito Federal" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Distrito_Federal_(Brasil).svg"/>
-<span>DF</span>
-</button>
-<button aria-label="Selecionar Goiás" aria-pressed="false" class="state-flag" data-estado="go" title="Goiás" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Goi%C3%A1s.svg"/>
-<span>GO</span>
-</button>
-<button aria-label="Selecionar Maranhão" aria-pressed="false" class="state-flag" data-estado="ma" title="Maranhão" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Maranh%C3%A3o.svg"/>
-<span>MA</span>
-</button>
-<button aria-label="Selecionar Pará" aria-pressed="false" class="state-flag" data-estado="pa" title="Pará" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Par%C3%A1.svg"/>
-<span>PA</span>
-</button>
-<button aria-label="Selecionar Paraíba" aria-pressed="false" class="state-flag" data-estado="pb" title="Paraíba" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_da_Para%C3%ADba.svg"/>
-<span>PB</span>
-</button>
-<button aria-label="Selecionar Pernambuco" aria-pressed="false" class="state-flag" data-estado="pe" title="Pernambuco" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Pernambuco.svg"/>
-<span>PE</span>
-</button>
-<button aria-label="Selecionar Piauí" aria-pressed="false" class="state-flag" data-estado="pi" title="Piauí" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Piau%C3%AD.svg"/>
-<span>PI</span>
-</button>
-<button aria-label="Selecionar Rio Grande do Norte" aria-pressed="false" class="state-flag" data-estado="rn" title="Rio Grande do Norte" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Rio_Grande_do_Norte.svg"/>
-<span>RN</span>
-</button>
-<button aria-label="Selecionar Rondônia" aria-pressed="false" class="state-flag" data-estado="ro" title="Rondônia" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Rond%C3%B4nia.svg"/>
-<span>RO</span>
-</button>
-<button aria-label="Selecionar Roraima" aria-pressed="false" class="state-flag" data-estado="rr" title="Roraima" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Roraima.svg"/>
-<span>RR</span>
-</button>
-<button aria-label="Selecionar Sergipe" aria-pressed="false" class="state-flag" data-estado="se" title="Sergipe" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_de_Sergipe.svg"/>
-<span>SE</span>
-</button>
-<button aria-label="Selecionar Tocantins" aria-pressed="false" class="state-flag" data-estado="to" title="Tocantins" type="button">
-<img alt="" aria-hidden="true" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bandeira_do_Tocantins.svg"/>
-<span>TO</span>
-</button>
-</div>
-</div>
-</div>
-<div aria-hidden="true" class="header-js-contract header-js-contract--instituicao" hidden="">
-<select id="instituicao_header" tabindex="-1">
-<option value=""></option>
-</select>
-</div>
-<div aria-hidden="true" class="header-js-contract" hidden="">
-<button id="header-branch-pm" tabindex="-1" type="button"></button>
-<button id="header-branch-bm" tabindex="-1" type="button"></button>
-<button id="header-branch-pc" tabindex="-1" type="button"></button>
-<button id="header-branch-pp" tabindex="-1" type="button"></button>
-</div>
-</header>
-<!-- BLOCO 03.2 — Faixas decorativas abaixo do cabeçalho -->
-<div aria-hidden="true" class="stripe-container">
-<div class="stripe"></div>
-<div class="stripe-white"></div>
-<div class="stripe-black"></div>
-</div>
-<!-- BLOCO 03.5 — Toast/mensagem temporária controlada pelo JavaScript -->
-<div aria-live="polite" class="toast" id="toast" role="status"></div>
-<!-- BLOCO 04 — PÁGINA PRINCIPAL / RESUMO DO SITE -->
-<!-- BLOCO 04.3 — PÁGINA REMUNERAÇÃO TABELADA -->
-<!-- BLOCO 06 — PÁGINA DIREITOS E VANTAGENS -->
-<!-- BLOCO 06.6 — PÁGINA BRASÕES E HISTÓRIA -->
-<!-- BLOCO 07 — PÁGINA CONCURSOS -->
-<!-- BLOCO 07.1 — PÁGINA COMPARAR CARREIRAS -->
-<!-- BLOCO 08 — PÁGINA PRODUTOS -->
-<!-- BLOCO 09 — PÁGINA AÇÕES JUDICIAIS -->
-<main class="page-section active" id="page-acoes" role="main">
-<div class="acoes-page-shell">
-<section aria-labelledby="acoes-titulo-principal" class="card acoes-hero-card">
-<span class="acoes-hero-kicker">Orientação jurídica informativa</span>
-<h1 id="acoes-titulo-principal">Ações judiciais</h1>
-<p>
-        Esta área reúne temas jurídicos recorrentes ligados a carreiras da segurança pública, como enquadramento, progressão, promoção, adicionais, gratificações, verbas indenizatórias, previdência, paridade, integralidade, aposentadoria, abono de permanência e diferenças remuneratórias.
-      </p>
-<p>
-        O objetivo é organizar uma leitura inicial por instituição. Cada card apresenta pontos de atenção, bases de análise e fontes de conferência quando cadastradas. Use o conteúdo como referência informativa e confirme qualquer medida com advogado, associação ou sindicato, pois ações contra a Fazenda Pública dependem de documentos, prazos, prescrição, situação funcional e entendimento judicial atualizado.
-      </p>
-<div class="alerta legal acoes-alerta-legal">
-<strong>Aviso legal:</strong> conteúdo meramente informativo. As teses dependem de análise individual, documentos funcionais, holerites, data de ingresso, situação ativa/inativa e entendimento judicial atualizado. Em regra, pretensões contra a Fazenda Pública observam prescrição quinquenal, sem prejuízo de regras específicas.
+            <nav class="usp-nav" aria-label="Navegação principal">
+        <a href="index.html">Página inicial</a>
+        <a href="noticias.html">Notícias</a>
+        <a href="remuneracao.html">Remuneração</a>
+        <a href="concursos.html">Concursos</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="brasoes.html">Brasões</a>
+        <a href="comparar-carreiras.html">Comparar</a>
+        <a href="direitos.html">Direitos</a>
+        <a href="guia-instituicoes.html">Guia das Instituições</a>
+        <a class="is-active" href="acoes-judiciais.html">Ações Judiciais</a>
+        <a href="associacoes-sindicatos.html">Associações e Sindicatos</a>
+      </nav>
+
+      <form class="usp-search" action="guia-instituicoes.html" method="get" role="search">
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m21 21-4.3-4.3m1.3-5.2a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <input id="site-search" name="q" type="search" placeholder="Buscar instituição, cargo, tese..." autocomplete="off" />
+      </form>
+    </div>
+  </header>
+
+  <main id="page-acoes" role="main">
+    <nav class="usp-breadcrumb" aria-label="Caminho da página">
+      <div class="usp-container">
+        <a href="index.html">Início</a>
+        <span aria-hidden="true">/</span>
+        <strong>Ações judiciais</strong>
       </div>
-<div aria-label="Filtrar ações judiciais por instituição" class="consulta-instituicao-card acoes-filtro-card" data-consulta-selector="acoes">
-<div class="consulta-instituicao-texto">
-<span>Filtrar conteúdo</span>
-<strong>Escolha uma instituição para visualizar os temas relacionados</strong>
-<small>Navegue por todos os cards ou selecione uma corporação específica para abrir as teses detalhadas.</small>
-</div>
-<div class="consulta-instituicao-grid">
-<div class="field">
-<label for="acoes-filtro-esfera">Tipo de instituição</label>
-<select aria-label="Filtrar por tipo de instituição" id="acoes-filtro-esfera">
+    </nav>
+
+    <section class="usp-hero usp-acoes-hero" aria-labelledby="acoes-titulo-principal">
+      <div class="usp-container usp-hero__grid">
+        <div class="usp-hero__copy">
+          <p class="usp-eyebrow"><span></span>Orientação jurídica informativa · edição 2026</p>
+          <h1 id="acoes-titulo-principal">Teses, alertas e caminhos de conferência jurídica por instituição.</h1>
+          <p class="usp-hero__lead">A aba Ações Judiciais organiza temas recorrentes da segurança pública — enquadramento, progressão, promoção, adicionais, gratificações, previdência, paridade, integralidade, aposentadoria, abono de permanência e diferenças remuneratórias.</p>
+          <div class="usp-hero__actions" aria-label="Ações principais da página">
+            <a class="usp-btn usp-btn--dark" href="#acoes-conteudo-lista">Ver instituições <span>→</span></a>
+            <a class="usp-btn" href="#consulta-acoes">Filtrar ações</a>
+            <a class="usp-btn" href="associacoes-sindicatos.html">Associações e sindicatos</a>
+          </div>
+          <p class="usp-note"><strong>Aviso legal:</strong> conteúdo meramente informativo. Teses dependem de análise individual, documentos funcionais, holerites, data de ingresso, situação ativa/inativa, prescrição e entendimento judicial atualizado.</p>
+        </div>
+
+        <aside class="usp-quick-card usp-acoes-filter" id="consulta-acoes" aria-label="Filtro rápido de ações judiciais">
+          <div class="usp-quick-card__head">
+            <span>Consulta rápida</span>
+            <strong><span id="acoes-contador-cards">46 instituições encontradas</span></strong>
+          </div>
+          <h2>Filtre por esfera e instituição</h2>
+          <p class="usp-filter-copy">Escolha uma instituição para abrir os cards de teses e, se quiser, carregar a consulta detalhada cadastrada no portal.</p>
+          <div class="usp-form-grid usp-form-grid--stacked">
+            <label for="acoes-filtro-esfera">
+              <span>Tipo de instituição</span>
+              <select aria-label="Filtrar por tipo de instituição" id="acoes-filtro-esfera">
 <option selected="" value="">Todas</option>
 <option value="federal">Federal</option>
 <option value="estadual">Estadual</option>
 </select>
-</div>
-<div class="field">
-<label for="acoes-filtro-instituicao">Instituição</label>
-<select aria-label="Filtrar por instituição" id="acoes-filtro-instituicao">
+            </label>
+            <label for="acoes-filtro-instituicao">
+              <span>Instituição</span>
+              <select aria-label="Filtrar por instituição" id="acoes-filtro-instituicao">
 <option selected="" value="">Todas as instituições</option>
 <optgroup label="União">
 <option data-esfera="federal" value="prf">PRF — Polícia Rodoviária Federal</option>
+<option data-esfera="federal" value="pcdf">PCDF — Polícia Civil do Distrito Federal</option>
 </optgroup>
 <optgroup label="Acre (AC)">
 <option data-esfera="estadual" value="pcac">PCAC — Polícia Civil</option>
@@ -603,23 +199,64 @@
 <option data-esfera="estadual" value="ppsp">PPSP — Polícia Penal</option>
 </optgroup>
 </select>
-</div>
-</div>
-<div class="acoes-filtro-acoes">
-<button data-acoes-limpar="" type="button">Ver todas</button>
-<span id="acoes-contador-cards">45 instituições encontradas</span>
-</div>
-</div>
-</section>
-<aside aria-label="Espaço de anúncio: Ações judiciais antes da lista" class="ad-slot ad-slot--inline" data-ad-area="acoes_antes_lista">
-<a class="ad-placeholder-link" href="anuncie.html?area=acoes_antes_lista">
-<span class="ad-label">Publicidade</span>
-<strong>Anuncie aqui</strong>
-<small>Local indicado para escritórios, assessorias, associações e serviços de orientação jurídica.</small>
-</a>
-</aside>
-<section aria-label="Resumos de ações judiciais por instituição" class="acoes-conteudo-lista" id="acoes-conteudo-lista">
-<article class="card acoes-conteudo-card" data-acoes-card="" data-esfera="federal" data-inst="prf" data-ramo="Polícia Rodoviária Federal" data-uf="BR">
+            </label>
+          </div>
+          <div class="acoes-filtro-acoes usp-acoes-filter-actions">
+            <button class="usp-btn usp-btn--gold" data-acoes-limpar type="button">Mostrar todas as instituições</button>
+            <small>Paginação automática: 4 instituições por página.</small>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="usp-stats usp-acoes-stats" aria-label="Resumo da aba Ações Judiciais">
+      <div class="usp-stat"><strong>46</strong><span>Instituições mapeadas</span></div>
+      <div class="usp-stat"><strong>2026</strong><span>Base de atualização</span></div>
+      <div class="usp-stat"><strong>5 anos</strong><span>Atenção à prescrição comum</span></div>
+      <div class="usp-stat"><strong>Individual</strong><span>Análise por holerite e ficha</span></div>
+      <div class="usp-stat"><strong>Fontes</strong><span>Leis, atos e documentos</span></div>
+    </section>
+
+    <section class="usp-section usp-acoes-method" aria-labelledby="acoes-como-usar">
+      <div class="usp-container">
+        <div class="usp-section__head">
+          <div>
+            <p class="usp-eyebrow"><span></span>Como usar</p>
+            <h2 id="acoes-como-usar">Leia como triagem inicial, não como promessa de direito automático.</h2>
+            <p>O novo layout separa resumo, indicadores e temas jurídicos. A leitura fica mais limpa e evita a aparência antiga de aplicativo.</p>
+          </div>
+          <a class="usp-inline-link" href="direitos.html">Ver direitos e vantagens →</a>
+        </div>
+        <div class="usp-card-grid usp-acoes-method-grid">
+          <article class="usp-consulta-card"><small>01</small><span class="usp-icon" aria-hidden="true">⚖</span><h3>Escolha a instituição</h3><p>Use o filtro para reduzir a lista e encontrar a corporação desejada sem percorrer todos os estados.</p></article>
+          <article class="usp-consulta-card"><small>02</small><span class="usp-icon" aria-hidden="true">▤</span><h3>Leia os temas</h3><p>Cada card reúne pontos de atenção, bases de análise, referências e fontes para conferência.</p></article>
+          <article class="usp-consulta-card"><small>03</small><span class="usp-icon" aria-hidden="true">⌁</span><h3>Confira documentos</h3><p>Holerite, ficha funcional, data de ingresso, atos de promoção e legislação aplicável mudam a conclusão.</p></article>
+          <article class="usp-consulta-card"><small>04</small><span class="usp-icon" aria-hidden="true">↗</span><h3>Procure apoio</h3><p>Antes de qualquer medida, confirme com advogado, associação ou sindicato da categoria.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="usp-section usp-acoes-list-section" aria-labelledby="acoes-lista-titulo">
+      <div class="usp-container">
+        <div class="usp-section__head">
+          <div>
+            <p class="usp-eyebrow"><span></span>Resumos por instituição</p>
+            <h2 id="acoes-lista-titulo">Cards de ações judiciais e teses cadastradas.</h2>
+            <p>A lista abaixo mantém os conteúdos existentes do portal, agora em estrutura desktop mais limpa e legível.</p>
+          </div>
+          <a class="usp-inline-link" href="#consulta-acoes">Voltar ao filtro →</a>
+        </div>
+
+        <aside aria-label="Espaço de anúncio: Ações judiciais antes da lista" class="ad-slot ad-slot--inline" data-ad-area="acoes_antes_lista">
+          <a class="ad-placeholder-link" href="anuncie.html?area=acoes_antes_lista">
+            <span class="ad-label">Publicidade</span>
+            <strong>Anuncie aqui</strong>
+            <small>Local indicado para escritórios, assessorias, associações e serviços de orientação jurídica.</small>
+          </a>
+        </aside>
+
+        <section aria-label="Resumos de ações judiciais por instituição" class="acoes-conteudo-lista" id="acoes-conteudo-lista">
+          <article class="card acoes-conteudo-card" data-acoes-card="" data-esfera="federal" data-inst="prf" data-ramo="Polícia Rodoviária Federal" data-uf="BR">
 <div class="acoes-card-cabecalho">
 <span class="acoes-card-kicker">Federal • PRF · Polícia Rodoviária Federal · Brasil</span>
 <h2>Ações judiciais e teses da PRF</h2>
@@ -658,6 +295,213 @@
 <p>Conteúdo informativo e independente. A existência de tema cadastrado não significa direito automático, ação recomendada ou resultado garantido. Verifique prescrição, documentos, legislação vigente e entendimento judicial atualizado com advogado, sindicato ou associação.</p>
 <div class="acoes-card-links">
 <button data-acoes-load="prf" type="button">Consultar teses detalhadas</button>
+<a href="direitos.html">Ver direitos e vantagens</a>
+</div>
+</div>
+</article>
+<article class="card acoes-conteudo-card" data-acoes-card="" data-esfera="federal" data-inst="pcdf" data-ramo="Polícia Civil" data-uf="DF" id="acoes-pcdf">
+<div class="acoes-card-cabecalho">
+<span class="acoes-card-kicker">Federal • PCDF · Polícia Civil · Distrito Federal</span>
+<h2>Ações judiciais e teses da PCDF</h2>
+<p>A aba reúne sete teses ativas que envolvem o policial civil do DF, com foco em aposentadoria especial, abono de permanência, alíquotas progressivas da reforma de 2019, licença-prêmio em pecúnia, URV 11,98%, paridade remuneratória com a Polícia Federal e reenquadramento por subsídio. Em regra, pretensões contra a Fazenda Pública observam prescrição quinquenal, sem prejuízo de regras específicas. Conteúdo informativo: ação judicial não tem resultado prometido — depende de análise individual, documentos funcionais, holerites, data de ingresso, situação ativa/inativa e entendimento judicial atualizado.</p>
+</div>
+<div aria-label="Resumo jurídico da PCDF" class="acoes-card-indicadores">
+<div><span>Teses cadastradas</span><strong>7</strong></div>
+<div><span>Natureza</span><strong>4 individuais · 1 coletiva · 2 híbridas</strong></div>
+<div><span>Com Tema STF/STJ</span><strong>6 de 7</strong></div>
+<div><span>Atualização</span><strong>Maio/2026</strong></div>
+</div>
+<div class="acoes-card-corpo">
+<!-- TESE 1 -->
+<section class="acoes-card-tema">
+<h3>1. PCDF — Aposentadoria especial com integralidade e paridade</h3>
+<p>
+<strong>Status:</strong> Tema com precedente forte ·
+        <strong>Referência:</strong> LC nº 51/1985 (com a redação da LC nº 144/2014) c/c art. 40, § 4º, II, CF/88 (redação anterior à EC nº 103/2019) ·
+        <strong>Tipo:</strong> Ação individual
+      </p>
+<p>
+<strong>Jurisprudência atual:</strong>
+        STF Tema 1019 · Recurso paradigma: RE 1.162.672/SP, Rel. Min. Dias Toffoli · Status: Mérito julgado em 02/12/2020, com trânsito em julgado · Última movimentação relevante: STF Tema 1307 (RE 1.486.392/SP, Rel. Min. Luís Roberto Barroso, j. 13/08/2024) reafirmou que a paridade depende de previsão em lei complementar do ente federativo ·
+        <a href="https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?numeroTema=1019" rel="noopener noreferrer" target="_blank">Acompanhar no STF</a>
+</p>
+<p>
+        O policial civil do DF que tenha preenchido os requisitos da LC nº 51/1985 — 30 anos de contribuição com pelo menos 20 em cargo estritamente policial, se homem; 25 anos com pelo menos 15, se mulher — pode pleitear aposentadoria especial com proventos integrais. A paridade (mesmos reajustes da ativa) exige previsão em lei complementar aplicável à carreira e análise da data de ingresso, conforme fixado pelo STF nos Temas 1019 e 1307. Quem ingressou antes da EC nº 103/2019 e cumpriu os requisitos sob o regime anterior tem precedente favorável. EC 103/2019, LC 51/1985 e LC 144/2014 exigem análise da data de ingresso, tempo de contribuição e regra de transição aplicável. Recomenda-se reunir ficha funcional, certidão de tempo de contribuição e holerites dos últimos 24 meses.
+      </p>
+<p><strong>Base de análise:</strong> CF/88 art. 40, §§ 1º, 3º, 4º; LC nº 51/1985; LC nº 144/2014; EC nº 41/2003; EC nº 47/2005; EC nº 103/2019; ficha funcional; certidão de tempo de contribuição; holerites.</p>
+<p><strong>Fonte de conferência:</strong>
+<a href="https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp51.htm" rel="noopener noreferrer" target="_blank">Planalto — LC nº 51/1985</a>
+</p>
+<p>
+<strong>Quem está acompanhando:</strong>
+<a href="https://www.sinpoldf.com.br" rel="noopener noreferrer" target="_blank">SINPOL-DF</a> (sindicato estadual de agentes, escrivães, papiloscopistas e agentes de custódia),
+        <a href="https://adepoldobrasil.org.br" rel="noopener noreferrer" target="_blank">ADEPOL-Brasil</a> (associação nacional dos delegados, com sede no DF),
+        <a href="https://fenadepol.org.br" rel="noopener noreferrer" target="_blank">FENADEPOL</a> (federação nacional dos delegados de polícia)
+      </p>
+</section>
+<!-- TESE 2 -->
+<section class="acoes-card-tema">
+<h3>2. PCDF — Abono de permanência ao optante pela aposentadoria especial</h3>
+<p>
+<strong>Status:</strong> Tema com precedente forte ·
+        <strong>Referência:</strong> art. 40, § 19, CF/88 (na redação anterior à EC nº 103/2019); LC nº 51/1985; Lei nº 10.887/2004 ·
+        <strong>Tipo:</strong> Ação individual
+      </p>
+<p>
+<strong>Jurisprudência atual:</strong>
+        STF ARE 954.408, Rel. Min. Teori Zavascki — repercussão geral reconhecida e jurisprudência reafirmada · Status: mérito reafirmado, decisão de extensão do abono ao policial civil consolidada · STJ Tema 1233 (Rel. Min. Regina Helena Costa, j. 2025) fixou que o abono integra a base de cálculo do adicional de férias e do 13º salário · STF Tema 1326 (RE 956.304/GO, Rel. Min. Dias Toffoli) discute o termo final do pagamento — pendente de julgamento de mérito ·
+        <a href="https://portal.stf.jus.br/jurisprudenciaRepercussao/" rel="noopener noreferrer" target="_blank">Acompanhar no STF</a>
+</p>
+<p>
+        O policial civil que cumpriu os requisitos da LC nº 51/1985 mas optou por seguir em atividade tem direito ao abono de permanência, em valor equivalente à contribuição previdenciária recolhida. Trata-se de estímulo à permanência reconhecido pelo STF mesmo nas hipóteses de aposentadoria especial. Há discussão pendente sobre o termo final do pagamento (data do requerimento da aposentadoria ou data da publicação do ato) no STF Tema 1326. O STJ, sob recursos repetitivos, fixou que o abono compõe a base de cálculo de outras vantagens. Para pleitear retroativos, o servidor precisa de ficha funcional, requerimento administrativo e contracheques.
+      </p>
+<p><strong>Base de análise:</strong> art. 40, § 19, CF/88; LC nº 51/1985; Lei nº 10.887/2004; ficha funcional; protocolo de requerimento administrativo; holerites.</p>
+<p><strong>Fonte de conferência:</strong>
+<a href="https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.887.htm" rel="noopener noreferrer" target="_blank">Planalto — Lei nº 10.887/2004</a>
+</p>
+<p>
+<strong>Quem está acompanhando:</strong>
+<a href="https://www.sinpoldf.com.br" rel="noopener noreferrer" target="_blank">SINPOL-DF</a> (orientação ao filiado),
+        <a href="https://adepoldobrasil.org.br" rel="noopener noreferrer" target="_blank">ADEPOL-Brasil</a> (acompanhamento jurídico nacional)
+      </p>
+</section>
+<!-- TESE 3 -->
+<section class="acoes-card-tema">
+<h3>3. PCDF — Alíquotas progressivas de contribuição previdenciária (EC 103/2019)</h3>
+<p>
+<strong>Status:</strong> Em discussão ·
+        <strong>Referência:</strong> art. 11, § 1º, incisos V a VIII, da EC nº 103/2019 ·
+        <strong>Tipo:</strong> Híbrida (individual e coletiva)
+      </p>
+<p>
+<strong>Jurisprudência atual:</strong>
+        STF Tema 1226 · Recurso paradigma: RE 1.384.562, Rel. Min. Luís Roberto Barroso · Status: repercussão geral reconhecida; mérito pendente · Última movimentação: afetação como representativo de controvérsia ·
+        <a href="https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?numeroTema=1226" rel="noopener noreferrer" target="_blank">Acompanhar no STF</a>
+</p>
+<p>
+        A EC nº 103/2019 instituiu alíquotas progressivas de contribuição previdenciária para servidores federais ativos, aposentados e pensionistas, com acréscimo em faixas superiores a 14%. O policial civil do DF, por integrar o RPPS da União, é diretamente alcançado. A discussão envolve a compatibilidade dessas alíquotas com os princípios da legalidade, anterioridade, isonomia, capacidade contributiva e vedação ao confisco. Enquanto o STF não decide o mérito, ações individuais têm sido ajuizadas para suspender ou restituir o excedente — sempre observada a prescrição quinquenal. Em caso de julgamento favorável, eventual modulação de efeitos pode limitar o alcance retroativo da decisão.
+      </p>
+<p><strong>Base de análise:</strong> EC nº 103/2019, art. 11; Lei nº 10.887/2004; contracheques discriminando a base de cálculo e a alíquota incidente.</p>
+<p><strong>Fonte de conferência:</strong>
+<a href="https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm" rel="noopener noreferrer" target="_blank">Planalto — EC nº 103/2019</a>
+</p>
+<p>
+<strong>Quem está acompanhando:</strong>
+<a href="https://www.sinpoldf.com.br" rel="noopener noreferrer" target="_blank">SINPOL-DF</a> (orientação coletiva ao filiado),
+        <a href="https://adepoldobrasil.org.br" rel="noopener noreferrer" target="_blank">ADEPOL-Brasil</a> (defesa nacional da categoria)
+      </p>
+</section>
+<!-- TESE 4 -->
+<section class="acoes-card-tema">
+<h3>4. PCDF — Conversão de licença-prêmio não gozada em pecúnia</h3>
+<p>
+<strong>Status:</strong> Tema com precedente forte ·
+        <strong>Referência:</strong> Lei nº 4.878/1965 (regime jurídico dos policiais civis da União e do DF); CF/88 art. 7º, XVII ·
+        <strong>Tipo:</strong> Ação individual
+      </p>
+<p>
+<strong>Jurisprudência atual:</strong>
+        STF Tema 635 · Recurso paradigma: RE 859.275, Rel. Min. Marco Aurélio — mérito julgado, vedação ao enriquecimento sem causa da Administração quanto a licenças-prêmio não gozadas · STJ Tema 1086 (REsp 1.854.662/CE) reafirmou a conversão em pecúnia quando há inatividade ou desligamento sem gozo do benefício · Última movimentação: precedente vinculante consolidado nas duas cortes ·
+        <a href="https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?numeroTema=635" rel="noopener noreferrer" target="_blank">Acompanhar no STF</a>
+</p>
+<p>
+        O policial civil que adquiriu licença-prêmio sob o regime da Lei nº 4.878/1965 e não a usufruiu até a aposentadoria ou o desligamento tem precedente favorável para pleitear conversão em pecúnia, sob o fundamento de vedação ao enriquecimento ilícito da Administração. STF Tema 635 depende de comprovação documental do não-gozo e da inatividade/desligamento. A documentação típica inclui o ato concessivo da licença, ficha funcional integral e o ato de aposentadoria. A pretensão observa prescrição quinquenal contada da aposentadoria ou do desligamento.
+      </p>
+<p><strong>Base de análise:</strong> Lei nº 4.878/1965; CF/88 art. 7º, XVII; ato concessivo da licença-prêmio; ficha funcional; ato de aposentadoria ou portaria de desligamento.</p>
+<p><strong>Fonte de conferência:</strong>
+<a href="https://www.planalto.gov.br/ccivil_03/leis/l4878.htm" rel="noopener noreferrer" target="_blank">Planalto — Lei nº 4.878/1965</a>
+</p>
+<p>
+<strong>Quem está acompanhando:</strong>
+<a href="https://www.sinpoldf.com.br" rel="noopener noreferrer" target="_blank">SINPOL-DF</a> (orientação ao filiado individual)
+      </p>
+</section>
+<!-- TESE 5 -->
+<section class="acoes-card-tema">
+<h3>5. PCDF — Diferenças remuneratórias da URV (11,98%)</h3>
+<p>
+<strong>Status:</strong> Possível cobrança ·
+        <strong>Referência:</strong> Lei nº 8.880/1994 (conversão Cruzeiro Real → URV); CF/88 art. 37, XV ·
+        <strong>Tipo:</strong> Híbrida (individual e coletiva)
+      </p>
+<p>
+<strong>Jurisprudência atual:</strong>
+        STF Tema 5 · Recurso paradigma: RE 561.836/RN, Rel. Min. Luiz Fux — mérito julgado em 26/09/2013, com fixação de tese sobre a defasagem na conversão · Status: trânsito em julgado; discussão remanescente versa sobre prescrição, absorção administrativa e perícia contábil · Última movimentação: precedente consolidado, com decisões posteriores limitando o alcance ·
+        <a href="https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?numeroTema=5" rel="noopener noreferrer" target="_blank">Acompanhar no STF</a>
+</p>
+<p>
+        Servidores que estavam em atividade no momento da implantação da URV, em março de 1994, podem ter sofrido defasagem de até 11,98% na conversão. Tema histórico (STF Tema 5) com discussão sobre prescrição, absorção e perícia contábil; não aplicar automaticamente. A análise exige reconstituição do contracheque do período de conversão, ficha funcional indicando data de ingresso e parecer contábil. Para servidores ingressos após 1994, em regra a tese não se aplica. Eventual diferença pode ter sido absorvida por reajustes posteriores, o que costuma ser o principal obstáculo prático ao pleito.
+      </p>
+<p><strong>Base de análise:</strong> Lei nº 8.880/1994; ficha funcional com data de ingresso; contracheques do período de março/1994; parecer contábil.</p>
+<p><strong>Fonte de conferência:</strong>
+<a href="https://www.planalto.gov.br/ccivil_03/leis/l8880.htm" rel="noopener noreferrer" target="_blank">Planalto — Lei nº 8.880/1994</a>
+</p>
+<p>
+<strong>Quem está acompanhando:</strong>
+<a href="https://www.sinpoldf.com.br" rel="noopener noreferrer" target="_blank">SINPOL-DF</a> (orientação coletiva histórica),
+        Dados em breve
+      </p>
+</section>
+<!-- TESE 6 -->
+<section class="acoes-card-tema">
+<h3>6. PCDF — Paridade remuneratória com a Polícia Federal (Lei nº 9.264/1996)</h3>
+<p>
+<strong>Status:</strong> Tema permanente ·
+        <strong>Referência:</strong> art. 21, XIV, CF/88; Lei nº 9.264/1996 (organização das carreiras da PCDF); Lei nº 9.266/1996 (carreira da PF) ·
+        <strong>Tipo:</strong> Ação coletiva
+      </p>
+<p>
+<strong>Jurisprudência atual:</strong>
+        STF RE 275438, Rel. Min. Marco Aurélio, redator p/ acórdão Min. Luís Roberto Barroso — Primeira Turma reconheceu a competência da Justiça Federal para julgar ações em que a União é interessada na manutenção da PCDF · Status: precedente sobre competência consolidado; teses de fundo (equiparação remuneratória, gratificações suprimidas) seguem em ações individuais e coletivas · Última movimentação: precedente reafirmado em decisões monocráticas posteriores ·
+        <a href="https://noticias.stf.jus.br/postsnoticias/1a-turma-cabe-a-justica-federal-julgar-acao-de-policiais-civis-do-df/" rel="noopener noreferrer" target="_blank">Acompanhar no STF</a>
+</p>
+<p>
+        Por força do art. 21, XIV, da Constituição, a União organiza e mantém a PCDF, e o regramento dos cargos segue a Lei nº 9.264/1996 — que estabelece paridade estrutural com a Polícia Federal. Ao longo do tempo, gratificações historicamente pagas em ambas as carreiras foram suprimidas em uma e mantidas em outra, gerando ações coletivas movidas pelo SINPOL-DF para restabelecer a isonomia. A discussão envolve análise de cada parcela específica, da legislação federal aplicável e da efetiva equiparação à carreira-referência. O STF firmou que a competência é da Justiça Federal, abrindo caminho para o exame do mérito nos tribunais regionais.
+      </p>
+<p><strong>Base de análise:</strong> art. 21, XIV, CF/88; Lei nº 9.264/1996; Lei nº 9.266/1996; legislação federal sobre gratificações e parcelas remuneratórias da PF; contracheques comparativos.</p>
+<p><strong>Fonte de conferência:</strong>
+<a href="https://www.planalto.gov.br/ccivil_03/leis/l9264.htm" rel="noopener noreferrer" target="_blank">Planalto — Lei nº 9.264/1996</a>
+</p>
+<p>
+<strong>Quem está acompanhando:</strong>
+<a href="https://www.sinpoldf.com.br" rel="noopener noreferrer" target="_blank">SINPOL-DF</a> (sindicato titular de ações coletivas históricas pela equiparação),
+        <a href="https://adepoldobrasil.org.br" rel="noopener noreferrer" target="_blank">ADEPOL-Brasil</a> (acompanhamento da equiparação dos delegados),
+        <a href="https://fenadepol.org.br" rel="noopener noreferrer" target="_blank">FENADEPOL</a> (federação nacional dos delegados de polícia)
+      </p>
+</section>
+<!-- TESE 7 -->
+<section class="acoes-card-tema">
+<h3>7. PCDF — Reenquadramento e reestruturação (MP nº 1.326/2025)</h3>
+<p>
+<strong>Status:</strong> Em discussão ·
+        <strong>Referência:</strong> MP nº 1.326/2025 e projeto de conversão em lei; Lei nº 9.264/1996; Lei nº 14.724/2023 ·
+        <strong>Tipo:</strong> Ação individual
+      </p>
+<p>
+<strong>Jurisprudência atual:</strong>
+        Sem Tema STF/STJ específico até a data desta atualização. A jurisprudência supletiva é a Súmula 359/STF (direito adquirido ao quantum dos proventos calculado conforme a legislação vigente na aposentadoria) e o entendimento consolidado de que não há direito adquirido a regime jurídico. Dados em breve sobre eventual ADI específica contra a MP nº 1.326/2025. ·
+        <a href="https://portal.stf.jus.br/jurisprudenciaRepercussao/" rel="noopener noreferrer" target="_blank">Acompanhar no STF</a>
+</p>
+<p>
+        A MP nº 1.326/2025 promoveu reajuste escalonado e abriu discussão sobre a unificação de Agente, Escrivão e Agente de Custódia no cargo de Oficial Investigador. Tabela legal não equivale a diferença automática; é preciso identificar erro de enquadramento, data, rubrica ou pagamento. Possíveis pleitos envolvem retroativos do reajuste parcelado, integração de parcelas indenizatórias absorvidas, manutenção de gratificações específicas e enquadramento em classe ou padrão divergente do efetivamente devido. Recomenda-se a comparação contracheque a contracheque após cada parcela do reajuste, com atenção ao mês de janeiro de 2026, quando a recomposição passou a ser integral.
+      </p>
+<p><strong>Base de análise:</strong> MP nº 1.326/2025 e seu projeto de conversão; Lei nº 9.264/1996; Lei nº 14.724/2023; ficha funcional; contracheques de outubro/2025 a fevereiro/2026.</p>
+<p><strong>Fonte de conferência:</strong>
+<a href="https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/mpv/" rel="noopener noreferrer" target="_blank">Planalto — Medidas Provisórias 2025</a>
+</p>
+<p>
+<strong>Quem está acompanhando:</strong>
+<a href="https://www.sinpoldf.com.br" rel="noopener noreferrer" target="_blank">SINPOL-DF</a> (sindicato titular da negociação salarial assinada em outubro/2025),
+        <a href="https://adepoldobrasil.org.br" rel="noopener noreferrer" target="_blank">ADEPOL-Brasil</a>,
+        <a href="https://fenadepol.org.br" rel="noopener noreferrer" target="_blank">FENADEPOL</a>
+</p>
+</section>
+</div>
+<div class="acoes-card-rodape">
+<p>Conteúdo informativo e independente. A existência de tema cadastrado não significa direito automático, ação recomendada ou resultado garantido. Verifique prescrição, documentos, legislação vigente e entendimento judicial atualizado com advogado, sindicato ou associação. Confirme sempre com advogado de confiança, sindicato ou associação antes de ajuizar.</p>
+<div class="acoes-card-links">
+<button data-acoes-load="pcdf" type="button">Consultar teses detalhadas</button>
+<a href="associacoes-sindicatos.html">Ver associações e sindicatos</a>
 <a href="direitos.html">Ver direitos e vantagens</a>
 </div>
 </div>
@@ -2526,78 +2370,79 @@
 </div>
 </div>
 </article>
-</section>
-<nav aria-label="Paginação dos resumos de ações judiciais" class="acoes-paginacao" id="acoes-paginacao"></nav>
-<section aria-labelledby="acoes-detalhe-titulo" class="card acoes-detalhe-card" hidden="" id="consulta-acoes-detalhado">
-<span class="acoes-hero-kicker">Consulta detalhada</span>
-<h2 id="acoes-detalhe-titulo">Ações judiciais (<span id="txt-inst-acoes">—</span>)</h2>
-<p class="acoes-intro">
-        A área abaixo lista as teses, alertas, bases legais, fontes e observações cadastradas para a instituição selecionada.
-      </p>
-<aside aria-label="Espaço de anúncio: Ações judiciais antes da consulta detalhada" class="ad-slot ad-slot--inline" data-ad-area="acoes_antes_conteudo">
-<a class="ad-placeholder-link" href="anuncie.html?area=acoes_antes_conteudo">
-<span class="ad-label">Publicidade</span>
-<strong>Anuncie aqui</strong>
-<small>Local indicado para escritórios, assessorias, associações e serviços de orientação jurídica.</small>
-</a>
-</aside>
-<div class="result-list" id="lista-acoes"></div>
-</section>
-</div>
-</main>
-<!-- BLOCO 10 — PÁGINA ASSOCIAÇÕES E SINDICATOS -->
-<!-- BLOCO 11 — PÁGINA PARCEIROS E CONTATO -->
-<!-- BLOCO 12.5 — Espaço comercial antes do rodapé -->
-<aside aria-label="Espaço de anúncio antes do rodapé" class="ad-slot ad-slot--footer" data-ad-area="rodape_geral">
-<a class="ad-placeholder-link" href="anuncie.html?area=rodape_geral">
-<span class="ad-label">Publicidade</span>
-<strong>Anuncie aqui</strong>
-<small>Espaço final para reforço de marca, campanhas institucionais e chamadas comerciais gerais.</small>
-</a>
-</aside>
-<!-- BLOCO 13 — RODAPÉ DO SITE -->
-<footer role="contentinfo">
-<div aria-label="Aviso institucional do portal" class="footer-disclaimer">
-<p><strong>Universo Segurança Pública</strong> é um portal informativo independente e não governamental, criado para organizar consultas sobre instituições de segurança pública a partir de fontes públicas, legislações, editais e canais oficiais quando disponíveis. As informações servem como referência inicial e podem mudar conforme cargo, legislação, regulamento, edital, holerite e atualização dos órgãos competentes.</p>
-<nav aria-label="Links legais e institucionais" class="footer-links">
-<a href="privacidade.html">Política de Privacidade</a>
-<a href="termos.html">Termos de Uso</a>
-<a href="cookies.html">Política de Cookies</a>
-<a href="anuncie.html">Contato e Anúncios</a>
-</nav>
-<p class="small-note footer-credit">Desenvolvido por <strong>LOCKSTAGE</strong>.</p>
-</div>
-</footer>
-<!-- ============================================================ -->
-<!-- === CAMADA VISUAL GLASS / MODERNA ========================= -->
-<!-- === Apenas aparência: não altera HTML funcional nem JS ===== -->
-<!-- ============================================================ -->
-<!-- =======================================================
-     BLOCO 14 — CSS VISUAL GLASS / MODERNIZAÇÃO DE APARÊNCIA
-     Camada visual final: apenas aparência, sem alterar HTML funcional ou JavaScript.
-     ======================================================= -->
-<!-- CSS centralizado em css/dist/main.min.css e ajustes complementares -->
-<!-- JavaScript fonte reorganizado em js/data, js/services, js/ui e js/pages.
-     Produção: bundle único para reduzir requisições e preservar a ordem de execução. -->
-<!-- Scripts divididos por página para evitar carregar funcionalidades desnecessárias. -->
-<script defer="" src="js/data/parametros-cargos.js?v=20260506bmba1"></script>
-<script defer="" src="js/data/policia-penal.js"></script>
-<script defer="" src="js/data/acoes-judiciais-data.js"></script>
-<script defer="" src="js/data/associacoes-data.js"></script>
-<script defer="" src="js/data/concursos-data.js"></script>
-<script defer="" src="js/data/portal-config.js?v=20260506bmba1"></script>
-<script defer="" src="js/data/bases-conteudo.js"></script>
-<script defer="" src="js/ui/navegacao-ui.js?v=20260503homeinst1"></script>
-<script defer="" src="js/services/remuneracao.js?v=20260506bmba1"></script>
-<script defer="" src="js/data/header-brasoes-config.js?v=20260504headerbrasoes1"></script>
-<script defer="" src="js/ui/header-estados.js?v=20260510brasoes1"></script>
-<script defer="" src="js/pages/concursos-comparador.js?v=20260506comparador4"></script>
-<script defer="" src="js/pages/contato-init.js?v=20260503homeinst1"></script>
-<script defer="" src="js/data/produtos-data.js?v=20260513escrivaopfimg1"></script>
-<script defer="" src="js/pages/produtos-laterais.js?v=20260515produtos-sem-rolagem"></script>
-<script defer="" src="js/ui/event-bindings.js?v=20260506comparador4"></script>
-<script defer="" src="js/core/page-context.js?v=20260506baselegal1"></script><script defer="" src="js/pages/acoes-conteudo-estatico.js?v=20260511adsense1"></script>
-<script defer="" src="js/brasao-lightbox.js?v=20260501"></script>
-<script defer="" src="js/ui/cookie-consent.js?v=20260509adsense1"></script>
+        </section>
+        <nav aria-label="Paginação dos resumos de ações judiciais" class="acoes-paginacao" id="acoes-paginacao"></nav>
+
+        <section aria-labelledby="acoes-detalhe-titulo" class="acoes-detalhe-card" hidden id="consulta-acoes-detalhado">
+          <span class="acoes-hero-kicker">Consulta detalhada</span>
+          <h2 id="acoes-detalhe-titulo">Ações judiciais (<span id="txt-inst-acoes">—</span>)</h2>
+          <p class="acoes-intro">A área abaixo lista as teses, alertas, bases legais, fontes e observações cadastradas para a instituição selecionada.</p>
+          <aside aria-label="Espaço de anúncio: Ações judiciais antes da consulta detalhada" class="ad-slot ad-slot--inline" data-ad-area="acoes_antes_conteudo">
+            <a class="ad-placeholder-link" href="anuncie.html?area=acoes_antes_conteudo">
+              <span class="ad-label">Publicidade</span>
+              <strong>Anuncie aqui</strong>
+              <small>Local indicado para escritórios, assessorias, associações e serviços de orientação jurídica.</small>
+            </a>
+          </aside>
+          <div class="result-list" id="lista-acoes"></div>
+        </section>
+      </div>
+    </section>
+
+    <section class="usp-compare usp-acoes-dark" aria-labelledby="acoes-proximo-passo">
+      <div class="usp-container usp-compare__grid">
+        <div>
+          <p class="usp-eyebrow usp-eyebrow--gold"><span></span>Próximo passo</p>
+          <h2 id="acoes-proximo-passo">Compare a tese jurídica com direitos, remuneração e entidades de apoio.</h2>
+        </div>
+        <div>
+          <p>Uma ação judicial nunca deve ser analisada isoladamente. Veja também direitos, vantagens, legislação remuneratória e entidades representativas antes de tomar qualquer decisão.</p>
+          <a class="usp-btn usp-btn--gold" href="associacoes-sindicatos.html">Ver associações e sindicatos →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="usp-section usp-warning usp-acoes-warning" aria-label="Aviso de transparência jurídica">
+      <div class="usp-container">
+        <strong>Transparência jurídica</strong>
+        <p>O Universo Segurança Pública é um portal informativo independente e não governamental. As informações sobre ações judiciais não substituem parecer jurídico, não garantem resultado e podem mudar conforme legislação, documentos individuais, entendimento judicial e prescrição aplicável.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="usp-footer" role="contentinfo">
+    <div class="usp-container usp-footer__grid">
+      <div class="usp-footer__brand">
+        <a class="usp-brand" href="index.html" aria-label="Universo Segurança Pública">
+          <span class="usp-brand__mark"><img class="usp-brand__logo" src="img/LOGO/logoleao.webp" alt="Logo Universo Segurança Pública" width="56" height="56" loading="eager" decoding="async" /></span>
+          <span class="usp-brand__text"><strong>Universo Seg Pub</strong><small>Portal de Segurança Pública</small></span>
+        </a>
+        <p>Portal informativo independente e não governamental, criado para organizar consultas sobre instituições de segurança pública a partir de fontes públicas, legislações, editais e canais oficiais.</p>
+        <small>Desenvolvido por <strong>LOCKSTAGE</strong></small>
+      </div>
+      <nav aria-label="Consultas no rodapé"><strong>Consultas</strong><a href="remuneracao.html">Remuneração</a><a href="direitos.html">Direitos e Vantagens</a><a href="brasoes.html">Brasões e história</a><a href="comparar-carreiras.html">Comparar carreiras</a></nav>
+      <nav aria-label="Conteúdos no rodapé"><strong>Conteúdos</strong><a href="guia-instituicoes.html">Guia das instituições</a><a href="concursos.html">Concursos</a><a href="noticias.html">Notícias</a><a href="produtos.html">Loja</a></nav>
+      <nav aria-label="Institucional no rodapé"><strong>Institucional</strong><a href="anuncie.html">Anuncie aqui</a><a href="anuncie.html#parcerias">Parcerias</a><a href="anuncie.html#contato">Contato</a><a href="https://www.instagram.com/universosegpub" target="_blank" rel="noopener noreferrer">Instagram</a></nav>
+    </div>
+    <div class="usp-container usp-footer__bottom"><span>© 2026 Universo Seg Pub. Todos os direitos reservados.</span><nav><a href="privacidade.html">Privacidade</a><a href="termos.html">Termos</a><a href="cookies.html">Cookies</a></nav></div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script defer src="js/data/parametros-cargos.js?v=20260516acoesdesktop1"></script>
+  <script defer src="js/data/policia-penal.js?v=20260516acoesdesktop1"></script>
+  <script defer src="js/data/acoes-judiciais-data.js?v=20260516acoesdesktop1"></script>
+  <script defer src="js/data/associacoes-data.js?v=20260516acoesdesktop1"></script>
+  <script defer src="js/data/concursos-data.js?v=20260516acoesdesktop1"></script>
+  <script defer src="js/data/portal-config.js?v=20260516acoesdesktop1"></script>
+  <script defer src="js/data/bases-conteudo.js?v=20260516acoesdesktop1"></script>
+  <script defer src="js/ui/navegacao-ui.js?v=20260516acoesdesktop1"></script>
+  <script defer src="js/services/remuneracao.js?v=20260516acoesdesktop1"></script>
+  <script defer src="js/data/header-brasoes-config.js?v=20260516acoesdesktop1"></script>
+  <script defer src="js/ui/header-estados.js?v=20260516acoesdesktop1"></script>
+  <script defer src="js/pages/concursos-comparador.js?v=20260516acoesdesktop1"></script>
+  <script defer src="js/pages/acoes-conteudo-estatico.js?v=20260516acoesdesktop1"></script>
+  <script defer src="js/brasao-lightbox.js?v=20260516lightbox3"></script>
+  <script defer src="js/ui/cookie-consent.js?v=20260516acoesdesktop1"></script>
 </body>
 </html>
