@@ -8,6 +8,71 @@ const ASSOCIACOES = {
     { nome: 'SINPRFs — Sindicatos estaduais dos Policiais Rodoviários Federais', foco: 'PRFs por unidade federativa', acao: 'Representação regional, atendimento ao filiado, convênios, orientação administrativa e judicial, mobilização sindical e acompanhamento de pautas locais.', site: 'Consultar sindicato da UF', telefone: 'Consultar diretamente', mensalidade: 'Consultar diretamente', servicos: 'Jurídico conforme contrato, convênios, comunicação institucional, assembleias, apoio sindical e orientação funcional.' },
     { nome: 'Associações regionais e clubes de PRFs', foco: 'Integração, apoio social e serviços regionais', acao: 'Apoio social, convênios, eventos, comunicação e suporte a servidores, aposentados e familiares conforme estatuto local.', site: 'Consultar entidade regional', telefone: 'Consultar diretamente', mensalidade: 'Consultar diretamente', servicos: 'Convênios, atividades sociais, comunicação, apoio institucional e eventual orientação administrativa.' }
   ],
+  pcdf: [
+  {
+    nome: "Sindicato dos Policiais Civis do Distrito Federal (SINPOL-DF)",
+    foco: "Agentes, escrivães, peritos criminais, médico-legistas, papiloscopistas e agentes policiais de custódia da PCDF",
+    acao: "Sindical",
+    site: "https://www.sinpoldf.com.br/",
+    telefone: "61 3701-1304",
+    mensalidade: "Consultar diretamente na entidade",
+    servicos: "Assessoria jurídica funcional e particular; representação institucional junto ao GDF, governo federal e Congresso; assessoria de comunicação; clube em parceria com a AGEPOL; benefícios culturais e esportivos"
+  },
+  {
+    nome: "Sindicato dos Delegados de Polícia do Distrito Federal (SINDEPO-DF)",
+    foco: "Delegados de Polícia da PCDF",
+    acao: "Sindical",
+    site: "https://entidadesintegradasdf.org.br/",
+    telefone: "Consultar diretamente",
+    mensalidade: "Consultar diretamente na entidade",
+    servicos: "Assessoria jurídica integrada com a ADEPOL/DF; convênio com GDF Saúde (Inas-DF); uso do Clube da Adepol; representação institucional dos delegados"
+  },
+  {
+    nome: "Associação dos Delegados de Polícia do Distrito Federal (ADEPOL/DF)",
+    foco: "Delegados de Polícia da PCDF, ativos e inativos",
+    acao: "Associativa",
+    site: "https://entidadesintegradasdf.org.br/",
+    telefone: "61 3221-7057",
+    mensalidade: "Consultar diretamente na entidade",
+    servicos: "Clube social com piscina, sauna, academia, churrasqueiras, quadras esportivas, restaurante e auditório; convênios médicos; assessoria jurídica integrada com SINDEPO-DF; eventos institucionais"
+  },
+  {
+    nome: "Associação Geral dos Servidores da Polícia Civil do Distrito Federal (AGEPOL/DF)",
+    foco: "Todas as carreiras da PCDF (delegados, agentes, escrivães, peritos, médico-legistas, papiloscopistas e agentes de custódia)",
+    acao: "Assistencial",
+    site: "https://www.agepoldf.com.br/",
+    telefone: "61 3245-2800",
+    mensalidade: "Consultar diretamente na entidade",
+    servicos: "Clube AGEPOL com piscina, churrasqueiras, área de lazer, restaurante e quadras esportivas; eventos sociais e culturais; serviço de transporte para mudanças; espaço para apurações eleitorais sindicais"
+  },
+  {
+    nome: "Associação Brasiliense de Peritos em Criminalística (ABPC)",
+    foco: "Peritos Criminais da PCDF, ativos e inativos",
+    acao: "Associativa",
+    site: "https://www.abpc-df.com.br/",
+    telefone: "61 3361-9149",
+    mensalidade: "Consultar diretamente na entidade",
+    servicos: "Assessoria jurídica; representação institucional perante PCDF, CLDF, Congresso e ABC; cerimônias e medalhas de mérito; eventos científicos; defesa da autonomia técnica da perícia"
+  },
+  {
+    nome: "Associação Brasiliense de Peritos Papiloscopistas (ASBRAPP)",
+    foco: "Peritos Papiloscopistas Policiais da PCDF (cerca de 700 titulares)",
+    acao: "Associativa",
+    site: "https://www.asbrapp.org.br/",
+    telefone: "61 3242-9522",
+    mensalidade: "Consultar diretamente na entidade",
+    servicos: "Plano de saúde em parceria com a ASSEFAZ (ambulatorial, hospitalar, obstetrícia, atendimento nacional); assessoria jurídica; eventos e capacitações; representação institucional via FENAPPI"
+  },
+  {
+    nome: "Associação dos Agentes Policiais de Custódia da Polícia Civil do Distrito Federal (AAPC)",
+    foco: "Agentes Policiais de Custódia da PCDF",
+    acao: "Associativa",
+    site: "Consultar diretamente",
+    telefone: "61 3427-3651",
+    mensalidade: "Consultar diretamente na entidade",
+    servicos: "Medalha do Mérito Policial de Custódia; assessoria jurídica em parceria com o SINPOL-DF; representação institucional; projeto Protegendo o Futuro (prevenção da violência contra crianças)"
+  }
+],
   pmac: [
     { nome: 'Entidades representativas dos militares estaduais do Acre', foco: 'Policiais militares, bombeiros militares, veteranos, pensionistas e familiares no Acre', acao: 'Representação de pautas remuneratórias, previdenciárias, assistenciais e institucionais. Cadastro informativo: confirmar entidade específica, filiação e legitimidade antes de encaminhar demanda.', site: 'estado.ac.gov.br', telefone: 'Consultar canais oficiais e redes institucionais locais', mensalidade: 'Consultar diretamente na entidade', servicos: 'Orientação associativa, acompanhamento de pautas da carreira, comunicação institucional e eventual apoio jurídico conforme entidade.' }
   ],

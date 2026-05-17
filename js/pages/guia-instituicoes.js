@@ -25,8 +25,7 @@
     if (esfera === 'federal') {
       return [
         { inst: 'pf', estadoNome: 'Brasil', uf: 'BR', sigla: 'PF', nome: 'Polícia Federal', ramo: 'Polícia Federal' },
-        { inst: 'prf', estadoNome: 'Brasil', uf: 'BR', sigla: 'PRF', nome: 'Polícia Rodoviária Federal', ramo: 'Polícia Rodoviária Federal' },
-        { inst: 'pcdf', estadoNome: 'Distrito Federal', uf: 'DF', sigla: 'PCDF', nome: 'Polícia Civil do Distrito Federal', ramo: 'Polícia Civil' }
+        { inst: 'prf', estadoNome: 'Brasil', uf: 'BR', sigla: 'PRF', nome: 'Polícia Rodoviária Federal', ramo: 'Polícia Rodoviária Federal' }
       ];
     }
     if (esfera === 'estadual') {
@@ -40,7 +39,8 @@
         { inst: 'pcerj', estadoNome: 'Rio de Janeiro', uf: 'RJ', sigla: 'PCERJ', nome: 'Polícia Civil do Estado do Rio de Janeiro', ramo: 'Polícia Civil' },
         { inst: 'pprj', estadoNome: 'Rio de Janeiro', uf: 'RJ', sigla: 'PPRJ', nome: 'Polícia Penal do Estado do Rio de Janeiro', ramo: 'Polícia Penal' },
         { inst: 'pmmg', estadoNome: 'Minas Gerais', uf: 'MG', sigla: 'PMMG', nome: 'Polícia Militar de Minas Gerais', ramo: 'Polícia Militar' },
-        { inst: 'pcmg', estadoNome: 'Minas Gerais', uf: 'MG', sigla: 'PCMG', nome: 'Polícia Civil de Minas Gerais', ramo: 'Polícia Civil' }
+        { inst: 'pcmg', estadoNome: 'Minas Gerais', uf: 'MG', sigla: 'PCMG', nome: 'Polícia Civil de Minas Gerais', ramo: 'Polícia Civil' },
+        { inst: 'pcdf', estadoNome: 'Distrito Federal', uf: 'DF', sigla: 'PCDF', nome: 'Polícia Civil do Distrito Federal', ramo: 'Polícia Civil' }
       ];
     }
     return [];

@@ -59,17 +59,19 @@
 
     const option = document.createElement('option');
     option.value = 'pcdf';
-    option.dataset.esfera = 'federal';
+    option.dataset.esfera = 'estadual';
     option.textContent = 'PCDF — Polícia Civil do Distrito Federal';
 
-    let grupoUniao = Array.from(seletorInstituicao.querySelectorAll('optgroup')).find(grupo => /união|uniao/i.test(grupo.label || ''));
-    if (!grupoUniao) {
-      grupoUniao = document.createElement('optgroup');
-      grupoUniao.label = 'União';
-      const primeiraOpcaoReal = Array.from(seletorInstituicao.children || []).find(el => el.tagName && el.tagName.toLowerCase() === 'optgroup');
-      seletorInstituicao.insertBefore(grupoUniao, primeiraOpcaoReal || null);
+    let grupoDistritoFederal = Array.from(seletorInstituicao.querySelectorAll('optgroup')).find(grupo => /distrito federal|\bdf\b/i.test(grupo.label || ''));
+    if (!grupoDistritoFederal) {
+      grupoDistritoFederal = document.createElement('optgroup');
+      grupoDistritoFederal.label = 'Distrito Federal (DF)';
+      const grupos = Array.from(seletorInstituicao.children || []).filter(el => el.tagName && el.tagName.toLowerCase() === 'optgroup');
+      const grupoAcre = grupos.find(grupo => /acre/i.test(grupo.label || ''));
+      const referencia = grupoAcre || grupos.find(grupo => !/união|uniao/i.test(grupo.label || '')) || null;
+      seletorInstituicao.insertBefore(grupoDistritoFederal, referencia);
     }
-    grupoUniao.appendChild(option);
+    grupoDistritoFederal.appendChild(option);
   }
 
   function cardsFiltrados(seletorEsfera, seletorInstituicao) {
