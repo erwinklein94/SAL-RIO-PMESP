@@ -13,14 +13,15 @@ window.gtag('config', 'G-XHR4TCCF9D');
 window.gtag('config', 'AW-18121830612');
 window.gtag('event', 'conversion', {'send_to': 'AW-18121830612/GtZCCJSGh6McENThlMFD'});
 
-let savedTheme = 'dark';
+let savedTheme = 'light';
 try {
   const storedTheme = localStorage.getItem('theme');
-  savedTheme = storedTheme === 'light' || storedTheme === 'dark' ? storedTheme : 'dark';
+  savedTheme = storedTheme === 'light' || storedTheme === 'dark' ? storedTheme : 'light';
 } catch (e) {
-  savedTheme = 'dark';
+  savedTheme = 'light';
 }
 document.documentElement.setAttribute('data-theme', savedTheme);
+document.documentElement.style.colorScheme = savedTheme;
 
 function carregarImagemProduto(img) {
   if (!img) return;

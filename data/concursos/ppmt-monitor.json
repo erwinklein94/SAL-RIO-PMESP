@@ -1,0 +1,35 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "ppmt",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "baixa",
+  "score_publicacao": 67,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 15538,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 779,
+    "output_tokens_details": {
+      "reasoning_tokens": 159
+    },
+    "total_tokens": 16317
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.sejus.mt.gov.br/",
+      "ok": true,
+      "status": 200,
+      "hash": "84a3623c691a1399f1e186adc7e6be620e5634cfa9ed149d66657d8b3a001e94",
+      "tamanho_texto": 139
+    }
+  ]
+}

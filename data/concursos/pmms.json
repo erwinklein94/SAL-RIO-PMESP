@@ -1,0 +1,97 @@
+{
+  "instituicao_id": "pmms",
+  "instituicao_nome": "Polícia Militar de Mato Grosso do Sul",
+  "sigla": "PMMS",
+  "uf": "MS",
+  "tema": "concursos",
+  "status": "há concurso/curso de formação em andamento no portal da PMMS",
+  "titulo": "PMMS: curso de formação e concursos em acompanhamento",
+  "resumo": "A PMMS mantém página de concursos com informações do Curso de Formação das Carreiras de Oficiais e Praças e atos de formação publicados no portal oficial",
+  "edital": "Curso de Formação das Carreiras de Oficiais e Praças da PMMS (CFOP-PMMS) com página ativa no portal institucional",
+  "salario": "Tabela militar MS 05/2025 cadastrada na remuneração: Soldado PMMS Nível I R$ 5.727,10; Cabo Nível I R$ 6.872,52; 3º Sargento Nível I R$ 8.247,02; Coronel Nível VII R$ 39.426,84.",
+  "vagas": "Último ciclo PMMS/2022: vagas para Soldado e Oficial; acompanhar novos editais, convocações e prorrogações no portal Concursos MS e PMMS",
+  "cotas": "Reserva de vagas conforme edital e legislação estadual vigente",
+  "idade": "Conferir edital; requisitos podem envolver idade, altura, CNH, aptidão física, escolaridade e investigação social",
+  "escolaridade": "Conferir edital vigente; requisitos variam para Soldado, Oficial e demais quadros",
+  "materias": "Conforme edital: Língua Portuguesa, Raciocínio Lógico, Noções de Direito, legislação/institucional, atualidades, conhecimentos específicos e demais disciplinas previstas",
+  "banca": "IDECAN no último ciclo PMMS/2022",
+  "inscritos": "Sem edital novo aberto cadastrado nesta versão; acompanhar Concursos MS, PMMS e Diário Oficial/MS",
+  "etapas": "Matrícula; checklist para matrícula; declarações e formulários de posse/implantação no sistema de RH; curso de formação",
+  "cfsd": "A PMMS mantém página de Curso de Formação das Carreiras de Oficiais e Praças; há registro de turmas com duração de 8 meses e 2",
+  "estagio": "Estágio/probatório e regras da carreira militar estadual conforme legislação e atos da corporação",
+  "validade": "Conferir edital, atos de homologação, prorrogação e publicações no DOE/MS",
+  "previsao": "Sem novo edital geral identificado; há acompanhamento de curso de formação e atos de convocação/matrícula no portal da PMMS",
+  "site": "https://www.pm.ms.gov.br/",
+  "fontes": [
+    {
+      "titulo": "Concursos - PMMS",
+      "url": "https://www.pm.ms.gov.br/concursos/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Portal institucional da PMMS",
+      "url": "https://www.pm.ms.gov.br/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Matrícula para ingresso no Curso de Formação de Oficiais e Soldados",
+      "url": "https://www.pm.ms.gov.br/destaque/pmms-realiza-matricula-para-ingresso-no-curso-de-formacao-de-oficiais-e-soldados/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Soldados novos da PMMS",
+      "url": "https://www.pm.ms.gov.br/solenidade/soldadosnovos/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concurso para Soldado e Oficial da PMMS: Preparando-se para o Curso de Formação",
+      "url": "https://www.pm.ms.gov.br/destaque/concurso-para-soldado-e-oficial-da-pmms-preparando-se-para-o-curso-de-formacao/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Diário Oficial Eletrônico n. 11.042",
+      "url": "https://www.sejusp.ms.gov.br/wp-content/uploads/2023/01/Edital-PM-Oficiais-e-Soldados-DO11042_11_01_2023.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "médio",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Não foi localizado, nas fontes consultadas, edital geral novo com salários, vagas, banca, escolaridade e etapas completas.",
+    "A página oficial de concursos da PMMS está ativa, mas o conteúdo público capturado traz principalmente informações de formação e matrícula.",
+    "O dado de CFSD com 8 meses e 2.226 horas-aula foi preservado de publicação institucional anterior.",
+    "Não localizaram-se dados oficiais recentes para cotas, idade, inscritos, validade e estágio probatório.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo vagas preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo cotas preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo idade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo escolaridade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo materias preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo banca preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo inscritos preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (83/100). Campos concretos: 7/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 83,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

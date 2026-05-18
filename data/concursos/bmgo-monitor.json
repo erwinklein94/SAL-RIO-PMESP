@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "bmgo",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 100,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 52156,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1953,
+    "output_tokens_details": {
+      "reasoning_tokens": 594
+    },
+    "total_tokens": 54109
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.bombeiros.go.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "4298715567b91d2ede586ec572885ebda7d9a0e0f0dc1110cfef006320e4fe13",
+      "tamanho_texto": 12746
+    },
+    {
+      "url": "https://www.bombeiros.go.gov.br/wp-content/themes/bombeiros/assets/fonts/tielabs-fonticon/tielabs-fonticon.woff",
+      "ok": true,
+      "status": 200,
+      "hash": "53831764435f0e43c5cf6579befe8f4a35a9a8d5c078f679db3c6590cf1f24c5",
+      "tamanho_texto": 29176
+    },
+    {
+      "url": "https://www.bombeiros.go.gov.br/wp-content/themes/bombeiros/assets/fonts/fontawesome/fa-solid-900.woff2",
+      "ok": true,
+      "status": 200,
+      "hash": "9baf9f20111445900dc4c55688ec390701148e869731e03a377c937ae17a7233",
+      "tamanho_texto": 37120
+    },
+    {
+      "url": "https://www.bombeiros.go.gov.br/wp-content/themes/bombeiros/assets/fonts/fontawesome/fa-brands-400.woff2",
+      "ok": true,
+      "status": 200,
+      "hash": "351c996a858c444891505927db38a0dd0ad4a5489a24464be4010d570e933946",
+      "tamanho_texto": 37637
+    },
+    {
+      "url": "https://www.bombeiros.go.gov.br/wp-content/themes/bombeiros/assets/fonts/fontawesome/fa-regular-400.woff2",
+      "ok": true,
+      "status": 200,
+      "hash": "1930c5f080484d525244168b7b8e9fe5a61df80d28e618fa3ea08c22522da8b2",
+      "tamanho_texto": 7140
+    },
+    {
+      "url": "https://www.bombeiros.go.gov.br/feed",
+      "ok": true,
+      "status": 200,
+      "hash": "6a09ab1ed5ab424a571311b31465712cf8d467f991025e68ae5480011039e2c3",
+      "tamanho_texto": 15178
+    }
+  ]
+}

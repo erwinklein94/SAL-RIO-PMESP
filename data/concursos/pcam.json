@@ -1,0 +1,96 @@
+{
+  "instituicao_id": "pcam",
+  "instituicao_nome": "Polícia Civil do Estado do Amazonas",
+  "sigla": "PCAM",
+  "uf": "AM",
+  "tema": "concursos",
+  "status": "concurso realizado",
+  "titulo": "PCAM: concurso realizado pela FGV e convocações em andamento",
+  "resumo": "Concurso da Polícia Civil do Amazonas já foi realizado pela FGV, com editais de Delegado, Escrivão, Investigador e Peritos e publicações posteriores de convocações",
+  "edital": "Edital nº 01/2021 (Delegado de Polícia) e Edital nº 02/2021 (Escrivão, Investigador e Peritos); concurso realizado",
+  "salario": "Delegado de Polícia: R$ 24.417,49 a R$ 37.221,83; Comissário: R$ 28.397,17; Perito: R$ 19.042,33 a R$ 21.789,83; Escrivão e Investigador: R$ 12.948,78",
+  "vagas": "362 vagas no total: 62 para Delegado; 200 para Investigador; 62 para Escrivão; 27 para Perito Criminal; 8 para Perito Legista; 3 para Perito Odontolegista",
+  "cotas": "20% das vagas para pessoas com deficiência; 2% das vagas para pessoas com deficiência com Síndrome de Down",
+  "idade": "Requisitos de idade, nacionalidade, aptidão, idoneidade, CNH quando exigida e demais condições devem ser conferidos no edital de cada cargo; não aplicar regra de PM/BM",
+  "escolaridade": "Delegado: bacharelado em Direito; Escrivão, Investigador e Peritos: nível superior, com formação específica nas áreas exigidas para cada perícia",
+  "materias": "Língua Portuguesa; Raciocínio Lógico-Matemático; Direito Constitucional; Direito Administrativo; Direito Penal; Processo Penal; Legislação Penal Especial; Criminologia; Medicina Legal; conhecimentos específicos por cargo",
+  "banca": "FGV",
+  "inscritos": "66 mil inscritos informados em publicação oficial para a fase de provas; outra publicação oficial citou 46.613 candidatos no certame",
+  "etapas": "Prova objetiva; prova discursiva; avaliação psicológica; exame médico e toxicológico; investigação social; prova de títulos; teste de aptidão física para cargos previstos; curso de formação",
+  "cfsd": "Curso de Formação Profissional previsto para os aprovados convocados; matrícula publicada pela FGV. Duração e local não localizados nas fontes consultadas",
+  "estagio": "Posse, exercício, estágio probatório e lotação conforme Lei AM nº 2.875/2004, estatuto estadual, Lei Orgânica Nacional das Polícias Civis,…",
+  "validade": "2 anos, prorrogável por mais 2, a contar da homologação final",
+  "previsao": "Sem novo edital anunciado; há histórico de convocações, nomeações e matrículas publicadas para o certame já realizado",
+  "site": "https://conhecimento.fgv.br/concursos/pcam21",
+  "fontes": [
+    {
+      "titulo": "FGV Conhecimento — Concurso Público para a Polícia Civil do Estado do Amazonas",
+      "url": "https://conhecimento.fgv.br/concursos/pcam21",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "FGV Conhecimento — Delegado de Polícia",
+      "url": "https://conhecimento.fgv.br/concursos/pcam21/01",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "FGV Conhecimento — Escrivão, Investigador e Peritos",
+      "url": "https://conhecimento.fgv.br/concursos/pcam21/02",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital de Abertura nº 01/2021 — Polícia Civil do Estado do Amazonas",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital_01_pc_am.pdf",
+      "tipo": "edital/PDF oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital de Abertura nº 02/2021 — Polícia Civil do Estado do Amazonas",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital_02_pc_am-.pdf",
+      "tipo": "edital/PDF oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo do Amazonas — Concursos públicos da Polícia Civil",
+      "url": "https://www.agenciaamazonas.am.gov.br/noticias/concursos-publicos-da-policia-civil/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Há histórico de convocações e atos posteriores ao edital, mas sem novo edital anunciado.",
+    "Campo 'idade' e campo 'estagio' não foram localizados nas fontes consultadas.",
+    "Campo 'inscritos' reúne números mencionados em publicações oficiais diferentes e pode não representar total consolidado único.",
+    "Campo 'cfsd' não trouxe duração e local nas fontes consultadas.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo idade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos atualizado/priorizado pelo modo qualificado pago.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (90/100). Campos concretos: 9/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 90,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

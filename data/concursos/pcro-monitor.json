@@ -1,0 +1,49 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pcro",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 100,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 12319,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1070,
+    "output_tokens_details": {
+      "reasoning_tokens": 114
+    },
+    "total_tokens": 13389
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.ro.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "e4bf1037e4b85244ca66c9de04178a364482fe278c7efb2853e48545715dd8a4",
+      "tamanho_texto": 4644
+    },
+    {
+      "url": "https://www.pc.ro.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.policiacivil.ro.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    }
+  ]
+}

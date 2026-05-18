@@ -1,0 +1,84 @@
+{
+  "instituicao_id": "pmma",
+  "instituicao_nome": "Polícia Militar de Maranhão",
+  "sigla": "PMMA",
+  "uf": "MA",
+  "tema": "concursos",
+  "status": "Atualização fraca",
+  "titulo": "PMMA mantém seleção ativa para o CFO 2026 e último resultado final foi do CFO 2025",
+  "resumo": "A PMMA está com processo seletivo ativo para o Curso de Formação de Oficiais 2026, vinculado ao PAES 2026 da UEMA. O último resultado final localizado foi o do CFO PMMA PAES 2025, com convocação para matrícula publicada em 7 de julho de 2025.",
+  "edital": "Edital nº 057/2025-GR/UEMA, para o Curso de Formação de Oficiais da PMMA, vinculado ao PAES 2026. Situação atual: certame em andamento, com resultado final da 3ª fase do TAF publicado em 30 de abril de 2026.",
+  "salario": "Não localizado nas fontes consultadas.",
+  "vagas": "45 vagas para Cadete do Curso de Formação de Oficiais, sendo 34 na ampla concorrência, 9 para candidatos negros e 2 para pessoas com deficiência.",
+  "cotas": "20% das vagas para candidatos negros e 5% para pessoas com deficiência.",
+  "idade": "Idade mínima de 18 anos para matrícula e idade máxima de 35 anos para civis até o fim das inscrições. Para militares, não há limite de idade. Exige saber nadar e CNH no mínimo categoria A ou B. Altura mínima não localizada nas fontes consultadas.",
+  "escolaridade": "Ensino médio completo, com apresentação de certificado ou diploma e histórico escolar na matrícula.",
+  "materias": "Exame intelectual do PAES/UEMA. As disciplinas específicas para o CFO PMMA não foram detalhadas de forma isolada nas fontes consultadas.",
+  "banca": "Universidade Estadual do Maranhão, por meio do PAES/UEMA.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Exame intelectual, exames médicos, biométricos e odontológicos, teste de aptidão física, avaliação psicológica, avaliação documental, curso de formação e investigação social e funcional.",
+  "cfsd": "Não localizado novo edital público geral para CFSD nas fontes consultadas. O material oficial localizado trata do CFO PMMA.",
+  "estagio": "Após o CFO, há estágio probatório como Aspirante a Oficial PM.",
+  "validade": "Não localizado nas fontes consultadas.",
+  "previsao": "Há seleção ativa do CFO PMMA 2026 em andamento. Novo concurso público geral para soldado não foi localizado nas fontes consultadas.",
+  "site": "https://www.pm.ma.gov.br",
+  "fontes": [
+    {
+      "titulo": "Portal oficial da PMMA",
+      "url": "https://pm.ssp.ma.gov.br/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Avisos e editais da PMMA",
+      "url": "https://pm.ssp.ma.gov.br/categoria/avisos-editais/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital nº 68/2024-GR/UEMA - PAES 2025",
+      "url": "https://www.uema.br/wp-content/uploads/2024/07/Edital-n.o-68-2024-GR-UEMA-PAES-2025.pdf",
+      "tipo": "edital oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Resultado final de CFO PMMA – Paes 2025",
+      "url": "https://www.uema.br/2025/07/resultado-final-de-cfo-pmma-paes-2025/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Relação de candidatos aprovados classificados convocados à matrícula - CFO PMMA PAES 2025",
+      "url": "https://www.uema.br/wp-content/uploads/2025/07/ClassificadosCFOfinalPMMA_Paes2025.pdf",
+      "tipo": "resultado oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Resultado final da 3ª fase do CFO PMMA PAES 2026",
+      "url": "https://pm.ssp.ma.gov.br/2026/04/resultado-final-da-3a-fase-teste-de-aptidao-fisica-edital-no-057-2025-gr-uema-paes-2026-curso-de-formacao-de-oficiais-da-policia-militar-do-maranhao/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "PAES 2026 - Resultado",
+      "url": "https://www.paes.uema.br/2026/02/02/resultado-paes-2026/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "médio",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "A pesquisa oficial localizou seleção ativa para CFO PMMA 2026, mas não localizou novo edital público geral para soldado.",
+    "Salário objetivo do CFO PMMA não apareceu com valor nominal no edital consultado.",
+    "Altura mínima e número de inscritos não foram localizados nas fontes consultadas.",
+    "Página atualizada com base em fontes oficiais da PMMA e da UEMA.",
+    "Classificação automática: Atualização fraca (62/100)."
+  ],
+  "classe_atualizacao": "fraca",
+  "qualidade_publicacao": "fraca",
+  "score_publicacao": "62",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

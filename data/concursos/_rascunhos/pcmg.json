@@ -1,0 +1,84 @@
+{
+  "gerado_em": "2026-05-17",
+  "instituicao_id": "pcmg",
+  "motivo_bloqueio": "Atualização bloqueada: qualidade baixa, score 70, campos críticos genéricos: escolaridade, campos críticos sem confirmação: nenhum.",
+  "avaliacao": {
+    "score": 70,
+    "qualidade": "baixa",
+    "ruins": [],
+    "genericos": [
+      "idade",
+      "escolaridade",
+      "validade"
+    ],
+    "concretos": [
+      "edital",
+      "salario",
+      "vagas",
+      "materias",
+      "banca",
+      "inscritos",
+      "previsao"
+    ],
+    "criticosRuins": [],
+    "criticosGenericos": [
+      "escolaridade"
+    ],
+    "criticosConcretos": [
+      "edital",
+      "salario",
+      "vagas",
+      "banca"
+    ],
+    "podePublicar": false
+  },
+  "dados": {
+    "instituicao_id": "pcmg",
+    "instituicao_nome": "Polícia Civil de Minas Gerais",
+    "sigla": "PCMG",
+    "uf": "MG",
+    "tema": "concursos",
+    "status": "conteúdo inicial protegido",
+    "titulo": "PCMG: concursos, requisitos e etapas (Investigador)",
+    "resumo": "A PCMG tem edital de Investigador de Polícia (PCMG nº 04/2024) com banca FGV, etapas de provas e avaliações e previsão de curso de formação; sem novo edital confirmado para 2026 nas fontes consultadas",
+    "edital": "Investigador de Polícia (Edital PCMG nº 04/2024)",
+    "salario": "R$ 5.332,62 (vencimento inicial informado no edital publicado)",
+    "vagas": "165 vagas para Investigador de Polícia",
+    "cotas": "Reserva de vagas conforme legislação aplicável e regras do edital",
+    "idade": "18 anos ou mais, conforme edital e legislação aplicável",
+    "escolaridade": "Nível superior completo, conforme edital",
+    "materias": "Língua Portuguesa; Noções de Direito; Direitos Humanos; Medicina Legal; Informática; Lei Orgânica da PCMG; demais conteúdos previstos no edital",
+    "banca": "FGV",
+    "inscritos": "Acompanhar publicações oficiais da FGV/PCMG",
+    "etapas": "Prova objetiva; prova dissertativa quando prevista; avaliação psicológica; exames biomédicos e biofísicos; investigação social; curso de formação técnico-profissional",
+    "cfsd": "Curso de Formação Técnico-Profissional na ACADEPOL-MG, conforme convocação",
+    "estagio": "3 anos (estágio probatório)",
+    "validade": "Conforme edital",
+    "previsao": "Sem novo edital confirmado para Investigador em 2026 até a última verificação; acompanhar próximos comunicados oficiais",
+    "site": "https://www.policiacivil.mg.gov.br",
+    "fontes": [
+      {
+        "titulo": "Página institucional (PCMG)",
+        "url": "https://www.policiacivil.mg.gov.br",
+        "tipo": "fonte oficial ou página institucional",
+        "data_consulta": "2026-05-17"
+      }
+    ],
+    "ultima_pesquisa": "2026-05-17",
+    "nivel_confianca": "médio",
+    "precisa_revisao_humana": true,
+    "alertas": [
+      "As fontes consultadas via site institucional não trouxeram, no conteúdo extraído, detalhes atuais de inscrições/edital/banca/vagas; foi preservado o conjunto de dados já publicado anteriormente para Investigador (Edital PCMG nº 04/2024).",
+      "Conteúdo extraído das páginas institucionais refere-se principalmente a notícias e serviços, sem dados diretos de concurso no trecho capturado.",
+      "Campo edital mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Qualidade calculada: baixa (70/100). Campos concretos: 7/14.",
+      "Atualização bloqueada: qualidade baixa, score 70, campos críticos genéricos: escolaridade, campos críticos sem confirmação: nenhum."
+    ],
+    "texto_final_limpo": true,
+    "padrao_editorial": "usuario-final-sem-links-nos-campos",
+    "qualidade_publicacao": "baixa",
+    "score_publicacao": 70,
+    "modo_qualidade": "economico",
+    "bloquear_publicacao": true
+  }
+}

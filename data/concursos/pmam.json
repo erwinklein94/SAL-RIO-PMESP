@@ -1,0 +1,97 @@
+{
+  "instituicao_id": "pmam",
+  "instituicao_nome": "Polícia Militar do Estado do Amazonas",
+  "sigla": "PMAM",
+  "uf": "AM",
+  "tema": "concursos",
+  "status": "Realizado, com convocações e atos posteriores em 2025/2026",
+  "titulo": "PMAM: concurso realizado segue com convocações em 2025/2026",
+  "resumo": "Concurso da PMAM organizado pela FGV está realizado, com convocações, retificações e atos posteriores publicados em 2025 e 2026",
+  "edital": "Concurso Público PMAM 2021/2022, organizado pela FGV, com atos posteriores de convocação e cumprimento de decisões em 2025/2026",
+  "salario": "Aluno Soldado: R$ 3.149,12; Soldado: R$ 5.725,66; Aluno Oficial: R$ 7.180,34; Oficial de Saúde: R$ 7.180,34",
+  "vagas": "1.350 vagas totais: 1.000 para Aluno Soldado, 320 para Aluno Oficial e 30 para Aluno Oficial de Saúde",
+  "cotas": "10% das vagas de Aluno Soldado e de Aluno Oficial reservadas para candidatas do sexo feminino",
+  "idade": "18 a 35 anos completos no ato da inscrição",
+  "escolaridade": "Aluno Soldado: ensino médio completo. Aluno Oficial e Oficial de Saúde: nível superior correspondente ao cargo",
+  "materias": "Língua Portuguesa; Raciocínio Lógico; Informática; Direito Constitucional; Direito Administrativo; Legislação específica; conhecimentos específicos por cargo",
+  "banca": "FGV",
+  "inscritos": "Inscrições encerradas em 04/01/2022; em 2025/2026 seguem publicações de convocações e resultados",
+  "etapas": "Prova objetiva; exame de aptidão física; avaliação psicológica; avaliação médica; investigação social; exame psicotécnico; entrega de documentos; curso de formação",
+  "cfsd": "CFSD/PM com 10 meses; CFO/PM com 36 meses; CFOS/PM com 4 meses",
+  "estagio": "Matrícula, formação, nomeação, estágio e lotação conforme estatuto militar estadual, edital, boletins e atos da PMAM",
+  "validade": "2 anos contados da homologação, com prorrogação publicada em 2025",
+  "previsao": "Seguem atos e convocações do mesmo concurso; não há novo edital aberto identificado nas fontes consultadas",
+  "site": "https://conhecimento.fgv.br/concursos/pmam21",
+  "fontes": [
+    {
+      "titulo": "Página do concurso PMAM na FGV",
+      "url": "https://conhecimento.fgv.br/concursos/pmam21",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Página de concursos da FGV Conhecimento",
+      "url": "https://conhecimento.fgv.br/concursos",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Portaria nº 522/DPA-1, de 05 de maio de 2026",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/portaria-no-522dpa-1-de-05-de-maio-de-2026.pdf",
+      "tipo": "ato/portaria",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Portaria nº 521/DPA-1, de 04 de maio de 2026",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/portaria-no-521-dpa-1-de-04-de-maio-de-2026-1.pdf",
+      "tipo": "ato/portaria",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Cumprimento de decisão/atos relacionados ao concurso PMAM",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/pmam_cumprimento-dos-processos-0008908-24.2024.8.04.0000-0471768-90.2024.8.04.0001-0568615-57.2024.8.04.0001.pdf",
+      "tipo": "ato/portaria",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Memorando/anexo de atos do concurso PMAM",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/memo_n_879_2026_dpa_pmam_anexo-3.pdf",
+      "tipo": "ato/portaria",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alta",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Campos preservados a partir de dados anteriores quando a extração automática não trouxe texto legível suficiente.",
+    "Etapas, cursos e salários consolidados com base no histórico do concurso e atos posteriores publicados pela FGV.",
+    "Não foi localizado novo edital aberto; o status foi atualizado para concurso realizado com convocações posteriores.",
+    "Campo estagio não localizado nas fontes consultadas.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo idade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos atualizado/priorizado pelo modo qualificado pago.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (97/100). Campos concretos: 9/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

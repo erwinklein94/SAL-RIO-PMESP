@@ -1,0 +1,93 @@
+{
+  "instituicao_id": "pmse",
+  "instituicao_nome": "Polícia Militar de Sergipe",
+  "sigla": "PMSE",
+  "uf": "SE",
+  "tema": "concursos",
+  "status": "concurso em andamento com edital publicado",
+  "titulo": "PMSE: concursos 2024 em andamento para Soldado, Oficial Combatente e Oficial de Saúde",
+  "resumo": "A PMSE mantém em andamento os concursos de 2024 para Soldado Combatente, Oficial Combatente e Oficial de Saúde, com editais publicados e fases já iniciadas",
+  "edital": "Editais nº 03/2024, 04/2024 e 05/2024 publicados; concurso em andamento",
+  "salario": "Oficial Combatente: 50% do subsídio de Aspirante durante o curso; Oficial de Saúde: 50% do subsídio de Aspirante durante o curso",
+  "vagas": "335 vagas no total: 300 para Soldado Combatente, 30 para Oficial Combatente e 5 para Oficial de Saúde",
+  "cotas": "Soldado Combatente: cotas para pessoas negras e PcD registradas nas etapas do certame",
+  "idade": "18 a 35 anos; altura mínima de 1,60 m para homens e 1,55 m para mulheres; CNH categoria B ou provisória",
+  "escolaridade": "Soldado: ensino médio completo; Oficial Combatente: curso superior em Direito; Oficial de Saúde: curso superior na área exigida e registro profissional quando aplicável",
+  "materias": "Soldado: Língua Portuguesa; Matemática; Informática Básica; Atualidades; Noções de Direito; Conhecimentos Gerais sobre o Estado de Sergipe; Legislação PMSE. Oficial Combatente: Direito Constitucional",
+  "banca": "SELECON",
+  "inscritos": "Relações de inscrições homologadas e resumos de inscritos publicados para o concurso, sem total consolidado único localizado nas fontes consultadas",
+  "etapas": "Prova objetiva; prova discursiva; heteroidentificação; teste de aptidão física; avaliação psicológica; pesquisa social e de idoneidade; inspeção de saúde; matrícula/curso de formação",
+  "cfsd": "Soldado: Curso de Formação de Soldados após a aprovação e inspeção de saúde, com convocação publicada pela PMSE e no Diário Oficial do Estado",
+  "estagio": "Pesquisa inicial pendente",
+  "validade": "2 anos, prorrogável por igual período",
+  "previsao": "Prosseguimento das convocações e das próximas fases do concurso, conforme classificação e cronograma já publicados",
+  "site": "https://pm.se.gov.br",
+  "fontes": [
+    {
+      "titulo": "Governo do Estado publica edital para o novo concurso da Polícia Militar de Sergipe",
+      "url": "https://pm.se.gov.br/governo-do-estado-publica-edital-para-o-novo-concurso-da-policia-militar-de-sergipe/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concurso Edital 03/2024 – Soldado Combatente",
+      "url": "https://sead.se.gov.br/concurso-edital-03-2024-soldado-combatente/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital nº 03/2024 – Soldado PM – 3ª Classe – Combatente",
+      "url": "https://pm.se.gov.br/storage/2024/10/edital_2024_Soldado_3a_Classe_Combatente.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital nº 04/2024 – Oficial PM – Combatente",
+      "url": "https://pm.se.gov.br/storage/2024/10/edital_2024_Oficial_Combatente.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital nº 05/2024 – Oficial PM – Saúde",
+      "url": "https://pm.se.gov.br/storage/2024/10/edital_2024_Oficial_Quadro_Saude.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Há variação entre os editais de Soldado, Oficial Combatente e Oficial de Saúde; os campos agregados refletem o concurso PMSE 2024 como um todo.",
+    "O salário de Soldado não foi localizado de forma segura nesta rodada.",
+    "O campo inscritos não apresenta um total consolidado único nas fontes consultadas.",
+    "O campo estagio não foi localizado nas fontes consultadas.",
+    "A validade de 2 anos prorrogável por igual período foi confirmada para o edital de Soldado; os demais editais seguem o mesmo ciclo do concurso.",
+    "O concurso segue com fases e convocações publicadas pela PMSE e SEAD.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo idade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos atualizado/priorizado pelo modo qualificado pago.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (97/100). Campos concretos: 8/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

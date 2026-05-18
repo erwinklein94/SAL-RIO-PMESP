@@ -1,0 +1,85 @@
+{
+  "instituicao_id": "pcrr",
+  "instituicao_nome": "Polícia Civil de Roraima",
+  "sigla": "PCRR",
+  "uf": "RR",
+  "tema": "concursos",
+  "status": "Atualização forte",
+  "titulo": "PCRR: concurso de 2022 segue válido e com movimentações em 2026",
+  "resumo": "O concurso da Polícia Civil de Roraima, regido pelos editais nº 01/2022 e 02/2022, continua válido após prorrogação por mais 2 anos em março de 2026. Em 2026 houve nova investigação social para aprovados e cadastro de reserva, além de novas convocações para nomeação.",
+  "edital": "Editais de abertura nº 01/2022 e 02/2022, publicados em 2022 para Delegado e demais cargos da PCRR. Concurso vigente, com validade prorrogada em 13/03/2026 e novas etapas em andamento em 2026.",
+  "salario": "Delegado: R$ 20.410,04 + R$ 500,00 de auxílio-alimentação. Médico Legista, Odonto-Legista e Perito Criminal: R$ 12.901,17 + R$ 500,00. Escrivão, Agente e Perito Papiloscopista: R$ 5.053,55 + R$ 500,00. Auxiliar de Perito e Auxiliar de Necropsia: R$ 3.369,03 + R$ 500,00.",
+  "vagas": "175 vagas imediatas. Edital nº 01/2022: 35 vagas para Delegado. Edital nº 02/2022: 140 vagas, sendo 7 para Médico Legista, 1 para Odonto-Legista, 9 para Perito Criminal, 51 para Escrivão, 52 para Agente, 14 para Perito Papiloscopista, 4 para Auxiliar de Perito e 2 para Auxiliar de Necropsia. Em 2026, o governo informou benefício a mais de 200 candidatos do cadastro de reserva.",
+  "cotas": "Reserva de 10% das vagas para candidatos com deficiência. No edital de Delegado, 4 vagas reservadas. No edital dos demais cargos, 12 vagas reservadas no total.",
+  "idade": "Idade mínima de 18 anos na posse. Para Agente, e para as carreiras com exigência específica, foi localizada CNH categoria B, AB ou superior em plena validade. Altura mínima não localizada nas fontes consultadas.",
+  "escolaridade": "Delegado: bacharelado em Direito. Médico Legista: curso superior em Medicina. Odonto-Legista: curso de Odontologia com registro no CRO. Perito Criminal: curso superior na área exigida pela especialidade. Escrivão, Agente e Perito Papiloscopista: curso superior em qualquer área. Auxiliar de Perito e Auxiliar de Necropsia: ensino médio.",
+  "materias": "Delegado: formação humanística, ética, filosofia e psicologia jurídica, teoria geral do direito e da política, direito civil e empresarial, direito constitucional, administrativo, penal, processual penal e legislação complementar. Demais cargos: prova com conhecimentos gerais e específicos, incluindo língua portuguesa, informática e conteúdos da área policial e do cargo.",
+  "banca": "Fundação Vunesp.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Prova objetiva, prova discursiva, exame psicotécnico, exames médicos, prova de capacidade física, prova oral para Delegado, prova de títulos para alguns cargos, investigação social e Curso de Formação Profissional.",
+  "cfsd": "Curso de Formação Profissional com duração de 6 meses e carga horária mínima de 960 horas/aula, podendo ser reduzido para 4 meses de forma intensiva. Durante o curso, há bolsa-formação prevista no edital.",
+  "estagio": "Não localizado nas fontes consultadas.",
+  "validade": "Validade prorrogada por mais 2 anos em 13/03/2026.",
+  "previsao": "Continuidade das etapas do concurso em 2026, com nova investigação social para aprovados e cadastro de reserva, além de novas convocações e nomeações.",
+  "site": "https://www.rr.gov.br",
+  "fontes": [
+    {
+      "titulo": "Edital de abertura de inscrições - PCRR - cargos diversos - Vunesp",
+      "url": "https://documento.vunesp.com.br/documento/stream/MjgyOTk3Mg%3D%3D",
+      "tipo": "edital PDF",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital de abertura de inscrições - PCRR - Delegado - Vunesp",
+      "url": "https://documento.vunesp.com.br/documento/stream/MjgyOTg2Mg%3D%3D",
+      "tipo": "edital PDF",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo prorroga validade do concurso da Polícia Civil e beneficia mais de 200 candidatos do cadastro de reserva",
+      "url": "https://portal.rr.gov.br/governo-prorroga-validade-do-concurso-da-policia-civil-e-beneficia-mais-de-200-candidatos-do-cadastro-de-reserva/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Polícia Civil anuncia nova etapa de investigação social para candidatos de concurso público",
+      "url": "https://portal.rr.gov.br/policia-civil-anuncia-nova-etapa-de-investigacao-social-para-candidatos-de-concurso-publico/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo de Roraima convoca quatro novos policiais e reforça o efetivo da PCRR",
+      "url": "https://portal.rr.gov.br/governo-de-roraima-convoca-quatro-novos-policiais-e-reforca-o-efetivo-da-pcrr/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Alunos aprovados em concurso público realizam prova final do Curso de Formação",
+      "url": "https://portal.rr.gov.br/alunos-aprovados-em-concurso-publico-realizam-prova-final-do-curso-de-formacao/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Lei Orgânica da Polícia Civil de Roraima",
+      "url": "https://api.transparencia.rr.gov.br/storage/competencias/667b1936-3be0-4580-8600-b48c7d602c33.pdf",
+      "tipo": "legislação oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": false,
+  "alertas": [
+    "Concurso de 2022 segue vigente com prorrogação da validade em 13/03/2026.",
+    "Em 18/04/2026 foi anunciada nova investigação social para aprovados e cadastro de reserva.",
+    "Altura mínima não localizada nas fontes consultadas.",
+    "Número de inscritos não localizado nas fontes consultadas.",
+    "Campo estágio probatório não localizado nas fontes consultadas.",
+    "Classificação automática: Atualização forte (84/100)."
+  ],
+  "classe_atualizacao": "forte",
+  "qualidade_publicacao": "forte",
+  "score_publicacao": "84",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

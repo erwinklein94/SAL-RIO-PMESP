@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "bmal",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 100,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 31791,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1810,
+    "output_tokens_details": {
+      "reasoning_tokens": 557
+    },
+    "total_tokens": 33601
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.al.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.cbm.al.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "5b059b6ffdec25e24eb14230460a94d5b69e79863be650b3ba93ee1345c997b5",
+      "tamanho_texto": 3784
+    },
+    {
+      "url": "https://www.cbmal.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.bombeiros.al.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "5b059b6ffdec25e24eb14230460a94d5b69e79863be650b3ba93ee1345c997b5",
+      "tamanho_texto": 3784
+    },
+    {
+      "url": "https://www.cbm.al.gov.br/paginas/view/55/concursos",
+      "ok": true,
+      "status": 200,
+      "hash": "cc38f524a1c031dccaf0e87168d8c9f5c1b61fbbbb5e078a73c4b4e6bdafd331",
+      "tamanho_texto": 2401
+    },
+    {
+      "url": "https://www.cbm.al.gov.br/noticias/view/4350/corpo-de-bombeiros-reforca-salvamento-aquatico-em-alagoas-com-aquisica",
+      "ok": true,
+      "status": 200,
+      "hash": "9a03f82a33bb694e68472d6498ace0fb687e3316b4853a365582333d2d31b1db",
+      "tamanho_texto": 5566
+    }
+  ]
+}

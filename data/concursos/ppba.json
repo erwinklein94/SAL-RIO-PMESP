@@ -1,0 +1,77 @@
+{
+  "instituicao_id": "ppba",
+  "instituicao_nome": "Polícia Penal da Bahia",
+  "sigla": "PPBA",
+  "uf": "BA",
+  "tema": "concursos",
+  "status": "Atualização forte",
+  "titulo": "Concurso da Polícia Penal da Bahia está em andamento com 287 vagas",
+  "resumo": "O concurso Seap nº 02/2024 para agente penitenciário segue em andamento na Bahia. O resultado final foi homologado em 11 de março de 2025, houve convocação de 250 aprovados para nomeação em março de 2026 e a Turma 2 passa por exames médicos, psicoteste e curso de formação.",
+  "edital": "Edital Seap nº 02/2024 para o cargo de agente penitenciário, com 287 vagas, resultado final homologado e etapas pré-admissionais em andamento.",
+  "salario": "R$ 2.601,04 para jornada de 30 horas semanais, podendo chegar a R$ 4.478,31 em jornada de 40 horas. Durante o curso de formação, o aluno agente recebe bolsa de 1 salário mínimo.",
+  "vagas": "287 vagas para agente penitenciário, sendo 187 para ampla concorrência, 86 para candidatos negros e 14 para pessoas com deficiência. Os aprovados além desse total formam cadastro de reserva.",
+  "cotas": "30% das vagas para candidatos negros e 5% para pessoas com deficiência.",
+  "idade": "Idade mínima de 18 anos e CNH válida na categoria B. Altura mínima não localizada nas fontes consultadas.",
+  "escolaridade": "Ensino médio completo em instituição reconhecida pelo MEC ou formação técnica profissionalizante de nível médio, com conclusão no Curso de Formação de Agente Penitenciário.",
+  "materias": "Língua Portuguesa, raciocínio lógico-matemático, noções de informática, legislação estadual, promoção da igualdade racial e de gênero, noções de Direito Constitucional, noções de Direito Administrativo, noções de Direito Penal, noções de Direitos Humanos, execução penal e estatuto penitenciário.",
+  "banca": "Fundação Getulio Vargas.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Prova objetiva, prova discursiva, heteroidentificação, perícia médica, exames médicos, testes físicos, exames psicológicos, investigação social e curso de formação.",
+  "cfsd": "Curso de Formação de Agente Penitenciário após os exames pré-admissionais. Em maio de 2026, candidatos da Turma 2 estavam em fase de exames médicos e psicoteste antes do curso.",
+  "estagio": "Estágio probatório com acompanhamento para candidatos nomeados na condição de pessoa com deficiência.",
+  "validade": "1 ano, contado da homologação do resultado final, com possibilidade de prorrogação por igual período.",
+  "previsao": "Dar sequência às etapas pré-admissionais da Turma 2, com psicoteste e início do curso de formação.",
+  "site": "https://www.ba.gov.br",
+  "fontes": [
+    {
+      "titulo": "Governo Estadual lança Edital de concurso para 287 vagas de agente penitenciário",
+      "url": "https://www.ba.gov.br/administracao/noticia/2024-06/8130/governo-estadual-lanca-edital-de-concurso-para-287-vagas-de-agente",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo divulga resultado final do concurso para agente penitenciário do Estado",
+      "url": "https://www.ba.gov.br/comunicacao/noticias/2025-03/366126/governo-divulga-resultado-final-do-concurso-para-agente-penitenciario-do",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo do Estado convoca 250 candidatos a agentes penitenciários para nomeação",
+      "url": "https://www.ba.gov.br/comunicacao/noticias/2026-03/379117/governo-do-estado-convoca-250-candidatos-agentes-penitenciarios-para",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "SEAP realiza etapa de entrega de exames médicos do concurso da Polícia Penal da Bahia",
+      "url": "https://www.ba.gov.br/seap/noticias/2026-05/3885/seap-realiza-etapa-de-entrega-de-exames-medicos-do-concurso-da-policia-penal",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concurso Público para a Secretaria de Administração Penitenciária e Ressocialização do Estado da Bahia - SEAP-BA",
+      "url": "https://conhecimento.fgv.br/concursos/seapba24",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital de Abertura de Inscrições – SEAP nº 02/2024",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-de-abertura-de-inscricoes_doe-de-18.12.2024.-retificado-2a.pdf",
+      "tipo": "edital pdf",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": false,
+  "alertas": [
+    "A nomenclatura oficial do cargo no edital é agente penitenciário, embora a comunicação institucional também use Polícia Penal da Bahia.",
+    "Não localizado nas fontes consultadas o número total de inscritos.",
+    "Não foi localizada exigência de altura mínima nas fontes consultadas.",
+    "Classificação automática: Atualização forte (92/100)."
+  ],
+  "classe_atualizacao": "forte",
+  "qualidade_publicacao": "forte",
+  "score_publicacao": "92",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

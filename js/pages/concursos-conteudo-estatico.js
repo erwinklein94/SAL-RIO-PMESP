@@ -142,6 +142,10 @@
         return;
       }
 
+      // Ao trocar a instituição, descarte imediatamente o resultado anterior.
+      // Sem isso, a segunda consulta podia manter o conteúdo renderizado da primeira.
+      if (listaDetalhe) listaDetalhe.innerHTML = '';
+
       mostrarDetalhe();
 
       try {

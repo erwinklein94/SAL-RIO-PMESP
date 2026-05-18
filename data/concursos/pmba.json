@@ -1,0 +1,90 @@
+{
+  "instituicao_id": "pmba",
+  "instituicao_nome": "Polícia Militar da Bahia",
+  "sigla": "PMBA",
+  "uf": "BA",
+  "tema": "concursos",
+  "status": "último concurso encerrado",
+  "titulo": "PMBA: último concurso de soldado encerrado",
+  "resumo": "O último concurso oficial localizado da PMBA foi o de soldado de 2022, já encerrado e homologado",
+  "edital": "Edital SAEB nº 05/2022 — soldado da PMBA e do CBMBA; concurso encerrado e homologado",
+  "salario": "R$ 4.012,11",
+  "vagas": "2.000 vagas para a PMBA",
+  "cotas": "30% para candidatos negros e 5% para pessoas com deficiência",
+  "idade": "18 a 30 anos",
+  "escolaridade": "Ensino médio completo",
+  "materias": "Língua Portuguesa; Raciocínio Lógico; História; Geografia; Atualidades; Informática; Noções de Direito",
+  "banca": "Fundação Carlos Chagas (FCC)",
+  "inscritos": "93.674 candidatos aptos para as primeiras etapas",
+  "etapas": "Prova objetiva; prova discursiva; teste de aptidão física; exames médicos; avaliação psicológica; investigação social",
+  "cfsd": "Curso de Formação de Soldados previsto no certame",
+  "estagio": "3 anos",
+  "validade": "1 ano, prorrogável uma vez por igual período",
+  "previsao": "Sem novo edital oficial localizado",
+  "site": "https://www.pm.ba.gov.br",
+  "fontes": [
+    {
+      "titulo": "Governo convoca mais de 90 mil candidatos para provas do concurso da PM e Bombeiros",
+      "url": "https://www.ba.gov.br/comunicacao/2022/12/noticias/estado-convoca-mais-de-90-mil-candidatos-para-provas-do-concurso-da-pm-e-corpo-de",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo prorroga prazo de inscrição do concurso para soldado da PM e Bombeiros",
+      "url": "https://www.ba.gov.br/comunicacao/index.php/2022/11/noticias/governo-prorroga-prazo-de-inscricao-do-concurso-para-soldado-da-pm-e-bombeiros",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Resultado final do concurso para PM e Bombeiros",
+      "url": "https://www.ba.gov.br/ssp/2023/07/28/governo-da-bahia-divulga-resultado-final-do-concurso-para-pm-e-bombeiros",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Página institucional da PMBA",
+      "url": "https://www.pm.ba.gov.br",
+      "tipo": "fonte oficial ou página institucional",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Lista da FCC com o concurso da PMBA/CBMBA 2022",
+      "url": "https://www.concursosfcc.com.br/concursoOutraSituacao.html",
+      "tipo": "fonte auxiliar",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Não foi localizado novo edital oficial da PMBA em 2026.",
+    "A banca e os dados do concurso de 2022 foram confirmados por fontes oficiais e pela FCC.",
+    "Os dados publicados acima referem-se ao último concurso oficial localizado.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo idade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos atualizado/priorizado pelo modo qualificado pago.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio atualizado/priorizado pelo modo qualificado pago.",
+    "Campo validade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (97/100). Campos concretos: 6/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

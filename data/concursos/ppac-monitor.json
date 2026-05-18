@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "ppac",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 36332,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1263,
+    "output_tokens_details": {
+      "reasoning_tokens": 337
+    },
+    "total_tokens": 37595
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://sead.ac.gov.br/gestao-governamental/editais-e-concursos/iapen-instituto-de-administracao-penitenciaria-do-acre/",
+      "ok": true,
+      "status": 200,
+      "hash": "fa9aca657b9a4f6757be5aac06e3e410314bc7e8b6aeaa4c25680f19ea39d5a7",
+      "tamanho_texto": 56994
+    },
+    {
+      "url": "https://sead.ac.gov.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsead.ac.gov.br%2Fgestao-governamental%2Feditais-e-concursos%2Fiapen-instituto-de-administracao-penitenciaria-do-acre%2F",
+      "ok": true,
+      "status": 200,
+      "hash": "4f695f45252f5354669e29ae085d5bc98dff596fc719f746b20b4d5d48530dd2",
+      "tamanho_texto": 361
+    },
+    {
+      "url": "https://sead.ac.gov.br/gestao-governamental/editais-e-concursos/",
+      "ok": true,
+      "status": 200,
+      "hash": "63b5f81c5e7f221e6ebae380e0d60aa1fe2b103c158fa55481f56f55699ce437",
+      "tamanho_texto": 4027
+    },
+    {
+      "url": "https://sead.ac.gov.br/wp-content/uploads/2026/05/Edital-no-105-IAPEN-Retificacao-da-convocacao-para-a-posse-07-05-2026.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "ca13bc09096a96132f38964204d0924ba51ddc018dd029fd78bf70a881566000",
+      "tamanho_texto": 30675
+    },
+    {
+      "url": "https://sead.ac.gov.br/wp-content/uploads/2026/04/Edital-no-104-IAPEN-Convocacao-para-a-posse-28-04-2026.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "187bda1870927e0cd06525544c463cc0e127451cd2fdba5df05424aeeed1677e",
+      "tamanho_texto": 30207
+    },
+    {
+      "url": "https://sead.ac.gov.br/wp-content/uploads/2026/04/Edital-no-103-IAPEN-Convocacao-para-inspecao-medica-e-entrega-de-documentos-10-04-2026.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "34260b8b7a1e1037154a6b0e8be8eb3cb7fced18402230b290c90f68f0835ca5",
+      "tamanho_texto": 65675
+    }
+  ]
+}

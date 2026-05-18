@@ -1,0 +1,56 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "bmma",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 100,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 28018,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1721,
+    "output_tokens_details": {
+      "reasoning_tokens": 620
+    },
+    "total_tokens": 29739
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.ma.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "2f2fc69d25f4e91e4ea33444bdb056b34d46263c2dcc8f7fe39dd3178ab6e6c7",
+      "tamanho_texto": 15
+    },
+    {
+      "url": "https://www.cbm.ma.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.cbmma.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.bombeiros.ma.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pmes",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "media",
+  "score_publicacao": 78,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 26921,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1366,
+    "output_tokens_details": {
+      "reasoning_tokens": 436
+    },
+    "total_tokens": 28287
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://pm.es.gov.br/concursos",
+      "ok": false,
+      "status": 404,
+      "hash": "23b90f8dfbe1b06c525eea98112969718c4b9aa5f9e5418af5689b26865c9c73",
+      "tamanho_texto": 14398
+    }
+  ]
+}

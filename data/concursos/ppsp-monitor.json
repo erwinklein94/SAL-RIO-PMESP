@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "ppsp",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "baixa",
+  "score_publicacao": 73,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 24688,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1764,
+    "output_tokens_details": {
+      "reasoning_tokens": 416
+    },
+    "total_tokens": 26452
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.institutoaocp.org.br/concursos/664",
+      "ok": true,
+      "status": 200,
+      "hash": "ec931f13bf0e061eda9f36640937497fdc133e8035540d298fb5fff10c00fbfe",
+      "tamanho_texto": 1070
+    },
+    {
+      "url": "https://www.institutoaocp.org.br/concursos/status/novos",
+      "ok": true,
+      "status": 200,
+      "hash": "898b506d7c6bba6369305d38567800cfbaddae742118d2c580fcc18fea1e6196",
+      "tamanho_texto": 1087
+    },
+    {
+      "url": "https://www.institutoaocp.org.br/concursos/status/inscricoes-abertas",
+      "ok": true,
+      "status": 200,
+      "hash": "898b506d7c6bba6369305d38567800cfbaddae742118d2c580fcc18fea1e6196",
+      "tamanho_texto": 1087
+    },
+    {
+      "url": "https://www.institutoaocp.org.br/concursos/status/em-andamento",
+      "ok": true,
+      "status": 200,
+      "hash": "898b506d7c6bba6369305d38567800cfbaddae742118d2c580fcc18fea1e6196",
+      "tamanho_texto": 1087
+    },
+    {
+      "url": "https://www.institutoaocp.org.br/concursos/status/resultados-disponiveis",
+      "ok": true,
+      "status": 200,
+      "hash": "898b506d7c6bba6369305d38567800cfbaddae742118d2c580fcc18fea1e6196",
+      "tamanho_texto": 1087
+    },
+    {
+      "url": "https://www.institutoaocp.org.br/concursos/status/finalizados",
+      "ok": true,
+      "status": 200,
+      "hash": "898b506d7c6bba6369305d38567800cfbaddae742118d2c580fcc18fea1e6196",
+      "tamanho_texto": 1087
+    }
+  ]
+}

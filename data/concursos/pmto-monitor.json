@@ -1,0 +1,49 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pmto",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "baixa",
+  "score_publicacao": 72,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 26853,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1171,
+    "output_tokens_details": {
+      "reasoning_tokens": 368
+    },
+    "total_tokens": 28024
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.to.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.pm.to.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.pmto.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    }
+  ]
+}

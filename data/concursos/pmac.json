@@ -1,0 +1,92 @@
+{
+  "instituicao_id": "pmac",
+  "instituicao_nome": "Polícia Militar do Acre",
+  "sigla": "PMAC",
+  "uf": "AC",
+  "tema": "concursos",
+  "status": "concurso realizado com andamento de fases finais e convocações recentes",
+  "titulo": "PMAC/AC: concurso 2023 segue com convocações para curso de formação",
+  "resumo": "Concurso da PMAC/AC organizado pela FGV já foi realizado e segue com publicações recentes de inspeção de saúde, matrícula no curso de formação e prorrogação de validade",
+  "edital": "Edital nº 001/2023 SEAD/PMAC — concurso realizado para Aluno Oficial Combatente e 2º Tenente Estagiário de Saúde",
+  "salario": "Aluno Oficial Combatente: R$ 8.129,55; 2º Tenente Estagiário de Saúde: R$ 10.423,73",
+  "vagas": "36 vagas para Aluno Oficial Combatente e 2º Tenente Estagiário de Saúde",
+  "cotas": "Conferir regras do edital FGV/SEAD/PMAC 2023",
+  "idade": "Conferir limite etário e requisitos específicos do edital",
+  "escolaridade": "Nível superior, com requisitos específicos por cargo",
+  "materias": "Língua Portuguesa; conhecimentos jurídicos; conhecimentos específicos; redação; raciocínio lógico; legislação específica",
+  "banca": "FGV Conhecimento",
+  "inscritos": "Conferir página oficial da FGV",
+  "etapas": "Prova objetiva; prova discursiva/redação; teste de aptidão física; avaliação psicológica; avaliação médica e toxicológica; investigação criminal e social; curso de formação",
+  "cfsd": "Curso de formação previsto e em andamento para candidatos convocados, com matrículas homologadas e novas convocações publicadas em 2024, 2025 e 2026",
+  "estagio": "Conferir estatuto militar estadual e edital",
+  "validade": "Prazo de validade prorrogado em 06/02/2026",
+  "previsao": "Continuidade das convocações e publicações relacionadas ao curso de formação e às fases finais do certame",
+  "site": "https://conhecimento.fgv.br/concursos/pmac23",
+  "fontes": [
+    {
+      "titulo": "Página do concurso PMAC 2023 — FGV Conhecimento",
+      "url": "https://conhecimento.fgv.br/concursos/pmac23",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Cronograma previsto PMAC — FGV",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cronograma-previsto-pmac_2.pdf",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Homologação da matrícula no curso de formação — 24/04/2026",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-no-075-pmac-homologacao-de-matricula-no-curso-de-formacao-24-04-2026.pdf",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Resultado final da inspeção de saúde e convocação para matrícula no curso de formação (sub judice)",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-no-074-pmac-resultado-final-da-inspecao-de-saude-e-convocacao-para-a-matricula-no-curso-de-formacao-de-candidato-sub.pdf",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Homologação das matrículas no curso de formação — 31/03/2026",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-no-073-pmac-homologacao-de-matriculas-no-curso-de-formacao-31-03-2026.pdf",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "médio",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Dados de cargos, salário, vagas e etapas preservados do conteúdo anterior publicado.",
+    "A página da FGV mostra publicações recentes de inspeção de saúde, matrícula no curso de formação e prorrogação de validade em 06/02/2026.",
+    "Cotas, idade, inscritos e estágio probatório não foram localizados nas fontes consultadas.",
+    "Campo cfsd foi mantido com base nas publicações de acompanhamento do curso de formação.",
+    "Qualidade publicada com nível médio por falta de extração completa de alguns campos.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo idade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (97/100). Campos concretos: 8/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

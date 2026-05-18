@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pmpa",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 19056,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1236,
+    "output_tokens_details": {
+      "reasoning_tokens": 105
+    },
+    "total_tokens": 20292
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.pm.pa.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "5e0e931cd0f5a981c25ac0be34b2317ea3ee299637888f95eae49e0cf04da107",
+      "tamanho_texto": 11244
+    },
+    {
+      "url": "https://www.pm.pa.gov.br/images/PDF/ORGANOGRAMA_PMPA_1.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "6569a9faa321ec70e155da0a6654afbcb3ac082d9485fc97744f16fc0ade8ade",
+      "tamanho_texto": 4654817
+    },
+    {
+      "url": "https://www.pm.pa.gov.br/anuario-pmpa.html",
+      "ok": true,
+      "status": 200,
+      "hash": "d0c46bcd6fa64443513def4a4523ada91c623999c4e091474ad68f434238fa34",
+      "tamanho_texto": 8102
+    },
+    {
+      "url": "https://www.pm.pa.gov.br/modelos-de-processos-e-procedimentos-administrativos-pmpaa.html",
+      "ok": true,
+      "status": 200,
+      "hash": "5ec1285251c83a34a0e937e4330432f5221526623ba051b7aff2a47e14c744d5",
+      "tamanho_texto": 8425
+    },
+    {
+      "url": "https://www.pm.pa.gov.br/comunicado-do-resultado-de-fiscalizacao-auditoria-tce-prestacao-de-contas-anual-de-gestao.html",
+      "ok": true,
+      "status": 200,
+      "hash": "f6c169e9ae3808e37a3996643a3293978d94794e1b61f4cd5caa8e89b1985e83",
+      "tamanho_texto": 8027
+    },
+    {
+      "url": "https://periodicos.pm.pa.gov.br/index.php/pmpaemrevista",
+      "ok": true,
+      "status": 200,
+      "hash": "6e30364d3979f665015d6d4761e06d15148e9d3d27e52571ad28cb484e5ea2ea",
+      "tamanho_texto": 4673
+    }
+  ]
+}

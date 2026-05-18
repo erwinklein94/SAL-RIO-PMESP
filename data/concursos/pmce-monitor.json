@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pmce",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 87,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 33042,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1446,
+    "output_tokens_details": {
+      "reasoning_tokens": 505
+    },
+    "total_tokens": 34488
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.pm.ce.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "8e976ad6fa1bc17e8c6cf29bfb157a379cabe133800c4ded6e4e14f965a08211",
+      "tamanho_texto": 2860
+    },
+    {
+      "url": "https://www.pm.ce.gov.br/organograma-pmce-2025/",
+      "ok": true,
+      "status": 200,
+      "hash": "6b173ea6c8d033a69b2303b26b26850e2743db6e901f8daa0a1eb8ec104fb305",
+      "tamanho_texto": 20946
+    },
+    {
+      "url": "https://www.pm.ce.gov.br/wp-content/uploads/sites/25/2025/07/NUP_-10061041301202599-Plano-Estrategico-da-PMCE-2025-2029.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "32e02caea8fd78596d7e42b89dd3383e79f76d2e65fd4cce9f5aa0f88469c70b",
+      "tamanho_texto": 5024081
+    },
+    {
+      "url": "https://www.pm.ce.gov.br/banda-de-musica-pmce/",
+      "ok": true,
+      "status": 200,
+      "hash": "6e321bf0b7eee95214a17ad85fc12869256de68244649d57f93e0fc46de387b6",
+      "tamanho_texto": 5856
+    },
+    {
+      "url": "https://www.pm.ce.gov.br/csasrpmce/",
+      "ok": true,
+      "status": 200,
+      "hash": "ac38eecdc3c37b4c5be56974578203efe35689cc08e5814a21d7a191990ccff2",
+      "tamanho_texto": 16453
+    },
+    {
+      "url": "https://www.pm.ce.gov.br/ouvidoria-pmce/",
+      "ok": true,
+      "status": 200,
+      "hash": "ce5a99a080538efffecf0b120a0f3b2d0617d2cb8dd2711e6c9163503da4e926",
+      "tamanho_texto": 4738
+    }
+  ]
+}

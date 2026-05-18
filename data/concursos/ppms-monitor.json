@@ -1,0 +1,49 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "ppms",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "baixa",
+  "score_publicacao": 60,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 20151,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 910,
+    "output_tokens_details": {
+      "reasoning_tokens": 241
+    },
+    "total_tokens": 21061
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.agepen.ms.gov.br/",
+      "ok": true,
+      "status": 200,
+      "hash": "6f8397785aceb9f480a23b0ad7f6342620aa46d65366bec941830ddc74bde92b",
+      "tamanho_texto": 1999
+    },
+    {
+      "url": "https://agenciadenoticias.ms.gov.br/mais-social-recebe-inscricoes-para-programa-do-governo-de-ms-que-paga-creche-particular/",
+      "ok": true,
+      "status": 200,
+      "hash": "10767fb954105f24c018d4fc7330ff3473ccb0307bc08a8188355a0514b3049f",
+      "tamanho_texto": 8464
+    },
+    {
+      "url": "https://agenciadenoticias.ms.gov.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fagenciadenoticias.ms.gov.br%2Fmais-social-recebe-inscricoes-para-programa-do-governo-de-ms-que-paga-creche-particular%2F",
+      "ok": true,
+      "status": 200,
+      "hash": "9bcebfa8b1bd52c9eeaf2992368ae360fe7a3b472ed42f9f2f300fb30e19312a",
+      "tamanho_texto": 719
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "gerado_em": "2026-05-17",
+  "instituicao_id": "ppms",
+  "motivo_bloqueio": "Atualização bloqueada: qualidade baixa, score 37, campos críticos genéricos: nenhum, campos críticos sem confirmação: vagas, banca.",
+  "avaliacao": {
+    "score": 37,
+    "qualidade": "baixa",
+    "ruins": [
+      "vagas",
+      "cotas",
+      "banca",
+      "cfsd"
+    ],
+    "genericos": [],
+    "concretos": [
+      "edital",
+      "salario",
+      "idade",
+      "escolaridade",
+      "materias",
+      "inscritos"
+    ],
+    "criticosRuins": [
+      "vagas",
+      "banca"
+    ],
+    "criticosGenericos": [],
+    "criticosConcretos": [
+      "edital",
+      "salario",
+      "escolaridade"
+    ],
+    "podePublicar": false
+  },
+  "dados": {
+    "instituicao_id": "ppms",
+    "instituicao_nome": "Polícia Penal de Mato Grosso do Sul",
+    "sigla": "PPMS",
+    "uf": "MS",
+    "tema": "concursos",
+    "status": "conteúdo inicial protegido",
+    "titulo": "PPMS: concursos, requisitos e etapas",
+    "resumo": "Guia da PPMS (Polícia Penal/MS) com campos estruturados para concursos, com status de acompanhamento e dados ainda não confirmados em edital específico nesta revisão",
+    "edital": "PPMS/AGEPEN-MS — sem novo edital aberto cadastrado nesta revisão; usar histórico da carreira penal e monitorar SEJUSP/MS, AGEPEN/MS e Diário Oficial/MS",
+    "salario": "Tabela Subsídio AGEPEN/MS 2026 (valores de subsídio): Classe Inicial/Nível I R$ 5.517,66; Classe Especial/Nível VIII R$ 13.132,02",
+    "vagas": "Não localizado nas fontes consultadas número de vagas/cadastro reserva para concurso vigente nesta revisão",
+    "cotas": "Não localizado nas fontes consultadas política/percentual de cotas para concurso vigente nesta revisão",
+    "idade": "A definir no edital; requisitos de idade, CNH, aptidão física, saúde, investigação social e conduta devem ser conferidos na publicação oficial",
+    "escolaridade": "Conferir edital vigente da AGEPEN/MS/SEJUSP/MS e legislação da carreira policial penal",
+    "materias": "A definir no edital; normalmente envolve Língua Portuguesa, Raciocínio, Informática, Direito Constitucional, Penal, Processo Penal, Execução Penal, Direitos Humanos e legislação local",
+    "banca": "Não localizado nas fontes consultadas banca organizadora nesta revisão",
+    "inscritos": "Sem inscrição aberta cadastrada nesta revisão; acompanhar AGEPEN/MS, SEJUSP/MS, Concursos MS e Diário Oficial/MS",
+    "etapas": "Quando publicado, conferir prova objetiva, TAF, avaliação psicológica, exame médico, investigação social, curso de formação e análise documental",
+    "cfsd": "Não localizado nas fontes consultadas informações do curso de formação nesta revisão",
+    "estagio": "Estágio probatório e exercício inicial conforme estatuto estadual e normas da AGEPEN/MS",
+    "validade": "A definir no edital e atos de homologação/prorrogação",
+    "previsao": "Sem novo edital de concurso para Polícia Penal/MS identificado nas fontes consultadas nesta revisão",
+    "site": "https://www.agepen.ms.gov.br/",
+    "fontes": [
+      {
+        "titulo": "Página institucional da AGEPEN/MS (referência para informações e área do servidor)",
+        "url": "https://www.agepen.ms.gov.br/",
+        "tipo": "fonte oficial ou página institucional",
+        "data_consulta": "2026-05-17"
+      }
+    ],
+    "ultima_pesquisa": "2026-05-17",
+    "nivel_confianca": "baixo",
+    "precisa_revisao_humana": true,
+    "alertas": [
+      "Nesta revisão, as fontes consultadas não trouxeram edital/cargo vigente com vagas, banca, inscrições e etapas para PPMS.",
+      "Preservado dado anterior existente de subsídio (AGEPEN/MS 2026) por ser mais específico do que o material localizado agora.",
+      "Campo edital mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Campo idade mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Campo escolaridade mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Campo materias mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Campo inscritos mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Campo etapas mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Campo estagio mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Campo validade mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Qualidade calculada: baixa (37/100). Campos concretos: 6/14.",
+      "Atualização bloqueada: qualidade baixa, score 37, campos críticos genéricos: nenhum, campos críticos sem confirmação: vagas, banca."
+    ],
+    "texto_final_limpo": true,
+    "padrao_editorial": "usuario-final-sem-links-nos-campos",
+    "qualidade_publicacao": "baixa",
+    "score_publicacao": 37,
+    "modo_qualidade": "economico",
+    "bloquear_publicacao": true
+  }
+}

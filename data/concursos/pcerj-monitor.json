@@ -1,0 +1,35 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pcerj",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 87,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 18653,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1017,
+    "output_tokens_details": {
+      "reasoning_tokens": 246
+    },
+    "total_tokens": 19670
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.policiacivil.rj.gov.br",
+      "ok": false,
+      "status": 403,
+      "hash": "3804b4ddc5736c4df033e3257f47cc7ec05ca0e6ae4f036be86727d8ca9169d2",
+      "tamanho_texto": 56
+    }
+  ]
+}

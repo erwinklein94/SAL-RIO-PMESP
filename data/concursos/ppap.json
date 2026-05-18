@@ -1,0 +1,65 @@
+{
+  "instituicao_id": "ppap",
+  "instituicao_nome": "Polícia Penal de Amapá",
+  "sigla": "PPAP",
+  "uf": "AP",
+  "tema": "concursos",
+  "status": "Atualização forte",
+  "titulo": "PPAP segue aproveitando aprovados do concurso de 2018, com convocações e curso de formação",
+  "resumo": "A Polícia Penal do Amapá segue movimentando o concurso do antigo IAPEN, aberto em 2018 e ainda utilizado para convocações, exame documental e curso de formação em 2025 e 2026. Não foi localizado novo edital de abertura para a corporação.",
+  "edital": "Edital nº 01/2018, publicado em 10/07/2018, para Agente Penitenciário e Educador Social Penitenciário. Concurso ainda gera convocações recentes para Policial Penal, exame documental e curso de formação.",
+  "salario": "R$ 3.318,64 de vencimento inicial para Agente Penitenciário e Educador Social Penitenciário. No curso de formação, o auxílio financeiro corresponde a 50% do vencimento inicial.",
+  "vagas": "110 vagas imediatas e 440 para cadastro reserva, totalizando 550 oportunidades. Distribuição das imediatas: 80 para Agente Penitenciário, 20 para Educador Social Penitenciário e 10 vagas reservadas a pessoas com deficiência dentro do total. Cadastro reserva: 400 para Agente Penitenciário e 40 para Educador Social Penitenciário.",
+  "cotas": "5% das vagas reservadas para pessoas com deficiência.",
+  "idade": "Idade mínima de 18 anos. No teste físico, salto em altura mínimo de 1,15 m para homens e 1,00 m para mulheres. CNH não localizada nas fontes consultadas.",
+  "escolaridade": "Nível médio completo para Agente Penitenciário e Educador Social Penitenciário.",
+  "materias": "Língua Portuguesa, Raciocínio Lógico-Matemático, História do Amapá, Geografia do Amapá e conhecimentos específicos. Entre os específicos, aparecem Noções de Direito Penal, Direito Constitucional, Sociologia, políticas de assistência no sistema prisional, diversidades e populações vulneráveis, além de Direitos Humanos.",
+  "banca": "Fundação Carlos Chagas.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Prova objetiva, exame de aptidão física, exame documental, exame de saúde, avaliação psicológica, investigação social e curso de formação.",
+  "cfsd": "Curso de formação previsto na Academia Integrada de Formação e Aperfeiçoamento. Em 2025 houve convocação para matrícula, e em 2026 ainda há atos de convocação e exame documental de candidatos do cargo de Policial Penal.",
+  "estagio": "Não localizado nas fontes consultadas.",
+  "validade": "1 ano a contar da homologação do resultado final, com possibilidade de prorrogação por igual período.",
+  "previsao": "Não localizado novo edital nas fontes consultadas.",
+  "site": "https://www.ap.gov.br",
+  "fontes": [
+    {
+      "titulo": "Edital de abertura IAPEN AP 2018",
+      "url": "https://editalconcursosbrasil.com.br/wp-content/uploads/2018/07/edital_de_abertura_iapen118.pdf",
+      "tipo": "edital pdf",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Diário Oficial do Amapá - Edital nº 004/2019 resultado preliminar da prova objetiva",
+      "url": "https://arquivos.qconcursos.com/concurso/justificativa/17204/iapen-ap-2018-justificativa.pdf",
+      "tipo": "diário oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Diário Oficial do Amapá - Edital nº 369/2025 convocação para matrícula no curso de formação",
+      "url": "https://diofe.portal.ap.gov.br/portal/edicoes/download/2409",
+      "tipo": "diário oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Diário Oficial do Amapá - Edital nº 449/2026 resultado definitivo da convocação para etapa de exame documental",
+      "url": "https://diofe.portal.ap.gov.br/portal/edicoes/visualizar_pdf/9946/",
+      "tipo": "diário oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": false,
+  "alertas": [
+    "A estrutura publicada usa como base o concurso do antigo IAPEN, que segue sendo aproveitado para a Polícia Penal do Amapá.",
+    "Não foi localizado novo edital de abertura específico da Polícia Penal do Amapá.",
+    "O campo inscritos não teve dado oficial localizado nas fontes consultadas.",
+    "Classificação automática: Atualização forte (84/100)."
+  ],
+  "classe_atualizacao": "forte",
+  "qualidade_publicacao": "forte",
+  "score_publicacao": "84",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

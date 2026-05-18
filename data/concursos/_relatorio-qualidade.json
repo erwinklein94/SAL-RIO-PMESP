@@ -1,0 +1,7038 @@
+{
+  "gerado_em": "2026-05-17",
+  "modelo_operacional": "simples",
+  "resumo": {
+    "total": 110,
+    "pendentes": 11,
+    "fracas": 38,
+    "fortes": 61
+  },
+  "grupos": {
+    "pendentes": [
+      {
+        "id": "pmrr",
+        "sigla": "PMRR",
+        "nome": "Polícia Militar de Roraima",
+        "uf": "RR",
+        "score": 8,
+        "classe": "pendente",
+        "qualidade": "pendente",
+        "motivos": [
+          "precisa primeira atualização",
+          "campos críticos sem dado: salario, escolaridade"
+        ],
+        "campos_ruins": [
+          "salario",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "inscritos",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "vagas",
+          "banca",
+          "etapas",
+          "cfsd",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "pendentes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "ppam",
+        "sigla": "PPAM",
+        "nome": "Polícia Penal de Amazonas",
+        "uf": "AM",
+        "score": 12,
+        "classe": "pendente",
+        "qualidade": "pendente",
+        "motivos": [
+          "precisa primeira atualização",
+          "campos críticos sem dado: vagas, banca"
+        ],
+        "campos_ruins": [
+          "vagas",
+          "materias",
+          "banca",
+          "inscritos",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "salario",
+          "cotas",
+          "idade",
+          "escolaridade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "pendentes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcrn",
+        "sigla": "PCRN",
+        "nome": "Polícia Civil de Rio Grande do Norte",
+        "uf": "RN",
+        "score": 18,
+        "classe": "pendente",
+        "qualidade": "pendente",
+        "motivos": [
+          "precisa primeira atualização",
+          "campos críticos sem dado: salario"
+        ],
+        "campos_ruins": [
+          "salario",
+          "cotas",
+          "idade",
+          "materias",
+          "inscritos",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "vagas",
+          "escolaridade",
+          "banca"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "pendentes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "ppma",
+        "sigla": "PPMA",
+        "nome": "Polícia Penal de Maranhão",
+        "uf": "MA",
+        "score": 20,
+        "classe": "pendente",
+        "qualidade": "pendente",
+        "motivos": [
+          "precisa primeira atualização",
+          "campos críticos sem dado: salario, vagas"
+        ],
+        "campos_ruins": [
+          "salario",
+          "vagas",
+          "cotas",
+          "inscritos",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "idade",
+          "materias"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "pendentes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "ppro",
+        "sigla": "PPRO",
+        "nome": "Polícia Penal de Rondônia",
+        "uf": "RO",
+        "score": 24,
+        "classe": "pendente",
+        "qualidade": "pendente",
+        "motivos": [
+          "precisa primeira atualização",
+          "campos críticos sem dado: salario, etapas"
+        ],
+        "campos_ruins": [
+          "salario",
+          "materias",
+          "inscritos",
+          "etapas",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "cfsd",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "pendentes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmms",
+        "sigla": "CBMMS",
+        "nome": "Corpo de Bombeiros Militar de Mato Grosso do Sul",
+        "uf": "MS",
+        "score": 27,
+        "classe": "pendente",
+        "qualidade": "pendente",
+        "motivos": [
+          "precisa primeira atualização",
+          "campos genéricos: salario, cotas, idade, escolaridade",
+          "campos críticos genéricos: salario, escolaridade"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "salario",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "estagio",
+          "validade"
+        ],
+        "campos_concretos": [
+          "edital",
+          "vagas",
+          "banca",
+          "inscritos",
+          "cfsd",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "pendentes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmro",
+        "sigla": "BMRO",
+        "nome": "Corpo de Bombeiros Militar de Rondônia",
+        "uf": "RO",
+        "score": 28,
+        "classe": "pendente",
+        "qualidade": "pendente",
+        "motivos": [
+          "precisa primeira atualização",
+          "campos críticos sem dado: salario, banca"
+        ],
+        "campos_ruins": [
+          "salario",
+          "cotas",
+          "banca",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "pendentes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmdf",
+        "sigla": "PMDF",
+        "nome": "Polícia Militar de Distrito Federal",
+        "uf": "DF",
+        "score": 30,
+        "classe": "pendente",
+        "qualidade": "pendente",
+        "motivos": [
+          "precisa primeira atualização",
+          "campos críticos sem dado: etapas"
+        ],
+        "campos_ruins": [
+          "idade",
+          "materias",
+          "inscritos",
+          "etapas",
+          "cfsd",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "escolaridade",
+          "banca"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "pendentes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "ppdf",
+        "sigla": "PPDF",
+        "nome": "Polícia Penal de Distrito Federal",
+        "uf": "DF",
+        "score": 34,
+        "classe": "pendente",
+        "qualidade": "pendente",
+        "motivos": [
+          "precisa primeira atualização",
+          "campos críticos sem dado: escolaridade"
+        ],
+        "campos_ruins": [
+          "idade",
+          "escolaridade",
+          "materias",
+          "inscritos",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "banca"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "pendentes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "ppce",
+        "sigla": "PPCE",
+        "nome": "Polícia Penal de Ceará",
+        "uf": "CE",
+        "score": 42,
+        "classe": "pendente",
+        "qualidade": "pendente",
+        "motivos": [
+          "precisa primeira atualização",
+          "campos críticos sem dado: salario"
+        ],
+        "campos_ruins": [
+          "salario",
+          "inscritos",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "vagas",
+          "escolaridade",
+          "banca"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "pendentes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmto",
+        "sigla": "PMTO",
+        "nome": "Polícia Militar de Tocantins",
+        "uf": "TO",
+        "score": 43,
+        "classe": "pendente",
+        "qualidade": "pendente",
+        "motivos": [
+          "precisa primeira atualização",
+          "campos genéricos: etapas",
+          "campos críticos sem dado: salario",
+          "campos críticos genéricos: etapas"
+        ],
+        "campos_ruins": [
+          "salario",
+          "inscritos",
+          "estagio"
+        ],
+        "campos_genericos": [
+          "etapas"
+        ],
+        "campos_concretos": [
+          "edital",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "pendentes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      }
+    ],
+    "fracas": [
+      {
+        "id": "pmpi",
+        "sigla": "PMPI",
+        "nome": "Polícia Militar de Piauí",
+        "uf": "PI",
+        "score": 48,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico",
+          "campos críticos sem dado: salario, escolaridade"
+        ],
+        "campos_ruins": [
+          "salario",
+          "escolaridade",
+          "inscritos"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "vagas",
+          "cotas",
+          "idade",
+          "materias",
+          "banca",
+          "cfsd",
+          "estagio",
+          "validade",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "ppgo",
+        "sigla": "PPGO",
+        "nome": "Polícia Penal de Goiás",
+        "uf": "GO",
+        "score": 48,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "cotas",
+          "idade",
+          "materias",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "banca"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pppb",
+        "sigla": "PPPB",
+        "nome": "Polícia Penal de Paraíba",
+        "uf": "PB",
+        "score": 48,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "cotas",
+          "inscritos",
+          "cfsd",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "idade",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pprn",
+        "sigla": "PPRN",
+        "nome": "Polícia Penal de Rio Grande do Norte",
+        "uf": "RN",
+        "score": 52,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "cotas",
+          "idade",
+          "inscritos",
+          "estagio",
+          "validade",
+          "previsao"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade",
+          "materias",
+          "banca",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcto",
+        "sigla": "PCTO",
+        "nome": "Polícia Civil de Tocantins",
+        "uf": "TO",
+        "score": 54,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico",
+          "campos críticos sem dado: escolaridade"
+        ],
+        "campos_ruins": [
+          "escolaridade",
+          "inscritos",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "materias",
+          "etapas",
+          "cfsd",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmro",
+        "sigla": "PMRO",
+        "nome": "Polícia Militar de Rondônia",
+        "uf": "RO",
+        "score": 54,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico",
+          "campos críticos sem dado: salario"
+        ],
+        "campos_ruins": [
+          "salario",
+          "cotas",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos",
+          "etapas",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmce",
+        "sigla": "PMCE",
+        "nome": "Polícia Militar de Ceará",
+        "uf": "CE",
+        "score": 56,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "materias",
+          "inscritos",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "ppto",
+        "sigla": "PPTO",
+        "nome": "Polícia Penal de Tocantins",
+        "uf": "TO",
+        "score": 56,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "idade",
+          "inscritos",
+          "estagio",
+          "previsao"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "escolaridade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pppa",
+        "sigla": "PPPA",
+        "nome": "Polícia Penal de Pará",
+        "uf": "PA",
+        "score": 60,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "cotas",
+          "inscritos",
+          "estagio",
+          "validade",
+          "previsao"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pppe",
+        "sigla": "PPPE",
+        "nome": "Polícia Penal de Pernambuco",
+        "uf": "PE",
+        "score": 60,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "cotas",
+          "idade",
+          "inscritos",
+          "estagio",
+          "previsao"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade",
+          "materias",
+          "banca"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pprj",
+        "sigla": "PPRJ",
+        "nome": "Polícia Penal do Rio de Janeiro",
+        "uf": "RJ",
+        "score": 60,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "cotas",
+          "idade",
+          "inscritos",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade",
+          "materias",
+          "cfsd",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmma",
+        "sigla": "BMMA",
+        "nome": "Corpo de Bombeiros Militar do Maranhão",
+        "uf": "MA",
+        "score": 62,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico",
+          "campos críticos sem dado: salario"
+        ],
+        "campos_ruins": [
+          "salario",
+          "inscritos",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "vagas",
+          "cotas",
+          "escolaridade",
+          "etapas",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcpb",
+        "sigla": "PCPB",
+        "nome": "Polícia Civil de Paraíba",
+        "uf": "PB",
+        "score": 62,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico",
+          "campos críticos sem dado: salario"
+        ],
+        "campos_ruins": [
+          "salario",
+          "materias",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "banca",
+          "inscritos",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmma",
+        "sigla": "PMMA",
+        "nome": "Polícia Militar de Maranhão",
+        "uf": "MA",
+        "score": 62,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico",
+          "campos críticos sem dado: salario"
+        ],
+        "campos_ruins": [
+          "salario",
+          "inscritos",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "cfsd",
+          "estagio",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "ppms",
+        "sigla": "PPMS",
+        "nome": "Polícia Penal de Mato Grosso do Sul",
+        "uf": "MS",
+        "score": 62,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico",
+          "campos genéricos: vagas, banca",
+          "campos críticos genéricos: vagas, banca"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "vagas",
+          "banca"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "idade",
+          "escolaridade",
+          "materias",
+          "inscritos",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmpi",
+        "sigla": "BMPI",
+        "nome": "Corpo de Bombeiros Militar do Piauí",
+        "uf": "PI",
+        "score": 64,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "inscritos",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "materias"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmrn",
+        "sigla": "BMRN",
+        "nome": "Corpo de Bombeiros Militar do Rio Grande do Norte",
+        "uf": "RN",
+        "score": 64,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "cotas",
+          "inscritos",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "ppes",
+        "sigla": "PPES",
+        "nome": "Polícia Penal do Espírito Santo",
+        "uf": "ES",
+        "score": 64,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "idade",
+          "inscritos",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "escolaridade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmrr",
+        "sigla": "BMRR",
+        "nome": "Corpo de Bombeiros Militar de Roraima",
+        "uf": "RR",
+        "score": 68,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "cotas",
+          "idade",
+          "materias",
+          "inscritos"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade",
+          "cfsd",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmse",
+        "sigla": "BMSE",
+        "nome": "Corpo de Bombeiros Militar de Sergipe",
+        "uf": "SE",
+        "score": 68,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "idade",
+          "materias",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "escolaridade",
+          "banca",
+          "inscritos",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmto",
+        "sigla": "BMTO",
+        "nome": "Corpo de Bombeiros Militar do Tocantins",
+        "uf": "TO",
+        "score": 68,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "cotas",
+          "inscritos",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "banca"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcpa",
+        "sigla": "PCPA",
+        "nome": "Polícia Civil de Pará",
+        "uf": "PA",
+        "score": 68,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "materias",
+          "inscritos",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pprr",
+        "sigla": "PPRR",
+        "nome": "Polícia Penal de Roraima",
+        "uf": "RR",
+        "score": 68,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "idade",
+          "inscritos",
+          "estagio",
+          "previsao"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "escolaridade",
+          "materias",
+          "banca"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmpb",
+        "sigla": "PMPB",
+        "nome": "Polícia Militar de Paraíba",
+        "uf": "PB",
+        "score": 70,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico",
+          "campos críticos sem dado: banca"
+        ],
+        "campos_ruins": [
+          "banca",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "inscritos",
+          "cfsd",
+          "validade",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmesp",
+        "sigla": "PMESP",
+        "nome": "Polícia Militar do Estado de São Paulo",
+        "uf": "SP",
+        "score": 74,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico",
+          "campos genéricos: cotas, etapas",
+          "campos críticos genéricos: etapas"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "cotas",
+          "etapas"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos",
+          "cfsd",
+          "validade",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmdf",
+        "sigla": "BMDF",
+        "nome": "Corpo de Bombeiros Militar do Distrito Federal",
+        "uf": "DF",
+        "score": 76,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "inscritos",
+          "cfsd",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "banca"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmgo",
+        "sigla": "BMGO",
+        "nome": "Corpo de Bombeiros Militar do Estado de Goiás",
+        "uf": "GO",
+        "score": 76,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "cotas",
+          "inscritos",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "cfsd",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmpa",
+        "sigla": "BMPA",
+        "nome": "Corpo de Bombeiros Militar do Pará",
+        "uf": "PA",
+        "score": 76,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "cotas",
+          "inscritos",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "banca",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmpe",
+        "sigla": "BMPE",
+        "nome": "Corpo de Bombeiros Militar de Pernambuco",
+        "uf": "PE",
+        "score": 76,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "inscritos",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "banca"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcpe",
+        "sigla": "PCPE",
+        "nome": "Polícia Civil de Pernambuco",
+        "uf": "PE",
+        "score": 76,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "cotas",
+          "inscritos",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "etapas"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcpi",
+        "sigla": "PCPI",
+        "nome": "Polícia Civil de Piauí",
+        "uf": "PI",
+        "score": 76,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "inscritos",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade",
+          "materias",
+          "banca"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcse",
+        "sigla": "PCSE",
+        "nome": "Polícia Civil de Sergipe",
+        "uf": "SE",
+        "score": 76,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "inscritos",
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "materias",
+          "banca"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pprs",
+        "sigla": "PPRS",
+        "nome": "Polícia Penal do Rio Grande do Sul",
+        "uf": "RS",
+        "score": 76,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico"
+        ],
+        "campos_ruins": [
+          "inscritos",
+          "cfsd",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "etapas",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmsc",
+        "sigla": "PMSC",
+        "nome": "Polícia Militar de Santa Catarina",
+        "uf": "SC",
+        "score": 79,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico",
+          "campos genéricos: cotas, idade, estagio"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "cotas",
+          "idade",
+          "estagio"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos",
+          "cfsd",
+          "validade",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmmt",
+        "sigla": "CBMMT",
+        "nome": "Corpo de Bombeiros Militar do Estado de Mato Grosso",
+        "uf": "MT",
+        "score": 81,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico",
+          "campos genéricos: etapas",
+          "campos críticos genéricos: etapas"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "etapas"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "banca",
+          "inscritos",
+          "cfsd",
+          "estagio",
+          "validade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "ppmt",
+        "sigla": "PPMT",
+        "nome": "Polícia Penal de Mato Grosso",
+        "uf": "MT",
+        "score": 81,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico",
+          "campos genéricos: banca",
+          "campos críticos genéricos: banca"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "banca"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "idade",
+          "escolaridade",
+          "materias",
+          "inscritos",
+          "validade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "ppmg",
+        "sigla": "PPMG",
+        "nome": "Polícia Penal de Minas Gerais",
+        "uf": "MG",
+        "score": 86,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico",
+          "campos genéricos: idade, cfsd"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "idade",
+          "cfsd"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "escolaridade",
+          "materias",
+          "banca",
+          "validade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "ppsp",
+        "sigla": "PPSP",
+        "nome": "Polícia Penal do Estado de São Paulo",
+        "uf": "SP",
+        "score": 86,
+        "classe": "fraca",
+        "qualidade": "fraca",
+        "motivos": [
+          "conteúdo fraco ou genérico",
+          "campos genéricos: cotas, validade"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "cotas",
+          "validade"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "banca",
+          "inscritos"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fracas",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      }
+    ],
+    "fortes": [
+      {
+        "id": "bmpb",
+        "sigla": "BMPB",
+        "nome": "Corpo de Bombeiros Militar da Paraíba",
+        "uf": "PB",
+        "score": 78,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "campos críticos sem dado: banca"
+        ],
+        "campos_ruins": [
+          "banca"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "inscritos",
+          "etapas",
+          "cfsd",
+          "estagio",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmac",
+        "sigla": "BMAC",
+        "nome": "Corpo de Bombeiros Militar do Acre",
+        "uf": "AC",
+        "score": 84,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "inscritos",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "cfsd",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmba",
+        "sigla": "BMBA",
+        "nome": "Corpo de Bombeiros Militar da Bahia",
+        "uf": "BA",
+        "score": 84,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "inscritos",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmrs",
+        "sigla": "BMRS",
+        "nome": "Corpo de Bombeiros Militar do Rio Grande do Sul",
+        "uf": "RS",
+        "score": 84,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "inscritos",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "banca",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcgo",
+        "sigla": "PCGO",
+        "nome": "Polícia Civil de Goiás",
+        "uf": "GO",
+        "score": 84,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "inscritos",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "materias",
+          "banca",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcma",
+        "sigla": "PCMA",
+        "nome": "Polícia Civil de Maranhão",
+        "uf": "MA",
+        "score": 84,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos",
+          "cfsd",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcro",
+        "sigla": "PCRO",
+        "nome": "Polícia Civil de Rondônia",
+        "uf": "RO",
+        "score": 84,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "inscritos",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "etapas",
+          "validade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcrr",
+        "sigla": "PCRR",
+        "nome": "Polícia Civil de Roraima",
+        "uf": "RR",
+        "score": 84,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "inscritos",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "etapas",
+          "validade",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmgo",
+        "sigla": "PMGO",
+        "nome": "Polícia Militar de Goiás",
+        "uf": "GO",
+        "score": 84,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "inscritos",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "banca",
+          "cfsd",
+          "validade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmpa",
+        "sigla": "PMPA",
+        "nome": "Polícia Militar de Pará",
+        "uf": "PA",
+        "score": 84,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "estagio",
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "cfsd",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmrn",
+        "sigla": "PMRN",
+        "nome": "Polícia Militar de Rio Grande do Norte",
+        "uf": "RN",
+        "score": 84,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "inscritos",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "banca",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "ppap",
+        "sigla": "PPAP",
+        "nome": "Polícia Penal de Amapá",
+        "uf": "AP",
+        "score": 84,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "inscritos",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "ppsc",
+        "sigla": "PPSC",
+        "nome": "Polícia Penal de Santa Catarina",
+        "uf": "SC",
+        "score": 84,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "inscritos",
+          "previsao"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "materias",
+          "banca",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "ppse",
+        "sigla": "PPSE",
+        "nome": "Polícia Penal de Sergipe",
+        "uf": "SE",
+        "score": 84,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "inscritos",
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcap",
+        "sigla": "PCAP",
+        "nome": "Polícia Civil do Estado do Amapá",
+        "uf": "AP",
+        "score": 86,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "campos genéricos: cotas, materias"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "cotas",
+          "materias"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "banca",
+          "inscritos",
+          "etapas",
+          "validade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmes",
+        "sigla": "PMES",
+        "nome": "Polícia Militar do Espírito Santo",
+        "uf": "ES",
+        "score": 86,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "campos genéricos: inscritos, validade"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "inscritos",
+          "validade"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "estagio"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmms",
+        "sigla": "PMMS",
+        "nome": "Polícia Militar de Mato Grosso do Sul",
+        "uf": "MS",
+        "score": 86,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "campos genéricos: cotas, validade"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "cotas",
+          "validade"
+        ],
+        "campos_concretos": [
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcac",
+        "sigla": "PCAC",
+        "nome": "Polícia Civil do Acre",
+        "uf": "AC",
+        "score": 88,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "materias",
+          "etapas"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcerj",
+        "sigla": "PCERJ",
+        "nome": "Polícia Civil do Rio de Janeiro",
+        "uf": "RJ",
+        "score": 88,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade",
+          "materias"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmal",
+        "sigla": "BMAL",
+        "nome": "Corpo de Bombeiros Militar de Alagoas",
+        "uf": "AL",
+        "score": 92,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "cotas"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "banca",
+          "inscritos",
+          "etapas",
+          "cfsd",
+          "estagio"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmce",
+        "sigla": "BMCE",
+        "nome": "Corpo de Bombeiros Militar do Ceará",
+        "uf": "CE",
+        "score": 92,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "cfsd",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcsc",
+        "sigla": "PCSC",
+        "nome": "Polícia Civil de Santa Catarina",
+        "uf": "SC",
+        "score": 92,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "idade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmpe",
+        "sigla": "PMPE",
+        "nome": "Polícia Militar de Pernambuco",
+        "uf": "PE",
+        "score": 92,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "inscritos"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "cfsd",
+          "estagio",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmpr",
+        "sigla": "PMPR",
+        "nome": "Polícia Militar do Paraná",
+        "uf": "PR",
+        "score": 92,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "validade"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade",
+          "materias",
+          "banca",
+          "etapas",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmse",
+        "sigla": "PMSE",
+        "nome": "Polícia Militar de Sergipe",
+        "uf": "SE",
+        "score": 92,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "ppba",
+        "sigla": "PPBA",
+        "nome": "Polícia Penal da Bahia",
+        "uf": "BA",
+        "score": 92,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "inscritos"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pppi",
+        "sigla": "PPPI",
+        "nome": "Polícia Penal de Piauí",
+        "uf": "PI",
+        "score": 92,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "estagio"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "materias",
+          "inscritos",
+          "cfsd",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pppr",
+        "sigla": "PPPR",
+        "nome": "Polícia Penal do Paraná",
+        "uf": "PR",
+        "score": 92,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [
+          "previsao"
+        ],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmap",
+        "sigla": "CBMAP",
+        "nome": "Corpo de Bombeiros Militar do Amapá",
+        "uf": "AP",
+        "score": 93,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "campos genéricos: validade"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "validade"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "materias",
+          "inscritos",
+          "cfsd",
+          "estagio",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmmg",
+        "sigla": "CBMMG",
+        "nome": "Corpo de Bombeiros Militar de Minas Gerais",
+        "uf": "MG",
+        "score": 93,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "campos genéricos: validade"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "validade"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "escolaridade",
+          "banca",
+          "inscritos",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmsc",
+        "sigla": "CBMSC",
+        "nome": "Corpo de Bombeiros Militar de Santa Catarina",
+        "uf": "SC",
+        "score": 93,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "campos genéricos: cotas"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "cotas"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos",
+          "cfsd",
+          "validade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmsp",
+        "sigla": "CBPMESP",
+        "nome": "Corpo de Bombeiros da Polícia Militar do Estado de São Paulo",
+        "uf": "SP",
+        "score": 93,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "campos genéricos: cotas"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "cotas"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "banca",
+          "inscritos",
+          "validade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pces",
+        "sigla": "PCES",
+        "nome": "Polícia Civil do Espírito Santo",
+        "uf": "ES",
+        "score": 93,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "campos genéricos: inscritos"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "inscritos"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "materias"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcmg",
+        "sigla": "PCMG",
+        "nome": "Polícia Civil de Minas Gerais",
+        "uf": "MG",
+        "score": 93,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "campos genéricos: idade"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "idade"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos",
+          "validade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcms",
+        "sigla": "PCMS",
+        "nome": "Polícia Civil de Mato Grosso do Sul",
+        "uf": "MS",
+        "score": 93,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "campos genéricos: validade"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "validade"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade",
+          "inscritos",
+          "cfsd",
+          "estagio"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcmt",
+        "sigla": "PCMT",
+        "nome": "Polícia Judiciária Civil de Mato Grosso",
+        "uf": "MT",
+        "score": 93,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "campos genéricos: validade"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "validade"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcrs",
+        "sigla": "PCRS",
+        "nome": "Polícia Civil do Rio Grande do Sul",
+        "uf": "RS",
+        "score": 93,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "campos genéricos: materias"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "materias"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "banca",
+          "inscritos",
+          "etapas",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmap",
+        "sigla": "PMAP",
+        "nome": "Polícia Militar do Estado do Amapá",
+        "uf": "AP",
+        "score": 93,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "campos genéricos: cotas"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [
+          "cotas"
+        ],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmam",
+        "sigla": "BMAM",
+        "nome": "Corpo de Bombeiros Militar do Amazonas",
+        "uf": "AM",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos",
+          "cfsd",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmes",
+        "sigla": "CBMES",
+        "nome": "Corpo de Bombeiros Militar do Estado do Espírito Santo",
+        "uf": "ES",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos",
+          "etapas",
+          "cfsd",
+          "estagio",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmpr",
+        "sigla": "CBMPR",
+        "nome": "Corpo de Bombeiros Militar do Paraná",
+        "uf": "PR",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos",
+          "cfsd",
+          "validade",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "bmrj",
+        "sigla": "CBMERJ",
+        "nome": "Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "uf": "RJ",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade",
+          "inscritos",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcal",
+        "sigla": "PCAL",
+        "nome": "Polícia Civil do Estado de Alagoas",
+        "uf": "AL",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos",
+          "etapas"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcam",
+        "sigla": "PCAM",
+        "nome": "Polícia Civil do Estado do Amazonas",
+        "uf": "AM",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos",
+          "cfsd",
+          "estagio"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcba",
+        "sigla": "PCBA",
+        "nome": "Polícia Civil da Bahia",
+        "uf": "BA",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade",
+          "materias",
+          "banca"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcce",
+        "sigla": "PCCE",
+        "nome": "Polícia Civil do Estado do Ceará",
+        "uf": "CE",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "inscritos",
+          "validade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcdf",
+        "sigla": "PCDF",
+        "nome": "Polícia Civil do Distrito Federal",
+        "uf": "DF",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcpr",
+        "sigla": "PCPR",
+        "nome": "Polícia Civil do Paraná",
+        "uf": "PR",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade",
+          "materias",
+          "banca"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pcsp",
+        "sigla": "PCSP",
+        "nome": "Polícia Civil do Estado de São Paulo",
+        "uf": "SP",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos",
+          "validade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pf",
+        "sigla": "PF",
+        "nome": "Polícia Federal",
+        "uf": "BR",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos",
+          "etapas",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmac",
+        "sigla": "PMAC",
+        "nome": "Polícia Militar do Acre",
+        "uf": "AC",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "escolaridade",
+          "banca",
+          "inscritos",
+          "cfsd",
+          "validade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmal",
+        "sigla": "PMAL",
+        "nome": "Polícia Militar do Estado de Alagoas",
+        "uf": "AL",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "banca",
+          "inscritos",
+          "cfsd",
+          "validade",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmam",
+        "sigla": "PMAM",
+        "nome": "Polícia Militar do Estado do Amazonas",
+        "uf": "AM",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos",
+          "validade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmba",
+        "sigla": "PMBA",
+        "nome": "Polícia Militar da Bahia",
+        "uf": "BA",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "escolaridade",
+          "materias",
+          "banca",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmerj",
+        "sigla": "PMERJ",
+        "nome": "Polícia Militar do Rio de Janeiro",
+        "uf": "RJ",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "etapas",
+          "cfsd",
+          "validade",
+          "previsao"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmmg",
+        "sigla": "PMMG",
+        "nome": "Polícia Militar de Minas Gerais",
+        "uf": "MG",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmmt",
+        "sigla": "PMMT",
+        "nome": "Polícia Militar de Mato Grosso",
+        "uf": "MT",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "inscritos",
+          "cfsd",
+          "validade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "pmrs",
+        "sigla": "PMRS",
+        "nome": "Brigada Militar do Rio Grande do Sul",
+        "uf": "RS",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "banca"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "ppac",
+        "sigla": "PPAC",
+        "nome": "Polícia Penal do Acre",
+        "uf": "AC",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "cotas",
+          "idade",
+          "escolaridade",
+          "banca",
+          "inscritos",
+          "cfsd"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "ppal",
+        "sigla": "PPAL",
+        "nome": "Polícia Penal do Estado de Alagoas",
+        "uf": "AL",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos",
+          "estagio",
+          "validade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      },
+      {
+        "id": "prf",
+        "sigla": "PRF",
+        "nome": "Polícia Rodoviária Federal",
+        "uf": "BR",
+        "score": 100,
+        "classe": "forte",
+        "qualidade": "forte",
+        "motivos": [
+          "conteúdo bom"
+        ],
+        "campos_ruins": [],
+        "campos_genericos": [],
+        "campos_concretos": [
+          "edital",
+          "salario",
+          "vagas",
+          "idade",
+          "escolaridade",
+          "materias",
+          "banca",
+          "inscritos",
+          "validade"
+        ],
+        "workflow_sugerido": {
+          "grupo_atualizacao": "fortes",
+          "quantidade": "5",
+          "modelo_openai": "gpt-5.4-mini"
+        }
+      }
+    ]
+  },
+  "fila_acoes": [
+    {
+      "id": "pmrr",
+      "sigla": "PMRR",
+      "nome": "Polícia Militar de Roraima",
+      "uf": "RR",
+      "score": 8,
+      "classe": "pendente",
+      "qualidade": "pendente",
+      "motivos": [
+        "precisa primeira atualização",
+        "campos críticos sem dado: salario, escolaridade"
+      ],
+      "campos_ruins": [
+        "salario",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "inscritos",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "vagas",
+        "banca",
+        "etapas",
+        "cfsd",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "pendentes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "ppam",
+      "sigla": "PPAM",
+      "nome": "Polícia Penal de Amazonas",
+      "uf": "AM",
+      "score": 12,
+      "classe": "pendente",
+      "qualidade": "pendente",
+      "motivos": [
+        "precisa primeira atualização",
+        "campos críticos sem dado: vagas, banca"
+      ],
+      "campos_ruins": [
+        "vagas",
+        "materias",
+        "banca",
+        "inscritos",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "salario",
+        "cotas",
+        "idade",
+        "escolaridade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "pendentes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcrn",
+      "sigla": "PCRN",
+      "nome": "Polícia Civil de Rio Grande do Norte",
+      "uf": "RN",
+      "score": 18,
+      "classe": "pendente",
+      "qualidade": "pendente",
+      "motivos": [
+        "precisa primeira atualização",
+        "campos críticos sem dado: salario"
+      ],
+      "campos_ruins": [
+        "salario",
+        "cotas",
+        "idade",
+        "materias",
+        "inscritos",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "vagas",
+        "escolaridade",
+        "banca"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "pendentes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "ppma",
+      "sigla": "PPMA",
+      "nome": "Polícia Penal de Maranhão",
+      "uf": "MA",
+      "score": 20,
+      "classe": "pendente",
+      "qualidade": "pendente",
+      "motivos": [
+        "precisa primeira atualização",
+        "campos críticos sem dado: salario, vagas"
+      ],
+      "campos_ruins": [
+        "salario",
+        "vagas",
+        "cotas",
+        "inscritos",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "idade",
+        "materias"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "pendentes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "ppro",
+      "sigla": "PPRO",
+      "nome": "Polícia Penal de Rondônia",
+      "uf": "RO",
+      "score": 24,
+      "classe": "pendente",
+      "qualidade": "pendente",
+      "motivos": [
+        "precisa primeira atualização",
+        "campos críticos sem dado: salario, etapas"
+      ],
+      "campos_ruins": [
+        "salario",
+        "materias",
+        "inscritos",
+        "etapas",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "cfsd",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "pendentes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmms",
+      "sigla": "CBMMS",
+      "nome": "Corpo de Bombeiros Militar de Mato Grosso do Sul",
+      "uf": "MS",
+      "score": 27,
+      "classe": "pendente",
+      "qualidade": "pendente",
+      "motivos": [
+        "precisa primeira atualização",
+        "campos genéricos: salario, cotas, idade, escolaridade",
+        "campos críticos genéricos: salario, escolaridade"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "salario",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "estagio",
+        "validade"
+      ],
+      "campos_concretos": [
+        "edital",
+        "vagas",
+        "banca",
+        "inscritos",
+        "cfsd",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "pendentes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmro",
+      "sigla": "BMRO",
+      "nome": "Corpo de Bombeiros Militar de Rondônia",
+      "uf": "RO",
+      "score": 28,
+      "classe": "pendente",
+      "qualidade": "pendente",
+      "motivos": [
+        "precisa primeira atualização",
+        "campos críticos sem dado: salario, banca"
+      ],
+      "campos_ruins": [
+        "salario",
+        "cotas",
+        "banca",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "pendentes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmdf",
+      "sigla": "PMDF",
+      "nome": "Polícia Militar de Distrito Federal",
+      "uf": "DF",
+      "score": 30,
+      "classe": "pendente",
+      "qualidade": "pendente",
+      "motivos": [
+        "precisa primeira atualização",
+        "campos críticos sem dado: etapas"
+      ],
+      "campos_ruins": [
+        "idade",
+        "materias",
+        "inscritos",
+        "etapas",
+        "cfsd",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "escolaridade",
+        "banca"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "pendentes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "ppdf",
+      "sigla": "PPDF",
+      "nome": "Polícia Penal de Distrito Federal",
+      "uf": "DF",
+      "score": 34,
+      "classe": "pendente",
+      "qualidade": "pendente",
+      "motivos": [
+        "precisa primeira atualização",
+        "campos críticos sem dado: escolaridade"
+      ],
+      "campos_ruins": [
+        "idade",
+        "escolaridade",
+        "materias",
+        "inscritos",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "banca"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "pendentes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "ppce",
+      "sigla": "PPCE",
+      "nome": "Polícia Penal de Ceará",
+      "uf": "CE",
+      "score": 42,
+      "classe": "pendente",
+      "qualidade": "pendente",
+      "motivos": [
+        "precisa primeira atualização",
+        "campos críticos sem dado: salario"
+      ],
+      "campos_ruins": [
+        "salario",
+        "inscritos",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "vagas",
+        "escolaridade",
+        "banca"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "pendentes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmto",
+      "sigla": "PMTO",
+      "nome": "Polícia Militar de Tocantins",
+      "uf": "TO",
+      "score": 43,
+      "classe": "pendente",
+      "qualidade": "pendente",
+      "motivos": [
+        "precisa primeira atualização",
+        "campos genéricos: etapas",
+        "campos críticos sem dado: salario",
+        "campos críticos genéricos: etapas"
+      ],
+      "campos_ruins": [
+        "salario",
+        "inscritos",
+        "estagio"
+      ],
+      "campos_genericos": [
+        "etapas"
+      ],
+      "campos_concretos": [
+        "edital",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "pendentes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmpi",
+      "sigla": "PMPI",
+      "nome": "Polícia Militar de Piauí",
+      "uf": "PI",
+      "score": 48,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico",
+        "campos críticos sem dado: salario, escolaridade"
+      ],
+      "campos_ruins": [
+        "salario",
+        "escolaridade",
+        "inscritos"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "vagas",
+        "cotas",
+        "idade",
+        "materias",
+        "banca",
+        "cfsd",
+        "estagio",
+        "validade",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "ppgo",
+      "sigla": "PPGO",
+      "nome": "Polícia Penal de Goiás",
+      "uf": "GO",
+      "score": 48,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "cotas",
+        "idade",
+        "materias",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "banca"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pppb",
+      "sigla": "PPPB",
+      "nome": "Polícia Penal de Paraíba",
+      "uf": "PB",
+      "score": 48,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "cotas",
+        "inscritos",
+        "cfsd",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "idade",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pprn",
+      "sigla": "PPRN",
+      "nome": "Polícia Penal de Rio Grande do Norte",
+      "uf": "RN",
+      "score": 52,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "cotas",
+        "idade",
+        "inscritos",
+        "estagio",
+        "validade",
+        "previsao"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade",
+        "materias",
+        "banca",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcto",
+      "sigla": "PCTO",
+      "nome": "Polícia Civil de Tocantins",
+      "uf": "TO",
+      "score": 54,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico",
+        "campos críticos sem dado: escolaridade"
+      ],
+      "campos_ruins": [
+        "escolaridade",
+        "inscritos",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "materias",
+        "etapas",
+        "cfsd",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmro",
+      "sigla": "PMRO",
+      "nome": "Polícia Militar de Rondônia",
+      "uf": "RO",
+      "score": 54,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico",
+        "campos críticos sem dado: salario"
+      ],
+      "campos_ruins": [
+        "salario",
+        "cotas",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos",
+        "etapas",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmce",
+      "sigla": "PMCE",
+      "nome": "Polícia Militar de Ceará",
+      "uf": "CE",
+      "score": 56,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "materias",
+        "inscritos",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "ppto",
+      "sigla": "PPTO",
+      "nome": "Polícia Penal de Tocantins",
+      "uf": "TO",
+      "score": 56,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "idade",
+        "inscritos",
+        "estagio",
+        "previsao"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "escolaridade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pppa",
+      "sigla": "PPPA",
+      "nome": "Polícia Penal de Pará",
+      "uf": "PA",
+      "score": 60,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "cotas",
+        "inscritos",
+        "estagio",
+        "validade",
+        "previsao"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pppe",
+      "sigla": "PPPE",
+      "nome": "Polícia Penal de Pernambuco",
+      "uf": "PE",
+      "score": 60,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "cotas",
+        "idade",
+        "inscritos",
+        "estagio",
+        "previsao"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade",
+        "materias",
+        "banca"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pprj",
+      "sigla": "PPRJ",
+      "nome": "Polícia Penal do Rio de Janeiro",
+      "uf": "RJ",
+      "score": 60,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "cotas",
+        "idade",
+        "inscritos",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade",
+        "materias",
+        "cfsd",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmma",
+      "sigla": "BMMA",
+      "nome": "Corpo de Bombeiros Militar do Maranhão",
+      "uf": "MA",
+      "score": 62,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico",
+        "campos críticos sem dado: salario"
+      ],
+      "campos_ruins": [
+        "salario",
+        "inscritos",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "vagas",
+        "cotas",
+        "escolaridade",
+        "etapas",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcpb",
+      "sigla": "PCPB",
+      "nome": "Polícia Civil de Paraíba",
+      "uf": "PB",
+      "score": 62,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico",
+        "campos críticos sem dado: salario"
+      ],
+      "campos_ruins": [
+        "salario",
+        "materias",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "banca",
+        "inscritos",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmma",
+      "sigla": "PMMA",
+      "nome": "Polícia Militar de Maranhão",
+      "uf": "MA",
+      "score": 62,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico",
+        "campos críticos sem dado: salario"
+      ],
+      "campos_ruins": [
+        "salario",
+        "inscritos",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "cfsd",
+        "estagio",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "ppms",
+      "sigla": "PPMS",
+      "nome": "Polícia Penal de Mato Grosso do Sul",
+      "uf": "MS",
+      "score": 62,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico",
+        "campos genéricos: vagas, banca",
+        "campos críticos genéricos: vagas, banca"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "vagas",
+        "banca"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "idade",
+        "escolaridade",
+        "materias",
+        "inscritos",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmpi",
+      "sigla": "BMPI",
+      "nome": "Corpo de Bombeiros Militar do Piauí",
+      "uf": "PI",
+      "score": 64,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "inscritos",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "materias"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmrn",
+      "sigla": "BMRN",
+      "nome": "Corpo de Bombeiros Militar do Rio Grande do Norte",
+      "uf": "RN",
+      "score": 64,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "cotas",
+        "inscritos",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "ppes",
+      "sigla": "PPES",
+      "nome": "Polícia Penal do Espírito Santo",
+      "uf": "ES",
+      "score": 64,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "idade",
+        "inscritos",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "escolaridade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmrr",
+      "sigla": "BMRR",
+      "nome": "Corpo de Bombeiros Militar de Roraima",
+      "uf": "RR",
+      "score": 68,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "cotas",
+        "idade",
+        "materias",
+        "inscritos"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade",
+        "cfsd",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmse",
+      "sigla": "BMSE",
+      "nome": "Corpo de Bombeiros Militar de Sergipe",
+      "uf": "SE",
+      "score": 68,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "idade",
+        "materias",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "escolaridade",
+        "banca",
+        "inscritos",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmto",
+      "sigla": "BMTO",
+      "nome": "Corpo de Bombeiros Militar do Tocantins",
+      "uf": "TO",
+      "score": 68,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "cotas",
+        "inscritos",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "banca"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcpa",
+      "sigla": "PCPA",
+      "nome": "Polícia Civil de Pará",
+      "uf": "PA",
+      "score": 68,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "materias",
+        "inscritos",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pprr",
+      "sigla": "PPRR",
+      "nome": "Polícia Penal de Roraima",
+      "uf": "RR",
+      "score": 68,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "idade",
+        "inscritos",
+        "estagio",
+        "previsao"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "escolaridade",
+        "materias",
+        "banca"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmpb",
+      "sigla": "PMPB",
+      "nome": "Polícia Militar de Paraíba",
+      "uf": "PB",
+      "score": 70,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico",
+        "campos críticos sem dado: banca"
+      ],
+      "campos_ruins": [
+        "banca",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "inscritos",
+        "cfsd",
+        "validade",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmesp",
+      "sigla": "PMESP",
+      "nome": "Polícia Militar do Estado de São Paulo",
+      "uf": "SP",
+      "score": 74,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico",
+        "campos genéricos: cotas, etapas",
+        "campos críticos genéricos: etapas"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "cotas",
+        "etapas"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos",
+        "cfsd",
+        "validade",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmdf",
+      "sigla": "BMDF",
+      "nome": "Corpo de Bombeiros Militar do Distrito Federal",
+      "uf": "DF",
+      "score": 76,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "inscritos",
+        "cfsd",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "banca"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmgo",
+      "sigla": "BMGO",
+      "nome": "Corpo de Bombeiros Militar do Estado de Goiás",
+      "uf": "GO",
+      "score": 76,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "cotas",
+        "inscritos",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "cfsd",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmpa",
+      "sigla": "BMPA",
+      "nome": "Corpo de Bombeiros Militar do Pará",
+      "uf": "PA",
+      "score": 76,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "cotas",
+        "inscritos",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "banca",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmpe",
+      "sigla": "BMPE",
+      "nome": "Corpo de Bombeiros Militar de Pernambuco",
+      "uf": "PE",
+      "score": 76,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "inscritos",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "banca"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcpe",
+      "sigla": "PCPE",
+      "nome": "Polícia Civil de Pernambuco",
+      "uf": "PE",
+      "score": 76,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "cotas",
+        "inscritos",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "etapas"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcpi",
+      "sigla": "PCPI",
+      "nome": "Polícia Civil de Piauí",
+      "uf": "PI",
+      "score": 76,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "inscritos",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade",
+        "materias",
+        "banca"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcse",
+      "sigla": "PCSE",
+      "nome": "Polícia Civil de Sergipe",
+      "uf": "SE",
+      "score": 76,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "inscritos",
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "materias",
+        "banca"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pprs",
+      "sigla": "PPRS",
+      "nome": "Polícia Penal do Rio Grande do Sul",
+      "uf": "RS",
+      "score": 76,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico"
+      ],
+      "campos_ruins": [
+        "inscritos",
+        "cfsd",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "etapas",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmpb",
+      "sigla": "BMPB",
+      "nome": "Corpo de Bombeiros Militar da Paraíba",
+      "uf": "PB",
+      "score": 78,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "campos críticos sem dado: banca"
+      ],
+      "campos_ruins": [
+        "banca"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "inscritos",
+        "etapas",
+        "cfsd",
+        "estagio",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmsc",
+      "sigla": "PMSC",
+      "nome": "Polícia Militar de Santa Catarina",
+      "uf": "SC",
+      "score": 79,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico",
+        "campos genéricos: cotas, idade, estagio"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "cotas",
+        "idade",
+        "estagio"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos",
+        "cfsd",
+        "validade",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmmt",
+      "sigla": "CBMMT",
+      "nome": "Corpo de Bombeiros Militar do Estado de Mato Grosso",
+      "uf": "MT",
+      "score": 81,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico",
+        "campos genéricos: etapas",
+        "campos críticos genéricos: etapas"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "etapas"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "banca",
+        "inscritos",
+        "cfsd",
+        "estagio",
+        "validade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "ppmt",
+      "sigla": "PPMT",
+      "nome": "Polícia Penal de Mato Grosso",
+      "uf": "MT",
+      "score": 81,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico",
+        "campos genéricos: banca",
+        "campos críticos genéricos: banca"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "banca"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "idade",
+        "escolaridade",
+        "materias",
+        "inscritos",
+        "validade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmac",
+      "sigla": "BMAC",
+      "nome": "Corpo de Bombeiros Militar do Acre",
+      "uf": "AC",
+      "score": 84,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "inscritos",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "cfsd",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmba",
+      "sigla": "BMBA",
+      "nome": "Corpo de Bombeiros Militar da Bahia",
+      "uf": "BA",
+      "score": 84,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "inscritos",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmrs",
+      "sigla": "BMRS",
+      "nome": "Corpo de Bombeiros Militar do Rio Grande do Sul",
+      "uf": "RS",
+      "score": 84,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "inscritos",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "banca",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcgo",
+      "sigla": "PCGO",
+      "nome": "Polícia Civil de Goiás",
+      "uf": "GO",
+      "score": 84,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "inscritos",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "materias",
+        "banca",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcma",
+      "sigla": "PCMA",
+      "nome": "Polícia Civil de Maranhão",
+      "uf": "MA",
+      "score": 84,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos",
+        "cfsd",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcro",
+      "sigla": "PCRO",
+      "nome": "Polícia Civil de Rondônia",
+      "uf": "RO",
+      "score": 84,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "inscritos",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "etapas",
+        "validade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcrr",
+      "sigla": "PCRR",
+      "nome": "Polícia Civil de Roraima",
+      "uf": "RR",
+      "score": 84,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "inscritos",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "etapas",
+        "validade",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmgo",
+      "sigla": "PMGO",
+      "nome": "Polícia Militar de Goiás",
+      "uf": "GO",
+      "score": 84,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "inscritos",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "banca",
+        "cfsd",
+        "validade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmpa",
+      "sigla": "PMPA",
+      "nome": "Polícia Militar de Pará",
+      "uf": "PA",
+      "score": 84,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "estagio",
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "cfsd",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmrn",
+      "sigla": "PMRN",
+      "nome": "Polícia Militar de Rio Grande do Norte",
+      "uf": "RN",
+      "score": 84,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "inscritos",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "banca",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "ppap",
+      "sigla": "PPAP",
+      "nome": "Polícia Penal de Amapá",
+      "uf": "AP",
+      "score": 84,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "inscritos",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "ppsc",
+      "sigla": "PPSC",
+      "nome": "Polícia Penal de Santa Catarina",
+      "uf": "SC",
+      "score": 84,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "inscritos",
+        "previsao"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "materias",
+        "banca",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "ppse",
+      "sigla": "PPSE",
+      "nome": "Polícia Penal de Sergipe",
+      "uf": "SE",
+      "score": 84,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "inscritos",
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcap",
+      "sigla": "PCAP",
+      "nome": "Polícia Civil do Estado do Amapá",
+      "uf": "AP",
+      "score": 86,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "campos genéricos: cotas, materias"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "cotas",
+        "materias"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "banca",
+        "inscritos",
+        "etapas",
+        "validade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmes",
+      "sigla": "PMES",
+      "nome": "Polícia Militar do Espírito Santo",
+      "uf": "ES",
+      "score": 86,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "campos genéricos: inscritos, validade"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "inscritos",
+        "validade"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "estagio"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmms",
+      "sigla": "PMMS",
+      "nome": "Polícia Militar de Mato Grosso do Sul",
+      "uf": "MS",
+      "score": 86,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "campos genéricos: cotas, validade"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "cotas",
+        "validade"
+      ],
+      "campos_concretos": [
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "ppmg",
+      "sigla": "PPMG",
+      "nome": "Polícia Penal de Minas Gerais",
+      "uf": "MG",
+      "score": 86,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico",
+        "campos genéricos: idade, cfsd"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "idade",
+        "cfsd"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "escolaridade",
+        "materias",
+        "banca",
+        "validade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "ppsp",
+      "sigla": "PPSP",
+      "nome": "Polícia Penal do Estado de São Paulo",
+      "uf": "SP",
+      "score": 86,
+      "classe": "fraca",
+      "qualidade": "fraca",
+      "motivos": [
+        "conteúdo fraco ou genérico",
+        "campos genéricos: cotas, validade"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "cotas",
+        "validade"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "banca",
+        "inscritos"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fracas",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcac",
+      "sigla": "PCAC",
+      "nome": "Polícia Civil do Acre",
+      "uf": "AC",
+      "score": 88,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "materias",
+        "etapas"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcerj",
+      "sigla": "PCERJ",
+      "nome": "Polícia Civil do Rio de Janeiro",
+      "uf": "RJ",
+      "score": 88,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade",
+        "materias"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmal",
+      "sigla": "BMAL",
+      "nome": "Corpo de Bombeiros Militar de Alagoas",
+      "uf": "AL",
+      "score": 92,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "cotas"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "banca",
+        "inscritos",
+        "etapas",
+        "cfsd",
+        "estagio"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmce",
+      "sigla": "BMCE",
+      "nome": "Corpo de Bombeiros Militar do Ceará",
+      "uf": "CE",
+      "score": 92,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "cfsd",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcsc",
+      "sigla": "PCSC",
+      "nome": "Polícia Civil de Santa Catarina",
+      "uf": "SC",
+      "score": 92,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "idade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmpe",
+      "sigla": "PMPE",
+      "nome": "Polícia Militar de Pernambuco",
+      "uf": "PE",
+      "score": 92,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "inscritos"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "cfsd",
+        "estagio",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmpr",
+      "sigla": "PMPR",
+      "nome": "Polícia Militar do Paraná",
+      "uf": "PR",
+      "score": 92,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "validade"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade",
+        "materias",
+        "banca",
+        "etapas",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmse",
+      "sigla": "PMSE",
+      "nome": "Polícia Militar de Sergipe",
+      "uf": "SE",
+      "score": 92,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "ppba",
+      "sigla": "PPBA",
+      "nome": "Polícia Penal da Bahia",
+      "uf": "BA",
+      "score": 92,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "inscritos"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pppi",
+      "sigla": "PPPI",
+      "nome": "Polícia Penal de Piauí",
+      "uf": "PI",
+      "score": 92,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "estagio"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "materias",
+        "inscritos",
+        "cfsd",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pppr",
+      "sigla": "PPPR",
+      "nome": "Polícia Penal do Paraná",
+      "uf": "PR",
+      "score": 92,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [
+        "previsao"
+      ],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmap",
+      "sigla": "CBMAP",
+      "nome": "Corpo de Bombeiros Militar do Amapá",
+      "uf": "AP",
+      "score": 93,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "campos genéricos: validade"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "validade"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "materias",
+        "inscritos",
+        "cfsd",
+        "estagio",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmmg",
+      "sigla": "CBMMG",
+      "nome": "Corpo de Bombeiros Militar de Minas Gerais",
+      "uf": "MG",
+      "score": 93,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "campos genéricos: validade"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "validade"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "escolaridade",
+        "banca",
+        "inscritos",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmsc",
+      "sigla": "CBMSC",
+      "nome": "Corpo de Bombeiros Militar de Santa Catarina",
+      "uf": "SC",
+      "score": 93,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "campos genéricos: cotas"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "cotas"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos",
+        "cfsd",
+        "validade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmsp",
+      "sigla": "CBPMESP",
+      "nome": "Corpo de Bombeiros da Polícia Militar do Estado de São Paulo",
+      "uf": "SP",
+      "score": 93,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "campos genéricos: cotas"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "cotas"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "banca",
+        "inscritos",
+        "validade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pces",
+      "sigla": "PCES",
+      "nome": "Polícia Civil do Espírito Santo",
+      "uf": "ES",
+      "score": 93,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "campos genéricos: inscritos"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "inscritos"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "materias"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcmg",
+      "sigla": "PCMG",
+      "nome": "Polícia Civil de Minas Gerais",
+      "uf": "MG",
+      "score": 93,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "campos genéricos: idade"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "idade"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos",
+        "validade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcms",
+      "sigla": "PCMS",
+      "nome": "Polícia Civil de Mato Grosso do Sul",
+      "uf": "MS",
+      "score": 93,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "campos genéricos: validade"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "validade"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade",
+        "inscritos",
+        "cfsd",
+        "estagio"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcmt",
+      "sigla": "PCMT",
+      "nome": "Polícia Judiciária Civil de Mato Grosso",
+      "uf": "MT",
+      "score": 93,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "campos genéricos: validade"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "validade"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcrs",
+      "sigla": "PCRS",
+      "nome": "Polícia Civil do Rio Grande do Sul",
+      "uf": "RS",
+      "score": 93,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "campos genéricos: materias"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "materias"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "banca",
+        "inscritos",
+        "etapas",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmap",
+      "sigla": "PMAP",
+      "nome": "Polícia Militar do Estado do Amapá",
+      "uf": "AP",
+      "score": 93,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "campos genéricos: cotas"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [
+        "cotas"
+      ],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmam",
+      "sigla": "BMAM",
+      "nome": "Corpo de Bombeiros Militar do Amazonas",
+      "uf": "AM",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos",
+        "cfsd",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmes",
+      "sigla": "CBMES",
+      "nome": "Corpo de Bombeiros Militar do Estado do Espírito Santo",
+      "uf": "ES",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos",
+        "etapas",
+        "cfsd",
+        "estagio",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmpr",
+      "sigla": "CBMPR",
+      "nome": "Corpo de Bombeiros Militar do Paraná",
+      "uf": "PR",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos",
+        "cfsd",
+        "validade",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "bmrj",
+      "sigla": "CBMERJ",
+      "nome": "Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+      "uf": "RJ",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade",
+        "inscritos",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcal",
+      "sigla": "PCAL",
+      "nome": "Polícia Civil do Estado de Alagoas",
+      "uf": "AL",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos",
+        "etapas"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcam",
+      "sigla": "PCAM",
+      "nome": "Polícia Civil do Estado do Amazonas",
+      "uf": "AM",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos",
+        "cfsd",
+        "estagio"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcba",
+      "sigla": "PCBA",
+      "nome": "Polícia Civil da Bahia",
+      "uf": "BA",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade",
+        "materias",
+        "banca"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcce",
+      "sigla": "PCCE",
+      "nome": "Polícia Civil do Estado do Ceará",
+      "uf": "CE",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "inscritos",
+        "validade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcdf",
+      "sigla": "PCDF",
+      "nome": "Polícia Civil do Distrito Federal",
+      "uf": "DF",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcpr",
+      "sigla": "PCPR",
+      "nome": "Polícia Civil do Paraná",
+      "uf": "PR",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade",
+        "materias",
+        "banca"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pcsp",
+      "sigla": "PCSP",
+      "nome": "Polícia Civil do Estado de São Paulo",
+      "uf": "SP",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos",
+        "validade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pf",
+      "sigla": "PF",
+      "nome": "Polícia Federal",
+      "uf": "BR",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos",
+        "etapas",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmac",
+      "sigla": "PMAC",
+      "nome": "Polícia Militar do Acre",
+      "uf": "AC",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "escolaridade",
+        "banca",
+        "inscritos",
+        "cfsd",
+        "validade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmal",
+      "sigla": "PMAL",
+      "nome": "Polícia Militar do Estado de Alagoas",
+      "uf": "AL",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "banca",
+        "inscritos",
+        "cfsd",
+        "validade",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmam",
+      "sigla": "PMAM",
+      "nome": "Polícia Militar do Estado do Amazonas",
+      "uf": "AM",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos",
+        "validade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmba",
+      "sigla": "PMBA",
+      "nome": "Polícia Militar da Bahia",
+      "uf": "BA",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "escolaridade",
+        "materias",
+        "banca",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmerj",
+      "sigla": "PMERJ",
+      "nome": "Polícia Militar do Rio de Janeiro",
+      "uf": "RJ",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "etapas",
+        "cfsd",
+        "validade",
+        "previsao"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmmg",
+      "sigla": "PMMG",
+      "nome": "Polícia Militar de Minas Gerais",
+      "uf": "MG",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmmt",
+      "sigla": "PMMT",
+      "nome": "Polícia Militar de Mato Grosso",
+      "uf": "MT",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "inscritos",
+        "cfsd",
+        "validade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "pmrs",
+      "sigla": "PMRS",
+      "nome": "Brigada Militar do Rio Grande do Sul",
+      "uf": "RS",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "banca"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "ppac",
+      "sigla": "PPAC",
+      "nome": "Polícia Penal do Acre",
+      "uf": "AC",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "cotas",
+        "idade",
+        "escolaridade",
+        "banca",
+        "inscritos",
+        "cfsd"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "ppal",
+      "sigla": "PPAL",
+      "nome": "Polícia Penal do Estado de Alagoas",
+      "uf": "AL",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos",
+        "estagio",
+        "validade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    },
+    {
+      "id": "prf",
+      "sigla": "PRF",
+      "nome": "Polícia Rodoviária Federal",
+      "uf": "BR",
+      "score": 100,
+      "classe": "forte",
+      "qualidade": "forte",
+      "motivos": [
+        "conteúdo bom"
+      ],
+      "campos_ruins": [],
+      "campos_genericos": [],
+      "campos_concretos": [
+        "edital",
+        "salario",
+        "vagas",
+        "idade",
+        "escolaridade",
+        "materias",
+        "banca",
+        "inscritos",
+        "validade"
+      ],
+      "workflow_sugerido": {
+        "grupo_atualizacao": "fortes",
+        "quantidade": "5",
+        "modelo_openai": "gpt-5.4-mini"
+      }
+    }
+  ]
+}

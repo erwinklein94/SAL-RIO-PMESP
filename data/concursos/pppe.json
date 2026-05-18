@@ -1,0 +1,59 @@
+{
+  "instituicao_id": "pppe",
+  "instituicao_nome": "Polícia Penal de Pernambuco",
+  "sigla": "PPPE",
+  "uf": "PE",
+  "tema": "concursos",
+  "status": "Atualização fraca",
+  "titulo": "PPPE: último concurso ofertou 200 vagas para Policial Penal e teve nomeações concluídas",
+  "resumo": "A Polícia Penal de Pernambuco realizou concurso público para o cargo de Policial Penal, com 200 vagas imediatas e formação de cadastro de reserva. O certame foi organizado pelo Cebraspe. Em 2026, o governo concluiu a nomeação dos aprovados do último concurso, com 315 novas nomeações para completar o aproveitamento dos aprovados.",
+  "edital": "Edital nº 001/2021 para Policial Penal do Estado de Pernambuco. Concurso realizado, com 200 vagas imediatas e cadastro de reserva. Situação atual: aprovados do último concurso já nomeados.",
+  "salario": "R$ 3.900,00 de remuneração inicial para o cargo de Policial Penal.",
+  "vagas": "200 vagas imediatas para Policial Penal, além de cadastro de reserva. Distribuição indicada no edital: 175 vagas para homens e 14 para mulheres na ampla concorrência, além de 10 para homens e 1 para mulheres nas vagas reservadas a pessoas com deficiência.",
+  "cotas": "Não localizado nas fontes consultadas.",
+  "idade": "Não localizado nas fontes consultadas.",
+  "escolaridade": "Nível superior completo em qualquer área, com diploma reconhecido pelo MEC.",
+  "materias": "Língua Portuguesa, Ética no Serviço Público, Informática, Direito Constitucional, Direito Administrativo, Direitos Humanos, Direito Penal, Processo Penal, Legislação Penal Especial e Execução Penal.",
+  "banca": "Cebraspe.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Provas objetivas, prova discursiva, avaliação médica, exame de aptidão física, avaliação psicológica, investigação social e curso de formação profissional.",
+  "cfsd": "Curso de formação profissional com até 560 horas presenciais, em tempo integral, realizado em Itaquitinga e ou Recife. Durante o curso, houve bolsa de formação correspondente a 60% do vencimento do cargo.",
+  "estagio": "Não localizado nas fontes consultadas.",
+  "validade": "2 anos, contados da homologação do primeiro resultado final, prorrogável uma única vez por igual período.",
+  "previsao": "Não localizado nas fontes consultadas.",
+  "site": "https://www.pe.gov.br",
+  "fontes": [
+    {
+      "titulo": "Edital do concurso público para Policial Penal do Estado de Pernambuco",
+      "url": "https://jcconcursos.com.br/media/uploads/anexos/concurso-policia-penal-pe-edital-2021.pdf",
+      "tipo": "edital PDF",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Licitações da Secretaria de Administração Penitenciária e Ressocialização de Pernambuco",
+      "url": "https://www.seap.pe.gov.br/index.php/mais/licitacoes",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Notícia sobre nomeação de 315 aprovados no concurso da Polícia Penal de Pernambuco",
+      "url": "https://tribunaonline.com.br/pernambuco/cidades/pernambuco-divulga-nomeacao-de-315-aprovados-em-concurso-da-policia-penal-293655",
+      "tipo": "fonte jornalística de apoio",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Último concurso identificado é o Edital nº 001/2021 para Policial Penal.",
+    "Nomeações de aprovados do último concurso foram noticiadas em 2026, indicando aproveitamento do cadastro de reserva.",
+    "Não foi localizada, nas fontes consultadas, nova autorização ou edital publicado para outro concurso da PPPE até 2026-05-17.",
+    "Classificação automática: Atualização fraca (60/100)."
+  ],
+  "classe_atualizacao": "fraca",
+  "qualidade_publicacao": "fraca",
+  "score_publicacao": "60",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

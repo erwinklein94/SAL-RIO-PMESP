@@ -1,0 +1,71 @@
+{
+  "instituicao_id": "pppb",
+  "instituicao_nome": "Polícia Penal de Paraíba",
+  "sigla": "PPPB",
+  "uf": "PB",
+  "tema": "concursos",
+  "status": "Atualização fraca",
+  "titulo": "PPPB: comissão organizadora do concurso da Polícia Penal da Paraíba foi formada",
+  "resumo": "O concurso da Polícia Penal da Paraíba está em preparação. O governador anunciou o certame em 15/04/2024 e a comissão organizadora foi instituída em 21/10/2024 para conduzir o concurso da Secretaria de Estado da Administração Penitenciária.",
+  "edital": "Concurso público da Polícia Penal da Paraíba em fase de preparação. Até 17/05/2026, não foi localizado edital publicado com regras completas, inscrições e provas. Há anúncio oficial do concurso em 2024 e comissão organizadora instituída em 21/10/2024.",
+  "salario": "Policial Penal: remuneração inicial total de R$ 4.844,14 na referência A-I da tabela da Polícia Penal de janeiro de 2024.",
+  "vagas": "Quantidade de vagas e cadastro reserva não localizados nas fontes consultadas.",
+  "cotas": "Não localizado nas fontes consultadas.",
+  "idade": "Idade mínima, idade máxima, altura mínima, CNH e demais requisitos físicos não localizados nas fontes consultadas.",
+  "escolaridade": "Escolaridade para ingresso no próximo concurso não localizada nas fontes consultadas.",
+  "materias": "Disciplinas do próximo concurso não localizadas nas fontes consultadas.",
+  "banca": "Banca organizadora não localizada nas fontes consultadas.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Etapas do próximo concurso não localizadas nas fontes consultadas.",
+  "cfsd": "Não localizado nas fontes consultadas.",
+  "estagio": "Não localizado nas fontes consultadas.",
+  "validade": "Não localizado nas fontes consultadas.",
+  "previsao": "Concurso em preparação, sem data oficial de publicação do edital localizada nas fontes consultadas.",
+  "site": "https://www.pb.gov.br",
+  "fontes": [
+    {
+      "titulo": "João Azevêdo anuncia mais um concurso público para a Polícia Penal",
+      "url": "https://www.paraiba.pb.gov.br/noticias/joao-azevedo-anuncia-mais-um-concurso-publico-para-a-policia-penal",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Seap-PB: governador designa comissão organizadora do concurso público para policial penal",
+      "url": "https://paraiba-portal-backend.plone.rke.codataprd.pb.gov.br/portal_paraiba/diretas/secretaria-de-administracao-penitenciaria/noticias/policia-penal-da-paraiba-governador-designa-comissao-organizadora-do-concurso-publico",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Diário Oficial 22-10-2024 Portal.pdf",
+      "url": "https://auniao.pb.gov.br/servicos/doe/2024/outubro/diario-oficial-22-10-2024-portal.pdf/%40%40download/file/Di%C3%A1rio%20Oficial%2022-10-2024%20Portal.pdf",
+      "tipo": "diário oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Tabela com o padrão remuneratório dos cargos e funções - Polícia Penal - janeiro de 2024",
+      "url": "https://paraiba.pb.gov.br/diretas/secretaria-de-administracao/arquivos/TABELACOMOPADRAOREMUNERATORIODOSCARGOSEFUNCOES_3_21_021.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governador João Azevêdo sanciona o PCCR dos Agentes Penitenciários",
+      "url": "https://www.paraiba.pb.gov.br/diretas/secretaria-de-administracao-penitenciaria/noticias/governador-joao-azevedo-sanciona-o-pccr-dos-agentes-penitenciarios",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "médio",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Até 17/05/2026, não foi localizado edital publicado do novo concurso da Polícia Penal da Paraíba.",
+    "Há fonte oficial com anúncio do concurso em 15/04/2024 e comissão organizadora instituída em 21/10/2024.",
+    "Quantidade de vagas, banca, escolaridade, idade, etapas e disciplinas do próximo certame ainda não apareceram de forma objetiva nas fontes oficiais consultadas.",
+    "Classificação automática: Atualização fraca (48/100)."
+  ],
+  "classe_atualizacao": "fraca",
+  "qualidade_publicacao": "fraca",
+  "score_publicacao": "48",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

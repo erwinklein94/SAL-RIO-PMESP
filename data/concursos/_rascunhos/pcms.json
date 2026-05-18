@@ -1,0 +1,96 @@
+{
+  "gerado_em": "2026-05-17",
+  "instituicao_id": "pcms",
+  "motivo_bloqueio": "Atualização bloqueada: qualidade baixa, score 73, campos críticos genéricos: nenhum, campos críticos sem confirmação: etapas.",
+  "avaliacao": {
+    "score": 73,
+    "qualidade": "baixa",
+    "ruins": [
+      "etapas"
+    ],
+    "genericos": [
+      "cotas"
+    ],
+    "concretos": [
+      "edital",
+      "salario",
+      "vagas",
+      "idade",
+      "escolaridade",
+      "materias",
+      "banca",
+      "inscritos",
+      "estagio",
+      "previsao"
+    ],
+    "criticosRuins": [
+      "etapas"
+    ],
+    "criticosGenericos": [],
+    "criticosConcretos": [
+      "edital",
+      "salario",
+      "vagas",
+      "escolaridade",
+      "banca"
+    ],
+    "podePublicar": false
+  },
+  "dados": {
+    "instituicao_id": "pcms",
+    "instituicao_nome": "Polícia Civil de Mato Grosso do Sul",
+    "sigla": "PCMS",
+    "uf": "MS",
+    "tema": "concursos",
+    "status": "conteúdo inicial protegido",
+    "titulo": "PCMS: concursos públicos e página oficial de editais",
+    "resumo": "A PCMS mantém uma página de Concursos Públicos com acesso aos editais e atos relacionados, além de informar andamento e publicações no site institucional",
+    "edital": "PCMS — Agente de Polícia Judiciária — Edital SAD/SEJUSP/PCMS/APJ/2025",
+    "salario": "R$ 6.569,53 (remuneração informada anteriormente para APJ/2025: Investigador/Escrivão de Polícia Judiciária, jornada 40h)",
+    "vagas": "400 vagas imediatas (informação publicada anteriormente): 300 Investigador de Polícia Judiciária e 100 Escrivão de Polícia Judiciária",
+    "cotas": "Vagas reservadas conforme edital (informação publicada anteriormente)",
+    "idade": "21 a 45 anos (requisito informado anteriormente para APJ/2025)",
+    "escolaridade": "Nível superior completo (requisito informado anteriormente para APJ/2025)",
+    "materias": "Conforme edital APJ/2025: conteúdos gerais, jurídicos, legislação, raciocínio lógico/informática quando previstos, conhecimentos institucionais e específicos",
+    "banca": "Instituto Avalia (informação publicada anteriormente para APJ/2025)",
+    "inscritos": "Inscrições divulgadas anteriormente: 16/07/2025 a 07/08/2025; prova prevista para 14/09/2025 (Campo Grande)",
+    "etapas": "Não localizado nas fontes consultadas (preserva informações anteriores: prova objetiva; avaliação de títulos; investigação social; exames de saúde; avaliação psicológica; TAF; curso de formação)",
+    "cfsd": "Preservado: Curso de Formação Profissional (Acadepol/PCMS)",
+    "estagio": "Preservado: estágio probatório conforme LC MS 114/2005 e alterações",
+    "validade": "Preservado: conferência de validade, homologação e convocações nos atos oficiais/publicações posteriores",
+    "previsao": "Sem novo dado específico localizado nas fontes consultadas; preservar acompanhamento do APJ/2025 conforme publicações oficiais anteriores",
+    "site": "https://www.pc.ms.gov.br/",
+    "fontes": [
+      {
+        "titulo": "PCMS — site institucional (menu/portal do Órgão)",
+        "url": "https://www.pc.ms.gov.br/",
+        "tipo": "fonte oficial ou página institucional",
+        "data_consulta": "2026-05-17"
+      },
+      {
+        "titulo": "PCMS — Informativo: Concursos Públicos (lista de editais)",
+        "url": "https://www.pc.ms.gov.br/informativo/concursos-publicos/",
+        "tipo": "fonte oficial ou página institucional",
+        "data_consulta": "2026-05-17"
+      }
+    ],
+    "ultima_pesquisa": "2026-05-17",
+    "nivel_confianca": "médio",
+    "precisa_revisao_humana": true,
+    "alertas": [
+      "As fontes consultadas retornaram principalmente a página de Concursos Públicos com lista de editais (conteúdo do edital APJ/2025 não foi extraído integralmente nesta atualização).",
+      "Preservado o conjunto de dados anterior (APJ/2025) quando mais específico que as fontes novas.",
+      "Para evitar divergência, recomenda-se revisão humana para confirmar situação atual (homologação/convocações/etapas) do APJ/2025.",
+      "Campo edital mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Campo materias mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Qualidade calculada: baixa (73/100). Campos concretos: 10/14.",
+      "Atualização bloqueada: qualidade baixa, score 73, campos críticos genéricos: nenhum, campos críticos sem confirmação: etapas."
+    ],
+    "texto_final_limpo": true,
+    "padrao_editorial": "usuario-final-sem-links-nos-campos",
+    "qualidade_publicacao": "baixa",
+    "score_publicacao": 73,
+    "modo_qualidade": "economico",
+    "bloquear_publicacao": true
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "instituicao_id": "pcma",
+  "instituicao_nome": "Polícia Civil de Maranhão",
+  "sigla": "PCMA",
+  "uf": "MA",
+  "tema": "concursos",
+  "status": "Atualização forte",
+  "titulo": "PCMA tem concurso autorizado e último edital com 100 vagas imediatas mais cadastro reserva",
+  "resumo": "A Polícia Civil do Maranhão tem novo concurso autorizado desde 2024, mas o edital novo ainda não foi localizado. O último edital completo localizado é o de 2017, com 100 vagas imediatas e 315 em cadastro de reserva para delegado, escrivão, investigador, médico legista, odontolegista e perito criminal.",
+  "edital": "Novo concurso autorizado em 2024, sem edital completo localizado até 17/05/2026. Último edital completo localizado é o de 2017, com vagas para Delegado, Escrivão, Investigador, Médico Legista, Odontolegista e Perito Criminal.",
+  "salario": "Delegado: R$ 18.957,64. Escrivão: R$ 4.550,28. Investigador: R$ 4.550,28. Médico Legista: R$ 8.972,33. Odontolegista: R$ 8.972,33. Perito Criminal: R$ 8.972,33.",
+  "vagas": "Último edital completo localizado: 100 vagas imediatas e 315 em cadastro de reserva. Delegado: 20 vagas imediatas e 80 em cadastro de reserva. Escrivão: 20 vagas imediatas e 60 em cadastro de reserva. Investigador: 46 vagas imediatas e 140 em cadastro de reserva. Médico Legista: 7 vagas imediatas e 18 em cadastro de reserva. Odontolegista: cadastro de reserva. Perito Criminal: 7 vagas imediatas e 16 em cadastro de reserva.",
+  "cotas": "No último edital completo localizado, houve reserva de vagas para pessoas com deficiência e candidatos negros. Delegado: 1 vaga para pessoas com deficiência e 4 para negros. Escrivão: 1 para pessoas com deficiência e 4 para negros. Investigador: 3 para pessoas com deficiência e 9 para negros. Médico Legista: 1 para pessoas com deficiência e 1 para negros. Perito Criminal: 1 para pessoas com deficiência e 1 para negros.",
+  "idade": "Idade mínima de 18 anos na posse. CNH categoria B ou superior para Delegado, Escrivão e Investigador. Altura mínima não localizada nas fontes consultadas.",
+  "escolaridade": "Delegado: nível superior em Direito. Escrivão: nível superior em qualquer área. Investigador: nível superior em qualquer área. Médico Legista: nível superior em Medicina. Odontolegista: nível superior em Odontologia. Perito Criminal: nível superior em Agronomia, Ciências Contábeis, Ciência da Computação ou Processamento de Dados, Engenharia Civil, Engenharia Elétrica, Farmácia, Física, Química ou Medicina.",
+  "materias": "Delegado: Língua Portuguesa, Direito Constitucional, Direito Administrativo, Direito Penal, Direito Processual Penal, Direito Civil, Direito Processual Civil, Medicina Legal, Criminologia e Legislação Especial. Demais cargos: Língua Portuguesa, Noções de Informática, Noções de Administração, Raciocínio Lógico, Atualidades e conhecimentos específicos do cargo.",
+  "banca": "Cebraspe.",
+  "inscritos": "Mais de 21 mil inscritos no concurso de 2017/2018.",
+  "etapas": "Prova objetiva, prova discursiva, exame médico, teste de aptidão física, avaliação psicológica, investigação social e funcional e curso de formação profissional.",
+  "cfsd": "Curso de formação profissional com auxílio financeiro previsto na legislação vigente. No edital de 2017, foram convocados para o curso candidatos dentro das vagas e do cadastro de reserva.",
+  "estagio": "Não localizado nas fontes consultadas.",
+  "validade": "Não localizado nas fontes consultadas.",
+  "previsao": "Novo concurso autorizado desde 2024, mas o edital completo do próximo certame ainda não foi localizado nas fontes consultadas.",
+  "site": "https://www.policiacivil.ma.gov.br",
+  "fontes": [
+    {
+      "titulo": "Site oficial da Polícia Civil do Maranhão",
+      "url": "https://www.policiacivil.ma.gov.br",
+      "tipo": "site oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concurso – Polícia Civil do Estado do Maranhão – SSP/MA",
+      "url": "https://www.ssp.ma.gov.br/concurso-policia-civil-do-estado-do-maranhao/",
+      "tipo": "site oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital de abertura Delegado PC MA 2017",
+      "url": "https://cdn.cebraspe.org.br/concursos/PC_MA_17_DELEGADO/arquivos/ED_1_2017_PC_MA_17_DELEGADO_ABERTURA.PDF",
+      "tipo": "edital pdf",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital de abertura APC PC MA 2017",
+      "url": "https://cdn.cebraspe.org.br/concursos/PC_MA_17_APC/arquivos/ED_1_2017_PC_MA_17_APC_ABERTURA.PDF",
+      "tipo": "edital pdf",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Polícia Civil acompanhou neste domingo os mais de 21 mil inscritos no concurso da PC-MA",
+      "url": "https://www.ssp.ma.gov.br/policia-civil-acompanhou-neste-domingo-os-mais-de-21-mil-inscritos-no-concurso-da-pc-ma/",
+      "tipo": "site oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Brandão anuncia nomeação de 600 novos policiais militares e autoriza concurso para Polícia Civil e Corpo de Bombeiros",
+      "url": "https://www.ma.gov.br/noticias/brandao-anuncia-nomeacao-de-600-novos-policiais-militares-e-autoriza-concurso-para-policia-civil-e-corpo-de-bombeiros",
+      "tipo": "governo estadual",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": false,
+  "alertas": [
+    "Novo concurso da PCMA foi autorizado em 2024, mas o edital completo mais recente não foi localizado nas fontes consultadas.",
+    "Os salários, vagas, requisitos e etapas detalhados correspondem ao último edital completo localizado, de 2017.",
+    "Altura mínima não localizada nas fontes consultadas.",
+    "Campos sem dado oficial aberto e objetivo foram preenchidos com 'Não localizado nas fontes consultadas.' conforme regra editorial.",
+    "Classificação automática: Atualização forte (84/100)."
+  ],
+  "classe_atualizacao": "forte",
+  "qualidade_publicacao": "forte",
+  "score_publicacao": "84",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

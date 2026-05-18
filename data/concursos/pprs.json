@@ -1,0 +1,53 @@
+{
+  "instituicao_id": "pprs",
+  "instituicao_nome": "Polícia Penal do Rio Grande do Sul",
+  "sigla": "PPRS",
+  "uf": "RS",
+  "tema": "concursos",
+  "status": "Atualização fraca",
+  "titulo": "PPRS publica edital do concurso 2026 com 213 vagas imediatas",
+  "resumo": "A Polícia Penal do Rio Grande do Sul publicou o Concurso Público nº 01/2026, com 213 vagas imediatas e cadastro reserva para Analista da Polícia Penal, Policial Penal e Técnico Administrativo da Polícia Penal. A banca organizadora é a Fundatec. As inscrições vão de 12/05/2026 a 12/06/2026 e as provas estão previstas para 09/08/2026.",
+  "edital": "Concurso Público nº 01/2026 publicado em 12/05/2026. Situação atual: edital publicado, com inscrições abertas de 12/05/2026 a 12/06/2026. São 213 vagas imediatas mais cadastro reserva para Analista da Polícia Penal, Policial Penal e Técnico Administrativo da Polícia Penal. Provas previstas para 09/08/2026.",
+  "salario": "Analista da Polícia Penal: R$ 9.745,26. Policial Penal: R$ 6.305,76. Técnico Administrativo da Polícia Penal: R$ 5.159,25.",
+  "vagas": "213 vagas imediatas mais cadastro reserva, sendo 121 vagas para Analista da Polícia Penal, 84 vagas para Policial Penal e 8 vagas para Técnico Administrativo da Polícia Penal.",
+  "cotas": "Há reserva de vagas para Pessoas com Deficiência, Pessoas Negras, Pessoas Trans e Pessoas Indígenas. No total imediato do edital, o cargo de Policial Penal tem 9 vagas para PcD, 13 para Pessoas Negras, 1 para Pessoas Trans e 1 para Pessoas Indígenas. O cargo de Técnico Administrativo tem 1 vaga para PcD, 1 para Pessoas Negras e 1 para Pessoas Indígenas. Nos cargos de Analista, a reserva varia conforme a especialidade.",
+  "idade": "CNH categoria mínima B para todos os cargos. Não foi localizada idade mínima expressa no quadro de requisitos. Não foi localizada altura mínima nas fontes consultadas.",
+  "escolaridade": "Policial Penal: nível superior completo em qualquer área e CNH B. Técnico Administrativo da Polícia Penal: nível médio completo e CNH B. Analista da Polícia Penal: nível superior na especialidade do cargo, com registro no conselho quando exigido, além de CNH B.",
+  "materias": "Policial Penal e Técnico Administrativo: Língua Portuguesa, Informática, Raciocínio Lógico, Legislação aplicada/Direito e Conhecimentos Gerais relativos ao sistema prisional. Analista: Língua Portuguesa, Informática, Raciocínio Lógico, Legislação aplicada/Direito, Conhecimentos Específicos e prova discursiva.",
+  "banca": "Fundatec.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Prova teórico-objetiva para todos os cargos; prova discursiva para Analista; teste de aptidão física para Policial Penal; avaliação psicológica; sindicância de vida pregressa.",
+  "cfsd": "Não localizado nas fontes consultadas.",
+  "estagio": "Não localizado nas fontes consultadas.",
+  "validade": "2 anos a contar da homologação do resultado final, prorrogável uma única vez por igual período.",
+  "previsao": "Inscrições abertas até 12/06/2026. Provas teórico-objetivas e discursiva previstas para 09/08/2026.",
+  "site": "https://www.policiapenal.rs.gov.br",
+  "fontes": [
+    {
+      "titulo": "Governo do Estado publica edital de concurso da Polícia Penal nesta terça-feira (12)",
+      "url": "https://estado.rs.gov.br/governo-do-estado-publica-edital-de-concurso-da-policia-penal-nesta-terca-feira-12",
+      "tipo": "portal oficial do Governo do RS",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "PPRS - Polícia Penal do Estado do Rio Grande do Sul - Edital de Abertura Concurso Público nº 01/2026",
+      "url": "https://noticiasconcursos.com.br/wp-content/uploads/2026/05/policia-penal-rs.pdf",
+      "tipo": "edital PDF",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "O edital atual é o Concurso Público nº 01/2026.",
+    "Há cadastro reserva além das 213 vagas imediatas.",
+    "As especialidades de Analista têm distribuição própria de vagas e requisitos específicos.",
+    "Classificação automática: Atualização fraca (76/100)."
+  ],
+  "classe_atualizacao": "fraca",
+  "qualidade_publicacao": "fraca",
+  "score_publicacao": "76",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

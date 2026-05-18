@@ -1,0 +1,42 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pmal",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 16521,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1330,
+    "output_tokens_details": {
+      "reasoning_tokens": 277
+    },
+    "total_tokens": 17851
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.cebraspe.org.br/concursos/pm_al_26",
+      "ok": true,
+      "status": 200,
+      "hash": "87c799727e8f6124c9ffecd63dac2f641d5bd76bde00466f3eff6e1fa3c129b8",
+      "tamanho_texto": 43
+    },
+    {
+      "url": "https://www.cebraspe.org.br/concursos/",
+      "ok": true,
+      "status": 200,
+      "hash": "87c799727e8f6124c9ffecd63dac2f641d5bd76bde00466f3eff6e1fa3c129b8",
+      "tamanho_texto": 43
+    }
+  ]
+}

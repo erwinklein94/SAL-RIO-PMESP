@@ -1,0 +1,35 @@
+name: Relatório Simples - Concursos
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  relatorio:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Gerar relatório simples
+        run: node scripts/gerar-relatorio-concursos.mjs
+
+      - name: Salvar relatório
+        run: |
+          if [ -z "$(git status --porcelain data/concursos/_relatorio-qualidade.json docs/RELATORIO-CONCURSOS.md)" ]; then
+            echo "Nenhuma alteração no relatório."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/concursos/_relatorio-qualidade.json docs/RELATORIO-CONCURSOS.md
+          git commit -m "Gera relatório simples de concursos"
+          git push

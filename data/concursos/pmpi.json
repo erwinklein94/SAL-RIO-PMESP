@@ -1,0 +1,84 @@
+{
+  "instituicao_id": "pmpi",
+  "instituicao_nome": "Polícia Militar de Piauí",
+  "sigla": "PMPI",
+  "uf": "PI",
+  "tema": "concursos",
+  "status": "Atualização fraca",
+  "titulo": "PMPI tem concurso autorizado com 1.000 vagas para soldado e 1 vaga para capelão; edital novo ainda não saiu",
+  "resumo": "A Polícia Militar do Piauí tem novo concurso autorizado por decreto publicado em 30 de dezembro de 2025, com 1.000 vagas para soldado, sendo 500 imediatas e 500 para cadastro de reserva, além de 1 vaga para capelão. Enquanto o novo edital não é publicado, o último concurso de soldado segue sendo o Edital nº 02/2021, organizado pelo Nucepe.",
+  "edital": "Novo concurso autorizado pelo Decreto nº 24.290, de 30 de dezembro de 2025, com 1.000 vagas para soldado e 1 vaga para capelão, mas sem edital publicado até a data da pesquisa. Último edital de soldado disponível: Edital nº 02/2021/PMPI, para Curso de Formação de Soldados.",
+  "salario": "Não localizado nas fontes consultadas.",
+  "vagas": "Novo concurso autorizado com 1.000 vagas para soldado, sendo 500 imediatas e 500 para cadastro de reserva, além de 1 vaga para capelão no posto de 1º Tenente PM. No último edital de soldado, foram 650 vagas, sendo 585 para homens e 65 para mulheres.",
+  "cotas": "No Edital nº 02/2021, 10% das vagas foram destinadas a candidatas do sexo feminino. Não houve reserva de vagas para pessoas com deficiência.",
+  "idade": "No último edital de soldado, idade mínima de 18 anos e máxima de 35 anos no período da matrícula no curso de formação; altura mínima de 1,60 m para homens e 1,55 m para mulheres; CNH ou permissão para dirigir na categoria mínima AB.",
+  "escolaridade": "Não localizado nas fontes consultadas.",
+  "materias": "Língua Portuguesa; Raciocínio Lógico e Matemática Básica; Conhecimentos Gerais; Conhecimentos Regionais do Estado do Piauí; Legislação da PMPI; Noções de Direito; redação dissertativa.",
+  "banca": "Nucepe/Uespi no último concurso de soldado. Banca do novo concurso autorizado: Não localizada nas fontes consultadas.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Prova objetiva e dissertativa; exame de saúde; teste de aptidão física; avaliação psicológica; investigação social; curso de formação.",
+  "cfsd": "O CFSD 2025 foi concluído, com lotação definitiva de mais de 650 novos soldados em janeiro de 2026. O curso decorre do concurso regido pelo Edital nº 02/2021, que depois passou a admitir cadastro de reserva por termo aditivo.",
+  "estagio": "Estágio operacional de 6 meses para os soldados formados no CFSD 2025.",
+  "validade": "O Edital nº 02/2021 teve validade de 2 anos, prorrogável por igual período.",
+  "previsao": "Edital do novo concurso para soldado e capelão ainda não publicado até 17 de maio de 2026.",
+  "site": "https://www.pm.pi.gov.br",
+  "fontes": [
+    {
+      "titulo": "Governo do Piauí publica decreto que autoriza concurso de mil vagas para Polícia Militar",
+      "url": "https://www.pi.gov.br/governo-do-piaui-publica-decreto-que-autoriza-concurso-de-mil-vagas-para-policia-militar/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Diário Oficial do Estado do Piauí - Decreto nº 24.290, de 30 de dezembro de 2025",
+      "url": "https://www.pi.gov.br/wp-content/uploads/2025/12/DOEPI_251_2025.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concurso Público da Polícia Militar do Estado do Piauí – PMPI 2021",
+      "url": "https://nucepe.uespi.br/pmpi2021/",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital nº 02/2021 - Soldado PMPI",
+      "url": "https://nucepe.uespi.br/consultas/downloads/pmpi2021_1/edital_002_2021_soldadopmpi.pdf",
+      "tipo": "edital pdf",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Termo Aditivo nº 05 ao Edital nº 02/2021/PMPI",
+      "url": "https://www.pm.pi.gov.br/download/202212/PM26_8e69ea6ccf.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Portaria nº 4, de 20 de janeiro de 2025 - CHO PM/2025",
+      "url": "https://www.pm.pi.gov.br/download/202501/PM24_fe0f3251a8.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Polícia Militar reforça efetivo com a lotação de mais de 650 novos soldados",
+      "url": "https://www.pi.gov.br/policia-militar-reforca-efetivo-com-a-lotacao-de-mais-de-650-novos-soldados/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Novo concurso da PMPI está autorizado, mas o edital ainda não foi publicado.",
+    "A banca do novo concurso para soldado e capelão ainda não foi confirmada nas fontes consultadas.",
+    "Os requisitos de idade, altura, CNH, escolaridade e salário informados para soldado foram extraídos do último edital disponível, de 2021.",
+    "O cargo de capelão foi autorizado no novo decreto, mas remuneração e requisitos específicos não foram localizados nas fontes consultadas.",
+    "Classificação automática: Atualização fraca (48/100)."
+  ],
+  "classe_atualizacao": "fraca",
+  "qualidade_publicacao": "fraca",
+  "score_publicacao": "48",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

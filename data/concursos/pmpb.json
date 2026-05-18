@@ -1,0 +1,109 @@
+{
+  "instituicao_id": "pmpb",
+  "instituicao_nome": "Polícia Militar de Paraíba",
+  "sigla": "PMPB",
+  "uf": "PB",
+  "tema": "concursos",
+  "status": "concurso recente para CFO 2026 e histórico concluído de CFSd 2023",
+  "titulo": "CFO 2026 da PMPB segue em fase de resultados",
+  "resumo": "O concurso mais recente da PMPB é o CFO 2026, com inscrições encerradas e exames complementares em andamento",
+  "edital": "Edital nº 001/2025 – CFO 2026; inscrições encerradas; seleção com ENEM 2025 e exames complementares",
+  "salario": "CFO 2026: R$ 3.003,48 no primeiro ano do curso de formação",
+  "vagas": "30 vagas para CFO 2026; 24 de ampla concorrência e 6 reservadas para população negra",
+  "cotas": "6 vagas reservadas para população negra; no CFSd 2023 houve reserva de 20% para candidatos negros",
+  "idade": "18 a 32 anos; altura mínima de 1,60 m para masculino e 1,55 m para feminino",
+  "escolaridade": "Curso superior completo para CFO 2026; ensino médio para CFSd 2023",
+  "materias": "ENEM 2025; exames complementares; língua portuguesa; raciocínio lógico; geografia e história da Paraíba; língua estrangeira; informática; noções de direito; sociologia",
+  "banca": "Pesquisa inicial pendente",
+  "inscritos": "Inscrições encerradas; 150 candidatos habilitados para a 2ª fase no CFO 2025",
+  "etapas": "Exame intelectual via ENEM; exame psicológico; exame de saúde; aptidão física",
+  "cfsd": "CFSd 2023 concluído; curso de formação em regime de dedicação exclusiva, com mais de 3 mil horas/aulas",
+  "estagio": "Pesquisa inicial pendente",
+  "validade": "60 dias, prorrogável por igual período, para o CFO 2026",
+  "previsao": "Aguardar divulgação de resultados finais e convocações do CFO 2026",
+  "site": "https://www.pm.pb.gov.br",
+  "fontes": [
+    {
+      "titulo": "Concursos - Polícia Militar da Paraíba",
+      "url": "https://www.pm.pb.gov.br/portal/informacoes/concursos/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Inscrições abertas: CFO da Polícia Militar oferece 30 vagas",
+      "url": "https://www.pm.pb.gov.br/portal/2025/12/05/inscricoes-abertas-cfo-da-policia-militar-oferece-30-vagas/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Atenção: CFO 2026 da Polícia Militar vai utilizar a nota do Enem no concurso",
+      "url": "https://www.pm.pb.gov.br/portal/2025/04/10/atencao-cfo-2026-da-policia-militar-vai-utilizar-a-nota-do-enem-no-concurso/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo do Estado lança edital do CFO da Polícia Militar com vagas de ampla concorrência",
+      "url": "https://www.pm.pb.gov.br/portal/2024/10/19/governo-do-estado-lanca-edital-do-cfo-da-policia-militar-com-vagas-de-ampla-concorrencia/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo do Estado publica edital com 1.100 vagas para soldado da Polícia Militar e Corpo de Bombeiros",
+      "url": "https://www.pm.pb.gov.br/portal/2023/07/28/governo-do-estado-publica-edital-com-1.100-vagas-para-soldado-da-policia-militar-e-corpo-de-bombeiros/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Aditivo nº 008 ao Edital nº 001/2023 - CFSd PM/BM 2023",
+      "url": "https://www.pm.pb.gov.br/publicacoesConcursos/2702-09072024_164233.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Aditivo nº 004 ao Edital nº 001/2023 - CFSd PM/BM 2023",
+      "url": "https://www.pm.pb.gov.br/publicacoesConcursos/2555-04032024_192218.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concurso para o Curso de Formação de Oficiais PMPB 2026",
+      "url": "https://www.pm.pb.gov.br/inscricaoCFOPMPB2026/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alta",
+  "precisa_revisao_humana": false,
+  "alertas": [
+    "O concurso mais recente localizado é o CFO 2026; o CFSd 2023 aparece como histórico já concluído.",
+    "A banca organizadora não foi identificada com segurança nas fontes consultadas.",
+    "O campo inscritos traz status parcial porque não foi localizado total consolidado de inscritos nas fontes oficiais consultadas.",
+    "Campo estagio sem dado localizado nas fontes consultadas.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo idade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo inscritos atualizado/priorizado pelo modo qualificado pago.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (100/100). Campos concretos: 10/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 100,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

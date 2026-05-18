@@ -1,0 +1,370 @@
+/* ============================================================
+   Universo Segurança Pública — Tema claro/escuro
+   Tema claro continua sendo o padrão. O tema escuro é ativado
+   por html[data-theme="dark"] e usa azul escuro + amarelo insígnia.
+   ============================================================ */
+
+:root {
+  --usp-dark-page: #071426;
+  --usp-dark-page-2: #0a1b30;
+  --usp-dark-card: #0d2036;
+  --usp-dark-card-2: #102946;
+  --usp-dark-header: #06101c;
+  --usp-dark-border: rgba(228, 194, 71, 0.24);
+  --usp-dark-border-soft: rgba(255, 255, 255, 0.12);
+  --usp-dark-text: #f4f8ff;
+  --usp-dark-text-2: #dbe7f7;
+  --usp-dark-muted: #aebbd0;
+  --usp-dark-gold: #e4c247;
+  --usp-dark-gold-2: #f1d36b;
+  --usp-theme-shadow: 0 18px 48px rgba(0, 0, 0, 0.28);
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --usp-ink: var(--usp-dark-text);
+  --usp-ink-2: #e8f0fb;
+  --usp-muted: var(--usp-dark-muted);
+  --usp-muted-2: #95a6bd;
+  --usp-line: var(--usp-dark-border);
+  --usp-bg: var(--usp-dark-page);
+  --usp-soft: var(--usp-dark-page-2);
+  --usp-soft-2: var(--usp-dark-card);
+  --usp-navy: var(--usp-dark-header);
+  --usp-navy-2: #0a1727;
+  --usp-gold: var(--usp-dark-gold);
+  --usp-gold-dark: var(--usp-dark-gold-2);
+  --usp-gold-soft: rgba(228, 194, 71, 0.16);
+
+  --bg-site: var(--usp-dark-page);
+  --bg-card: var(--usp-dark-card);
+  --bg-input: var(--usp-dark-page-2);
+  --border-card: var(--usp-dark-border);
+  --border-input: rgba(255, 255, 255, 0.18);
+  --text-main: var(--usp-dark-text);
+  --text-muted: var(--usp-dark-muted);
+  --header-bg: var(--usp-dark-header);
+  --header-text: var(--usp-dark-text);
+  --item-bg: var(--usp-dark-card);
+  --item-hover: var(--usp-dark-card-2);
+}
+
+/* Botão do cabeçalho */
+.usp-theme-toggle {
+  appearance: none;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 38px;
+  padding: 0 14px;
+  border: 1px solid rgba(215, 182, 46, 0.48);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #f7f9fc;
+  font: 800 11px/1 var(--usp-sans, Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.08);
+  transition: transform .18s ease, border-color .18s ease, background .18s ease, color .18s ease;
+}
+
+.usp-theme-toggle:hover {
+  transform: translateY(-1px);
+  border-color: var(--usp-dark-gold);
+  background: rgba(228, 194, 71, 0.14);
+  color: #ffffff;
+}
+
+.usp-theme-toggle:focus-visible {
+  outline: 3px solid rgba(241, 211, 107, 0.45);
+  outline-offset: 3px;
+}
+
+.usp-theme-toggle__icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.usp-topline__inner > .usp-theme-toggle {
+  margin-left: auto;
+  min-height: 28px;
+  padding: 0 11px;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.usp-topline__inner > .usp-theme-toggle:hover {
+  background: rgba(228, 194, 71, 0.16);
+}
+
+.usp-theme-toggle--floating {
+  position: fixed;
+  top: 14px;
+  right: 14px;
+  z-index: 80;
+  background: rgba(6, 16, 28, 0.92);
+  border-color: rgba(228, 194, 71, 0.62);
+  color: #ffffff;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+@media (max-width: 1180px) {
+  .usp-header__inner > .usp-theme-toggle {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .usp-header__inner > .usp-theme-toggle,
+  .usp-topline__inner > .usp-theme-toggle {
+    order: 1;
+    margin-left: auto;
+    min-height: 34px;
+    padding-inline: 11px;
+    font-size: 10px;
+  }
+
+  .usp-theme-toggle--floating {
+    top: 10px;
+    right: 10px;
+    min-height: 34px;
+    padding-inline: 11px;
+    font-size: 10px;
+  }
+}
+
+/* Tema escuro — páginas do redesign atual */
+html[data-theme="dark"] body.usp-home {
+  background: var(--usp-dark-page) !important;
+  color: var(--usp-dark-text) !important;
+}
+
+html[data-theme="dark"] body.usp-home::before {
+  border-color: rgba(228, 194, 71, 0.12) !important;
+}
+
+html[data-theme="dark"] body.usp-home .usp-topline,
+html[data-theme="dark"] body.usp-home .usp-header,
+html[data-theme="dark"] body.usp-home .usp-footer {
+  background: var(--usp-dark-header) !important;
+  color: var(--usp-dark-text) !important;
+  border-color: var(--usp-dark-gold) !important;
+}
+
+html[data-theme="dark"] body.usp-home .usp-hero,
+html[data-theme="dark"] body.usp-home .usp-section,
+html[data-theme="dark"] body.usp-home .usp-news,
+html[data-theme="dark"] body.usp-home .usp-noticias-overview,
+html[data-theme="dark"] body.usp-home .usp-noticias-table-section,
+html[data-theme="dark"] body.usp-home .usp-noticias-list-section,
+html[data-theme="dark"] body.usp-home .usp-produtos-shell,
+html[data-theme="dark"] body.usp-home .usp-anuncie-spaces,
+html[data-theme="dark"] body.usp-home .usp-anuncie-process,
+html[data-theme="dark"] body.usp-home .usp-anuncie-contact-section,
+html[data-theme="dark"] body.usp-home .usp-legal-document,
+html[data-theme="dark"] body.usp-home .usp-legal-related,
+html[data-theme="dark"] body.usp-home .usp-404-routes,
+html[data-theme="dark"] body.usp-home main {
+  background: var(--usp-dark-page) !important;
+  color: var(--usp-dark-text) !important;
+}
+
+html[data-theme="dark"] body.usp-home .usp-compare,
+html[data-theme="dark"] body.usp-home [class*="dark"] {
+  background: var(--usp-dark-header) !important;
+  color: var(--usp-dark-text) !important;
+  border-color: var(--usp-dark-gold) !important;
+}
+
+html[data-theme="dark"] body.usp-home :is(h1, h2, h3, h4, h5, h6),
+html[data-theme="dark"] body.usp-home :is(p, li, dd, dt, label, td, th, figcaption),
+html[data-theme="dark"] body.usp-home :is(.usp-hero__lead, .usp-note, .usp-section__head p, .usp-breadcrumb, .usp-breadcrumb strong),
+html[data-theme="dark"] body.usp-home :is(.legal-section-body p, .legal-section-body li, .usp-noticia-body, .usp-noticia-lead) {
+  color: var(--usp-dark-text-2) !important;
+}
+
+html[data-theme="dark"] body.usp-home :is(h1, h2, h3, h4, h5, h6, strong),
+html[data-theme="dark"] body.usp-home :is(.usp-hero h1, .usp-section__head h2, .usp-brand__text small) {
+  color: var(--usp-dark-text) !important;
+}
+
+html[data-theme="dark"] body.usp-home .usp-brand__text strong,
+html[data-theme="dark"] body.usp-home .usp-eyebrow,
+html[data-theme="dark"] body.usp-home .usp-kicker,
+html[data-theme="dark"] body.usp-home :is([class*="tag"], [class*="badge"], [class*="kicker"]) {
+  color: var(--usp-dark-gold) !important;
+}
+
+html[data-theme="dark"] body.usp-home a:not(.usp-btn):not(.usp-brand):not(.usp-nav a),
+html[data-theme="dark"] body.app-soft-theme a,
+html[data-theme="dark"] body.usp-articles-page a {
+  color: var(--usp-dark-gold-2) !important;
+}
+
+html[data-theme="dark"] body.usp-home mark,
+html[data-theme="dark"] body.app-soft-theme mark,
+html[data-theme="dark"] body.usp-articles-page mark {
+  color: var(--usp-dark-gold) !important;
+  background: transparent !important;
+}
+
+html[data-theme="dark"] body.usp-home :is(.usp-quick-card, .usp-stat, .usp-institution-panel, .usp-uf-card, .usp-consulta-card, .usp-news-card, .usp-product-card, .usp-noticia-card, .usp-noticia-feature, .usp-noticia-summary, .usp-noticia-linkbox, .legal-index, .legal-section-card, .legal-summary-list > div, .legal-mini-block, .anuncie-media-card, .anuncie-format-card, .anuncie-space-card, .anuncie-contact-form, .anuncie-contact-notes > div),
+html[data-theme="dark"] body.usp-home [class*="-card"],
+html[data-theme="dark"] body.usp-home [class*="-panel"],
+html[data-theme="dark"] body.usp-home [class*="-box"] {
+  background: linear-gradient(145deg, var(--usp-dark-card), var(--usp-dark-page-2)) !important;
+  color: var(--usp-dark-text) !important;
+  border-color: var(--usp-dark-border) !important;
+  box-shadow: var(--usp-theme-shadow) !important;
+}
+
+html[data-theme="dark"] body.usp-home .usp-quick-card__head,
+html[data-theme="dark"] body.usp-home .usp-card-top,
+html[data-theme="dark"] body.usp-home .usp-noticia-card__header {
+  border-color: var(--usp-dark-border-soft) !important;
+}
+
+html[data-theme="dark"] body.usp-home :is(table, thead, tbody, tr, td, th) {
+  border-color: var(--usp-dark-border-soft) !important;
+}
+
+html[data-theme="dark"] body.usp-home table,
+html[data-theme="dark"] body.usp-home tbody tr,
+html[data-theme="dark"] body.usp-home tbody tr:nth-child(even) td {
+  background: var(--usp-dark-card) !important;
+  color: var(--usp-dark-text-2) !important;
+}
+
+html[data-theme="dark"] body.usp-home th,
+html[data-theme="dark"] body.usp-home thead th {
+  background: var(--usp-dark-card-2) !important;
+  color: var(--usp-dark-text) !important;
+}
+
+html[data-theme="dark"] body.usp-home :is(input, select, textarea),
+html[data-theme="dark"] body.app-soft-theme :is(input, select, textarea),
+html[data-theme="dark"] body.usp-articles-page :is(input, select, textarea) {
+  background: var(--usp-dark-page-2) !important;
+  color: var(--usp-dark-text) !important;
+  border-color: var(--usp-dark-border) !important;
+  caret-color: var(--usp-dark-gold) !important;
+}
+
+html[data-theme="dark"] :is(input, select, textarea)::placeholder {
+  color: var(--usp-dark-muted) !important;
+}
+
+html[data-theme="dark"] option {
+  background: var(--usp-dark-page-2) !important;
+  color: var(--usp-dark-text) !important;
+}
+
+html[data-theme="dark"] body.usp-home .usp-search {
+  background: rgba(255,255,255,0.08) !important;
+  border-color: rgba(228,194,71,0.22) !important;
+  color: var(--usp-dark-text) !important;
+}
+
+html[data-theme="dark"] body.usp-home .usp-btn:not(.usp-btn--gold),
+html[data-theme="dark"] body.usp-home button:not(.usp-theme-toggle):not(.brasao-lightbox-close) {
+  background: var(--usp-dark-card-2) !important;
+  color: var(--usp-dark-text) !important;
+  border-color: var(--usp-dark-border) !important;
+}
+
+html[data-theme="dark"] body.usp-home .usp-btn--gold,
+html[data-theme="dark"] body.usp-home .usp-btn:hover,
+html[data-theme="dark"] body.usp-home button:not(.usp-theme-toggle):hover {
+  background: var(--usp-dark-gold) !important;
+  color: #06101c !important;
+  border-color: var(--usp-dark-gold) !important;
+}
+
+html[data-theme="dark"] body.usp-home .ad-slot,
+html[data-theme="dark"] body.usp-home .adsbygoogle {
+  background: rgba(255,255,255,0.03) !important;
+  border-color: var(--usp-dark-border-soft) !important;
+}
+
+/* Tema escuro — artigos e novidades com CSS próprio */
+html[data-theme="dark"] body.app-soft-theme,
+html[data-theme="dark"] body.usp-articles-page {
+  background: var(--usp-dark-page) !important;
+  color: var(--usp-dark-text) !important;
+}
+
+html[data-theme="dark"] body.app-soft-theme::before,
+html[data-theme="dark"] body.usp-articles-page::before {
+  border-color: rgba(228,194,71,0.12) !important;
+}
+
+html[data-theme="dark"] body.app-soft-theme .container,
+html[data-theme="dark"] body.usp-articles-page .container,
+html[data-theme="dark"] body.usp-articles-page main {
+  background: transparent !important;
+  color: var(--usp-dark-text) !important;
+}
+
+html[data-theme="dark"] body.app-soft-theme :is(h1, h2, h3, h4, p, li, figcaption, .dek, .lead, .byline, .meta-art, .breadcrumb, .isencao, .faq-item),
+html[data-theme="dark"] body.usp-articles-page :is(h1, h2, h3, h4, p, li, figcaption, small, .meta, .summary, .card, .breadcrumb) {
+  color: var(--usp-dark-text-2) !important;
+}
+
+html[data-theme="dark"] body.app-soft-theme :is(h1, h2, h3, h4, strong),
+html[data-theme="dark"] body.usp-articles-page :is(h1, h2, h3, h4, strong) {
+  color: var(--usp-dark-text) !important;
+}
+
+html[data-theme="dark"] body.app-soft-theme :is(.summary-box, .related, .leituras, .isencao, .faq-item, .ad-slot),
+html[data-theme="dark"] body.usp-articles-page :is(.summary-box, .related, .leituras, .card, .article-card, .ad-slot, section) {
+  background: linear-gradient(145deg, var(--usp-dark-card), var(--usp-dark-page-2)) !important;
+  border-color: var(--usp-dark-border) !important;
+  color: var(--usp-dark-text) !important;
+  box-shadow: var(--usp-theme-shadow) !important;
+}
+
+html[data-theme="dark"] body.app-soft-theme :is(table, thead, tbody, tr, td, th),
+html[data-theme="dark"] body.usp-articles-page :is(table, thead, tbody, tr, td, th) {
+  border-color: var(--usp-dark-border-soft) !important;
+}
+
+html[data-theme="dark"] body.app-soft-theme :is(table, td),
+html[data-theme="dark"] body.app-soft-theme table.tabela-salarial tr:nth-child(even) td,
+html[data-theme="dark"] body.usp-articles-page :is(table, td) {
+  background: var(--usp-dark-card) !important;
+  color: var(--usp-dark-text-2) !important;
+}
+
+html[data-theme="dark"] body.app-soft-theme th,
+html[data-theme="dark"] body.usp-articles-page th {
+  background: var(--usp-dark-card-2) !important;
+  color: var(--usp-dark-text) !important;
+}
+
+html[data-theme="dark"] body.app-soft-theme :is(.section-tag, .cta-external, .cta-afiliado),
+html[data-theme="dark"] body.usp-articles-page :is(.section-tag, .cta-external, .cta-afiliado) {
+  background: var(--usp-dark-gold) !important;
+  color: #06101c !important;
+  border-color: var(--usp-dark-gold) !important;
+}
+
+html[data-theme="dark"] body.app-soft-theme h2,
+html[data-theme="dark"] body.usp-articles-page h2 {
+  border-left-color: var(--usp-dark-gold) !important;
+}
+
+html[data-theme="dark"] body.app-soft-theme .lead::first-letter {
+  color: var(--usp-dark-gold) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .usp-theme-toggle {
+    transition: none;
+  }
+}

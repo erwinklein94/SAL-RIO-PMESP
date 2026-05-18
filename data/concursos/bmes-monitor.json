@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "bmes",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 100,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 12553,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 784,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13337
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://cb.es.gov.br/cfo2023",
+      "ok": true,
+      "status": 200,
+      "hash": "b8f3bfc3a4dfbf100c61f857ae79986a89f3db4bf4a7d3d324ecdb4f4872c383",
+      "tamanho_texto": 9088
+    },
+    {
+      "url": "https://cb.es.gov.br/Users/Account/LogOn?ReturnUrl=%2Fcfo2023",
+      "ok": true,
+      "status": 200,
+      "hash": "3e094d69eb3dada5fd2fcc105232d56a27faeba02d8b3478ac67a71f1fd6cb6e",
+      "tamanho_texto": 188
+    },
+    {
+      "url": "https://bombeiros.correio.es.gov.br/",
+      "ok": true,
+      "status": 200,
+      "hash": "44b1505a9562a0ebdaf43c128cf1260a1edb6738fa2a5784e75caa27475a4e05",
+      "tamanho_texto": 860
+    },
+    {
+      "url": "https://cb.es.gov.br/hino-cbmes",
+      "ok": true,
+      "status": 200,
+      "hash": "761ced926ccccc7a8adce85a506b444876ffd9ee17047b7838f2039af99e2491",
+      "tamanho_texto": 7466
+    },
+    {
+      "url": "https://cb.es.gov.br/editais-cfo-2018",
+      "ok": true,
+      "status": 200,
+      "hash": "89498f1d23226e312de14cd460a4541a9b8c52c6857d708247f8d2a6bd50a4be",
+      "tamanho_texto": 17168
+    },
+    {
+      "url": "https://cb.es.gov.br/cfsd2025",
+      "ok": true,
+      "status": 200,
+      "hash": "7277a62abd4944ed2a6b362cb8b1f247db01a1e38c0b2f4125f4827cdd35f7d2",
+      "tamanho_texto": 18945
+    }
+  ]
+}

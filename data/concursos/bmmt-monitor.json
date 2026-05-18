@@ -1,0 +1,35 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "bmmt",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 82,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 24038,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1487,
+    "output_tokens_details": {
+      "reasoning_tokens": 401
+    },
+    "total_tokens": 25525
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.bombeiros.mt.gov.br/concursos-e-seletivos",
+      "ok": true,
+      "status": 200,
+      "hash": "8207581857243f6cf6c0baca9e35d64d00d6121127334e9178a23b5add942eee",
+      "tamanho_texto": 139
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "instituicao_id": "pcsp",
+  "instituicao_nome": "Polícia Civil do Estado de São Paulo",
+  "sigla": "PCSP",
+  "uf": "SP",
+  "tema": "concursos",
+  "status": "conteúdo inicial protegido",
+  "titulo": "PCSP: concursos recentes e carreira atualizada",
+  "resumo": "A PCSP mantém concursos recentes para delegado, investigador, escrivão, médico legista e perito criminal, com etapas e remuneração atualizadas pela carreira estadual",
+  "edital": "Concursos recentes da PCSP para Delegado, Investigador, Escrivão, Médico Legista e Perito Criminal",
+  "salario": "Delegado: R$ 15.037,99; Investigador: R$ 5.879,68; Escrivão: R$ 5.879,68; Médico Legista: R$ 12.954,40; Perito Criminal: R$ 12.954,40",
+  "vagas": "Delegado: 552; Investigador: 1.250; Escrivão: 1.333; Médico Legista: 116; Perito Criminal: 249",
+  "cotas": "Reserva de vagas para pessoas com deficiência de 5%",
+  "idade": "18 anos ou mais; CNH categoria B mínima para Investigador; habilitação em veículo automotor também exigida em outras carreiras conforme o cargo",
+  "escolaridade": "Delegado: bacharelado em Direito; Investigador e Escrivão: nível superior; Médico Legista: Medicina; Perito Criminal: graduação específica da área",
+  "materias": "Língua Portuguesa; Noções de Direito; Criminologia; Noções de Lógica; Noções de Informática; Medicina Legal; conhecimentos específicos",
+  "banca": "Vunesp",
+  "inscritos": "Inscrições dos principais editais 2023 encerradas; acompanhar páginas oficiais PCSP/Vunesp para convocações, resultados, nomeações e novos editais",
+  "etapas": "Prova preambular; prova escrita; investigação social; prova oral; prova de títulos; prova de aptidão psicológica; exame médico; prova de aptidão física, quando prevista",
+  "cfsd": "Curso de Formação Técnico-Profissional na Academia de Polícia, conforme convocação da carreira",
+  "estagio": "3 anos",
+  "validade": "Conforme cada edital; verificar página oficial PCSP/Vunesp do cargo",
+  "previsao": "Sem novo edital aberto confirmado nas fontes consultadas",
+  "site": "https://www.policiacivil.sp.gov.br",
+  "fontes": [
+    {
+      "titulo": "Portal institucional da Polícia Civil de SP",
+      "url": "https://www.policiacivil.sp.gov.br",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital PCSP com vagas, requisitos e banca Vunesp",
+      "url": "https://www.policiacivil.sp.gov.br/portal/ShowProperty?nodeId=%2FdipolContent%2FUCM_039462%2F%2FidcPrimaryFile",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital PCSP com fases e prova preambular",
+      "url": "https://www.policiacivil.sp.gov.br/portal/ShowProperty?nodeId=%2FdipolContent%2FUCM_039463%2F%2FidcPrimaryFile",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital PCSP com inscrições, Diário Oficial e Vunesp",
+      "url": "https://www.policiacivil.sp.gov.br/portal/ShowProperty?nodeId=%2FdipolContent%2FUCM_063623%2F%2FidcPrimaryFile",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital PCSP com requisitos de categoria B e escolaridade",
+      "url": "https://www.policiacivil.sp.gov.br/portal/ShowProperty?nodeId=%2FdipolContent%2FUCM_004297%2F%2FidcPrimaryFile",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital PCSP com reserva de 5% para PcD",
+      "url": "https://www.policiacivil.sp.gov.br/portal/ShowProperty?nodeId=%2FdipolContent%2FUCM_039462%2F%2FidcPrimaryFile",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "médio",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Há indícios de editais recentes da PCSP, mas não foi localizado um edital único consolidado para todos os cargos na consulta atual.",
+    "Remuneração e requisitos podem ter sido atualizados por legislação posterior, preservando os dados já publicados quando mais específicos.",
+    "Não foi localizado prazo de validade consolidado nas fontes consultadas.",
+    "Não foi localizado número de inscritos nas fontes consultadas.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo idade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio atualizado/priorizado pelo modo qualificado pago.",
+    "Campo validade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (97/100). Campos concretos: 9/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

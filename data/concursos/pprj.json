@@ -1,0 +1,89 @@
+{
+  "instituicao_id": "pprj",
+  "instituicao_nome": "Polícia Penal do Rio de Janeiro",
+  "sigla": "PPRJ",
+  "uf": "RJ",
+  "tema": "concursos",
+  "status": "Atualização fraca",
+  "titulo": "PPRJ: concurso para Inspetor de Polícia Penal tem edital publicado e etapas em andamento",
+  "resumo": "A Polícia Penal do Rio de Janeiro publicou o Edital nº 1/2024 para o cargo de Inspetor de Polícia Penal. São 300 vagas imediatas e formação de cadastro de reserva. O concurso é organizado pela COSEAC/UFF e teve andamento ao longo de 2025, com curso de formação e atos posteriores de investigação social e convocações sub judice.",
+  "edital": "Edital nº 1/2024 publicado em 06/11/2024 para Inspetor de Polícia Penal. Situação: concurso com edital publicado, 1ª fase realizada e curso de formação com resultado final divulgado em dezembro de 2025.",
+  "salario": "R$ 7.337,58 iniciais, sendo R$ 6.218,29 de vencimento e R$ 1.119,29 de Gratificação de Valorização Profissional.",
+  "vagas": "300 vagas imediatas para Inspetor de Polícia Penal, com formação de cadastro de reserva.",
+  "cotas": "Não localizado nas fontes consultadas.",
+  "idade": "Não localizado nas fontes consultadas.",
+  "escolaridade": "Nível superior completo em qualquer área, com diploma reconhecido pelo MEC.",
+  "materias": "Língua Portuguesa, Direitos Humanos, Direito Penal e Legislação Especial, Direito Processual Penal, Direito Administrativo, Informática, Raciocínio Lógico e Direito Constitucional.",
+  "banca": "COSEAC/UFF.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Prova objetiva, teste de aptidão física, exame médico, heteroidentificação, verificação de hipossuficiência econômica, exame psicológico, investigação social e curso de formação profissional.",
+  "cfsd": "Curso de Formação Profissional com mais de 300 horas-aula. Houve início de turma em 06/05/2025 e resultado final do curso foi publicado em dezembro de 2025.",
+  "estagio": "Não localizado nas fontes consultadas.",
+  "validade": "Não localizado nas fontes consultadas.",
+  "previsao": "Há registro oficial de criação de 300 vagas para o próximo concurso e manutenção de comissão organizadora em 2026, mas novo edital ainda não foi localizado nas fontes consultadas.",
+  "site": "https://www.rj.gov.br",
+  "fontes": [
+    {
+      "titulo": "Edital nº 1/2024 - Concurso Inspetor de Polícia Penal",
+      "url": "https://bifrost-prd.qconcursos.com/contests/notices/650d8e48-254b-4e93-9aff-d5ffb0f38189/edital_concurso_penal_rj_2024.pdf",
+      "tipo": "edital pdf",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Resolução SEAP nº 1042 de 19 de julho de 2024",
+      "url": "https://www.rj.gov.br/admpenitenciaria/sites/default/files/arquivos_paginas/Resolu%C3%A7%C3%A3o%201042.pdf",
+      "tipo": "ato oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Resolução SEAP nº 1108 de 13 de novembro de 2025",
+      "url": "https://www.rj.gov.br/admpenitenciaria/sites/default/files/arquivos_paginas/Resolu%C3%A7%C3%A3o%201108.pdf",
+      "tipo": "ato oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "SEAPRJ2024 - Editais COSEAC/UFF",
+      "url": "https://portal.coseac.uff.br/seaprj2024-editais/",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Resultado final do curso de formação - dezembro de 2025",
+      "url": "https://portal.coseac.uff.br/wp-content/uploads/2025/12/Resultado-turma-I.pdf",
+      "tipo": "resultado oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo do Estado do Rio de Janeiro e a Seap formam 241 Inspetores de Polícia Penal",
+      "url": "https://www.rj.gov.br/admpenitenciaria/node/919",
+      "tipo": "notícia oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Seap inicia Curso de Formação de Inspetores de Polícia Penal",
+      "url": "https://www.rj.gov.br/admpenitenciaria/node/796",
+      "tipo": "notícia oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Resoluções SEPPEN",
+      "url": "https://www.rj.gov.br/policiapenalrj/Resolu%C3%A7%C3%B5esSEPPEN",
+      "tipo": "página oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "O órgão passou por mudança de denominação administrativa entre SEAP e Secretaria de Estado de Polícia Penal.",
+    "Há movimentações sub judice e convocações posteriores em 2025, o que pode alterar quantitativos chamados ao longo da validade do certame.",
+    "Não foi localizado nas fontes consultadas um novo edital já publicado para além do Edital nº 1/2024.",
+    "Classificação automática: Atualização fraca (60/100)."
+  ],
+  "classe_atualizacao": "fraca",
+  "qualidade_publicacao": "fraca",
+  "score_publicacao": "60",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

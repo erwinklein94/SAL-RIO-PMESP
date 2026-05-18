@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pcmg",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 92,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 22571,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 1101,
+    "output_tokens_details": {
+      "reasoning_tokens": 203
+    },
+    "total_tokens": 23672
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.policiacivil.mg.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "35e01864b37b15ed3444954733f0ba3380b8760db91f0494e0ab314e5ded104c",
+      "tamanho_texto": 14210
+    },
+    {
+      "url": "https://policiacivil.mg.gov.br/noticia/exibir?id=4043819&amp;=Maio-Laranja%3A-PCMG-inova-campanha-com-divulga%C3%A7%C3%A3o-do-ECA-Digital&amp;Maio-Laranja:-PCMG-inova-campanha-com-divulga&ccedil;&atilde;o-do-ECA-Digital",
+      "ok": true,
+      "status": 200,
+      "hash": "4ffa3ee0bf558d4d873d31ec936525a6821d834b2bf095713ccc6292077392cf",
+      "tamanho_texto": 4826
+    },
+    {
+      "url": "https://policiacivil.mg.gov.br/site-pc/noticia/exibir?id=4043863&amp;=PCMG-prende-suspeitos-de-execu%C3%A7%C3%A3o-ligada-%C3%A0-disputa-pelo-tr%C3%A1fico-em-Nova-Lima&amp;PCMG-prende-suspeitos-de-execu&ccedil;&atilde;o-ligada-&agrave;-disputa-pelo-tr&aacute;fico",
+      "ok": true,
+      "status": 200,
+      "hash": "dfb9176883541a8396fb265a15a65abae52f69597a9f6b12bfe7205d32f97053",
+      "tamanho_texto": 6574
+    },
+    {
+      "url": "https://www.policiacivil.mg.gov.br/noticia/exibir?id=4043889&amp;=PCMG-prende-investigado-por-tentativa-de-homic%C3%ADdio-em-Ros%C3%A1rio-da-Limeira",
+      "ok": true,
+      "status": 200,
+      "hash": "2c7f8ddfa368e61ef53a34a2532b1536b9a4a07a362e7b01b7676148d73e902d",
+      "tamanho_texto": 3893
+    },
+    {
+      "url": "https://www.policiacivil.mg.gov.br/noticia/exibir?id=4043846&amp;=PCMG-entrega-doa%C3%A7%C3%B5es-e-amplia-a%C3%A7%C3%A3o-%C3%A0s-m%C3%A3es-em-situa%C3%A7%C3%A3o-de-vulnerabilidade",
+      "ok": true,
+      "status": 200,
+      "hash": "6df7db5d9a9d7f1cf359f5ebb998ec3d0ed8c218106d6ea103ff9fc98b212850",
+      "tamanho_texto": 2870
+    },
+    {
+      "url": "https://www.policiacivil.mg.gov.br/pagina/servico-cartilhas-pcmg",
+      "ok": true,
+      "status": 200,
+      "hash": "7c51248a8eea72c632877e788c4db48fd15f2e6ef9e5d8612dc072974c328d38",
+      "tamanho_texto": 4780
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "instituicao_id": "bmgo",
+  "instituicao_nome": "Corpo de Bombeiros Militar do Estado de Goiás",
+  "sigla": "BMGO",
+  "uf": "GO",
+  "tema": "concursos",
+  "status": "concurso recente homologado e sem novo edital aberto localizado",
+  "titulo": "BMGO: concurso 004/2022 homologado e sem novo edital aberto localizado",
+  "resumo": "O último concurso do BMGO para Soldado Combatente e Cadete foi o Edital nº 004/2022, já homologado, com nomeações e convocação para curso de formação em 2025",
+  "edital": "Edital nº 004/2022 homologado para Soldado Combatente e Cadete; houve nomeações em 2025 e convocação para o Curso de Formação de Praças em 02/06/2025",
+  "salario": "Soldado Combatente: R$ 6.353,13. Cadete: R$ 8.433,73",
+  "vagas": "500 vagas para Soldado Combatente e 60 vagas para Cadete",
+  "cotas": "Pesquisa inicial pendente",
+  "idade": "Soldado: 18 a 30 anos até 08/09/2022; Cadete: 18 a 32 anos até 08/09/2022; altura mínima de 1,65 m para homens e 1,60 m para mulheres; CNH categoria B ou superior na posse",
+  "escolaridade": "Curso superior completo em qualquer área para Soldado; curso superior completo em qualquer área para Cadete",
+  "materias": "Língua Portuguesa; realidade étnica, social, histórica, geográfica, cultural, política e econômica de Goiás; noções de informática; raciocínio lógico-quantitativo; noções de Direito; legislação aplicada ao CBMGO",
+  "banca": "Instituto AOCP",
+  "inscritos": "Pesquisa inicial pendente",
+  "etapas": "Prova objetiva; redação; teste de aptidão física; avaliação médica; avaliação da vida pregressa e investigação social",
+  "cfsd": "Houve convocação dos aprovados para o Curso de Formação de Praças em 02/06/2025, no Comando da Academia e Ensino Bombeiro Militar, em Goiânia, para inclusão, matrícula e…",
+  "estagio": "Pesquisa inicial pendente",
+  "validade": "2 anos, prorrogável uma vez por igual período, contados da homologação",
+  "previsao": "Sem novo edital aberto localizado até 17/05/2026",
+  "site": "https://www.bombeiros.go.gov.br",
+  "fontes": [
+    {
+      "titulo": "Como Ingressar no Corpo de Bombeiros Militar do Estado de Goiás?",
+      "url": "https://www.bombeiros.go.gov.br/acesso-a-informacao/perguntas-frequentes/como-ingressar-no-corpo-de-bombeiros-militar-do-estado-de-goias.html",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concursos Públicos - SEAD",
+      "url": "https://goias.gov.br/administracao/concursos-publicos/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital 004/2022 – Concurso CBM/GO – SOLDADO COMBATENTE/CADETE",
+      "url": "https://goias.gov.br/administracao/edital-004-2022-concurso-cbm-go-soldado-combatente-cadete/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital de Abertura nº 004/2022 - Retificado",
+      "url": "https://goias.gov.br/administracao/wp-content/uploads/sites/27/2022/07/130123-Ed00422-Retificado-69a.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Anexo II – Conteúdos Programáticos - Edital nº 004/2022",
+      "url": "https://goias.gov.br/administracao/wp-content/uploads/sites/27/2022/07/090822-AnexoII-Ed004-Retificado-6f1.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "CBMGO divulga convocação para Curso de Formação de Praças",
+      "url": "https://www.bombeiros.go.gov.br/noticias/cbmgo-divulga-convocacao-para-curso-de-formacao-de-pracas.html",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Comunicado Oficial de Nomeação dos Aprovados no Concurso Público",
+      "url": "https://www.bombeiros.go.gov.br/acesso-a-informacao/comunicado-de-nomeacao-dos-aprovados-em-concurso-publico.html",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Nota de Esclarecimento – Concurso Público CBMGO-2022",
+      "url": "https://www.bombeiros.go.gov.br/noticias/nota-de-esclarecimento-concurso-publico-cbmgo-2022.html",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Nomeados mais 302 candidatos aprovados em concurso público do Corpo de Bombeiros Militar do Estado de Goiás",
+      "url": "https://www.bombeiros.go.gov.br/noticias/nomeados-mais-302-candidatos-aprovados-em-concurso-publico-do-corpo-de-bombeiros-militar-do-estado-de-goias.html",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": false,
+  "alertas": [
+    "Não foi localizado novo edital aberto vigente nas fontes oficiais consultadas.",
+    "O concurso Edital nº 004/2022 aparece como homologado na página oficial de concursos da SEAD.",
+    "O campo cotas não foi confirmado de forma objetiva nas fontes consultadas.",
+    "O número de inscritos não foi localizado nas fontes consultadas.",
+    "O campo estágio probatório não foi localizado nas fontes consultadas.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo idade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (100/100). Campos concretos: 8/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 100,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

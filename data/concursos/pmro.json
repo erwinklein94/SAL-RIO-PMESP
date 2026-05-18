@@ -1,0 +1,78 @@
+{
+  "instituicao_id": "pmro",
+  "instituicao_nome": "Polícia Militar de Rondônia",
+  "sigla": "PMRO",
+  "uf": "RO",
+  "tema": "concursos",
+  "status": "Atualização fraca",
+  "titulo": "PMRO não tem novo concurso geral aberto localizado; portal reúne curso interno, voluntários e histórico do CFO 2022",
+  "resumo": "Não foi localizado novo edital geral aberto para soldado da PMRO até 17 de maio de 2026. Nas fontes oficiais, há publicações de cursos internos, corpo de voluntários e atos do concurso de Oficiais Combatentes de 2022.",
+  "edital": "Não foi localizado novo edital geral aberto da PMRO. Nas fontes oficiais, consta o concurso de Oficiais Combatentes 2022, com 20 vagas imediatas e 20 em cadastro de reserva, além de cursos internos e seleções administrativas mais recentes.",
+  "salario": "Não localizado nas fontes consultadas.",
+  "vagas": "Não foi localizado novo concurso geral aberto. Último edital oficial geral localizado para Oficial Combatente: 20 vagas imediatas, sendo 18 masculinas e 2 femininas, mais 20 em cadastro de reserva, sendo 18 masculinas e 2 femininas.",
+  "cotas": "Não localizado nas fontes consultadas.",
+  "idade": "Oficial Combatente 2022: 18 a 35 anos até a matrícula, altura mínima de 1,65 m para homens e 1,60 m para mulheres. Soldado do edital geral de 2014: 18 a 28 anos, altura mínima de 1,65 m para homens e 1,60 m para mulheres, com CNH mínima categoria B.",
+  "escolaridade": "Oficial Combatente 2022: nível superior em Direito. Soldado do edital geral de 2014: nível médio completo.",
+  "materias": "Oficial Combatente 2022: Direito Constitucional, Direito Administrativo, Direito Penal, Direito Processual Penal, Legislação Penal e Processual Penal Extravagante, Direito Penal Militar, Direito Processual Penal Militar, conhecimentos de História e Geografia de Rondônia e legislação estadual militar. Soldado do edital geral de 2014: Língua Portuguesa, História e Geografia de Rondônia, Informática Básica, Direitos Humanos e Estatuto da Polícia Militar de Rondônia.",
+  "banca": "Oficial Combatente 2022: Cebraspe. Soldado do edital geral de 2014: FUNCAB.",
+  "inscritos": "Inscrições de novos candidatos em 09 e 10 de março de 2026 no processo localizado",
+  "etapas": "Oficial Combatente 2022: prova objetiva, prova discursiva, prova de títulos, teste de aptidão física, exame psicotécnico, exames médicos, investigação social e curso de formação. Soldado do edital geral de 2014: prova objetiva, redação, teste de aptidão física, avaliação psicológica, exames médicos, investigação social e curso de formação.",
+  "cfsd": "Não foi localizado novo CFSD de concurso geral aberto. No histórico oficial, o último edital geral de soldado localizado é de 2014 e previa Curso de Formação de Soldado Policial Militar após as etapas do certame.",
+  "estagio": "Não localizado nas fontes consultadas.",
+  "validade": "Não localizado nas fontes consultadas.",
+  "previsao": "Sem novo edital geral localizado; seguem publicações de cursos, seleções internas e convocações na área de Cursos e Concursos da PMRO",
+  "site": "https://www.pm.ro.gov.br",
+  "fontes": [
+    {
+      "titulo": "Portal oficial da PMRO",
+      "url": "https://www.pm.ro.gov.br",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Página Cursos e Concursos da PMRO",
+      "url": "https://www.pm.ro.gov.br/cursos-e-concursos-1/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concurso de Oficiais Combatentes da PMRO 2022",
+      "url": "https://www.pm.ro.gov.br/concurso-de-oficiais-combatentes-da-pmro-2022/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital nº 1 – SESDEC – PM/RO, de 7 de julho de 2022",
+      "url": "https://rondonia.ro.gov.br/wp-content/uploads/2023/02/edital-1-sesdec-PMRO-7-de-julho-de-2022.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital de Concurso Público n. 062/PMRO/SEARH, de 20 de maio de 2014",
+      "url": "https://rondonia.ro.gov.br/wp-content/uploads/2014/05/062-Abertura-de-Concurso-Publico-Policia-Militar-Soldado.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Finalizado processo de escolha da instituição responsável pelo concurso da Segurança Pública de Rondônia",
+      "url": "https://rondonia.ro.gov.br/finalizado-processo-de-escolha-da-instituicao-responsavel-pelo-concurso-da-seguranca-publica-de-rondonia/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "médio",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Não foi localizado novo concurso geral aberto da PMRO para soldado ou oficial até 17 de maio de 2026.",
+    "Os dados objetivos mais completos encontrados em fontes oficiais são do concurso de Oficiais Combatentes de 2022 e do edital de Soldado de 2014.",
+    "Campos de salário, idade, escolaridade, banca, matérias e etapas reúnem informações históricas oficiais, não representam edital novo aberto.",
+    "Não foram localizados nas fontes consultadas dados objetivos atuais sobre cotas, inscritos, estágio, validade e previsão de novo concurso geral.",
+    "Classificação automática: Atualização fraca (54/100)."
+  ],
+  "classe_atualizacao": "fraca",
+  "qualidade_publicacao": "fraca",
+  "score_publicacao": "54",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

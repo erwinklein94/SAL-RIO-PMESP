@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pcms",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 90,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 19077,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 976,
+    "output_tokens_details": {
+      "reasoning_tokens": 176
+    },
+    "total_tokens": 20053
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.pc.ms.gov.br/",
+      "ok": true,
+      "status": 200,
+      "hash": "51f1edece135be6e882a61854ce4997a7102979c71042cbe6a60c6623dd8198c",
+      "tamanho_texto": 2369
+    },
+    {
+      "url": "https://www.ms.gov.br/orgao/pcmspolicia-civil-de-mato-grosso-do-sul60/servicos",
+      "ok": true,
+      "status": 200,
+      "hash": "e94a06660e07c03b3603fb746afd394f20541c5cae44011c8069d1e14113ae9e",
+      "tamanho_texto": 22
+    },
+    {
+      "url": "https://www.pc.ms.gov.br/informativo/concursos-publicos/",
+      "ok": true,
+      "status": 200,
+      "hash": "9d69826e2278d0044facc635836e2acfbc31f879534087228d53e5d46a1df067",
+      "tamanho_texto": 112148
+    },
+    {
+      "url": "https://agenciadenoticias.ms.gov.br/mais-social-recebe-inscricoes-para-programa-do-governo-de-ms-que-paga-creche-particular/",
+      "ok": true,
+      "status": 200,
+      "hash": "10767fb954105f24c018d4fc7330ff3473ccb0307bc08a8188355a0514b3049f",
+      "tamanho_texto": 8464
+    },
+    {
+      "url": "https://www.pc.ms.gov.br/encarregado-de-tratamento-de-dados-pessoais-da-policia-civil-de-mato-grosso-do-sul-pcms/",
+      "ok": true,
+      "status": 200,
+      "hash": "5ceb90e39c5419be66b25f5aa4531d8ea6d76f7b5c986bdb015ffd0ca29c38a2",
+      "tamanho_texto": 6929
+    },
+    {
+      "url": "https://www.pc.ms.gov.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.pc.ms.gov.br%2Finformativo%2Fconcursos-publicos%2F",
+      "ok": true,
+      "status": 200,
+      "hash": "7fa2a5cfd34e80b57b89bde8f1ed159f53dea9411481d5c931b2dd03478549f6",
+      "tamanho_texto": 454
+    }
+  ]
+}

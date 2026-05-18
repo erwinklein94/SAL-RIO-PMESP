@@ -1,0 +1,95 @@
+{
+  "instituicao_id": "pppi",
+  "instituicao_nome": "Polícia Penal de Piauí",
+  "sigla": "PPPI",
+  "uf": "PI",
+  "tema": "concursos",
+  "status": "Atualização forte",
+  "titulo": "PPPI: concurso da Polícia Penal do Piauí ofertou 200 vagas e segue com nomeações",
+  "resumo": "A Polícia Penal do Piauí realizou concurso público em 2024 para o cargo de Policial Penal, com 200 vagas imediatas e 200 para cadastro de reserva. O certame teve cinco etapas, curso de formação e já gerou posse de 207 policiais penais em 2025, além de nova turma com 214 alunos em formação e nomeações em 2026.",
+  "edital": "Edital nº 001/2024, publicado em 1º de março de 2024, para o cargo de Policial Penal – 3ª Classe. Concurso em andamento, com curso de formação realizado, aprovados empossados em 2025 e novas nomeações publicadas em 2026.",
+  "salario": "R$ 6.496,73 para o cargo de Policial Penal – 3ª Classe.",
+  "vagas": "200 vagas imediatas para Policial Penal, sendo 150 para ampla concorrência e 50 para negros e pardos, além de 200 vagas em cadastro de reserva, também divididas em 150 para ampla concorrência e 50 para negros e pardos.",
+  "cotas": "Reserva para negros e pardos: 50 vagas imediatas e 50 no cadastro de reserva.",
+  "idade": "Idade mínima de 18 anos na posse e máxima de 45 anos no período de inscrição. Exigida CNH ou permissão para dirigir na categoria B. Altura mínima de 1,60 m para homens e 1,55 m para mulheres.",
+  "escolaridade": "Ensino superior completo em qualquer área.",
+  "materias": "Língua Portuguesa, Conhecimentos Regionais do Estado do Piauí, Noções de Administração, Noções de Informática, Noções de Direito Constitucional, Noções de Direito Penal, Noções de Direito Administrativo, Noções de Direito Processual Penal, Noções de Direitos Humanos, Legislação Especial e Legislação Estadual, além de prova dissertativa.",
+  "banca": "NUCEPE, da Universidade Estadual do Piauí.",
+  "inscritos": "14.015 inscritos.",
+  "etapas": "Prova escrita objetiva, prova escrita dissertativa, exame de saúde, exame de aptidão física, avaliação psicológica, investigação social e curso de formação.",
+  "cfsd": "Curso de Formação de Policial Penal com carga mínima de 300 horas-aula. A matrícula e a aprovação no curso são requisitos para investidura no cargo.",
+  "estagio": "Não localizado nas fontes consultadas.",
+  "validade": "2 anos, contados da homologação do resultado final, prorrogável uma vez por igual período.",
+  "previsao": "Sem novo edital anunciado. O concurso de 2024 segue gerando convocações, formação e nomeações em 2025 e 2026.",
+  "site": "https://www.pi.gov.br",
+  "fontes": [
+    {
+      "titulo": "Concurso Público para Polícia Penal – Edital Nº 001/2024",
+      "url": "https://nucepe.uespi.br/sejus2024/",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital nº 001/2024 SEJUS Polícia Penal",
+      "url": "https://nucepe.uespi.br/consultas/downloads/2024_sejus/Edital_01_2024_SEJUS.pdf",
+      "tipo": "edital oficial em PDF",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital nº 001/2024 Retificado SEJUS Polícia Penal",
+      "url": "https://nucepe.uespi.br/consultas/downloads/2024_sejus/Edital_01_2024_sejus2024_RETIFICADO.pdf",
+      "tipo": "edital oficial retificado em PDF",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governador autoriza concurso público com 200 vagas para policial penal do Piauí",
+      "url": "https://www.pi.gov.br/governador-autoriza-concurso-publico-com-200-vagas-para-policial-penal-no-piaui/",
+      "tipo": "governo estadual",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo do Piauí lança concurso com 200 vagas para policial penal",
+      "url": "https://www.pi.gov.br/governo-do-piaui-lanca-concurso-com-200-vagas-para-policial-penal/",
+      "tipo": "governo estadual",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concurso público da Polícia Penal do Piauí tem mais de 14 mil inscritos",
+      "url": "https://www.pi.gov.br/concurso-publico-da-policia-penal-do-piaui-tem-mais-de-14-mil-inscritos/",
+      "tipo": "governo estadual",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Mais de 14 mil inscritos realizam provas do concurso para a Polícia Penal do Piauí",
+      "url": "https://www.pi.gov.br/concurso-da-policia-penal-do-piaui-reune-mais-de-14-mil-inscritos-na-realizacao-da-prova/",
+      "tipo": "governo estadual",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo reforça efetivo da Polícia Penal do Piauí com 207 novos agentes empossados e 214 em formação",
+      "url": "https://www.pi.gov.br/governo-reforca-efetivo-da-policia-penal-do-piaui-com-207-novos-agentes-empossados-e-214-em-formacao/",
+      "tipo": "governo estadual",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo do Piauí nomeia mais de 200 novos policiais penais e fortalece sistema penitenciário do estado",
+      "url": "https://www.pi.gov.br/governo-do-piaui-nomeia-mais-de-200-novos-policiais-penais-e-fortalece-sistema-penitenciario-do-estado/",
+      "tipo": "governo estadual",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": false,
+  "alertas": [
+    "Concurso identificado como o certame da SEJUS para Polícia Penal do Piauí, Edital nº 001/2024.",
+    "Há movimentações sub judice e nomeações posteriores em 2026, o que pode alterar quantitativos finais de convocados.",
+    "Não foi localizado anúncio oficial de novo edital além do concurso de 2024.",
+    "Classificação automática: Atualização forte (92/100)."
+  ],
+  "classe_atualizacao": "forte",
+  "qualidade_publicacao": "forte",
+  "score_publicacao": "92",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

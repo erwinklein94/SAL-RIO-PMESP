@@ -1,0 +1,72 @@
+{
+  "instituicao_id": "pmrr",
+  "instituicao_nome": "Polícia Militar de Roraima",
+  "sigla": "PMRR",
+  "uf": "RR",
+  "tema": "concursos",
+  "status": "Pesquisa pendente",
+  "titulo": "PMRR tem concurso anunciado para 600 vagas de praças",
+  "resumo": "O Governo de Roraima anunciou em 6 de maio de 2026 um novo concurso da PMRR com previsão de 600 vagas para praças, em turmas anuais de 150 aprovados. Até 17 de maio de 2026, não foi localizado edital publicado do novo certame.",
+  "edital": "Novo concurso anunciado em 06/05/2026 para 600 vagas de praças. Até 17/05/2026, edital não localizado. Último edital oficial localizado para soldado é de 2018, com 400 vagas para Soldado PM 2ª Classe do Quadro de Praças Combatentes.",
+  "salario": "Não localizado nas fontes consultadas.",
+  "vagas": "600 vagas previstas para praças no concurso anunciado em 2026, com convocação em turmas anuais de 150 aprovados. No último edital oficial localizado, foram 400 vagas para Soldado PM 2ª Classe do Quadro de Praças Combatentes, com 15% destinadas ao gênero feminino.",
+  "cotas": "Não localizado nas fontes consultadas.",
+  "idade": "Não localizado nas fontes consultadas.",
+  "escolaridade": "Não localizado nas fontes consultadas.",
+  "materias": "Não localizado nas fontes consultadas.",
+  "banca": "Não localizada nas fontes consultadas para o concurso anunciado em 2026. No último edital oficial localizado, a organização ficou com a UERR.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Para o concurso anunciado em 2026, não localizadas nas fontes consultadas. No último edital para soldado, houve prova objetiva, exames médicos e odontológicos, exame toxicológico, teste de aptidão física, avaliação psicológica e investigação social.",
+  "cfsd": "No anúncio de 2026, o governo informou ingresso em turmas anuais de 150 aprovados até completar as 600 vagas. No último edital oficial localizado, o curso de formação foi previsto em turmas e com duração mínima de 6 meses.",
+  "estagio": "Não localizado nas fontes consultadas.",
+  "validade": "Não localizado nas fontes consultadas.",
+  "previsao": "O governador anunciou em 06/05/2026 a realização de novo concurso com 600 vagas para praças ainda em 2026.",
+  "site": "https://www.rr.gov.br",
+  "fontes": [
+    {
+      "titulo": "Na posse da primeira comandante da PM de Roraima, governador anuncia concurso com 600 vagas",
+      "url": "https://portal.rr.gov.br/na-posse-da-primeira-comandante-da-pm-de-roraima-governador-anuncia-concurso-com-600-vagas/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Em entrevista, Soldado Sampaio elenca prioridades de gestão do Governo de Roraima",
+      "url": "https://portal.rr.gov.br/em-entrevista-soldado-sampaio-elenca-prioridades-de-gestao-do-governo-de-roraima/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Diário Oficial do Estado de Roraima - Edital do concurso da PMRR de 2018",
+      "url": "https://www.imprensaoficial.rr.gov.br/app/_edicoes/2018/05/doe-20180503.pdf",
+      "tipo": "diário oficial / edital PDF",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Diário Oficial do Estado de Roraima - Edital do concurso da PMRR de 2012",
+      "url": "https://imprensaoficial.rr.gov.br/app/_edicoes/2012/10/doe-20121023.pdf",
+      "tipo": "diário oficial / edital PDF",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Estatuto dos Militares do Estado de Roraima",
+      "url": "https://pm.rr.gov.br/legislacao/docs/1-Lei_Complementar_n___194__de_13_de_fevereiro_de_2012_-_Estatuto_dos_Militares_do_Estado_de_Roraima-20250706201132.pdf",
+      "tipo": "legislação oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "médio",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Há anúncio oficial de novo concurso em 06/05/2026, mas até 17/05/2026 o edital não foi localizado.",
+    "Salário, banca, cotas gerais e etapas específicas do concurso de 2026 ainda não foram localizados nas fontes oficiais consultadas.",
+    "Campos complementares foram preenchidos com base no último edital oficial localizado, apenas como referência histórica.",
+    "Revisão humana recomendada até a publicação do edital de 2026.",
+    "Classificação automática: Pesquisa pendente (8/100)."
+  ],
+  "classe_atualizacao": "pendente",
+  "qualidade_publicacao": "pendente",
+  "score_publicacao": "8",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

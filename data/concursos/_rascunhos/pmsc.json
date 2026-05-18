@@ -1,0 +1,112 @@
+{
+  "gerado_em": "2026-05-17",
+  "instituicao_id": "pmsc",
+  "motivo_bloqueio": "Atualização bloqueada: qualidade baixa, score 63, campos críticos genéricos: etapas, campos críticos sem confirmação: nenhum.",
+  "avaliacao": {
+    "score": 63,
+    "qualidade": "baixa",
+    "ruins": [
+      "inscritos"
+    ],
+    "genericos": [
+      "cotas",
+      "idade",
+      "etapas"
+    ],
+    "concretos": [
+      "edital",
+      "salario",
+      "vagas",
+      "escolaridade",
+      "banca",
+      "cfsd",
+      "validade",
+      "previsao"
+    ],
+    "criticosRuins": [],
+    "criticosGenericos": [
+      "etapas"
+    ],
+    "criticosConcretos": [
+      "edital",
+      "salario",
+      "vagas",
+      "escolaridade",
+      "banca"
+    ],
+    "podePublicar": false
+  },
+  "dados": {
+    "instituicao_id": "pmsc",
+    "instituicao_nome": "Polícia Militar de Santa Catarina",
+    "sigla": "PMSC",
+    "uf": "SC",
+    "tema": "concursos",
+    "status": "em andamento e histórico oficial disponível",
+    "titulo": "PMSC: concursos, requisitos e etapas",
+    "resumo": "Portal oficial da PMSC reúne concursos encerrados de praças e oficiais, além de processo seletivo ativo para militar temporário. Há histórico recente de convocações, TAF e investigação social no edital 200/CCP/2025, e concursos de soldados já encerrados no portal institucional.",
+    "edital": "Processo seletivo ativo em 2025/2026 para militar temporário, edital nº 200/CCP/2025, com publicações subsequentes de TAF e investigação social; concursos de soldado e oficial no portal institucional constam como encerrados.",
+    "salario": "Carreira PMSC em regime de subsídio. A tabela remuneratória publicada em fonte oficial menciona Soldado R$ 8.505,00 e Cabo R$ 9.720,00, com demais postos e graduações conforme a legislação estadual vigente citada na publicação institucional.",
+    "vagas": "Há processo seletivo ativo para militar temporário no edital nº 200/CCP/2025; a PMSC também publicou seleção com 484 vagas para agentes temporários em 2025 e concurso anterior de CFP 2023, hoje encerrado.",
+    "cotas": "Não consolidado em dado único no portal consultado. As reservas e critérios dependem do edital específico publicado pela PMSC e seus anexos.",
+    "idade": "Não consolidado em dado único no portal consultado. O requisito etário varia conforme o edital, cargo e quadro.",
+    "escolaridade": "Conferir edital vigente. Em regra, cargos de carreira exigem escolaridade compatível com Soldado, Oficial ou quadro específico.",
+    "materias": "No portal institucional, os processos da PMSC incluem etapas e conteúdos compatíveis com prova objetiva, avaliação física, investigação social e formação; a matriz de disciplinas deve ser lida no edital do certame específico.",
+    "banca": "IDECAN no processo seletivo de policial militar temporário (edital nº 200/CCP/2025).",
+    "inscritos": "Não localizado dado oficial consolidado de inscritos nas fontes consultadas.",
+    "etapas": "Para o processo seletivo temporário ativo: prova/seleção conforme edital, TAF e questionário de investigação social; no histórico da PMSC para praças e oficiais há também exames complementares e curso de formação.",
+    "cfsd": "Curso de Formação de Soldados/Curso de Formação de Praças no histórico de praças da PMSC; para o temporário, o edital 200/CCP/2025 menciona Curso Básico de Formação da Polícia Militar de Santa Catarina.",
+    "estagio": "Estágio probatório e desenvolvimento funcional seguem a legislação estadual e o regime de carreira aplicável; não houve consolidação de dado específico por concurso recente nas fontes consultadas.",
+    "validade": "Concursos de soldados e oficiais exibidos no portal institucional estão marcados como encerrados; o processo seletivo 200/CCP/2025 segue com publicações oficiais em 2026, indicando andamento do certame.",
+    "previsao": "O portal oficial de concursos da PMSC continua sendo a referência para novas convocações, retificações e futuros editais; o histórico mostra publicações recorrentes até 2026.",
+    "site": "https://www.pm.sc.gov.br/concursos",
+    "fontes": [
+      {
+        "titulo": "Portal de Concursos da PMSC – concursos para soldados",
+        "url": "https://www.pm.sc.gov.br/concursos/concursos-para-soldados-da-pmsc?sort=-criado_em",
+        "tipo": "fonte oficial institucional",
+        "data_consulta": "2026-05-17"
+      },
+      {
+        "titulo": "Portal de Concursos da PMSC – processo seletivo temporário PMSC-SEMET (edital 200/CCP/2025)",
+        "url": "https://www.pm.sc.gov.br/concursos/processo-seletivo-simplificado-para-militar-temporario-pmsc-semet/edital-n-200ccp2025-concurso-publico-para-o-preenchimento-de-vagas-temporarias-no-curso-basico-de-formacao-da-policia-militar-de-santa-catarina",
+        "tipo": "fonte oficial institucional",
+        "data_consulta": "2026-05-17"
+      },
+      {
+        "titulo": "Notícia oficial da PMSC sobre inscrições do processo seletivo de policial militar temporário",
+        "url": "https://pm.sc.gov.br/noticias/inscricoes-abertas-para-o-processo-seletivo-de-policial-militar-temporario-da-pmsc",
+        "tipo": "fonte oficial institucional",
+        "data_consulta": "2026-05-17"
+      },
+      {
+        "titulo": "Notícia oficial da PMSC sobre formatura de novos soldados",
+        "url": "https://www.pm.sc.gov.br/noticias/formatura-marca-ingresso-de-328-novos-soldados-na-policia-militar",
+        "tipo": "fonte oficial institucional",
+        "data_consulta": "2026-05-17"
+      },
+      {
+        "titulo": "Portal Tudo sobre: Formação da PMSC",
+        "url": "https://www.pm.sc.gov.br/tudo-sobre/formacao",
+        "tipo": "fonte oficial institucional",
+        "data_consulta": "2026-05-17"
+      }
+    ],
+    "ultima_pesquisa": "2026-05-17",
+    "nivel_confianca": "alto",
+    "precisa_revisao_humana": true,
+    "alertas": [
+      "Mantidos dados estáticos úteis quando não houve evidência oficial melhor para cotas, idade, escolaridade e inscritos.",
+      "O portal institucional consultado indica concursos de soldados e oficiais como encerrados; há processo seletivo temporário ativo com movimentações em 2026.",
+      "Salário citado depende de interpretação da tabela remuneratória mencionada em fonte oficial; recomendável validação humana antes de publicação final.",
+      "Não foram obtidos PDFs de edital diretamente por falha momentânea de abertura das páginas, mas as páginas institucionais de concurso retornaram metadados oficiais suficientes para atualização parcial.",
+      "Campo escolaridade mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Qualidade calculada: baixa (63/100). Campos concretos: 8/14.",
+      "Atualização bloqueada: qualidade baixa, score 63, campos críticos genéricos: etapas, campos críticos sem confirmação: nenhum."
+    ],
+    "qualidade_publicacao": "baixa",
+    "score_publicacao": 63,
+    "modo_qualidade": "qualificado",
+    "bloquear_publicacao": true
+  }
+}

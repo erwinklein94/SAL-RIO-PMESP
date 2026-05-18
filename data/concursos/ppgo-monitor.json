@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "ppgo",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 87,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 24726,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1012,
+    "output_tokens_details": {
+      "reasoning_tokens": 242
+    },
+    "total_tokens": 25738
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.go.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "8d65248fb77cd14f26040d747251867101e28526272fbb03be0fb8a6b3f67660",
+      "tamanho_texto": 19
+    },
+    {
+      "url": "https://www.policiapenal.go.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "be717e457ea4b30c9d2f0ffba19ba5304f54a6f71008e8a4e3286ad640b34753",
+      "tamanho_texto": 10171
+    },
+    {
+      "url": "https://www.seap.go.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.policiapenal.go.gov.br/processos-seletivos-para-cursos-ppgo/",
+      "ok": true,
+      "status": 200,
+      "hash": "9c45db85a8aba74762bf676c3f399435c3f93486898077133246612356c4e863",
+      "tamanho_texto": 8219
+    },
+    {
+      "url": "https://www.policiapenal.go.gov.br/noticias-da-dgap/espp-divulga-convocacao-para-o-curso-de-nocoes-basicas-de-corregedoria-na-7a-crpp.html",
+      "ok": true,
+      "status": 200,
+      "hash": "36753d5da289489d55e7faff5dc15fa845cd897fc7aff14aeed09bd43937a7fb",
+      "tamanho_texto": 4438
+    },
+    {
+      "url": "https://www.policiapenal.go.gov.br/noticias-da-dgap/ppgo-convoca-servidores-para-o-treinamento-aplicativo-sac24-monitorado.html",
+      "ok": true,
+      "status": 200,
+      "hash": "5d311ae0e178dcb0be3a2a694ac677bd4662a9229738485e329d5a0948236370",
+      "tamanho_texto": 4297
+    }
+  ]
+}

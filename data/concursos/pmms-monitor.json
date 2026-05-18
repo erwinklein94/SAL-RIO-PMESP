@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pmms",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 83,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 25207,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1167,
+    "output_tokens_details": {
+      "reasoning_tokens": 313
+    },
+    "total_tokens": 26374
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.pm.ms.gov.br/",
+      "ok": true,
+      "status": 200,
+      "hash": "1863b31c13afedd6e3251b0610a31b64c1eaaf27277ba6cce9885939859e3964",
+      "tamanho_texto": 2733
+    },
+    {
+      "url": "https://www.pm.ms.gov.br/wp-content/uploads/2025/02/orgonograma-pmms-2024.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "310902b5bf6f0b69c91b2bb3c8ffcb918212511949214fd707304ca4a1b05860",
+      "tamanho_texto": 986937
+    },
+    {
+      "url": "https://www.ms.gov.br/orgao/pmmspolicia-militar-de-mato-grosso-do-sul3/servicos",
+      "ok": true,
+      "status": 200,
+      "hash": "e94a06660e07c03b3603fb746afd394f20541c5cae44011c8069d1e14113ae9e",
+      "tamanho_texto": 22
+    },
+    {
+      "url": "https://www.pm.ms.gov.br/comunicacao-social-da-pmms/",
+      "ok": true,
+      "status": 200,
+      "hash": "5649ea505de2003fa3d6955a2d6599f1d6c445707bebba794b86f9cfe87dd1c6",
+      "tamanho_texto": 4007
+    },
+    {
+      "url": "https://www.pm.ms.gov.br/falapmms/",
+      "ok": true,
+      "status": 200,
+      "hash": "43603fb41e2a39e35d0b6b7eef3e244ea06aef1c146517a2a515bdf689a09716",
+      "tamanho_texto": 4934
+    },
+    {
+      "url": "https://www.pm.ms.gov.br/revista-cientifica-da-policia-militar-de-mato-grosso-do-sul-revpmms/",
+      "ok": true,
+      "status": 200,
+      "hash": "d70fbf36ec902c77080ec859d1ee87ee6258fba01e1db83db7eec7e7a69dc9cf",
+      "tamanho_texto": 2716
+    }
+  ]
+}

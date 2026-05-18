@@ -1,0 +1,71 @@
+{
+  "instituicao_id": "ppam",
+  "instituicao_nome": "Polícia Penal de Amazonas",
+  "sigla": "PPAM",
+  "uf": "AM",
+  "tema": "concursos",
+  "status": "Pesquisa pendente",
+  "titulo": "PPAM: nenhum edital novo localizado",
+  "resumo": "Não foi localizado novo edital de concurso da Polícia Penal do Amazonas nas fontes consultadas. Foram confirmados, em lei estadual, os requisitos de ingresso, etapas, cotas e remuneração inicial do cargo de Policial Penal.",
+  "edital": "Não foi localizado nas fontes consultadas.",
+  "salario": "Policial Penal: R$ 6.232,92 na referência inicial A da carreira.",
+  "vagas": "Não localizado nas fontes consultadas.",
+  "cotas": "No mínimo 10% das vagas para candidatas do sexo feminino. Para pessoas com deficiência, no mínimo 5% das vagas nos concursos da SEAP, exceto para o cargo de Policial Penal.",
+  "idade": "18 a 35 anos no momento da inscrição. Altura mínima de 1,60 m para homens e 1,55 m para mulheres. CNH categoria B no mínimo.",
+  "escolaridade": "Nível superior completo ou equivalente, com diploma reconhecido pelo MEC.",
+  "materias": "Não localizado nas fontes consultadas.",
+  "banca": "Não localizado nas fontes consultadas.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Prova objetiva, prova de títulos, inspeção de saúde, investigação social, TAF, avaliação psicológica e curso de formação.",
+  "cfsd": "Curso de formação técnico-policial, de caráter eliminatório e classificatório.",
+  "estagio": "Não localizado nas fontes consultadas.",
+  "validade": "Não localizado nas fontes consultadas.",
+  "previsao": "Sem novo edital anunciado nas fontes consultadas",
+  "site": "https://www.policiapenal.am.gov.br",
+  "fontes": [
+    {
+      "titulo": "Lei estadual da carreira da Polícia Penal e do sistema penitenciário do Amazonas no Diário Oficial",
+      "url": "https://diario.imprensaoficial.am.gov.br/portal/edicoes/download/17976",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Legisla.AM - texto da lei com requisitos e etapas para Policial Penal",
+      "url": "https://legisla.imprensaoficial.am.gov.br/diario_am/12/2025/11/18154?modo=lista",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Portal institucional da Polícia Penal do Amazonas",
+      "url": "https://www.policiapenal.am.gov.br",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Portal institucional da SEAP do Amazonas",
+      "url": "https://www.seap.am.gov.br",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Portal do Governo do Amazonas - SEAP",
+      "url": "https://www.amazonas.am.gov.br/orgaos_entidades/secretaria-de-estado-de-administracao-penitenciaria-seap/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "médio",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Não foi localizado novo edital de concurso da Polícia Penal do Amazonas nas fontes consultadas.",
+    "Os dados objetivos confirmados nesta atualização vieram da lei estadual da carreira, não de edital de abertura.",
+    "Vagas, banca, disciplinas, inscritos, validade e cronograma do próximo concurso não foram localizados nas fontes consultadas.",
+    "Classificação automática: Pesquisa pendente (12/100)."
+  ],
+  "classe_atualizacao": "pendente",
+  "qualidade_publicacao": "pendente",
+  "score_publicacao": "12",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

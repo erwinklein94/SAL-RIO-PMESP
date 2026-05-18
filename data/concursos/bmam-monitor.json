@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "bmam",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 34621,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 2014,
+    "output_tokens_details": {
+      "reasoning_tokens": 515
+    },
+    "total_tokens": 36635
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.am.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.cbm.am.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "63bb2484a1b06f616269a575192c302bea1461af8064694bd442ee7bd3d93730",
+      "tamanho_texto": 3934
+    },
+    {
+      "url": "https://www.cbmam.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.bombeiros.am.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.cbm.am.gov.br/cbmam/paginas/mapa",
+      "ok": true,
+      "status": 200,
+      "hash": "509ecaf7ac84b6575433aa4ba8990a5e4aa8398fd762502e8f3c60d4a3f84da1",
+      "tamanho_texto": 2197
+    },
+    {
+      "url": "https://www.cbm.am.gov.br/cbmam",
+      "ok": true,
+      "status": 200,
+      "hash": "63bb2484a1b06f616269a575192c302bea1461af8064694bd442ee7bd3d93730",
+      "tamanho_texto": 3934
+    }
+  ]
+}

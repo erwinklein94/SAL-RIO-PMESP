@@ -1,0 +1,91 @@
+{
+  "gerado_em": "2026-05-17",
+  "instituicao_id": "pmms",
+  "motivo_bloqueio": "Atualização bloqueada: qualidade baixa, score 68, campos críticos genéricos: etapas, campos críticos sem confirmação: nenhum.",
+  "avaliacao": {
+    "score": 68,
+    "qualidade": "baixa",
+    "ruins": [
+      "cotas",
+      "validade"
+    ],
+    "genericos": [
+      "etapas"
+    ],
+    "concretos": [
+      "edital",
+      "salario",
+      "vagas",
+      "idade",
+      "escolaridade",
+      "materias",
+      "banca",
+      "inscritos"
+    ],
+    "criticosRuins": [],
+    "criticosGenericos": [
+      "etapas"
+    ],
+    "criticosConcretos": [
+      "edital",
+      "salario",
+      "vagas",
+      "escolaridade",
+      "banca"
+    ],
+    "podePublicar": false
+  },
+  "dados": {
+    "instituicao_id": "pmms",
+    "instituicao_nome": "Polícia Militar de Mato Grosso do Sul",
+    "sigla": "PMMS",
+    "uf": "MS",
+    "tema": "concursos",
+    "status": "conteúdo inicial protegido",
+    "titulo": "PMMS: concursos, requisitos e etapas (último ciclo com edital 2022)",
+    "resumo": "A PMMS organiza concursos para Soldado e também para Oficiais; o último ciclo com edital consolidado nos dados cadastrados é o de 2022, com etapas típicas de prova objetiva e fases eliminatórias/curso de formação após a…",
+    "edital": "PMMS — Soldado e Oficial — último ciclo SAD/SEJUSP/PMMS 2022 e acompanhamento de atos posteriores",
+    "salario": "Soldado PMMS (Nível I) R$ 5.727,10; Cabo PMMS (Nível I) R$ 6.872,52; 3º Sargento PMMS (Nível I) R$ 8.247,02; Coronel (Nível VII) R$ 39.426,84",
+    "vagas": "Último ciclo PMMS/2022: vagas para Soldado e Oficial; acompanhar novos editais, convocações e prorrogações no portal Concursos MS e PMMS",
+    "cotas": "Não localizado nas fontes consultadas nesta atualização. Preservado cadastro anterior: reserva de vagas conforme edital e legislação estadual vigente",
+    "idade": "Conferir edital; requisitos podem envolver idade, altura, CNH, aptidão física, escolaridade e investigação social",
+    "escolaridade": "Conferir edital vigente; requisitos variam para Soldado, Oficial e demais quadros",
+    "materias": "Língua Portuguesa; Raciocínio Lógico; Noções de Direito; legislação/institucional; atualidades; conhecimentos específicos (conforme cargo); demais disciplinas previstas no edital do ciclo",
+    "banca": "IDECAN (preservado do último ciclo cadastrado, PMMS/2022)",
+    "inscritos": "Sem edital novo aberto cadastrado nesta versão; acompanhar Concursos MS, PMMS e Diário Oficial/MS",
+    "etapas": "Prova objetiva; TAF (Teste de Aptidão Física); avaliação psicológica; exame de saúde; investigação social; entrega de documentos; curso de formação e demais fases previstas no edital do ciclo",
+    "cfsd": "Curso de Formação de Soldados ou Curso de Formação de Oficiais (conforme cargo)",
+    "estagio": "Estágio/probatório e regras da carreira militar estadual conforme legislação e atos da corporação",
+    "validade": "Não localizado nas fontes consultadas nesta atualização o prazo de validade do último certame",
+    "previsao": "Sem novo edital com cargos e datas detalhados localizado nas fontes consultadas nesta atualização; acompanhar publicações oficiais para abertura/convocações e resultados",
+    "site": "https://www.pm.ms.gov.br/",
+    "fontes": [
+      {
+        "titulo": "Página institucional da PMMS",
+        "url": "https://www.pm.ms.gov.br/",
+        "tipo": "fonte oficial ou página institucional",
+        "data_consulta": "2026-05-17"
+      }
+    ],
+    "ultima_pesquisa": "2026-05-17",
+    "nivel_confianca": "médio",
+    "precisa_revisao_humana": true,
+    "alertas": [
+      "Nesta atualização, as fontes consultadas não trouxeram edital/cargo/datas/vagas/banca/inscritos do ciclo mais recente; portanto, preservaram-se dados do último ciclo já cadastrados (PMMS/2022).",
+      "Campo edital mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Campo vagas mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Campo idade mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Campo escolaridade mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Campo inscritos preservado porque a nova versão não trouxe dado concreto superior ao já publicado.",
+      "Campo estagio mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Qualidade calculada: baixa (68/100). Campos concretos: 8/14.",
+      "Atualização bloqueada: qualidade baixa, score 68, campos críticos genéricos: etapas, campos críticos sem confirmação: nenhum."
+    ],
+    "texto_final_limpo": true,
+    "padrao_editorial": "usuario-final-sem-links-nos-campos",
+    "qualidade_publicacao": "baixa",
+    "score_publicacao": 68,
+    "modo_qualidade": "economico",
+    "bloquear_publicacao": true
+  }
+}

@@ -15,6 +15,7 @@ Tokens substituídos no template:
 <!DOCTYPE html>
 <html class="page-artigo" lang="pt-BR">
 <head>
+  <script>(function(){try{var t=localStorage.getItem("theme");document.documentElement.setAttribute("data-theme",t==="dark"?"dark":"light");}catch(e){document.documentElement.setAttribute("data-theme","light");}})();</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light">
@@ -158,6 +159,8 @@ Tokens substituídos no template:
   ]
 }
 </script>
+  <link href="../css/components/sugerir-correcao.css?v=20260517" rel="stylesheet" />
+  <link href="../css/components/theme-toggle.css?v=20260517" rel="stylesheet" />
 </head>
 
 <body class="app-soft-theme" data-inst="cbmerj" data-page="artigo">
@@ -314,7 +317,12 @@ Tokens substituídos no template:
     Aviso: as informações deste artigo são baseadas em editais e fontes oficiais disponíveis na data da publicação e têm caráter exclusivamente informativo. Valores de soldo, gratificações e regras de concurso podem ser alterados por novas leis, decretos ou editais. Consulte o portal oficial do CBMERJ (cbmerj.rj.gov.br), a SEDEC-RJ e a banca organizadora do certame de seu interesse. Este conteúdo não substitui orientação jurídica ou administrativa.
   </p>
 
+  <section class="usp-sugerir-correcao" aria-label="Sugerir correção desta página">
+    <a class="usp-sugerir-correcao__botao" href="mailto:universosegpub@gmail.com?subject=Sugest%C3%A3o%20de%20corre%C3%A7%C3%A3o%20-%20Universo%20Seguran%C3%A7a%20P%C3%BAblica&amp;body=Ol%C3%A1%2C%20equipe%20do%20Universo%20Seguran%C3%A7a%20P%C3%BAblica.%0A%0AGostaria%20de%20sugerir%20uma%20corre%C3%A7%C3%A3o%20ou%20atualiza%C3%A7%C3%A3o%20nesta%20p%C3%A1gina%3A%0Ahttps%3A//universosegpub.com.br/artigos/salario-cbmerj-2026.html%0A%0AMinha%20sugest%C3%A3o%3A%0A%0AFonte%20ou%20refer%C3%AAncia%2C%20se%20houver%3A%0A%0AObrigado%28a%29." title="Sugerir correção ou atualização desta página">Sugerir correção</a>
+  </section>
+
 </main>
 
+  <script defer src="../js/ui/theme-toggle.js?v=20260517"></script>
 </body>
 </html>

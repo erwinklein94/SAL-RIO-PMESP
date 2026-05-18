@@ -1,0 +1,73 @@
+{
+  "instituicao_id": "pcto",
+  "instituicao_nome": "Polícia Civil de Tocantins",
+  "sigla": "PCTO",
+  "uf": "TO",
+  "tema": "concursos",
+  "status": "Atualização fraca",
+  "titulo": "Concurso da Polícia Civil de Tocantins está com comissão instaurada e 452 vagas previstas",
+  "resumo": "O novo concurso da Polícia Civil do Tocantins está em fase de preparação. Em 2 de abril de 2026, o Governo do Tocantins informou a instauração da comissão do certame com 452 vagas previstas para os cargos de delegado, oficial investigador e perito oficial.",
+  "edital": "Ainda não há edital de abertura publicado para o novo concurso. A situação atual é de comissão instaurada em 2 de abril de 2026, com 452 vagas previstas para delegado, oficial investigador e perito oficial. No concurso de 2014, houve edital para delegado com 97 vagas imediatas e 29 em cadastro de reserva.",
+  "salario": "Delegado de Polícia Civil: R$ 10.735,28 no edital de 2014. Oficial Investigador de Polícia: R$ 6.659,08 no padrão inicial vigente localizado. Perito Oficial: R$ 14.881,44 no padrão inicial vigente localizado.",
+  "vagas": "452 vagas previstas para delegado, oficial investigador e perito oficial. A distribuição por cargo e a existência de cadastro de reserva do novo concurso não foram localizadas nas fontes consultadas. No edital de 2014 para delegado, foram 97 vagas imediatas e 29 em cadastro de reserva.",
+  "cotas": "No edital de 2014 para delegado, 5 vagas foram reservadas a candidatos com deficiência. As regras de cotas do novo concurso não foram localizadas nas fontes consultadas.",
+  "idade": "Para delegado no edital de 2014, foi localizada exigência de Carteira Nacional de Habilitação. Idade mínima, idade máxima, altura mínima e requisitos físicos do novo concurso não foram localizados nas fontes consultadas.",
+  "escolaridade": "Não localizado nas fontes consultadas.",
+  "materias": "No edital de 2014 para delegado, foram localizadas disciplinas de Direito Penal, Direito Processual Penal, Direito Constitucional, Direito Administrativo, Direito Civil, Direito Empresarial, Direitos Humanos, Criminologia, Medicina Legal e Legislação Penal e Processual Penal Extravagante. As matérias do novo concurso não foram localizadas nas fontes consultadas.",
+  "banca": "Não localizada nas fontes consultadas.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "No edital de 2014 para delegado, foram localizadas duas etapas, com investigação criminal e social no decorrer do concurso e curso de formação profissional. As demais etapas do novo concurso não foram localizadas nas fontes consultadas.",
+  "cfsd": "Para delegado, foi localizada exigência de aprovação em curso de formação de delegado de polícia civil. Para o novo concurso, os detalhes do curso de formação dos demais cargos não foram localizados nas fontes consultadas.",
+  "estagio": "Não localizado nas fontes consultadas.",
+  "validade": "Não localizado nas fontes consultadas.",
+  "previsao": "Comissão do concurso instaurada em 2 de abril de 2026. Data de publicação do edital de abertura não localizada nas fontes consultadas.",
+  "site": "https://www.to.gov.br",
+  "fontes": [
+    {
+      "titulo": "Governo do Tocantins instaura comissão do concurso público da Polícia Civil com 452 vagas para diferentes cargos",
+      "url": "https://diariooficial.to.gov.br/?tierand=1%2F%3Ftierand%3D1%2F",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Diário Oficial do Estado do Tocantins - tabelas de subsídios da Polícia Civil",
+      "url": "https://doe.to.gov.br/diario/4617/download",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Retificação do Edital 001/2014 - Concurso para Delegado de Polícia Civil do Tocantins",
+      "url": "https://central.to.gov.br/download/117156",
+      "tipo": "edital oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital nº 001/2014 - Concurso para Delegado de Polícia Civil do Tocantins",
+      "url": "https://central.to.gov.br/download/242248",
+      "tipo": "edital oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Cronograma do Edital nº 001/2014 - Concurso para Delegado de Polícia Civil do Tocantins",
+      "url": "https://central.to.gov.br/download/242251",
+      "tipo": "edital oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "médio",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Há comissão instaurada e 452 vagas previstas, mas o edital de abertura do novo concurso não foi localizado.",
+    "A distribuição das 452 vagas por cargo não foi localizada nas fontes consultadas.",
+    "O cargo de Oficial Investigador de Polícia foi citado nas notícias oficiais, mas salário inicial e escolaridade do novo concurso não foram localizados nas fontes consultadas.",
+    "As regras de cotas, etapas completas, matérias, validade e banca do novo certame ainda não foram localizadas nas fontes consultadas.",
+    "Os dados objetivos mais completos localizados são do concurso de delegado de 2014 e das tabelas oficiais de subsídios.",
+    "Classificação automática: Atualização fraca (54/100)."
+  ],
+  "classe_atualizacao": "fraca",
+  "qualidade_publicacao": "fraca",
+  "score_publicacao": "54",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

@@ -1,0 +1,83 @@
+name: Atualizar Concursos - Simples
+
+on:
+  workflow_dispatch:
+    inputs:
+      grupo_atualizacao:
+        description: 'Qual fila atualizar? Pendentes = primeira pesquisa; Fracas = conteúdo ruim; Fortes = manutenção; Instituição = ID específico.'
+        required: true
+        default: 'pendentes'
+        type: choice
+        options:
+          - 'pendentes'
+          - 'fracas'
+          - 'fortes'
+          - 'todas'
+          - 'instituicao'
+      instituicao:
+        description: 'Use somente se grupo_atualizacao = instituicao. Ex.: pmesp, pcdf, bmac.'
+        required: false
+        default: ''
+        type: string
+      quantidade:
+        description: 'Quantas instituições atualizar nesta execução?'
+        required: true
+        default: '5'
+        type: choice
+        options:
+          - '1'
+          - '2'
+          - '3'
+          - '5'
+          - '10'
+          - '20'
+      modelo_openai:
+        description: 'Modelo para pesquisa. Mini é mais barato; 5.5 é mais caro e deve ser usado em lotes pequenos.'
+        required: true
+        default: 'gpt-5.4-mini'
+        type: choice
+        options:
+          - 'gpt-5.4-mini'
+          - 'gpt-5.4'
+          - 'gpt-5.5'
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar-concursos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Atualizar concursos
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GRUPO_ATUALIZACAO: ${{ github.event.inputs.grupo_atualizacao }}
+          INSTITUICAO_ID: ${{ github.event.inputs.instituicao }}
+          QUANTIDADE: ${{ github.event.inputs.quantidade }}
+          MODELO_OPENAI: ${{ github.event.inputs.modelo_openai }}
+          SEARCH_CONTEXT_SIZE: 'high'
+        run: node scripts/atualizar-concursos.mjs
+
+      - name: Gerar relatório simples
+        run: node scripts/gerar-relatorio-concursos.mjs
+
+      - name: Salvar alterações no repositório
+        run: |
+          if [ -z "$(git status --porcelain data/concursos docs/RELATORIO-CONCURSOS.md)" ]; then
+            echo "Nenhuma alteração detectada."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/concursos docs/RELATORIO-CONCURSOS.md
+          git commit -m "Atualiza concursos pelo motor simples"
+          git push

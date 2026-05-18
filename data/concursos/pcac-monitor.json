@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pcac",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 87,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 28802,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 893,
+    "output_tokens_details": {
+      "reasoning_tokens": 280
+    },
+    "total_tokens": 29695
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://agencia.ac.gov.br/governadora-mailza-assis-empossa-novo-delegado-geral-e-anuncia-concurso-publico-da-policia-civil/",
+      "ok": true,
+      "status": 200,
+      "hash": "a0edad3ff5eb2843d5366f3f5cf1626173d9d5b9b707e4ddb8145b5f00239490",
+      "tamanho_texto": 6857
+    },
+    {
+      "url": "https://agencia.ac.gov.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fagencia.ac.gov.br%2Fgovernadora-mailza-assis-empossa-novo-delegado-geral-e-anuncia-concurso-publico-da-policia-civil%2F",
+      "ok": true,
+      "status": 200,
+      "hash": "2e3028196baa5b25208ba235439f41541adabff1684d106ddef91a084534525b",
+      "tamanho_texto": 1122
+    },
+    {
+      "url": "https://agencia.ac.gov.br/tag/pcac/",
+      "ok": true,
+      "status": 200,
+      "hash": "458e64e2421eb9b053138274baf64a25f378bfadfcb6479b66c801a4e0ac46a8",
+      "tamanho_texto": 7366
+    },
+    {
+      "url": "https://agencia.ac.gov.br/tag/pcac/page/2/",
+      "ok": true,
+      "status": 200,
+      "hash": "453de833e3dc2e06d152724c163fd32ab00f1e49eb857946130d21912f1e3491",
+      "tamanho_texto": 7166
+    },
+    {
+      "url": "https://agencia.ac.gov.br/tag/pcac/page/3/",
+      "ok": true,
+      "status": 200,
+      "hash": "e890990cec26114859ab39e7a22a09f3119ec9bf0275a78143d3a157ab586bc5",
+      "tamanho_texto": 7102
+    },
+    {
+      "url": "https://agencia.ac.gov.br/tag/pcac/page/4/",
+      "ok": true,
+      "status": 200,
+      "hash": "722801f5a502ef693d294c94948164e0914d7c47cdbb2b96aea0354f5f761ace",
+      "tamanho_texto": 4565
+    }
+  ]
+}

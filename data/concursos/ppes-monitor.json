@@ -1,0 +1,49 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "ppes",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 87,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 24897,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1173,
+    "output_tokens_details": {
+      "reasoning_tokens": 324
+    },
+    "total_tokens": 26070
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.es.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "ff46c1e68553f83834cf84da0ea087806c00946b13aa7e11711a21a3f398f7c4",
+      "tamanho_texto": 9208
+    },
+    {
+      "url": "https://www.policiapenal.es.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.seap.es.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    }
+  ]
+}

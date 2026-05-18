@@ -1,0 +1,1306 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Relatório de qualidade — Concursos</title>
+  <style>
+    body{font-family:Arial, sans-serif;margin:0;background:#f6f7f9;color:#111827}
+    header{background:#07111f;color:white;padding:28px 36px;border-bottom:4px solid #c8a400}
+    main{padding:28px 36px;max-width:1400px;margin:auto}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;margin-bottom:24px}
+    .card{background:white;border:1px solid #d7dce3;border-radius:12px;padding:18px;box-shadow:0 4px 18px rgba(0,0,0,.04)}
+    .card span{display:block;color:#64748b;font-size:13px;margin-bottom:6px}.card strong{font-size:30px}
+    .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.toolbar button{border:1px solid #cbd5e1;background:white;border-radius:999px;padding:8px 14px;cursor:pointer}.toolbar button:hover{background:#eef2ff}
+    table{width:100%;border-collapse:collapse;background:white;border:1px solid #d7dce3;border-radius:12px;overflow:hidden}
+    th,td{padding:12px;border-bottom:1px solid #e5e7eb;text-align:left;vertical-align:top}th{background:#f1f5f9;font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:#475569}
+    tr.danger{border-left:6px solid #dc2626}tr.warn{border-left:6px solid #f59e0b}tr.info{border-left:6px solid #2563eb}tr.ok{border-left:6px solid #16a34a}
+    pre{margin:0;white-space:pre-wrap;font-size:12px;background:#f8fafc;padding:8px;border-radius:8px;border:1px solid #e2e8f0}
+    small{color:#64748b}
+  </style>
+</head>
+<body>
+<header>
+  <h1>Relatório de qualidade — Concursos</h1>
+  <p>Gerado em 2026-05-17. Use esta fila para decidir quais instituições precisam de pesquisa qualificada.</p>
+</header>
+<main>
+  <section class="cards">
+    <div class="card"><span>Total</span><strong>110</strong></div>
+    <div class="card"><span>Rodar qualificado</span><strong>67</strong></div>
+    <div class="card"><span>Revisar</span><strong>43</strong></div>
+    <div class="card"><span>OK</span><strong>0</strong></div>
+  </section>
+  <div class="toolbar">
+    <button onclick="filtrar('')">Todos</button>
+    <button onclick="filtrar('rodar_qualificado')">Rodar qualificado</button>
+    <button onclick="filtrar('revisar_rascunho_ou_site')">Revisar</button>
+    <button onclick="filtrar('ok')">OK</button>
+  </div>
+  <table>
+    <thead><tr><th>Ação</th><th>Instituição</th><th>Nome</th><th>Prioridade</th><th>Score</th><th>Motivos</th><th>Workflow sugerido</th></tr></thead>
+    <tbody><tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PMESP</strong><br><small>pmesp</small></td>
+      <td>Polícia Militar do Estado de São Paulo</td>
+      <td>alta</td>
+      <td><strong>78</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pmesp
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PMMG</strong><br><small>pmmg</small></td>
+      <td>Polícia Militar de Minas Gerais</td>
+      <td>alta</td>
+      <td><strong>88</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pmmg
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PCERJ</strong><br><small>pcerj</small></td>
+      <td>Polícia Civil do Rio de Janeiro</td>
+      <td>alta</td>
+      <td><strong>89</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pcerj
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PCSP</strong><br><small>pcsp</small></td>
+      <td>Polícia Civil do Estado de São Paulo</td>
+      <td>alta</td>
+      <td><strong>98</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pcsp
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PMBA</strong><br><small>pmba</small></td>
+      <td>Polícia Militar da Bahia</td>
+      <td>alta</td>
+      <td><strong>98</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pmba
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PMERJ</strong><br><small>pmerj</small></td>
+      <td>Polícia Militar do Rio de Janeiro</td>
+      <td>alta</td>
+      <td><strong>98</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pmerj
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PRF</strong><br><small>prf</small></td>
+      <td>Polícia Rodoviária Federal</td>
+      <td>alta</td>
+      <td><strong>98</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: prf
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>CBMMS</strong><br><small>bmms</small></td>
+      <td>Corpo de Bombeiros Militar de Mato Grosso do Sul</td>
+      <td>media</td>
+      <td><strong>43</strong></td>
+      <td>score muito baixo (43); campos críticos genéricos: salario, escolaridade; muitos campos genéricos: salario, cotas, idade, escolaridade, materias, estagio; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: bmms
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPPA</strong><br><small>pppa</small></td>
+      <td>Polícia Penal de Pará</td>
+      <td>media</td>
+      <td><strong>51</strong></td>
+      <td>score muito baixo (51); muito desatualizado: Infinity dias</td>
+      <td><pre>instituicao: pppa
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPPB</strong><br><small>pppb</small></td>
+      <td>Polícia Penal de Paraíba</td>
+      <td>media</td>
+      <td><strong>51</strong></td>
+      <td>score muito baixo (51); muito desatualizado: Infinity dias</td>
+      <td><pre>instituicao: pppb
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPPE</strong><br><small>pppe</small></td>
+      <td>Polícia Penal de Pernambuco</td>
+      <td>media</td>
+      <td><strong>51</strong></td>
+      <td>score muito baixo (51); muito desatualizado: Infinity dias</td>
+      <td><pre>instituicao: pppe
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPPI</strong><br><small>pppi</small></td>
+      <td>Polícia Penal de Piauí</td>
+      <td>media</td>
+      <td><strong>51</strong></td>
+      <td>score muito baixo (51); muito desatualizado: Infinity dias</td>
+      <td><pre>instituicao: pppi
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPPR</strong><br><small>pppr</small></td>
+      <td>Polícia Penal do Paraná</td>
+      <td>media</td>
+      <td><strong>51</strong></td>
+      <td>score muito baixo (51); muito desatualizado: Infinity dias</td>
+      <td><pre>instituicao: pppr
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPRJ</strong><br><small>pprj</small></td>
+      <td>Polícia Penal do Rio de Janeiro</td>
+      <td>media</td>
+      <td><strong>51</strong></td>
+      <td>score muito baixo (51); muito desatualizado: Infinity dias</td>
+      <td><pre>instituicao: pprj
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPRN</strong><br><small>pprn</small></td>
+      <td>Polícia Penal de Rio Grande do Norte</td>
+      <td>media</td>
+      <td><strong>51</strong></td>
+      <td>score muito baixo (51); muito desatualizado: Infinity dias</td>
+      <td><pre>instituicao: pprn
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPRO</strong><br><small>ppro</small></td>
+      <td>Polícia Penal de Rondônia</td>
+      <td>media</td>
+      <td><strong>51</strong></td>
+      <td>score muito baixo (51); muito desatualizado: Infinity dias</td>
+      <td><pre>instituicao: ppro
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPRR</strong><br><small>pprr</small></td>
+      <td>Polícia Penal de Roraima</td>
+      <td>media</td>
+      <td><strong>51</strong></td>
+      <td>score muito baixo (51); muito desatualizado: Infinity dias</td>
+      <td><pre>instituicao: pprr
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPRS</strong><br><small>pprs</small></td>
+      <td>Polícia Penal do Rio Grande do Sul</td>
+      <td>media</td>
+      <td><strong>51</strong></td>
+      <td>score muito baixo (51); muito desatualizado: Infinity dias</td>
+      <td><pre>instituicao: pprs
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPSC</strong><br><small>ppsc</small></td>
+      <td>Polícia Penal de Santa Catarina</td>
+      <td>media</td>
+      <td><strong>51</strong></td>
+      <td>score muito baixo (51); muito desatualizado: Infinity dias</td>
+      <td><pre>instituicao: ppsc
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPTO</strong><br><small>ppto</small></td>
+      <td>Polícia Penal de Tocantins</td>
+      <td>media</td>
+      <td><strong>51</strong></td>
+      <td>score muito baixo (51); muito desatualizado: Infinity dias</td>
+      <td><pre>instituicao: ppto
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPMS</strong><br><small>ppms</small></td>
+      <td>Polícia Penal de Mato Grosso do Sul</td>
+      <td>media</td>
+      <td><strong>65</strong></td>
+      <td>existe rascunho gerado para revisão; score abaixo do mínimo (65); campos críticos genéricos: vagas, banca; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: ppms
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PMMA</strong><br><small>pmma</small></td>
+      <td>Polícia Militar de Maranhão</td>
+      <td>media</td>
+      <td><strong>68</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; score abaixo do mínimo (68); foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pmma
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPAM</strong><br><small>ppam</small></td>
+      <td>Polícia Penal de Amazonas</td>
+      <td>media</td>
+      <td><strong>68</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; score abaixo do mínimo (68); foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: ppam
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPMT</strong><br><small>ppmt</small></td>
+      <td>Polícia Penal de Mato Grosso</td>
+      <td>media</td>
+      <td><strong>70</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; score abaixo do mínimo (70); campos críticos genéricos: vagas, banca; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: ppmt
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PCRR</strong><br><small>pcrr</small></td>
+      <td>Polícia Civil de Roraima</td>
+      <td>media</td>
+      <td><strong>77</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; score abaixo do mínimo (77); foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pcrr
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PCTO</strong><br><small>pcto</small></td>
+      <td>Polícia Civil de Tocantins</td>
+      <td>media</td>
+      <td><strong>77</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; score abaixo do mínimo (77); foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pcto
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PMRR</strong><br><small>pmrr</small></td>
+      <td>Polícia Militar de Roraima</td>
+      <td>media</td>
+      <td><strong>77</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; score abaixo do mínimo (77); foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pmrr
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPAP</strong><br><small>ppap</small></td>
+      <td>Polícia Penal de Amapá</td>
+      <td>media</td>
+      <td><strong>77</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; score abaixo do mínimo (77); foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: ppap
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPSE</strong><br><small>ppse</small></td>
+      <td>Polícia Penal de Sergipe</td>
+      <td>media</td>
+      <td><strong>77</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; score abaixo do mínimo (77); foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: ppse
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PMTO</strong><br><small>pmto</small></td>
+      <td>Polícia Militar de Tocantins</td>
+      <td>media</td>
+      <td><strong>80</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pmto
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PMSC</strong><br><small>pmsc</small></td>
+      <td>Polícia Militar de Santa Catarina</td>
+      <td>media</td>
+      <td><strong>81</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; existe rascunho gerado para revisão; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pmsc
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPMG</strong><br><small>ppmg</small></td>
+      <td>Polícia Penal de Minas Gerais</td>
+      <td>media</td>
+      <td><strong>83</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: ppmg
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>CBMMT</strong><br><small>bmmt</small></td>
+      <td>Corpo de Bombeiros Militar do Estado de Mato Grosso</td>
+      <td>media</td>
+      <td><strong>84</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: bmmt
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PMES</strong><br><small>pmes</small></td>
+      <td>Polícia Militar do Espírito Santo</td>
+      <td>media</td>
+      <td><strong>85</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pmes
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PCAP</strong><br><small>pcap</small></td>
+      <td>Polícia Civil do Estado do Amapá</td>
+      <td>media</td>
+      <td><strong>87</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pcap
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>CBMAP</strong><br><small>bmap</small></td>
+      <td>Corpo de Bombeiros Militar do Amapá</td>
+      <td>media</td>
+      <td><strong>89</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: bmap
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>BMRN</strong><br><small>bmrn</small></td>
+      <td>Corpo de Bombeiros Militar do Rio Grande do Norte</td>
+      <td>media</td>
+      <td><strong>89</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: bmrn
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PCRN</strong><br><small>pcrn</small></td>
+      <td>Polícia Civil de Rio Grande do Norte</td>
+      <td>media</td>
+      <td><strong>89</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pcrn
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>CBMSC</strong><br><small>bmsc</small></td>
+      <td>Corpo de Bombeiros Militar de Santa Catarina</td>
+      <td>media</td>
+      <td><strong>92</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: bmsc
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>CBPMESP</strong><br><small>bmsp</small></td>
+      <td>Corpo de Bombeiros da Polícia Militar do Estado de São Paulo</td>
+      <td>media</td>
+      <td><strong>92</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: bmsp
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PCMT</strong><br><small>pcmt</small></td>
+      <td>Polícia Judiciária Civil de Mato Grosso</td>
+      <td>media</td>
+      <td><strong>92</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pcmt
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PMAP</strong><br><small>pmap</small></td>
+      <td>Polícia Militar do Estado do Amapá</td>
+      <td>media</td>
+      <td><strong>92</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pmap
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PPAL</strong><br><small>ppal</small></td>
+      <td>Polícia Penal do Estado de Alagoas</td>
+      <td>media</td>
+      <td><strong>92</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: ppal
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>BMPE</strong><br><small>bmpe</small></td>
+      <td>Corpo de Bombeiros Militar de Pernambuco</td>
+      <td>media</td>
+      <td><strong>94</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: bmpe
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>BMRS</strong><br><small>bmrs</small></td>
+      <td>Corpo de Bombeiros Militar do Rio Grande do Sul</td>
+      <td>media</td>
+      <td><strong>94</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: bmrs
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PMDF</strong><br><small>pmdf</small></td>
+      <td>Polícia Militar de Distrito Federal</td>
+      <td>media</td>
+      <td><strong>94</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pmdf
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PCPE</strong><br><small>pcpe</small></td>
+      <td>Polícia Civil de Pernambuco</td>
+      <td>media</td>
+      <td><strong>95</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pcpe
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PMMT</strong><br><small>pmmt</small></td>
+      <td>Polícia Militar de Mato Grosso</td>
+      <td>media</td>
+      <td><strong>95</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pmmt
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PCPR</strong><br><small>pcpr</small></td>
+      <td>Polícia Civil do Paraná</td>
+      <td>media</td>
+      <td><strong>96</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pcpr
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>CBMMG</strong><br><small>bmmg</small></td>
+      <td>Corpo de Bombeiros Militar de Minas Gerais</td>
+      <td>media</td>
+      <td><strong>97</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: bmmg
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>BMTO</strong><br><small>bmto</small></td>
+      <td>Corpo de Bombeiros Militar do Tocantins</td>
+      <td>media</td>
+      <td><strong>97</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: bmto
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PMRS</strong><br><small>pmrs</small></td>
+      <td>Brigada Militar do Rio Grande do Sul</td>
+      <td>media</td>
+      <td><strong>97</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pmrs
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>BMBA</strong><br><small>bmba</small></td>
+      <td>Corpo de Bombeiros Militar da Bahia</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: bmba
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>BMSE</strong><br><small>bmse</small></td>
+      <td>Corpo de Bombeiros Militar de Sergipe</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: bmse
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PCAL</strong><br><small>pcal</small></td>
+      <td>Polícia Civil do Estado de Alagoas</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pcal
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PCGO</strong><br><small>pcgo</small></td>
+      <td>Polícia Civil de Goiás</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pcgo
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PCPA</strong><br><small>pcpa</small></td>
+      <td>Polícia Civil de Pará</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pcpa
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PCPB</strong><br><small>pcpb</small></td>
+      <td>Polícia Civil de Paraíba</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pcpb
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PMAL</strong><br><small>pmal</small></td>
+      <td>Polícia Militar do Estado de Alagoas</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pmal
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PMGO</strong><br><small>pmgo</small></td>
+      <td>Polícia Militar de Goiás</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pmgo
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PMRN</strong><br><small>pmrn</small></td>
+      <td>Polícia Militar de Rio Grande do Norte</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pmrn
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PMSE</strong><br><small>pmse</small></td>
+      <td>Polícia Militar de Sergipe</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pmse
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>BMMA</strong><br><small>bmma</small></td>
+      <td>Corpo de Bombeiros Militar do Maranhão</td>
+      <td>media</td>
+      <td><strong>100</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: bmma
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>BMPB</strong><br><small>bmpb</small></td>
+      <td>Corpo de Bombeiros Militar da Paraíba</td>
+      <td>media</td>
+      <td><strong>100</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: bmpb
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PCDF</strong><br><small>pcdf</small></td>
+      <td>Polícia Civil do Distrito Federal</td>
+      <td>media</td>
+      <td><strong>100</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pcdf
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PCSE</strong><br><small>pcse</small></td>
+      <td>Polícia Civil de Sergipe</td>
+      <td>media</td>
+      <td><strong>100</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pcse
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="danger" data-acao="rodar_qualificado">
+      <td>rodar_qualificado</td>
+      <td><strong>PMPB</strong><br><small>pmpb</small></td>
+      <td>Polícia Militar de Paraíba</td>
+      <td>media</td>
+      <td><strong>100</strong></td>
+      <td>fonte direta falhou ou não trouxe texto suficiente; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>instituicao: pmpb
+limite: 1
+forcar_atualizacao: true
+usar_web_search: true
+modo_qualidade: qualificado</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PCMG</strong><br><small>pcmg</small></td>
+      <td>Polícia Civil de Minas Gerais</td>
+      <td>alta</td>
+      <td><strong>93</strong></td>
+      <td>existe rascunho gerado para revisão; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PF</strong><br><small>pf</small></td>
+      <td>Polícia Federal</td>
+      <td>alta</td>
+      <td><strong>95</strong></td>
+      <td>existe rascunho gerado para revisão; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PCBA</strong><br><small>pcba</small></td>
+      <td>Polícia Civil da Bahia</td>
+      <td>alta</td>
+      <td><strong>98</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PPMA</strong><br><small>ppma</small></td>
+      <td>Polícia Penal de Maranhão</td>
+      <td>media</td>
+      <td><strong>71</strong></td>
+      <td>score abaixo do mínimo (71); foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PMPE</strong><br><small>pmpe</small></td>
+      <td>Polícia Militar de Pernambuco</td>
+      <td>media</td>
+      <td><strong>77</strong></td>
+      <td>score abaixo do mínimo (77); foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PMRO</strong><br><small>pmro</small></td>
+      <td>Polícia Militar de Rondônia</td>
+      <td>media</td>
+      <td><strong>77</strong></td>
+      <td>score abaixo do mínimo (77); foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PPBA</strong><br><small>ppba</small></td>
+      <td>Polícia Penal da Bahia</td>
+      <td>media</td>
+      <td><strong>77</strong></td>
+      <td>score abaixo do mínimo (77); foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PPSP</strong><br><small>ppsp</small></td>
+      <td>Polícia Penal do Estado de São Paulo</td>
+      <td>media</td>
+      <td><strong>83</strong></td>
+      <td>existe rascunho gerado para revisão; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>BMRO</strong><br><small>bmro</small></td>
+      <td>Corpo de Bombeiros Militar de Rondônia</td>
+      <td>media</td>
+      <td><strong>85</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PMMS</strong><br><small>pmms</small></td>
+      <td>Polícia Militar de Mato Grosso do Sul</td>
+      <td>media</td>
+      <td><strong>86</strong></td>
+      <td>existe rascunho gerado para revisão; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>BMPI</strong><br><small>bmpi</small></td>
+      <td>Corpo de Bombeiros Militar do Piauí</td>
+      <td>media</td>
+      <td><strong>89</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>BMRR</strong><br><small>bmrr</small></td>
+      <td>Corpo de Bombeiros Militar de Roraima</td>
+      <td>media</td>
+      <td><strong>89</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PCAC</strong><br><small>pcac</small></td>
+      <td>Polícia Civil do Acre</td>
+      <td>media</td>
+      <td><strong>89</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PCMA</strong><br><small>pcma</small></td>
+      <td>Polícia Civil de Maranhão</td>
+      <td>media</td>
+      <td><strong>89</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PMCE</strong><br><small>pmce</small></td>
+      <td>Polícia Militar de Ceará</td>
+      <td>media</td>
+      <td><strong>89</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PPCE</strong><br><small>ppce</small></td>
+      <td>Polícia Penal de Ceará</td>
+      <td>media</td>
+      <td><strong>89</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PPDF</strong><br><small>ppdf</small></td>
+      <td>Polícia Penal de Distrito Federal</td>
+      <td>media</td>
+      <td><strong>89</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PPES</strong><br><small>ppes</small></td>
+      <td>Polícia Penal do Espírito Santo</td>
+      <td>media</td>
+      <td><strong>89</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PPGO</strong><br><small>ppgo</small></td>
+      <td>Polícia Penal de Goiás</td>
+      <td>media</td>
+      <td><strong>89</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PCAM</strong><br><small>pcam</small></td>
+      <td>Polícia Civil do Estado do Amazonas</td>
+      <td>media</td>
+      <td><strong>91</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PCRS</strong><br><small>pcrs</small></td>
+      <td>Polícia Civil do Rio Grande do Sul</td>
+      <td>media</td>
+      <td><strong>91</strong></td>
+      <td>existe rascunho gerado para revisão; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PMPR</strong><br><small>pmpr</small></td>
+      <td>Polícia Militar do Paraná</td>
+      <td>media</td>
+      <td><strong>91</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PCMS</strong><br><small>pcms</small></td>
+      <td>Polícia Civil de Mato Grosso do Sul</td>
+      <td>media</td>
+      <td><strong>92</strong></td>
+      <td>existe rascunho gerado para revisão; foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PCSC</strong><br><small>pcsc</small></td>
+      <td>Polícia Civil de Santa Catarina</td>
+      <td>media</td>
+      <td><strong>93</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PCES</strong><br><small>pces</small></td>
+      <td>Polícia Civil do Espírito Santo</td>
+      <td>media</td>
+      <td><strong>94</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PCPI</strong><br><small>pcpi</small></td>
+      <td>Polícia Civil de Piauí</td>
+      <td>media</td>
+      <td><strong>94</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>BMPA</strong><br><small>bmpa</small></td>
+      <td>Corpo de Bombeiros Militar do Pará</td>
+      <td>media</td>
+      <td><strong>97</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>CBMERJ</strong><br><small>bmrj</small></td>
+      <td>Corpo de Bombeiros Militar do Estado do Rio de Janeiro</td>
+      <td>media</td>
+      <td><strong>97</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>BMAC</strong><br><small>bmac</small></td>
+      <td>Corpo de Bombeiros Militar do Acre</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>BMAM</strong><br><small>bmam</small></td>
+      <td>Corpo de Bombeiros Militar do Amazonas</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>BMDF</strong><br><small>bmdf</small></td>
+      <td>Corpo de Bombeiros Militar do Distrito Federal</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>CBMPR</strong><br><small>bmpr</small></td>
+      <td>Corpo de Bombeiros Militar do Paraná</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PCCE</strong><br><small>pcce</small></td>
+      <td>Polícia Civil do Estado do Ceará</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PMAC</strong><br><small>pmac</small></td>
+      <td>Polícia Militar do Acre</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PMAM</strong><br><small>pmam</small></td>
+      <td>Polícia Militar do Estado do Amazonas</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PMPA</strong><br><small>pmpa</small></td>
+      <td>Polícia Militar de Pará</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PMPI</strong><br><small>pmpi</small></td>
+      <td>Polícia Militar de Piauí</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PPAC</strong><br><small>ppac</small></td>
+      <td>Polícia Penal do Acre</td>
+      <td>media</td>
+      <td><strong>98</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>BMAL</strong><br><small>bmal</small></td>
+      <td>Corpo de Bombeiros Militar de Alagoas</td>
+      <td>media</td>
+      <td><strong>100</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>BMCE</strong><br><small>bmce</small></td>
+      <td>Corpo de Bombeiros Militar do Ceará</td>
+      <td>media</td>
+      <td><strong>100</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>CBMES</strong><br><small>bmes</small></td>
+      <td>Corpo de Bombeiros Militar do Estado do Espírito Santo</td>
+      <td>media</td>
+      <td><strong>100</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>BMGO</strong><br><small>bmgo</small></td>
+      <td>Corpo de Bombeiros Militar do Estado de Goiás</td>
+      <td>media</td>
+      <td><strong>100</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr>
+<tr class="warn" data-acao="revisar_rascunho_ou_site">
+      <td>revisar_rascunho_ou_site</td>
+      <td><strong>PCRO</strong><br><small>pcro</small></td>
+      <td>Polícia Civil de Rondônia</td>
+      <td>media</td>
+      <td><strong>100</strong></td>
+      <td>foi publicado por modo qualificado; recomenda revisão visual</td>
+      <td><pre>Sem workflow sugerido</pre></td>
+    </tr></tbody>
+  </table>
+</main>
+<script>
+function filtrar(acao){document.querySelectorAll('tbody tr').forEach(tr=>{tr.style.display=!acao||tr.dataset.acao===acao?'':'none'})}
+</script>
+</body>
+</html>

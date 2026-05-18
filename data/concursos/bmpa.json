@@ -1,0 +1,98 @@
+{
+  "instituicao_id": "bmpa",
+  "instituicao_nome": "Corpo de Bombeiros Militar do Pará",
+  "sigla": "BMPA",
+  "uf": "PA",
+  "tema": "concursos",
+  "status": "concurso com atos recentes e formação em andamento",
+  "titulo": "CFP/CBMPA 2022 segue com resultado final, convocações e formação em andamento",
+  "resumo": "O concurso para Praça BM do CBMPA segue com resultado final homologado em 2025, convocações recentes e curso de formação em andamento, sem novo edital amplo localizado",
+  "edital": "Edital nº 01-CBMPA/SEPLAD, de 02/03/2022, para admissão ao CFP/CBMPA; resultado final definitivo publicado em 31/03/2025 e convocação para admissão, matrícula e incorporação em 04/04/2025",
+  "salario": "Praça BM: R$ 3.960,00",
+  "vagas": "405 vagas para Praça BM, sendo 364 masculinas e 41 femininas",
+  "cotas": "Pesquisa inicial pendente",
+  "idade": "18 a 30 anos; altura mínima de 1,60 m para homem e 1,55 m para mulher",
+  "escolaridade": "Ensino médio completo",
+  "materias": "Língua Portuguesa; Matemática; Raciocínio Lógico; Biologia; Química; Física; História; Geografia; Noções de informática",
+  "banca": "Instituto AOCP",
+  "inscritos": "Pesquisa inicial pendente",
+  "etapas": "Prova objetiva; avaliação psicológica; avaliação de saúde; teste de avaliação física; investigação dos antecedentes pessoais",
+  "cfsd": "Curso de Formação de Praças em andamento no CBMPA, com início oficial em junho de 2025 e formatura registrada em 2025 para turmas do CFP",
+  "estagio": "Pesquisa inicial pendente",
+  "validade": "1 ano, contado da homologação do resultado final, prorrogável uma única vez por igual período",
+  "previsao": "Sem novo edital amplo localizado. O cenário mais provável é de continuidade das convocações, matrícula, incorporação e formação de aprovados do certame vigente",
+  "site": "https://www.bombeiros.pa.gov.br/",
+  "fontes": [
+    {
+      "titulo": "Edital nº 01-CBMPA/SEPLAD - CFP/CBMPA 2022",
+      "url": "https://www.bombeiros.pa.gov.br/wp-content/uploads/2022/04/EDITAL-CFP-2022-BOMBEIRO-MILITAR-PARA.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Diário Oficial do Estado do Pará de 03/03/2022",
+      "url": "https://ioepa.com.br/pages/2022/2022.03.03.DOE.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Estado firma contrato com organizadora do concurso público do Corpo de Bombeiros",
+      "url": "https://www.seplad.pa.gov.br/2022/01/24/estado-firma-contrato-com-organizadora-do-concurso-publico-do-corpo-de-bombeiros/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo do Pará detalha informações sobre concursos da PMPA e Corpo de Bombeiros Militar",
+      "url": "https://www.segup.pa.gov.br/noticias/governo-do-par%C3%A1-detalha-informa%C3%A7%C3%B5es-sobre-concursos-da-pmpa-e-corpo-de-bombeiros-militar",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "CBMPA realiza formatura do Curso de Formação de Praças 2025",
+      "url": "https://www.bombeiros.pa.gov.br/62609-2/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "CBMPA inicia formação de novos oficiais e praças com cerimônias no IESP e CFAE",
+      "url": "https://www.bombeiros.pa.gov.br/cbmpa-inicia-formacao-de-novos-oficiais-e-pracas-com-cerimonias-no-iesp-e-cfae/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": false,
+  "alertas": [
+    "Não foi localizado novo edital amplo do CBMPA além do certame de Praça BM de 2022.",
+    "Há atos recentes de 2025 ligados à homologação, convocação e formação, o que pode ser confundido com novo concurso.",
+    "O campo cotas não foi localizado nas fontes consultadas.",
+    "O total de inscritos não foi localizado nas fontes consultadas.",
+    "O campo estágio probatório não foi localizado nas fontes consultadas.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo idade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (90/100). Campos concretos: 4/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 90,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

@@ -1,0 +1,93 @@
+{
+  "instituicao_id": "pcrn",
+  "instituicao_nome": "Polícia Civil de Rio Grande do Norte",
+  "sigla": "PCRN",
+  "uf": "RN",
+  "tema": "concursos",
+  "status": "concurso de 2020 concluído em etapas, sem novo edital localizado",
+  "titulo": "PCRN: concurso de 2020 teve edital, convocações e nomeações",
+  "resumo": "O concurso da PCRN para Delegado, Agente e Escrivão teve edital publicado em 2020 e avançou com convocações, curso de formação, homologação parcial e nomeações posteriores",
+  "edital": "Edital nº 01/2020 para Delegado de Polícia Civil Substituto, Agente de Polícia Civil Substituto e Escrivão de Polícia Civil Substituto; inscrições em 2020",
+  "salario": "Pesquisa inicial pendente",
+  "vagas": "47 vagas para Delegado; 230 vagas para Agente; 24 vagas para Escrivão",
+  "cotas": "Pesquisa inicial pendente",
+  "idade": "Pesquisa inicial pendente",
+  "escolaridade": "Nível superior",
+  "materias": "Pesquisa inicial pendente",
+  "banca": "FGV",
+  "inscritos": "Pesquisa inicial pendente",
+  "etapas": "Prova objetiva; prova discursiva; teste de aptidão física; avaliação psicológica; curso de formação profissional",
+  "cfsd": "Houve curso de formação profissional com convocação de 300 Agentes, 50 Delegados e 50 Escrivães",
+  "estagio": "Pesquisa inicial pendente",
+  "validade": "Pesquisa inicial pendente",
+  "previsao": "Sem novo edital localizado",
+  "site": "https://www.rn.gov.br",
+  "fontes": [
+    {
+      "titulo": "Edital de abertura do concurso PCRN 2020",
+      "url": "https://diariooficial.rn.gov.br/dei/dorn3/documentos/00000001/20201125/704251.htm",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Retificação do TAF do concurso PCRN 2020",
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/documentos/00000001/20211109/745803.htm",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Homologação do resultado definitivo da prova discursiva",
+      "url": "https://diariooficial.rn.gov.br/dei/dorn3/documentos/00000001/20220113/754317.htm",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Convocação para o Curso de Formação Profissional",
+      "url": "https://diariooficial.rn.gov.br/dei/dorn3/documentos/00000001/20220512/768150.htm",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Nomeações com base no Edital nº 01/2020",
+      "url": "https://diariooficial.rn.gov.br/dei/dorn3/documentos/00000001/20221015/790468.htm",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Não localizado nas fontes consultadas para salário, cotas, idade, matérias, inscritos, estágio probatório e validade.",
+    "Pesquisa confirmou concurso anterior de 2020/2022; não foi localizado novo edital vigente.",
+    "Resultado baseado em fontes oficiais e registros do Diário Oficial.",
+    "Campo edital preservado e simplificado com base no edital de 2020.",
+    "Campo cfsd preservado com os quantitativos confirmados em convocação oficial.",
+    "Campo previsao indica ausência de novo edital localizado.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo idade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (87/100). Campos concretos: 3/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 87,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

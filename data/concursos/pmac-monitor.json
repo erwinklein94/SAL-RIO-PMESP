@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pmac",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 23427,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 969,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 24396
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://conhecimento.fgv.br/concursos/pmac23",
+      "ok": true,
+      "status": 200,
+      "hash": "b4f8eb010916ef36320bd48b603fe3b2055b8f309554aa05c7d93cfb86fa6194",
+      "tamanho_texto": 12019
+    },
+    {
+      "url": "https://conhecimento.fgv.br/concursos",
+      "ok": true,
+      "status": 200,
+      "hash": "9702c8462ac45fece721195bb58c46e982f65f6bddbbcbfa72147567b53c2213",
+      "tamanho_texto": 4291
+    },
+    {
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cronograma-previsto-pmac_2.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "7e3cc3b12abb5419fe7f7512df22f4141c1c78b830815d46259e2b47a0978d93",
+      "tamanho_texto": 216046
+    },
+    {
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-no-075-pmac-homologacao-de-matricula-no-curso-de-formacao-24-04-2026.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "6d723f4bbea9b6a5298402be0b685d81ffd041075cd1014b0eca69fcfa5f5d43",
+      "tamanho_texto": 28055
+    },
+    {
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-no-074-pmac-resultado-final-da-inspecao-de-saude-e-convocacao-para-a-matricula-no-curso-de-formacao-de-candidato-sub.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "c3627a21004c51580e9c935a8e7ef82404554e332d3eea340c8240ded84f92b6",
+      "tamanho_texto": 55156
+    },
+    {
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/edital-no-073-pmac-homologacao-de-matriculas-no-curso-de-formacao-31-03-2026.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "755f67f5441fcc4aa790aea1f70f92c384c7f739a91bf33819f1e3a7561f1bc8",
+      "tamanho_texto": 28871
+    }
+  ]
+}

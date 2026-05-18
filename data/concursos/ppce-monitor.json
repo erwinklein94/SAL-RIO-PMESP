@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "ppce",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 87,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 23807,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+      "reasoning_tokens": 435
+    },
+    "total_tokens": 25179
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.ce.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "8614b0b53958fa78c9d896a2002dd306d12d6cfa611dc5601039d8777524bca6",
+      "tamanho_texto": 6857
+    },
+    {
+      "url": "https://www.policiapenal.ce.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.seap.ce.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.ce.gov.br/radar-de-oportunidades/escola-de-gastronomia-social-ivens-dias-branco-recebe-inscricoes-para-cursos-profissionalizantes-de-cozinha-confeitaria-e-panificacao/",
+      "ok": true,
+      "status": 200,
+      "hash": "bffc089756a1680dfca815eec7c77e47b0c63e07ec2980a478e0c7cc1f1ecfcb",
+      "tamanho_texto": 6669
+    },
+    {
+      "url": "https://www.ce.gov.br/radar-de-oportunidades/inscricoes-abertas-para-o-concurso-da-sefaz-ce-sao-100-vagas-imediatas-e-200-para-cadastro-reserva/",
+      "ok": true,
+      "status": 200,
+      "hash": "7d4ce86f0fe1f19a8315e81efbcd5dd9d4e4402e6f20d04d9e53e63544191b8c",
+      "tamanho_texto": 4022
+    },
+    {
+      "url": "https://www.ce.gov.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ce.gov.br%2Fradar-de-oportunidades%2Fescola-de-gastronomia-social-ivens-dias-branco-recebe-inscricoes-para-cursos-profissionalizantes-de-cozinha-confeitaria-e-panificacao%2F",
+      "ok": true,
+      "status": 200,
+      "hash": "d668560d73b969a970354d6ef8415d09631819a1a50a04d7f6a15cae9c91a91a",
+      "tamanho_texto": 1220
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "instituicao_id": "ppse",
+  "instituicao_nome": "Polícia Penal de Sergipe",
+  "sigla": "PPSE",
+  "uf": "SE",
+  "tema": "concursos",
+  "status": "Atualização forte",
+  "titulo": "PPSE: concurso de 2018 para Agente de Polícia Penal segue como referência, sem novo edital localizado",
+  "resumo": "O concurso público identificado para a Polícia Penal de Sergipe é o Edital nº 06/2018, originalmente para Guarda de Segurança do Sistema Prisional, carreira posteriormente enquadrada como Agente de Polícia Penal. Foram ofertadas 100 vagas e houve convocações e nomeações posteriores de aprovados, mas não foi localizado novo edital até 17/05/2026.",
+  "edital": "Edital nº 06/2018, publicado em 2018, para Guarda de Segurança do Sistema Prisional, carreira atualmente vinculada a Agente de Polícia Penal. Concurso anterior identificado, com convocações posteriores e sem novo edital localizado.",
+  "salario": "Remuneração inicial de R$ 2.020,00, sendo R$ 1.500,00 de vencimento básico, R$ 450,00 de periculosidade e R$ 70,00 de adicional noturno. A carreira informava vencimento básico de até R$ 4.457,86 na classe especial, com valor bruto que podia atingir R$ 8.445,00.",
+  "vagas": "100 vagas imediatas para Guarda de Segurança do Sistema Prisional, sendo 75 masculinas e 25 femininas. Distribuição: masculino 52 ampla concorrência, 15 PcD e 8 afrodescendentes; feminino 17 ampla concorrência, 5 PcD e 3 afrodescendentes.",
+  "cotas": "Reserva de vagas para pessoas com deficiência e para afrodescendentes. Distribuição do edital: 20 vagas para PcD e 11 para afrodescendentes.",
+  "idade": "Idade mínima de 18 anos na posse. Altura mínima e CNH não localizadas nas fontes consultadas.",
+  "escolaridade": "Ensino médio completo, com diploma ou certificado de conclusão reconhecido pelo MEC.",
+  "materias": "Língua Portuguesa, Matemática Básica, Noções de Informática, História, Geografia e Cultura de Sergipe, Noções de Direito Constitucional, Noções de Direito Administrativo, Noções de Direito Penal, Noções de Direitos Humanos, Lei de Execução Penal e Lei Estadual nº 2.148/90 e Lei Complementar Estadual nº 72/2002 e alterações posteriores.",
+  "banca": "IBADE.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Prova objetiva, exames psicológicos e toxicológicos, teste de aptidão física, investigação social, curso de preparação e prova de títulos.",
+  "cfsd": "Curso de Preparação, de caráter eliminatório.",
+  "estagio": "Não localizado nas fontes consultadas.",
+  "validade": "2 anos, contados da homologação do resultado final, prorrogável uma vez por igual período.",
+  "previsao": "Não localizado novo edital nas fontes consultadas até 17/05/2026.",
+  "site": "https://www.se.gov.br",
+  "fontes": [
+    {
+      "titulo": "Concurso Público 06/2018 – Agente de Polícia Penal",
+      "url": "https://sead.se.gov.br/concursos/concursos-em-andamento/concurso-publico-06-2018-guarda-prisional/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital de Abertura nº 06/2018",
+      "url": "https://www.sead.se.gov.br/wp-content/uploads/2018/04/01-Edital-de-Abertura-n%C2%BA-06-2018-%E2%80%93-04.04.18-1.pdf",
+      "tipo": "edital oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "18ª Convocação - Concurso nº 06/2018 – Agente de Polícia Penal",
+      "url": "https://sead.se.gov.br/wp-content/uploads/2025/05/18a-Convocacao.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo de Sergipe nomeia 50 agentes de Polícia Penal",
+      "url": "https://sejuc.se.gov.br/governo-de-sergipe-nomeia-156-agentes-de-policia-penal/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo de Sergipe nomeia mais 30 agentes de polícia penal aprovados em concurso público",
+      "url": "https://sejuc.se.gov.br/governo-de-sergipe-nomeia-mais-30-agentes-de-policia-penal-aprovados-em-concurso-publico/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": false,
+  "alertas": [
+    "O edital localizado é o nº 06/2018, com nomenclatura original de Guarda de Segurança do Sistema Prisional e uso posterior da denominação Agente de Polícia Penal nas convocações.",
+    "Não foi localizado novo edital para a Polícia Penal de Sergipe até 17/05/2026.",
+    "O campo inscritos não foi encontrado nas fontes oficiais consultadas.",
+    "Altura mínima, CNH e estágio probatório não foram localizados nas fontes consultadas.",
+    "Classificação automática: Atualização forte (84/100)."
+  ],
+  "classe_atualizacao": "forte",
+  "qualidade_publicacao": "forte",
+  "score_publicacao": "84",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

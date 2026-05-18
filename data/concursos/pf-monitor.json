@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pf",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 90,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 24215,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1172,
+    "output_tokens_details": {
+      "reasoning_tokens": 172
+    },
+    "total_tokens": 25387
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.gov.br/pf/pt-br/acesso-a-informacao/servidores/concursos",
+      "ok": true,
+      "status": 200,
+      "hash": "6c1f277740987e5fed1b1f67b668cb060f191b61aa24928a1a7564c5f4133be0",
+      "tamanho_texto": 8866
+    },
+    {
+      "url": "https://www.cebraspe.org.br/concursos/PF_25",
+      "ok": true,
+      "status": 200,
+      "hash": "87c799727e8f6124c9ffecd63dac2f641d5bd76bde00466f3eff6e1fa3c129b8",
+      "tamanho_texto": 43
+    },
+    {
+      "url": "https://www.gov.br/pf/pt-br/acesso-a-informacao/servidores/concursos/concursos/",
+      "ok": true,
+      "status": 200,
+      "hash": "6c1f277740987e5fed1b1f67b668cb060f191b61aa24928a1a7564c5f4133be0",
+      "tamanho_texto": 8866
+    },
+    {
+      "url": "https://www.gov.br/pf/pt-br",
+      "ok": true,
+      "status": 200,
+      "hash": "2567c57b5eefa05ca97a183994ae4bef57d91383513f0581a3629cd2f2c34adf",
+      "tamanho_texto": 9962
+    },
+    {
+      "url": "https://www.gov.br/pf/pt-br/@@search",
+      "ok": true,
+      "status": 200,
+      "hash": "301f4f4e0ea00b78512e5d0a6d8982bf050685c3d8eb9d5d3a4eb756a2ccf348",
+      "tamanho_texto": 7579
+    },
+    {
+      "url": "https://www.gov.br/pf/pt-br/search?origem=termos&amp;SearchableText=imposto%20de%20renda",
+      "ok": true,
+      "status": 200,
+      "hash": "301f4f4e0ea00b78512e5d0a6d8982bf050685c3d8eb9d5d3a4eb756a2ccf348",
+      "tamanho_texto": 7579
+    }
+  ]
+}

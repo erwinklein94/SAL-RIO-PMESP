@@ -1,0 +1,105 @@
+{
+  "instituicao_id": "bmms",
+  "instituicao_nome": "Corpo de Bombeiros Militar de Mato Grosso do Sul",
+  "sigla": "CBMMS",
+  "uf": "MS",
+  "tema": "concursos",
+  "status": "há seleções vigentes em 2025/2026 e concursos anteriores concluídos",
+  "titulo": "CBMMS tem seleções internas e processos seletivos ativos em 2025/2026",
+  "resumo": "O CBMMS mantém seleções internas e processos seletivos simplificados ativos no portal oficial de concursos de MS, além de concursos anteriores já concluídos",
+  "edital": "Processo Seletivo Interno SAD/SEJUSP/CBMMS/CFS-BM/2026 em andamento; Processo Seletivo Simplificado SAD/SEJUSP/CBMMS/QPTBM/2025 em andamento; Processo Seletivo Simplificado SAD/SEJUSP/CBMMS/QOETBM/2025 em andamento",
+  "salario": "A remuneração varia conforme o cargo, o vínculo e a tabela de subsídio aplicada em cada edital do CBMMS",
+  "vagas": "Há seleções vigentes e histórico de concursos anteriores do CBMMS no portal oficial de concursos de MS; o quantitativo depende do edital específico",
+  "cotas": "As reservas de vagas seguem o edital específico e a legislação estadual aplicável",
+  "idade": "Os requisitos de idade seguem o edital específico e a legislação estadual aplicável",
+  "escolaridade": "A escolaridade varia conforme o cargo e o edital específico do CBMMS",
+  "materias": "O conteúdo programático é definido no edital específico de cada seleção",
+  "banca": "Banca e organização conforme o edital de cada concurso ou processo seletivo publicado no portal oficial",
+  "inscritos": "As relações de inscritos e demais comunicados são publicadas no portal oficial de concursos do Governo de MS",
+  "etapas": "Prova objetiva; exame de saúde; teste de habilitação física; avaliação documental; investigação social; convocações; classificação final",
+  "cfsd": "Há histórico de CFSD do CBMMS em 2022, com publicações de matrícula e curso de formação no portal oficial",
+  "estagio": "O estágio e a formação seguem o estatuto aplicável e o edital específico do certame",
+  "validade": "A validade é definida no edital específico de cada concurso ou processo seletivo",
+  "previsao": "Seguem convocações, resultados e homologações dos certames vigentes de 2025/2026",
+  "site": "https://www.concursos.ms.gov.br/",
+  "fontes": [
+    {
+      "titulo": "Portal oficial de Concursos Públicos e Processos Seletivos de MS",
+      "url": "https://www.concursos.ms.gov.br/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Lista oficial de editais do CBMMS no portal de concursos de MS",
+      "url": "https://www2.concursos.ms.gov.br/?location=editais",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Processo Seletivo Interno SAD/SEJUSP/CBMMS/CFS-BM/2026 no portal oficial",
+      "url": "https://www2.concursos.ms.gov.br/?concurso=188&location=editais_complemento",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Processo Seletivo Simplificado SAD/SEJUSP/CBMMS/QPTBM/2025 no portal oficial",
+      "url": "https://www2.concursos.ms.gov.br/?concurso=177&location=editais_complemento",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Processo Seletivo Simplificado SAD/SEJUSP/CBMMS/QOETBM/2025 no portal oficial",
+      "url": "https://www2.concursos.ms.gov.br/?concurso=180&location=editais_complemento",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concurso Público SAD/SEJUSP/CBMMS/CFSD/2022 no portal oficial",
+      "url": "https://www2.concursos.ms.gov.br/?concurso=124&location=editais_complemento",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concurso Público SAD/SEJUSP/CBMMS/CFO/2022 no portal oficial",
+      "url": "https://www2.concursos.ms.gov.br/?concurso=126&location=editais_complemento",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "médio",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "As fontes oficiais confirmam seleções vigentes e concursos anteriores do CBMMS, mas a extração automática não recuperou com segurança os dados numéricos finos.",
+    "Não foram localizados com segurança salário, vagas totais, banca nominal, escolaridade detalhada, idade, cotas e validade em um único edital recente.",
+    "Manter revisão humana para campos que exijam precisão total antes da publicação final.",
+    "O portal oficial mostra o processo interno CFS-BM/2026 e os seletivos QPTBM/2025 e QOETBM/2025 como ativos, e os concursos efetivos de 2022 como concluídos.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo vagas preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo cotas preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo idade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo escolaridade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo materias preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo banca preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo inscritos preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: baixa (36/100). Campos concretos: 6/14.",
+    "Publicação permitida em modo qualificado porque houve uso de OpenAI/web_search. Score 36/100, qualidade baixa. Revisão humana recomendada.",
+    "Resultado pago da OpenAI priorizado no JSON principal para evitar gasto sem alteração visível no site.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "baixa",
+  "score_publicacao": 36,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

@@ -1,0 +1,101 @@
+{
+  "instituicao_id": "bmce",
+  "instituicao_nome": "Corpo de Bombeiros Militar do Ceará",
+  "sigla": "BMCE",
+  "uf": "CE",
+  "tema": "concursos",
+  "status": "concurso de Soldado QPBM 2025 com formação em andamento",
+  "titulo": "Concurso de Soldado QPBM 2025 segue com curso de formação em andamento",
+  "resumo": "O concurso de Soldado QPBM do CBMCE teve edital publicado em abril de 2025, ofertou 450 vagas imediatas e 900 de cadastro de reserva, e a primeira turma com 200 aprovados já iniciou a formação em 27/04/2026",
+  "edital": "Edital nº 001/2025 – SSPDS/AESP – Soldado QPBM/CBMCE, publicado em 28/04/2025 no DOE; inscrições foram de 14/05/2025 a 02/06/2025",
+  "salario": "Aluno-Soldado: R$ 2.935,04; Soldado QPBM: R$ 5.893,30",
+  "vagas": "450 vagas imediatas para Soldado QPBM e 900 para cadastro de reserva",
+  "cotas": "20% das vagas para candidatos negros e pardos; reserva mínima de 15% das vagas para candidatas do sexo feminino",
+  "idade": "18 anos no ingresso; até 29 anos, 11 meses e 29 dias na inscrição; altura mínima de 1,62 m para homens e 1,57 m para mulheres; CNH categoria B válida",
+  "escolaridade": "Ensino médio completo",
+  "materias": "Língua Portuguesa e Interpretação de Texto; Matemática e Raciocínio Lógico; Atualidades e História do Ceará; Noções de Administração Pública e Ética no Serviço Público; Física; Química; Biologia e Primeiros Socorros",
+  "banca": "Funece, por intermédio da CEV/UECE",
+  "inscritos": "Inscrições encerradas; a primeira turma do curso de formação foi composta por 200 candidatos aprovados e classificados",
+  "etapas": "Prova objetiva; inspeção de saúde; avaliação psicológica; avaliação de capacidade física; investigação social",
+  "cfsd": "Há Curso de Formação de Soldados Bombeiros Militares. A primeira turma com 200 aprovados teve matrícula em março de 2026 e aula inaugural em 27/04/2026",
+  "estagio": "Pesquisa inicial pendente",
+  "validade": "2 anos a partir da homologação do resultado final, prorrogável uma única vez por igual período",
+  "previsao": "Prosseguimento das convocações e da formação dos aprovados do concurso de Soldado QPBM 2025",
+  "site": "https://www.bombeiros.ce.gov.br",
+  "fontes": [
+    {
+      "titulo": "Página de concursos do CBMCE",
+      "url": "https://www.bombeiros.ce.gov.br/concursos/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Página de concursos do CBMCE na AESP/CE",
+      "url": "https://www.aesp.ce.gov.br/concursosbmce/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital do concurso para Soldado QPBM/CBMCE 2025",
+      "url": "https://www.aesp.ce.gov.br/wp-content/uploads/sites/29/2025/04/edital-concurso-cbmce-para-pracas.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Publicação do edital pelo Governo do Ceará",
+      "url": "https://www.ce.gov.br/2025/04/29/publicado-o-edital-para-concurso-do-corpo-de-bombeiros-do-ceara-confira-informacoes-do-certame/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Aesp abre matrículas para formação de novos soldados do Corpo de Bombeiros",
+      "url": "https://www.aesp.ce.gov.br/2026/03/27/aesp-abre-matriculas-para-formacao-de-novos-soldados-do-corpo-de-bombeiros/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Aprovados no concurso do Corpo de Bombeiros Militar do Estado do Ceará iniciam formação",
+      "url": "https://www.sspds.ce.gov.br/2026/04/27/aprovados-no-concurso-do-corpo-de-bombeiros-militar-do-estado-do-ceara-iniciam-formacao/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alta",
+  "precisa_revisao_humana": false,
+  "alertas": [
+    "O certame principal localizado nas fontes oficiais é o concurso de Soldado QPBM/CBMCE 2025.",
+    "O edital foi publicado no Diário Oficial em 28/04/2025.",
+    "Foram localizadas 450 vagas imediatas e 900 de cadastro de reserva para Soldado QPBM.",
+    "Foi localizada previsão de 20% das vagas para candidatos negros e pardos e reserva mínima de 15% para candidatas do sexo feminino.",
+    "A primeira turma do CFSD BM foi formada por 200 candidatos aprovados e classificados.",
+    "A aula inaugural da primeira turma ocorreu em 27/04/2026.",
+    "Não foi localizado quantitativo oficial total de inscritos nas fontes consultadas.",
+    "Não foi localizado prazo de estágio probatório nas fontes consultadas.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo idade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos atualizado/priorizado pelo modo qualificado pago.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (100/100). Campos concretos: 6/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 100,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

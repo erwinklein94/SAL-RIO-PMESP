@@ -1,0 +1,92 @@
+{
+  "instituicao_id": "bmse",
+  "instituicao_nome": "Corpo de Bombeiros Militar de Sergipe",
+  "sigla": "BMSE",
+  "uf": "SE",
+  "tema": "concursos",
+  "status": "concurso anterior encerrado; novo edital não localizado",
+  "titulo": "Último concurso do BMSE foi concluído",
+  "resumo": "O concurso mais recente localizado do Corpo de Bombeiros Militar de Sergipe já foi encerrado, com convocações e formação concluídas",
+  "edital": "Edital nº 02/2018 para Soldado BM 3ª Classe e Edital nº 03/2018 para Cadete BM; concurso concluído",
+  "salario": "Soldado: R$ 3.370,00; Aspirante: R$ 9.236,39",
+  "vagas": "200 vagas para Soldado BM 3ª Classe e 12 vagas para Cadete BM",
+  "cotas": "Reserva de 10% das vagas para candidatas do sexo feminino; 20 vagas reservadas para afrodescendentes no concurso de Soldado",
+  "idade": "Pesquisa inicial pendente",
+  "escolaridade": "Ensino médio para soldado; nível superior para cadete/oficial",
+  "materias": "Pesquisa inicial pendente",
+  "banca": "IBFC",
+  "inscritos": "Cerca de 21 mil inscritos no concurso de Soldado de 2018",
+  "etapas": "Prova objetiva; teste de aptidão física; avaliação psicológica; investigação da conduta social, reputação e idoneidade",
+  "cfsd": "Houve Curso de Formação de Soldados; última turma teve 11 meses de duração, com início em outubro de 2024",
+  "estagio": "Pesquisa inicial pendente",
+  "validade": "Pesquisa inicial pendente",
+  "previsao": "Sem novo edital ativo localizado",
+  "site": "https://www.cbm.se.gov.br",
+  "fontes": [
+    {
+      "titulo": "Divulgados editais de concurso para soldado e aspirante do Corpo de Bombeiros",
+      "url": "https://cbm.se.gov.br/divulgados-editais-de-concurso-para-soldado-e-aspirante-do-corpo-de-bombeiros/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo de Sergipe autoriza concurso público para bombeiro",
+      "url": "https://cbm.se.gov.br/governo-de-sergipe-autoriza-concurso-publico-para-bombeiro/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo de Sergipe reduz altura mínima para ingresso como soldado nos concursos para Polícia Militar e Corpo de Bombeiros",
+      "url": "https://sergipe.se.gov.br/noticias/governo/governo_de_sergipe_reduz_altura_minima_para_ingresso_como_soldado_nos_concursos_para_policia_militar_e_corpo_de_bombeiros",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Corpo de Bombeiros de Sergipe forma primeira turma de soldados majoritariamente feminina",
+      "url": "https://www.se.gov.br/agencia/noticias/seguranca-publica/corpo_de_bombeiros_de_sergipe_forma_primeira_turma_de_soldados_majoritariamente_feminina",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo lança edital de concurso para o Corpo de Bombeiros",
+      "url": "https://cbm.se.gov.br/governo-lanca-edital-de-concurso-para-o-corpo-de-bombeiros/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alta",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Não localizei um edital novo e ativo para o BMSE nas fontes consultadas.",
+    "Os campos idade, matérias, estágio probatório e validade não foram localizados com segurança nesta pesquisa.",
+    "O concurso de referência encontrado é o de 2018, já encerrado.",
+    "A última turma do concurso de 2018 foi concluída em 04/09/2025, com 11 meses de formação.",
+    "Há menção oficial à redução da altura mínima e à escolaridade de nível médio para soldado em notícia de 2024, mas isso não foi confirmado em edital novo ativo.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo idade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (97/100). Campos concretos: 8/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

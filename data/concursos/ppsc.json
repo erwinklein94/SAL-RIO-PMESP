@@ -1,0 +1,65 @@
+{
+  "instituicao_id": "ppsc",
+  "instituicao_nome": "Polícia Penal de Santa Catarina",
+  "sigla": "PPSC",
+  "uf": "SC",
+  "tema": "concursos",
+  "status": "Atualização forte",
+  "titulo": "PPSC: concurso de Policial Penal segue em andamento com curso de formação e novas convocações",
+  "resumo": "O concurso da Polícia Penal de Santa Catarina segue baseado no Edital nº 01/2019 da antiga SAP/SC para o cargo de Agente Penitenciário, atual Policial Penal. O certame ofertou 600 vagas imediatas e cadastro reserva, tem banca FEPESE e continuou com convocações para o Curso de Formação em 2025.",
+  "edital": "Edital nº 01/2019 da SAP/SC para Agente Penitenciário, cargo atualmente denominado Policial Penal. Situação atual: concurso em andamento, com convocações para o Curso de Formação Profissional em 2025.",
+  "salario": "R$ 3.993,82 de salário bruto inicial no edital de 2019. Durante o Curso de Formação Profissional, a bolsa corresponde a 50% do vencimento inicial do cargo, no valor de R$ 578,71.",
+  "vagas": "600 vagas imediatas para o cargo, sendo 480 masculinas e 120 femininas, além de cadastro de reserva.",
+  "cotas": "15 vagas reservadas para pessoas com deficiência, já incluídas no total previsto no edital.",
+  "idade": "Idade mínima de 18 anos, CNH categoria B sem restrições e capacidade física plena com aptidão psicológica compatível. Altura mínima não localizada nas fontes consultadas.",
+  "escolaridade": "Diploma de curso de ensino superior reconhecido pelo MEC.",
+  "materias": "Língua Portuguesa, Raciocínio Lógico, Direitos Humanos, Direito Constitucional, Administração Pública, Direito Penal, Legislação Especial, Sociologia Aplicada, Legislação Estadual, Direito Processual Penal, Direito Administrativo e Lei de Execução Penal.",
+  "banca": "FEPESE.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Prova escrita, prova de capacidade física, avaliação de aptidão psicológica vocacionada, exame toxicológico, investigação social e curso de formação profissional.",
+  "cfsd": "Curso de Formação Profissional previsto como 6ª fase, de caráter eliminatório e classificatório. Em junho de 2025 o governo de Santa Catarina convocou 997 candidatos para a 4ª edição do curso.",
+  "estagio": "Estágio probatório previsto após a posse. Duração não localizada nas fontes consultadas.",
+  "validade": "2 anos, contados da homologação do resultado final, prorrogável uma vez por igual período.",
+  "previsao": "Não localizado nas fontes consultadas.",
+  "site": "https://www.sc.gov.br",
+  "fontes": [
+    {
+      "titulo": "CONCURSO PÚBLICO DEAP/2019 – SEJURI",
+      "url": "https://www.sap.sc.gov.br/concurso-publico-deap-2019-2/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo de SC convoca 997 candidatos para o Curso de Formação Profissional da Polícia Penal – SEJURI",
+      "url": "https://www.sejuri.sc.gov.br/governo-de-sc-convoca-997-candidatos-para-o-curso-de-formacao-profissional-da-policia-penal/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital 01/2019-SAP/SC PDF",
+      "url": "https://jcconcursos.com.br/media/uploads/anexos/2019_sap_edital_1.pdf",
+      "tipo": "edital pdf",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "PLC institui o plano de carreira dos policiais penais de Santa Catarina – ALESC",
+      "url": "https://www.alesc.sc.gov.br/agencia/noticia/plc-institui-o-plano-de-carreira-dos-policiais-penais-de-santa-catarina/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": false,
+  "alertas": [
+    "O cargo do edital foi publicado como Agente Penitenciário e atualmente corresponde a Policial Penal.",
+    "As informações objetivas do concurso continuam vinculadas ao Edital nº 01/2019, com andamento e convocações posteriores.",
+    "Altura mínima e total de inscritos não foram localizados nas fontes consultadas.",
+    "Classificação automática: Atualização forte (84/100)."
+  ],
+  "classe_atualizacao": "forte",
+  "qualidade_publicacao": "forte",
+  "score_publicacao": "84",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

@@ -582,10 +582,16 @@ def test_sitemap_and_robots() -> None:
 
     assert_true(locs, "sitemap.xml sem URLs")
     for loc in locs:
-        path = urlsplit(loc).path.strip("/")
+        url_path = urlsplit(loc).path
+        path = url_path.strip("/")
         if not path:
             path = "index.html"
-        assert_true((ROOT / path).is_file(), f"sitemap aponta para arquivo ausente: {loc}")
+
+        candidate = ROOT / path
+        if url_path.endswith("/") and path != "index.html":
+            candidate = ROOT / path / "index.html"
+
+        assert_true(candidate.is_file(), f"sitemap aponta para arquivo ausente: {loc}")
 
     robots_text = robots.read_text(encoding="utf-8")
     assert_true("Sitemap:" in robots_text, "robots.txt sem linha Sitemap")

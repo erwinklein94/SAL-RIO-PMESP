@@ -1,0 +1,105 @@
+{
+  "instituicao_id": "pmesp",
+  "instituicao_nome": "Polícia Militar do Estado de São Paulo",
+  "sigla": "PMESP",
+  "uf": "SP",
+  "tema": "concursos",
+  "status": "concursos ativos e recentes identificados",
+  "titulo": "PMESP: concursos ativos para Médico e Soldado, com seleções recentes encerradas",
+  "resumo": "A PMESP tem concurso aberto para 2º Tenente Médico PM Estagiário e seleção de Soldado PM 2ª Classe em andamento; concursos de Aluno-Oficial e outros recentes já aparecem encerrados no portal oficial",
+  "edital": "Edital DP-1/321/26 — 2º Tenente Médico PM Estagiário: aberto; Edital DP-2/321/25 — Soldado PM 2ª Classe: em andamento; Edital DP-1/321/25 — Aluno-Oficial PM: encerrado",
+  "salario": "Soldado PMES2502: R$ 5.055,53. 2º Tenente Médico PM Estagiário: R$ 9.832,41. Remuneração total PMESP segue tabela SGGD/SP julho/2025 até nova tabela total; Lei 18.",
+  "vagas": "2º Tenente Médico PM Estagiário: 36 vagas; Soldado PM 2ª Classe: 2.200 vagas; Aluno-Oficial PM: 165 vagas; 2º Ten PM Músico: 5 vagas",
+  "cotas": "Reserva de vagas conforme edital e legislação aplicável; verificar regra específica de cada certame",
+  "idade": "Soldado: 17 a 30 anos, conforme edital e exceções legais para integrantes da PMESP. Demais carreiras: seguir edital específico e LC SP 1.291/2016 atualizada",
+  "escolaridade": "Soldado PM de 2ª Classe: Ensino Médio completo; 2º Tenente Médico PM Estagiário: graduação em Medicina e registro profissional",
+  "materias": "Soldado: Língua Portuguesa, Matemática, Conhecimentos Gerais, Noções Básicas de Informática e Noções de Administração Pública. Demais certames: conteúdo programático próprio do edital",
+  "banca": "VUNESP",
+  "inscritos": "Soldado PM 2ª Classe: inscrições encerradas; 2º Tenente Médico PM Estagiário: inscrições de 16/03/2026 a 07/05/2026; Aluno-Oficial PM: inscrições encerradas",
+  "etapas": "Prova objetiva; redação quando prevista; exame de aptidão física; exames de saúde; avaliação psicológica; investigação social; análise documental; curso de formação quando aplicável",
+  "cfsd": "Soldado PM 2ª Classe: Curso Superior de Técnico de Polícia Ostensiva e Preservação da Ordem Pública",
+  "estagio": "3 anos",
+  "validade": "Conforme cada edital: verificar PMES2502, Médico PM Estagiário, Aluno-Oficial e CFS interno nas páginas oficiais",
+  "previsao": "Acompanhar próximas convocações e resultados já publicados no portal oficial da PMESP",
+  "site": "https://concursos.policiamilitar.sp.gov.br",
+  "fontes": [
+    {
+      "titulo": "Concursos PMESP — página institucional",
+      "url": "https://concursos.policiamilitar.sp.gov.br/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concurso 2º Tenente Médico PM Estagiário",
+      "url": "https://concursos.policiamilitar.sp.gov.br/concursos/edital-dp-1-321-26-concurso-para-2-ten-med-pm-estagiario/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concurso Soldado PM 2ª Classe",
+      "url": "https://concursos.policiamilitar.sp.gov.br/concursos/edital-dp-2-321-25-concurso-para-sd-pm-2a-classe/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concurso Aluno-Oficial PM",
+      "url": "https://concursos.policiamilitar.sp.gov.br/concursos/edital-dp-1-321-25-concurso-para-aluno-oficial-pm/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Ingresso como Soldado PM de 2ª Classe",
+      "url": "https://concursos.policiamilitar.sp.gov.br/ingresso-como-soldado-pm-de-2a-classe/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Ingresso como Oficial de Saúde",
+      "url": "https://concursos.policiamilitar.sp.gov.br/ingresso-como-oficial-de-saude/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Perguntas Frequentes — publicação de editais e resultados",
+      "url": "https://concursos.policiamilitar.sp.gov.br/perguntas-frequentes-faqs/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "As fontes oficiais confirmam os concursos ativos e recentes, mas não foi localizado prazo de validade consolidado para todos os certames nas páginas consultadas.",
+    "O campo 'salario' do Soldado PM 2ª Classe não foi localizado na consulta direta ao portal; preservar apenas o valor encontrado para o cargo de 2º Tenente Médico PM Estagiário.",
+    "A PMESP informa que editais e resultados são publicados no Diário Oficial do Estado e no portal institucional.",
+    "Há divergência entre dados estáticos anteriores e a situação atual do portal para alguns certames; manter revisão humana antes de publicação final.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo idade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos atualizado/priorizado pelo modo qualificado pago.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio atualizado/priorizado pelo modo qualificado pago.",
+    "Campo validade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: baixa (75/100). Campos concretos: 11/14.",
+    "Publicação permitida em modo qualificado porque houve uso de OpenAI/web_search. Score 75/100, qualidade baixa. Revisão humana recomendada.",
+    "Resultado pago da OpenAI priorizado no JSON principal para evitar gasto sem alteração visível no site.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "baixa",
+  "score_publicacao": 75,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

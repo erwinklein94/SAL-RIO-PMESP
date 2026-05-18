@@ -1,0 +1,101 @@
+{
+  "instituicao_id": "bmdf",
+  "instituicao_nome": "Corpo de Bombeiros Militar do Distrito Federal",
+  "sigla": "BMDF",
+  "uf": "DF",
+  "tema": "concursos",
+  "status": "concurso 2025 publicado e em andamento",
+  "titulo": "Edital 2025 publicado para Oficiais; etapas seguem em andamento",
+  "resumo": "O CBMDF mantém concurso público de 2025 em andamento para Oficiais Combatentes, Oficiais de Saúde e Oficiais Complementares, com convocações de etapas publicadas até maio de 2026",
+  "edital": "Edital nº 01/2025, de 15/08/2025, publicado para CFOBM e CHOBM; inscrições foram prorrogadas em outubro de 2025 e o certame segue em andamento com convocações de TAF, sindicância, inspeção de saúde e avaliação psicológi…",
+  "salario": "Aspirante a Oficial: R$ 13.242,94; 2º Tenente: R$ 15.287,06",
+  "vagas": "23 vagas no CHOBM, sendo 13 para o Quadro de Oficiais Bombeiros Militares de Saúde e 10 para o Quadro de Oficiais Bombeiros Militares Complementar",
+  "cotas": "Reserva para pessoas com deficiência, pessoas negras e pessoas hipossuficientes. No CHOBM, total de 7 vagas para pessoas com deficiência, 3 para pess…",
+  "idade": "18 a 35 anos até a data da inscrição; altura mínima de 1,55 m para mulher e 1,60 m para homem; CNH categoria B. Para Médico no CHOBM, a exigência de altura mínima foi dispensada",
+  "escolaridade": "Ensino superior completo na área exigida da especialidade. No CHOBM 2025, há vagas para Medicina, Odontologia, Contabilidade, Direito e Enfermagem",
+  "materias": "Língua Portuguesa; Língua Inglesa; Noções de Informática; Noções de Agenda Ambiental; Legislação; Conhecimento Específico do Cargo",
+  "banca": "IDECAN",
+  "inscritos": "Pesquisa inicial pendente",
+  "etapas": "Prova objetiva; prova discursiva; avaliação biopsicossocial; heteroidentificação; teste de aptidão física; inspeção de saúde; avaliação psicológica; sindicância de vida pregressa e investigação social e funcional",
+  "cfsd": "Pesquisa inicial pendente",
+  "estagio": "Pesquisa inicial pendente",
+  "validade": "1 ano, contado da publicação da homologação do resultado final, podendo haver aproveitamento de vagas criadas dentro desse prazo",
+  "previsao": "Aguardar publicação dos próximos resultados e convocações das etapas médicas, psicológicas, sindicância e atos finais do concurso de Oficiais",
+  "site": "https://www.cbm.df.gov.br",
+  "fontes": [
+    {
+      "titulo": "Concurso Público 2025 CHO – CBMDF",
+      "url": "https://www.cbm.df.gov.br/lai/concursos/concurso-publico-2025-cho/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital CHOBM 2025",
+      "url": "https://www.cbm.df.gov.br/lai/download/edital-chobm-2025/?tmstv=1779053664",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concurso Público 2025 CFO – CBMDF",
+      "url": "https://www.cbm.df.gov.br/lai/concursos/concurso-publico-2025-cfo/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concurso Público 2025 – CBMDF",
+      "url": "https://www.cbm.df.gov.br/lai/concursos/concurso-publico-2025/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Prorrogação das inscrições – Concurso Público do CBMDF",
+      "url": "https://www.cbm.df.gov.br/prorrogacao-das-inscricoes-concurso-publico-do-cbmdf/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Home – CBMDF",
+      "url": "https://www.cbm.df.gov.br/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alta",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Os dados principais publicados foram confirmados em fontes oficiais do CBMDF.",
+    "O status foi ampliado para abranger CFOBM e CHOBM, pois ambos aparecem oficialmente como concursos de 2025 em andamento.",
+    "O campo vagas foi mantido com foco no CHOBM porque o quantitativo exato de vagas do CFOBM não foi localizado nas fontes consultadas nesta atualização.",
+    "O número consolidado de inscritos não foi localizado nas fontes consultadas.",
+    "Os campos cfsd e estágio probatório não foram localizados nas fontes consultadas.",
+    "Há publicações oficiais de andamento até 15/05/2026 nas páginas do CFOBM e do CHOBM.",
+    "Existe também página oficial do CFPBM 2025, inclusive com concurso de Técnico de Enfermagem suspenso e depois anulado, mas os dados centrais desta ficha permanecem concentrados no concurso de Oficiais para evitar mistura de certames distintos.",
+    "Revisão humana recomendada para futura separação em fichas individuais por certame: CFOBM, CHOBM e CFPBM.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo idade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (97/100). Campos concretos: 7/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

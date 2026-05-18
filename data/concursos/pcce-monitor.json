@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pcce",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 22727,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 971,
+    "output_tokens_details": {
+      "reasoning_tokens": 124
+    },
+    "total_tokens": 23698
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.cev.uece.br/oippcce/",
+      "ok": true,
+      "status": 200,
+      "hash": "e59f6625e7dff27738a1e0f7b627aae1739ce34e3c2b5bd1c054b1416e7d94e6",
+      "tamanho_texto": 34576
+    },
+    {
+      "url": "https://www.cev.uece.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cev.uece.br%2Foippcce%2F",
+      "ok": true,
+      "status": 200,
+      "hash": "2e253a493c63fc1b0e05c6d62061659d613434247070ca37f10d3ac3ca893ad3",
+      "tamanho_texto": 399
+    },
+    {
+      "url": "https://www2.cev.uece.br/concs/2025/oippcce/recursos",
+      "ok": true,
+      "status": 200,
+      "hash": "91671384bab68c0188bf4d2349f48b2ed9fbfa13cd3e7e3ae0a929e477055193",
+      "tamanho_texto": 2212
+    },
+    {
+      "url": "https://www2.cev.uece.br/concs/2025/oippcce/concurso/consulta_fic",
+      "ok": true,
+      "status": 200,
+      "hash": "e4064ec8f7508f229bb6eab483b4187e90b743d167d10e55a469c1566e40a4a0",
+      "tamanho_texto": 2065
+    },
+    {
+      "url": "https://www.cev.uece.br/wp-content/uploads/2026/05/edital162026pcce.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "7dd2c44c9e4fc814b09d21b55a8f74fb610ecb0090292bec12c0ae916dcae054",
+      "tamanho_texto": 47903
+    },
+    {
+      "url": "https://www2.cev.uece.br/concs/2025/oippcce/concurso/consulta_psicologico_sjf",
+      "ok": true,
+      "status": 200,
+      "hash": "055b6357a4d085dd10bb1fece1efbf113271a74ead8e13a50927d7bb61c2b438",
+      "tamanho_texto": 2115
+    }
+  ]
+}

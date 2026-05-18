@@ -1,0 +1,94 @@
+{
+  "gerado_em": "2026-05-17",
+  "instituicao_id": "pcrs",
+  "motivo_bloqueio": "Atualização bloqueada: qualidade baixa, score 61, campos críticos genéricos: nenhum, campos críticos sem confirmação: nenhum.",
+  "avaliacao": {
+    "score": 61,
+    "qualidade": "baixa",
+    "ruins": [
+      "materias",
+      "inscritos",
+      "validade"
+    ],
+    "genericos": [
+      "idade"
+    ],
+    "concretos": [
+      "edital",
+      "salario",
+      "vagas",
+      "escolaridade",
+      "previsao"
+    ],
+    "criticosRuins": [],
+    "criticosGenericos": [],
+    "criticosConcretos": [
+      "edital",
+      "salario",
+      "vagas",
+      "escolaridade"
+    ],
+    "podePublicar": false
+  },
+  "dados": {
+    "instituicao_id": "pcrs",
+    "instituicao_nome": "Polícia Civil do Rio Grande do Sul",
+    "sigla": "PCRS",
+    "uf": "RS",
+    "tema": "concursos",
+    "status": "concurso em andamento (atos e editais publicados em 2026)",
+    "titulo": "PCRS: concurso para Escrivão e Inspetor de Polícia (2025/2026)",
+    "resumo": "Concurso da Polícia Civil do RS para Escrivão e Inspetor com diversos atos e editais publicados em 2026, incluindo convocações e divulgação de fases",
+    "edital": "Edital de divulgação do gabarito preliminar (Edital nº 59/2026) e adendos/convocações do concurso de Escrivão e Inspetor de Polícia (2025), com sequência de atos em 2026",
+    "salario": "Escrivão/Inspetor: R$ 7.299,54. Delegado: R$ 23.334,43 (valores já publicados no portal)",
+    "vagas": "Escrivão: 360 vagas. Inspetor: 360 vagas. Delegado: 30 vagas (valores já publicados no portal)",
+    "cotas": "Reserva para pessoas com deficiência, pessoas negras, trans e indígenas conforme editais",
+    "idade": "Mínimo de 18 anos até a matrícula no Curso de Formação Profissional; demais requisitos conforme edital",
+    "escolaridade": "Escrivão/Inspetor: nível superior completo e CNH B. Delegado: bacharelado em Direito e requisitos próprios do edital",
+    "materias": "Não localizado nas fontes consultadas (para o conteúdo completo do edital/disciplinas)",
+    "banca": "FUNDATEC (informação já publicada no portal)",
+    "inscritos": "Não localizado nas fontes consultadas",
+    "etapas": "Prova de capacitação intelectual, teste de aptidão física, avaliação psicológica/psiquiátrica, exame de saúde, sindicância de vida pregressa e Curso de Formação.",
+    "cfsd": "Curso de Formação Profissional pela ACADEPOL/RS (informação já publicada no portal)",
+    "estagio": "Estágio probatório conforme regime estatutário (informação já publicada no portal)",
+    "validade": "Não localizado nas fontes consultadas",
+    "previsao": "Próximos atos de divulgação/convocação das etapas subsequentes do concurso (há sucessão de editais em 2026)",
+    "site": "https://www.pc.rs.gov.br/concurso-publico-para-escrivao-e-inspetor-2025",
+    "fontes": [
+      {
+        "titulo": "Página do concurso para Escrivão e Inspetor de Polícia (2025) com lista de editais/atos",
+        "url": "https://www.pc.rs.gov.br/concurso-publico-para-escrivao-e-inspetor-2025",
+        "tipo": "fonte oficial",
+        "data_consulta": "2026-05-17"
+      },
+      {
+        "titulo": "Edital nº 59/2026 – Divulgação do gabarito preliminar (PDF)",
+        "url": "https://www.pc.rs.gov.br/upload/arquivos/202605/12074631-edital-59-2026.pdf",
+        "tipo": "fonte oficial (PDF)",
+        "data_consulta": "2026-05-17"
+      },
+      {
+        "titulo": "Edital nº 58/2026 – Adendo ao edital de abertura (PDF)",
+        "url": "https://www.pc.rs.gov.br/upload/arquivos/202605/11073418-edital-58-2026.pdf",
+        "tipo": "fonte oficial (PDF)",
+        "data_consulta": "2026-05-17"
+      }
+    ],
+    "ultima_pesquisa": "2026-05-17",
+    "nivel_confianca": "médio",
+    "precisa_revisao_humana": true,
+    "alertas": [
+      "Alguns dados (ex.: matérias, validade, inscritos) não foram localizados no texto extraído das fontes consultadas.",
+      "Salário, vagas, banca, cfsd e etapas constam como informações já publicadas no portal e foram preservadas sem alteração por falta de detalhes completos nas novas fontes.",
+      "Campo etapas mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Qualidade calculada: baixa (61/100). Campos concretos: 5/14.",
+      "Atualização bloqueada: qualidade baixa, score 61, campos críticos genéricos: nenhum, campos críticos sem confirmação: nenhum."
+    ],
+    "texto_final_limpo": true,
+    "padrao_editorial": "usuario-final-sem-links-nos-campos",
+    "qualidade_publicacao": "baixa",
+    "score_publicacao": 61,
+    "modo_qualidade": "economico",
+    "bloquear_publicacao": true
+  }
+}

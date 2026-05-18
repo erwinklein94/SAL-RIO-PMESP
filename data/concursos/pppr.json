@@ -1,0 +1,65 @@
+{
+  "instituicao_id": "pppr",
+  "instituicao_nome": "Polícia Penal do Paraná",
+  "sigla": "PPPR",
+  "uf": "PR",
+  "tema": "concursos",
+  "status": "Atualização forte",
+  "titulo": "PPPR: concurso de Policial Penal segue com nomeações após edital de 2024",
+  "resumo": "A Polícia Penal do Paraná realizou concurso público para Policial Penal em 2024. O edital ofertou 7 vagas imediatas, mas o certame teve continuidade com formação de 500 aprovados e nomeação de 81 novos servidores em maio de 2026.",
+  "edital": "Edital de Abertura nº 04/2024 para o cargo de Policial Penal. Concurso realizado, com prova aplicada em 19 de maio de 2024, curso de formação iniciado em 13 de janeiro de 2025 e nomeações em andamento em 2026.",
+  "salario": "Subsídio inicial de R$ 4.548,97, mais auxílio-alimentação de R$ 634,74.",
+  "vagas": "7 vagas imediatas para Policial Penal, com aproveitamento de candidatos ao longo da validade do concurso. O curso de formação reuniu 500 aprovados.",
+  "cotas": "Reserva de 10% das vagas para afrodescendentes e vagas para pessoas com deficiência, na forma da legislação estadual.",
+  "idade": "Mínimo de 18 anos e CNH categoria B ou superior, em situação regular. Altura mínima não localizada nas fontes consultadas.",
+  "escolaridade": "Ensino médio completo.",
+  "materias": "Língua Portuguesa, Raciocínio Lógico-Matemático, Informática, Direito Administrativo, Legislação Extravagante, Direito Constitucional, Direito Penal, Direito Processual Penal, Direito Penitenciário e Criminologia, e Direitos Humanos.",
+  "banca": "Instituto AOCP.",
+  "inscritos": "24.933 inscrições homologadas.",
+  "etapas": "Prova objetiva, avaliação psicológica, investigação social, curso de formação e avaliação médica.",
+  "cfsd": "Curso de Formação Profissional com 530 horas/aula, realizado em Curitiba e Londrina. Em janeiro de 2025, 500 aprovados iniciaram a formação.",
+  "estagio": "Estágio probatório previsto para o cargo público estatutário. Duração específica não localizada nas fontes consultadas.",
+  "validade": "2 anos, contados da publicação da homologação do resultado final.",
+  "previsao": "Não localizado nas fontes consultadas.",
+  "site": "https://www.policiapenal.pr.gov.br",
+  "fontes": [
+    {
+      "titulo": "Edital de Abertura Concurso Público nº 04/2024 – Policial Penal",
+      "url": "https://arquivos.qconcursos.com/regulamento/arquivo/78662/deppen_pr_2024_policia_penal_edital_n_4-edital.pdf",
+      "tipo": "edital PDF",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concurso público da Polícia Penal do Paraná tem 24.933 inscrições homologadas",
+      "url": "https://www.policiapenal.pr.gov.br/Noticia/Concurso-publico-da-Policia-Penal-do-Parana-tem-24933-inscricoes-homologadas",
+      "tipo": "notícia oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Tem início o 1º Curso de Formação Profissional da Polícia Penal do Paraná",
+      "url": "https://www.policiapenal.pr.gov.br/Noticia/Tem-inicio-o-1o-Curso-de-Formacao-Profissional-da-Policia-Penal-do-Parana",
+      "tipo": "notícia oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Polícia Penal do Paraná reforça o efetivo com nomeação de 81 novos servidores",
+      "url": "https://www.policiapenal.pr.gov.br/Noticia/Policia-Penal-do-Parana-reforca-o-efetivo-com-nomeacao-de-81-novos-servidores",
+      "tipo": "notícia oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": false,
+  "alertas": [
+    "O edital abriu 7 vagas imediatas, mas houve convocação de até 500 candidatos para o curso de formação.",
+    "Há nomeações em andamento em 2026, o que indica aproveitamento durante a validade do concurso.",
+    "Altura mínima não foi localizada nas fontes consultadas.",
+    "Classificação automática: Atualização forte (92/100)."
+  ],
+  "classe_atualizacao": "forte",
+  "qualidade_publicacao": "forte",
+  "score_publicacao": "92",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

@@ -1,0 +1,65 @@
+{
+  "instituicao_id": "pppa",
+  "instituicao_nome": "Polícia Penal de Pará",
+  "sigla": "PPPA",
+  "uf": "PA",
+  "tema": "concursos",
+  "status": "Atualização fraca",
+  "titulo": "PPPA: concurso C-208 teve 1.646 vagas imediatas e 299 em cadastro reserva para policial penal",
+  "resumo": "O último concurso da Polícia Penal do Pará foi o C-208, com edital de 2021 para o cargo de policial penal. Foram 1.646 vagas imediatas e 299 em cadastro reserva, com organização da CETAP. O certame avançou até curso de formação, homologação prevista para dezembro de 2022 e nomeações em 2023.",
+  "edital": "Edital nº 01/SEAP/SEPLAD, de 29 de junho de 2021, para o cargo de policial penal. Concurso C-208 realizado, com curso de formação concluído em 2022 e nomeações em 2023.",
+  "salario": "R$ 2.810,00 para policial penal.",
+  "vagas": "1.646 vagas imediatas para policial penal e 299 em cadastro reserva.",
+  "cotas": "Não localizado nas fontes consultadas.",
+  "idade": "CNH ou permissão para dirigir, no mínimo categoria B, válida e sem impedimentos. Idade mínima e altura mínima não localizadas nas fontes consultadas.",
+  "escolaridade": "Ensino médio completo.",
+  "materias": "Prova objetiva e prova discursiva. As disciplinas específicas da prova não ficaram claramente legíveis nas fontes consultadas.",
+  "banca": "CETAP.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Prova objetiva, prova discursiva, avaliação psicológica, exame médico, prova de aptidão física, investigação social e curso de formação profissional.",
+  "cfsd": "Curso de Formação Profissional iniciado em 10 de agosto de 2022 e encerrado em 19 de outubro de 2022.",
+  "estagio": "Não localizado nas fontes consultadas.",
+  "validade": "Não localizado nas fontes consultadas.",
+  "previsao": "Não localizado nas fontes consultadas.",
+  "site": "https://www.pa.gov.br",
+  "fontes": [
+    {
+      "titulo": "SEGUP PA - anúncio do edital com vagas e banca",
+      "url": "https://segup.pa.gov.br/noticias/governo-anuncia-publica%C3%A7%C3%A3o-do-edital-para-o-concurso-da-pol%C3%ADcia-penal-com-1646-vagas",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "CETAP - página do concurso público C-208 Policial Penal",
+      "url": "https://www.cetapnet.com.br/informacoes/155/",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Retificação do edital com CNH, cronograma e informações do cargo",
+      "url": "https://anexos.cdn.selecao.net.br/uploads/229/concursos/155/anexos/ry1APjF0dVp4bHpY8q1uLpYJYBSFkimGLuLTulk3.pdf",
+      "tipo": "edital/retificação oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "SEPLAD - finalização do curso de formação dos policiais penais",
+      "url": "https://www.seplad.pa.gov.br/2022/10/31/seap-finaliza-curso-de-formacao-de-policiais-penais/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "médio",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "As fontes oficiais localizadas confirmam o concurso C-208 de 2021 e suas etapas, mas nem todos os dados do edital original ficaram legíveis nas capturas consultadas.",
+    "O campo matérias ficou incompleto por ausência de leitura clara do conteúdo programático nas fontes acessadas.",
+    "Não foi localizada, nas fontes consultadas nesta pesquisa, previsão objetiva de novo concurso para a Polícia Penal do Pará.",
+    "Classificação automática: Atualização fraca (60/100)."
+  ],
+  "classe_atualizacao": "fraca",
+  "qualidade_publicacao": "fraca",
+  "score_publicacao": "60",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

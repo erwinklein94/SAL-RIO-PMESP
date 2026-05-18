@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "bmrj",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 90,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 28580,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1139,
+    "output_tokens_details": {
+      "reasoning_tokens": 406
+    },
+    "total_tokens": 29719
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.cbmerj.rj.gov.br/cursos-e-concursos/",
+      "ok": true,
+      "status": 200,
+      "hash": "3f2656eb23eec9aa069cd21c4e0c3dc398887093042f643f7e0627f78e2a961d",
+      "tamanho_texto": 44574
+    },
+    {
+      "url": "https://www.cbmerj.rj.gov.br/feed/",
+      "ok": true,
+      "status": 200,
+      "hash": "da72a8ef16b8b0873a2c4c2474e68894f4e4663654366a274657e401ed2c2ecc",
+      "tamanho_texto": 31327
+    },
+    {
+      "url": "https://www.cbmerj.rj.gov.br/comments/feed/",
+      "ok": true,
+      "status": 200,
+      "hash": "04a234f1743fdabbbe4481db6afa3d2ced4de5fc55a5e662d2db9c1b0ba73db4",
+      "tamanho_texto": 162
+    },
+    {
+      "url": "https://www.cbmerj.rj.gov.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cbmerj.rj.gov.br%2Fcursos-e-concursos%2F",
+      "ok": true,
+      "status": 200,
+      "hash": "a7e3395944f91900b520dbf7b43a78d9dead8c56e246047cd450de3d0a09c35c",
+      "tamanho_texto": 293
+    },
+    {
+      "url": "https://www.cbmerj.rj.gov.br/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.21.5",
+      "ok": true,
+      "status": 200,
+      "hash": "666c4f878e80e637a615f0b82d0fe6948dd4b34a4fdb0ebd41ee9274a383d288",
+      "tamanho_texto": 118945
+    },
+    {
+      "url": "https://www.cbmerj.rj.gov.br/wp-content/uploads/elementor/css/post-1148.css?ver=1778862452",
+      "ok": true,
+      "status": 200,
+      "hash": "661ba29a9f8d23942009d7f0056ed244deb2a27e58de1a5c3d15b5527ed375a5",
+      "tamanho_texto": 19308
+    }
+  ]
+}

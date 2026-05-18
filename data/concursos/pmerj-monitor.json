@@ -1,0 +1,35 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pmerj",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 23471,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1216,
+    "output_tokens_details": {
+      "reasoning_tokens": 426
+    },
+    "total_tokens": 24687
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://concursos.sepm.rj.gov.br",
+      "ok": false,
+      "status": 403,
+      "hash": "301dc171e5fa8c5fdeb69592a92a5c378f5f758f68d2338200235d60eb04b9ad",
+      "tamanho_texto": 16
+    }
+  ]
+}

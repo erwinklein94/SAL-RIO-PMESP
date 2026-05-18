@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pmam",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 23983,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1063,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 25046
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://conhecimento.fgv.br/concursos/pmam21",
+      "ok": true,
+      "status": 200,
+      "hash": "d3f5168ba6a483736f91573adfbd83940f3b02f53deb8cd3ce3056659735c21d",
+      "tamanho_texto": 20964
+    },
+    {
+      "url": "https://conhecimento.fgv.br/concursos",
+      "ok": true,
+      "status": 200,
+      "hash": "9702c8462ac45fece721195bb58c46e982f65f6bddbbcbfa72147567b53c2213",
+      "tamanho_texto": 4291
+    },
+    {
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/pmam_cumprimento-dos-processos-0008908-24.2024.8.04.0000-0471768-90.2024.8.04.0001-0568615-57.2024.8.04.0001.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "a31d8e2c513c699045e5270cbfa1ce2d4d244ff43119602e4efa41f29add95bf",
+      "tamanho_texto": 64340
+    },
+    {
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/portaria-no-522dpa-1-de-05-de-maio-de-2026.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "7906d6b658644e2b6015c8a0bc84790f4119cdcf2b815d91d2a459b30aabd4e9",
+      "tamanho_texto": 141846
+    },
+    {
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/portaria-no-521-dpa-1-de-04-de-maio-de-2026-1.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "9a60e6a473317e4790751545ec308418ad9a53f1824679f01969344727fde7c9",
+      "tamanho_texto": 177628
+    },
+    {
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/memo_n_879_2026_dpa_pmam_anexo-3.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "e4266e5e6b6f01a13d6c5805f59b6e30fbde547b43dbc92e8e1662b98078a56c",
+      "tamanho_texto": 66377
+    }
+  ]
+}

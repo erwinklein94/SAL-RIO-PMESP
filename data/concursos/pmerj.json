@@ -1,0 +1,90 @@
+{
+  "instituicao_id": "pmerj",
+  "instituicao_nome": "Polícia Militar do Rio de Janeiro",
+  "sigla": "PMERJ",
+  "uf": "RJ",
+  "tema": "concursos",
+  "status": "sem novo edital aberto",
+  "titulo": "PMERJ sem novo edital aberto; concurso em tramitação",
+  "resumo": "A PMERJ informa que não há inscrições abertas no momento e que um novo concurso segue em tramitação interna",
+  "edital": "CFSD 2023 em andamento e CFO 2024 publicado; novo concurso de Soldado sem edital aberto no momento",
+  "salario": "Referência GESPERJ jan/2026: Soldado-Aluno R$ 2.956,40; Soldado A/B/C R$ 5.233,88; Aluno EsFO R$ 4.127,16. A remuneração bruta combina soldo, GRET, GHP quando aplicável e GRAM;",
+  "vagas": "CFSD 2023: 2.500 vagas; CFO 2024: 100 vagas",
+  "cotas": "CFO 2024: 70 vagas de ampla concorrência, 20 para negros ou indígenas e 10 para hipossuficientes econômicos",
+  "idade": "Lei RJ 9.546/2022 fixa idades de 18 a 32 anos para ingresso na PMERJ e no CBMERJ a partir dos editais publicados após a lei; a regra concreta sempre acompanha o edital vigente",
+  "escolaridade": "CFSD 2023: ensino médio completo; CFO 2024: requisitos específicos do cargo de Oficial",
+  "materias": "Conteúdo programático conforme o edital FGV do cargo: Soldado 001/2023 e Oficial 001/2024 possuem matrizes e fases próprias",
+  "banca": "FGV para CFSD 2023 e CFO 2024",
+  "inscritos": "Não há inscrições abertas no momento",
+  "etapas": "CFSD 2023: prova intelectual; TAF; exame antropométrico; FIC; exame psicológico; exame de saúde; investigação social; curso de formação. CFO 2024: nove etapas",
+  "cfsd": "Curso de Formação de Soldados no CFAP, em Sulacap, com incorporação progressiva dos aprovados ao longo de 2026",
+  "estagio": "Estágio probatório e formação funcional conforme Estatuto dos Policiais Militares do Estado do Rio de Janeiro, edital e normas internas da…",
+  "validade": "CFO 2024: 60 dias a contar da homologação",
+  "previsao": "Aguardar definição oficial para publicação de novo edital no Diário Oficial",
+  "site": "https://concursos.sepm.rj.gov.br",
+  "fontes": [
+    {
+      "titulo": "PMERJ/CFSD",
+      "url": "https://concursos.sepm.rj.gov.br/cfsd.php",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "PMERJ/CFO",
+      "url": "https://concursos.sepm.rj.gov.br/cfo.php",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Comunicado oficial da PMERJ sobre novo concurso",
+      "url": "https://sepm.rj.gov.br/2026/04/comunicado/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Extrato do edital CFO 2024",
+      "url": "https://sepm.rj.gov.br/wp-content/uploads/2025/07/PublicaA_A_o_EXTRATO_e_RetificaA_A_o_3Ao_Aditivo_CT_nAo_035_21.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Incorporação de 529 alunos do CFSD 2023",
+      "url": "https://sepm.rj.gov.br/2025/03/policia-militar-realiza-a-incorporacao-de-529-alunos-no-curso-de-formacao-de-soldados-da-corporacao/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "médio",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Salário, idade, matérias e estágio não foram localizados com segurança nas fontes consultadas.",
+    "Mantidos dados de vagas, banca e validade mais específicos encontrados em fonte oficial.",
+    "Novo concurso de Soldado está em tramitação, sem inscrições abertas no momento.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo idade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos atualizado/priorizado pelo modo qualificado pago.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (97/100). Campos concretos: 12/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

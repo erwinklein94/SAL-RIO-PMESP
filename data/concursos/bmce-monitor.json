@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "bmce",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 100,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 25322,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1469,
+    "output_tokens_details": {
+      "reasoning_tokens": 266
+    },
+    "total_tokens": 26791
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.bombeiros.ce.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "b879622e31fa92d7bf4014c1fbada2d031bac5e4dff0c15615ddb1bfa2b6e373",
+      "tamanho_texto": 4400
+    },
+    {
+      "url": "https://www.bombeiros.ce.gov.br/",
+      "ok": true,
+      "status": 200,
+      "hash": "b879622e31fa92d7bf4014c1fbada2d031bac5e4dff0c15615ddb1bfa2b6e373",
+      "tamanho_texto": 4400
+    },
+    {
+      "url": "https://www.bombeiros.ce.gov.br/feed/",
+      "ok": true,
+      "status": 200,
+      "hash": "31c8d67566b57c40b28a27af22fcb563c2c1be0f97adaead9a6e09a620368400",
+      "tamanho_texto": 31122
+    },
+    {
+      "url": "https://www.bombeiros.ce.gov.br/comments/feed/",
+      "ok": true,
+      "status": 200,
+      "hash": "f0151dc3b0394b8cd853ed2bd7a681973ad65f6fabf947ad40421968bc9d37d7",
+      "tamanho_texto": 163
+    },
+    {
+      "url": "https://www.bombeiros.ce.gov.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bombeiros.ce.gov.br%2F",
+      "ok": true,
+      "status": 200,
+      "hash": "8bd5b8b05f33a8c09d4af0dfd952630e2040943c5146065ea16c72aa977e3736",
+      "tamanho_texto": 663
+    },
+    {
+      "url": "https://www.bombeiros.ce.gov.br/wp-content/themes/ceara2017/Keyboard-master/css/keyboard.css?1697601665",
+      "ok": true,
+      "status": 200,
+      "hash": "ba2705089938637ff6c11fa4c63f1899c7e9716b186a0771a0a97c199f4f275f",
+      "tamanho_texto": 11527
+    }
+  ]
+}

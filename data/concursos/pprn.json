@@ -1,0 +1,83 @@
+{
+  "instituicao_id": "pprn",
+  "instituicao_nome": "Polícia Penal de Rio Grande do Norte",
+  "sigla": "PPRN",
+  "uf": "RN",
+  "tema": "concursos",
+  "status": "Atualização fraca",
+  "titulo": "PPRN: concurso previsto no RN com 300 vagas e banca Cebraspe",
+  "resumo": "A Polícia Penal do Rio Grande do Norte tem concurso previsto. A seleção mais recente em andamento institucional aponta 300 vagas imediatas, com 200 para Policial Penal e demais oportunidades em áreas de assistência penitenciária e cargos administrativos. A banca definida é o Cebraspe.",
+  "edital": "Novo concurso previsto para 2026, com banca Cebraspe definida e 300 vagas imediatas anunciadas. O último edital publicado foi o Edital nº 001/2017, para Agente Penitenciário, cargo atualmente denominado Policial Penal.",
+  "salario": "Policial Penal: salário base de R$ 5.325,95, podendo chegar a R$ 10.715,95 com auxílio-fardamento de R$ 300,00, auxílio-alimentação de R$ 800,00 e diária operacional variável. No último concurso, a remuneração inicial informada era de R$ 3.153,74.",
+  "vagas": "300 vagas imediatas no concurso previsto, sendo 200 para Policial Penal, 60 para Especialista em Assistência Penitenciária e 40 para cargos administrativos. Há também 1.560 vagas em cadastro de reserva. No último edital, foram 571 vagas para Agente Penitenciário.",
+  "cotas": "Não localizado nas fontes consultadas.",
+  "idade": "Não localizado nas fontes consultadas.",
+  "escolaridade": "No último concurso para Agente Penitenciário, a exigência foi de ensino médio completo. Para o novo concurso previsto, as fontes consultadas indicam vagas de nível médio e superior, mas não apresentam o requisito final por cargo de forma oficial acessível nas fontes localizadas.",
+  "materias": "Língua Portuguesa e Redação Oficial, Informática, Administração Pública, Direito Administrativo, Direito Constitucional, Direito Penal, Direitos Humanos e Tratamento Penal, Regime Jurídico e Estatutos, Ética Profissional e Lei de Execução Penal.",
+  "banca": "Cebraspe no concurso previsto para 2026. No último concurso, a banca foi o Idecan.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Prova objetiva, teste de aptidão física, avaliação psicológica, exame toxicológico, investigação social e curso de formação.",
+  "cfsd": "Curso específico de formação de policial penal como etapa final do certame.",
+  "estagio": "Não localizado nas fontes consultadas.",
+  "validade": "Não localizado nas fontes consultadas.",
+  "previsao": "Não localizado nas fontes consultadas.",
+  "site": "https://www.rn.gov.br",
+  "fontes": [
+    {
+      "titulo": "Portal do Governo do RN",
+      "url": "https://www.rn.gov.br",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Portal da Polícia Penal do RN",
+      "url": "https://www.policiapenal.rn.gov.br",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Portal da SEAP/RN",
+      "url": "https://www.seap.rn.gov.br",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Diário Oficial do RN - Edital nº 001/2017 SEARH/SEJUC/RN",
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/documentos/00000001/20170524/573059.htm",
+      "tipo": "diário oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Diário Oficial do RN - Homologação do resultado final do concurso 2017",
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/documentos/00000001/20171206/593580.htm",
+      "tipo": "diário oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Diário Oficial do RN - Resultado da matrícula do IV Curso Específico de Formação de Policial Penal",
+      "url": "https://webdisk.diariooficial.rn.gov.br/Jornal/12024-01-30.pdf",
+      "tipo": "diário oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Ache Concursos - SEAP-RN 2026 define banca e terá 300 vagas na Polícia Penal",
+      "url": "https://www.acheconcursos.com.br/noticias/concurso-seap-rn-2026-define-banca-e-tera-300-vagas-na-policia-penal-89097",
+      "tipo": "fonte jornalística de apoio",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "médio",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "O novo concurso foi localizado com banca definida e vagas anunciadas, mas sem edital oficial de abertura acessível nas fontes oficiais consultadas.",
+    "Parte dos dados do concurso previsto de 2026 foi confirmada em fonte jornalística de apoio e deve ser revisada assim que o edital de abertura for publicado.",
+    "Os requisitos de altura mínima, CNH, validade do concurso e detalhamento oficial de escolaridade por cargo não foram localizados nas fontes consultadas.",
+    "Classificação automática: Atualização fraca (52/100)."
+  ],
+  "classe_atualizacao": "fraca",
+  "qualidade_publicacao": "fraca",
+  "score_publicacao": "52",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

@@ -1,0 +1,65 @@
+name: Atualizar PMESP - Concursos
+
+on:
+  workflow_dispatch:
+    inputs:
+      forcar_atualizacao:
+        description: 'Forçar chamada da OpenAI mesmo sem mudança detectada?'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+      usar_web_search:
+        description: 'Usar web_search da OpenAI? Mais caro. Deixe false no modo econômico.'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+  schedule:
+    # 07h00 de Brasília, segunda-feira. GitHub Actions usa UTC.
+    # O script só chama a OpenAI se detectar mudança nas fontes oficiais ou se vencer o prazo de revalidação.
+    - cron: '0 10 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar-pmesp-concursos:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Rodar atualização econômica da PMESP
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.4-nano' }}
+          FORCAR_ATUALIZACAO: ${{ github.event.inputs.forcar_atualizacao || 'false' }}
+          USAR_WEB_SEARCH: ${{ github.event.inputs.usar_web_search || 'false' }}
+          DIAS_REVALIDACAO_COMPLETA: '14'
+          MAX_PAGINAS_OFICIAIS: '8'
+          MAX_CARACTERES_POR_PAGINA: '7000'
+        run: node scripts/atualizar-pmesp-concursos.mjs
+
+      - name: Salvar alteração no repositório
+        run: |
+          if [ -z "$(git status --porcelain data/concursos/pmesp.json data/concursos/pmesp-monitor.json)" ]; then
+            echo "Nenhuma alteração detectada nos arquivos de concursos da PMESP."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/concursos/pmesp.json data/concursos/pmesp-monitor.json
+          git commit -m "Atualiza concursos PMESP em modo econômico"
+          git push

@@ -1,2 +1,4 @@
 User-agent: *
-Allow: / Sitemap: https://universosegpub.com.br/sitemap.xml
+Allow: /
+
+Sitemap: https://universosegpub.com.br/sitemap.xml

@@ -1,0 +1,93 @@
+{
+  "instituicao_id": "bmmg",
+  "instituicao_nome": "Corpo de Bombeiros Militar de Minas Gerais",
+  "sigla": "CBMMG",
+  "uf": "MG",
+  "tema": "concursos",
+  "status": "concurso com edital publicado e andamento",
+  "titulo": "Editais 2026 publicados para CFO BM/2027 e CFSd BM/2027",
+  "resumo": "O CBMMG está com editais publicados e andamento para ingresso em 2027, com vagas para Oficial e Soldado",
+  "edital": "Edital CBMMG nº 09/2026 (CFO BM/2027) e Edital CBMMG nº 10/2026 (CFSd BM/2027), publicados em 16/03/2026",
+  "salario": "CFO BM/2027: R$ 7.506,80 durante o curso e R$ 11.547,07 como 2º Tenente; CFSd BM/2027: R$ 4.562,30 durante o curso e R$ 5.332,60 como Soldado de 1ª Classe",
+  "vagas": "342 vagas no total: 21 para CFO BM/2027 e 321 para CFSd BM/2027",
+  "cotas": "CFSd BM/2027 inclui 1 vaga destinada à candidata grávida do CFSd BM/2025; há ampla concorrência",
+  "idade": "18 anos na matrícula e até 30 anos na inscrição, sem completar 31 anos",
+  "escolaridade": "Nível superior. CFO BM/2027 exige bacharelado ou licenciatura; CFSd BM/2027 aceita bacharelado, licenciatura, tecnólogo ou sequencial",
+  "materias": "CFO: Língua Portuguesa; Matemática e Raciocínio Lógico; Ciências Naturais; Língua Inglesa; Conhecimentos Específicos; Redação. CFSd: Língua Portuguesa; Raciocínio Lógico e Matemático",
+  "banca": "IDECAN",
+  "inscritos": "Inscrições de 18/05/2026 a 17/06/2026",
+  "etapas": "Prova objetiva; redação no CFO; TAF; habilidades natatórias; exames de saúde; avaliação psicológica; investigação social e documental; matrícula no curso de formação",
+  "cfsd": "Curso de Formação de Soldados BM/2027 com ingresso como Soldado de 2ª Classe e remuneração durante a formação",
+  "estagio": "Após a formação, o militar ingressa no estágio funcional e no regime da carreira militar estadual, com evolução conforme a legislação aplic…",
+  "validade": "A validade do concurso e eventual prorrogação dependem do edital, da homologação e de atos oficiais posteriores",
+  "previsao": "Próxima movimentação é a abertura das inscrições e a aplicação das provas",
+  "site": "https://www.bombeiros.mg.gov.br/concursos",
+  "fontes": [
+    {
+      "titulo": "Página oficial de concursos do CBMMG",
+      "url": "https://www.bombeiros.mg.gov.br/concursos",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Notícia oficial do CBMMG sobre 342 vagas",
+      "url": "https://www.bombeiros.mg.gov.br/corpo-de-bombeiros-militar-oferta-342-vagas-em-concurso-com-salarios-que-podem-chegar-a-11-mil-reais",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Página oficial do CFSd BM/2027",
+      "url": "https://www.bombeiros.mg.gov.br/cfsd2027",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital CBMMG nº 10/2026 - CFSd BM/2027",
+      "url": "https://bombeiros.mg.gov.br/storage/files/303/EDITAL%2010%20de%202026_CFSD__2027.pdf",
+      "tipo": "edital oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital CBMMG nº 09/2026 - CFO BM/2027",
+      "url": "https://bombeiros.mg.gov.br/storage/files/303/EDITAL%2009%20DE%202026_CFO_2027.pdf",
+      "tipo": "edital oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": false,
+  "alertas": [
+    "As inscrições e etapas ainda dependem de execução administrativa; os dados foram extraídos dos editais publicados em 16/03/2026.",
+    "A distribuição de cotas e detalhes finos por cargo podem ter retificações posteriores.",
+    "No CFSd BM/2027, a vaga adicional é destinada à candidata grávida do CFSd BM/2025.",
+    "No CFO BM/2027 há redação entre as etapas; no CFSd BM/2027 não há redação como fase separada.",
+    "O campo validade não foi localizado de forma objetiva nas fontes consultadas.",
+    "O campo estagio não foi localizado de forma objetiva nas fontes consultadas.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo idade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos atualizado/priorizado pelo modo qualificado pago.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (100/100). Campos concretos: 8/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 100,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

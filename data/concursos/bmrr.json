@@ -1,0 +1,66 @@
+{
+  "instituicao_id": "bmrr",
+  "instituicao_nome": "Corpo de Bombeiros Militar de Roraima",
+  "sigla": "BMRR",
+  "uf": "RR",
+  "tema": "concursos",
+  "status": "Atualização fraca",
+  "titulo": "Concurso do CBMRR autorizado para soldado combatente e oficial",
+  "resumo": "O Corpo de Bombeiros Militar de Roraima tem concurso público autorizado desde 29 de dezembro de 2025, com 200 vagas imediatas e 100 para cadastro de reserva. Até 17 de maio de 2026, o edital de abertura e a banca organizadora não foram localizados nas fontes consultadas.",
+  "edital": "Concurso público autorizado em 29/12/2025; 180 vagas para soldado combatente, 20 para oficial e 100 de cadastro de reserva",
+  "salario": "Praça combatente: R$ 4.815,00 + R$ 1.500,00 de adicional de risco de vida + R$ 500,00 de auxílio-alimentação. Oficial: R$ 12.973,00 + R$ 1.500,00 de adicional de risco de vida + R$ 500,00 de auxílio-alimentação. Durante o curso de formação, a bolsa corresponde a 50% do vencimento da carreira.",
+  "vagas": "180 vagas para soldado combatente, 20 vagas para oficial e 100 vagas para cadastro de reserva.",
+  "cotas": "Não localizado nas fontes consultadas.",
+  "idade": "Não localizado nas fontes consultadas.",
+  "escolaridade": "Soldado combatente: ensino médio. Oficial: nível superior em qualquer área de formação.",
+  "materias": "Não localizado nas fontes consultadas.",
+  "banca": "Não localizada nas fontes consultadas.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Não localizadas nas fontes consultadas.",
+  "cfsd": "Para praças, o ingresso ocorre por Curso de Formação de Soldados. O curso de formação para soldado tem duração de 3 meses. Para oficiais, o ingresso ocorre como cadete, com curso de formação de 2 anos.",
+  "estagio": "Para oficiais, após o curso de formação há estágio probatório de 6 meses antes da promoção a 2º tenente.",
+  "validade": "Não localizada nas fontes consultadas.",
+  "previsao": "O Governo de Roraima informou previsão de início do curso de formação em julho de 2026.",
+  "site": "https://www.cbm.rr.gov.br",
+  "fontes": [
+    {
+      "titulo": "Autorização do Concurso Público do CBMRR",
+      "url": "https://cbm.rr.gov.br/noticias/autorizacao-do-concurso-publico-do-cbmrr-1",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo de Roraima anuncia concurso público para o Corpo de Bombeiros Militar com 200 vagas",
+      "url": "https://portal.rr.gov.br/governo-de-roraima-anuncia-concurso-publico-para-o-corpo-de-bombeiros-militar-com-200-vagas/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Perguntas Frequentes - CBMRR",
+      "url": "https://cbm.rr.gov.br/faq",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Processos Seletivos - CBMRR",
+      "url": "https://cbm.rr.gov.br/processos-seletivos",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Há autorização oficial para o concurso, mas o edital de abertura ainda não foi localizado nas fontes consultadas.",
+    "A banca organizadora ainda não foi localizada nas fontes consultadas.",
+    "Idade, altura mínima, CNH, cotas, etapas e disciplinas ainda não foram localizadas nas fontes consultadas.",
+    "A previsão oficial localizada é de início do curso de formação em julho de 2026.",
+    "Classificação automática: Atualização fraca (68/100)."
+  ],
+  "classe_atualizacao": "fraca",
+  "qualidade_publicacao": "fraca",
+  "score_publicacao": "68",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

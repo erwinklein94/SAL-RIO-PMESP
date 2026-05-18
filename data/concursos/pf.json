@@ -1,0 +1,100 @@
+{
+  "instituicao_id": "pf",
+  "instituicao_nome": "Polícia Federal",
+  "sigla": "PF",
+  "uf": "BR",
+  "tema": "concursos",
+  "status": "concurso policial 2025 em andamento",
+  "titulo": "PF: concurso policial 2025 em andamento",
+  "resumo": "Concurso policial federal com 1.000 vagas, banca Cebraspe e fases já em andamento para Delegado, Perito, Escrivão, Agente e Papiloscopista",
+  "edital": "Concurso Carreira Policial PF 2025; Edital nº 1/2025 publicado e atos posteriores já divulgados",
+  "salario": "Remuneração conforme edital, legislação federal e tabelas vigentes da carreira policial federal; confirmar valores por cargo no edital PF/Cebraspe e atos oficiais",
+  "vagas": "1.000 vagas: 120 Delegado, 69 Perito, 630 Agente, 160 Escrivão e 21 Papiloscopista",
+  "cotas": "Reserva de vagas conforme legislação federal, edital do certame e atos de heteroidentificação/avaliação biopsicossocial quando aplicáveis",
+  "idade": "Requisitos gerais e específicos por cargo conforme edital; observar idade mínima legal, CNH quando exigida, aptidão física, investigação social e saúde",
+  "escolaridade": "Nível superior para os cargos policiais; Delegado exige bacharelado em Direito e Perito exige formação superior específica por área",
+  "materias": "Conhecimentos básicos; conhecimentos específicos; prova discursiva; prova oral para Delegado",
+  "banca": "Cebraspe",
+  "inscritos": "Concurso policial PF 2025/2026 em andamento, com inscrições históricas encerradas e fases posteriores acompanhadas nos canais oficiais",
+  "etapas": "Provas objetiva e discursiva; exame de aptidão física; preenchimento da FIC; avaliação médica; avaliação biopsicossocial; avaliação psicológica; heteroidentificação; prova oral para Delegado; Curso de Formação Profissional",
+  "cfsd": "Curso de Formação Profissional da Polícia Federal, com matrícula, regras e convocações publicadas no portal oficial e no Cebraspe",
+  "estagio": "3 anos",
+  "validade": "2 anos, prorrogável uma única vez por igual período",
+  "previsao": "Seguem as convocações e demais fases do concurso já em curso",
+  "site": "https://www.gov.br/pf/pt-br/acesso-a-informacao/servidores/concursos",
+  "fontes": [
+    {
+      "titulo": "Concurso — Polícia Federal",
+      "url": "https://www.gov.br/pf/pt-br/acesso-a-informacao/servidores/concursos",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Editais do concurso carreira policial 2025 — Polícia Federal",
+      "url": "https://www.gov.br/pf/pt-br/acesso-a-informacao/servidores/concursos/edital/carreira-policial-2025/editais",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "PF publica edital de concurso com 1.000 vagas para cargos policiais — Polícia Federal",
+      "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2025/05/pf-publica-edital-de-concurso-com-1-000-vagas-para-cargos-policiais",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "PF autoriza concurso para provimento de 1.000 novos cargos — Polícia Federal",
+      "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2025/02/pf-autoriza-concurso-para-provimento-de-1.000-novos-cargos",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Dúvidas Frequentes — Polícia Federal",
+      "url": "https://www.gov.br/pf/pt-br/acesso-a-informacao/servidores/concursos/duvidas-frequentes",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Polícia Federal divulga edital de concurso com 192 vagas para todo o país",
+      "url": "https://www.gov.br/secom/pt-br/acompanhe-a-secom/noticias/2025/04/policia-federal-divulga-edital-de-concurso-com-192-vagas-para-todo-o-pais",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alta",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Salário não localizado com segurança nas fontes consultadas.",
+    "Cotas não foram localizadas de forma consolidada nas fontes acessadas.",
+    "Inscritos não localizados nas fontes consultadas.",
+    "Curso de Formação Profissional localizado, mas duração e local não foram informados nas fontes consultadas.",
+    "Mantido o foco no concurso policial 2025 em andamento; há também concurso administrativo distinto de 192 vagas, não incorporado como principal.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo idade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo estagio atualizado/priorizado pelo modo qualificado pago.",
+    "Campo validade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (90/100). Campos concretos: 10/14.",
+    "Publicação permitida em modo qualificado porque houve uso de OpenAI/web_search. Score 90/100, qualidade alta. Revisão humana recomendada.",
+    "Resultado pago da OpenAI priorizado no JSON principal para evitar gasto sem alteração visível no site.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 90,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

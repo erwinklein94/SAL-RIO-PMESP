@@ -1,0 +1,35 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pmmt",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 90,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 16210,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1323,
+    "output_tokens_details": {
+      "reasoning_tokens": 349
+    },
+    "total_tokens": 17533
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.pm.mt.gov.br/",
+      "ok": true,
+      "status": 200,
+      "hash": "35535b7dca85b8fd1f2ef3692e9beea26a72894a7a00de2e83dbfddd8b34cfcf",
+      "tamanho_texto": 139
+    }
+  ]
+}

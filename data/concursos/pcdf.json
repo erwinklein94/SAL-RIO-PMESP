@@ -1,0 +1,83 @@
+{
+  "instituicao_id": "pcdf",
+  "instituicao_nome": "Polícia Civil do Distrito Federal",
+  "sigla": "PCDF",
+  "uf": "DF",
+  "tema": "concursos",
+  "status": "concurso aberto para Delegado",
+  "titulo": "PCDF: concurso de Delegado com inscrições abertas",
+  "resumo": "Concurso da PCDF para Delegado está aberto, com 50 vagas imediatas e cadastro de reserva, organizado pelo Cebraspe",
+  "edital": "Edital nº 1/2026 para Delegado, publicado em 3 de fevereiro de 2026, com retificações posteriores e cronograma atualizado",
+  "salario": "R$ 26.690,15 iniciais; topo da carreira em R$ 38.872,66",
+  "vagas": "50 vagas imediatas e cadastro de reserva para Delegado de Polícia",
+  "cotas": "30% para negros, indígenas e quilombolas; 5% para pessoas com deficiência; reserva adicional para hipossuficientes",
+  "idade": "Mínima de 18 anos; sem limite máximo informado",
+  "escolaridade": "Bacharelado em Direito; 3 anos de atividade jurídica ou policial; CNH categoria B ou superior",
+  "materias": "Língua Portuguesa; Direito Constitucional; Direito Administrativo; Direito Civil; Direito Processual Civil; Direito Tributário; Direito Ambiental; Direitos Humanos; Direito Penal; Direito Processual Penal",
+  "banca": "Cebraspe",
+  "inscritos": "Inscrições abertas; taxa de R$ 310,00",
+  "etapas": "Prova objetiva; prova discursiva; peça profissional; prova oral; exames biométricos e médicos; TAF; avaliação psicológica; sindicância de vida pregressa e investigação social; heteroidentificação; avaliação biopsicossocial",
+  "cfsd": "Curso de Formação Profissional na Escola Superior de Polícia Civil, no Distrito Federal, com caráter eliminatório e classificatório",
+  "estagio": "3 anos",
+  "validade": "2 anos, prorrogável uma vez por igual período",
+  "previsao": "Próximas etapas: aplicação das provas e avanço do cronograma do concurso",
+  "site": "https://www.cebraspe.org.br/concursos/pc_df_26_delegado",
+  "fontes": [
+    {
+      "titulo": "Página do concurso PCDF Delegado no Cebraspe",
+      "url": "https://www.cebraspe.org.br/concursos/pc_df_26_delegado",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital nº 1/2026 PCDF Delegado",
+      "url": "https://cdn.cebraspe.org.br/concursos/PC_DF_26_DELEGADO/arquivos/3B73208484F079B9D1BF43893E06DDD9D9AB05F4C0CDF137FB11E9B5890414D0.pdf",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Retificação de cronograma PCDF Delegado",
+      "url": "https://cdn.cebraspe.org.br/concursos/PC_DF_26_DELEGADO/arquivos/E8BEEC56B411B7720E81DD87226EDFE4C01A2B20DA3DEBAD88974FBEAD71861D.pdf",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Prorrogação de inscrições PCDF Delegado",
+      "url": "https://cdn.cebraspe.org.br/concursos/PC_DF_26_DELEGADO/arquivos/9F8A152FC73E41256BE0C2E7307FCBD22925A0EEDB8A9A39C3660C6D1B4EF149.pdf",
+      "tipo": "banca organizadora",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": false,
+  "alertas": [
+    "Dados atualizados com base na página e nos PDFs oficiais da banca.",
+    "Cronograma e janela de inscrição foram retificados após a publicação inicial.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo idade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos atualizado/priorizado pelo modo qualificado pago.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio atualizado/priorizado pelo modo qualificado pago.",
+    "Campo validade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (100/100). Campos concretos: 7/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 100,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

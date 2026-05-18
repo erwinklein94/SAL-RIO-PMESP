@@ -1,0 +1,100 @@
+{
+  "instituicao_id": "pmpa",
+  "instituicao_nome": "Polícia Militar de Pará",
+  "sigla": "PMPA",
+  "uf": "PA",
+  "tema": "concursos",
+  "status": "com pesquisa qualificada concluída; último concurso identificado em 2023",
+  "titulo": "PMPA: último concurso identificado foi o de 2023, com CFP e CFO",
+  "resumo": "O concurso mais recente localizado para a PMPA foi o de 2023, com vagas para o Curso de Formação de Praças e o Curso de Formação de Oficiais",
+  "edital": "Edital nº 1 – CFP/PMPA/2023 e edital do CFO/PMPA/2023, publicados em 2023; certame já homologado e com incorporação de aprovados",
+  "salario": "Aluno-Soldado: R$ 2.426,46; Soldado após formação: R$ 4.923,71; Oficial: até R$ 5.896,56",
+  "vagas": "4.400 vagas no total, com cadastro reserva",
+  "cotas": "20% das vagas para mulheres; 3.200 vagas masculinas e 800 femininas no CFP; 320 masculinas e 80 femininas no CFO",
+  "idade": "18 a 30 anos; altura mínima de 1,60 m para homens e 1,55 m para mulheres; CNH categoria B",
+  "escolaridade": "Ensino médio completo para CFP; bacharelado em Direito para CFO",
+  "materias": "Língua Portuguesa; Matemática; Informática; Conhecimentos específicos de segurança pública; Direito Penal; Direito Processual Penal; Direito Administrativo; Legislação aplicada à PMPA",
+  "banca": "Cebraspe",
+  "inscritos": "Cerca de 90 mil candidatos inscritos para o cargo de Praça",
+  "etapas": "Prova objetiva; avaliação psicológica; exame de saúde; avaliação de aptidão física; investigação de antecedentes pessoais; análise documental; curso de formação",
+  "cfsd": "Curso de Formação de Praças, com ingresso como Soldado PM após a conclusão",
+  "estagio": "Pesquisa inicial pendente",
+  "validade": "Pesquisa inicial pendente",
+  "previsao": "Sem novo edital identificado; o cenário mais recente encontrado é o concurso de 2023 já conduzido e homologado",
+  "site": "https://www.pm.pa.gov.br",
+  "fontes": [
+    {
+      "titulo": "PM realiza concurso com 4.400 vagas para praças e oficiais",
+      "url": "https://www.pm.pa.gov.br/component/content/article/80-blog/news/4943-pm-realiza-concurso-com-4.400-vagas-para-pracas-e-oficiais.html?Itemid=437",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Seplad divulga banca organizadora do concurso público da Polícia Militar do Pará",
+      "url": "https://www.pm.pa.gov.br/component/content/article/80-blog/news/4705-seplad-divulga-banca-organizadora-do-concurso-publico-da-policia-militar-do-para.html",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Editais dos concursos públicos do CFP e CFO 2023",
+      "url": "https://www.pm.pa.gov.br/phocadownload/userupload/userupload/sub.mlucia.14229/ADIT.%20BG%20N%20173%20II%20-%20De%2020%20SET%202023%20-%20EDITAIS%20DOS%20CONCURSOS%20PBLICOS%20DO%20CFP%20%20CFO%202023.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "90 mil candidatos realizam a prova para o cargo de Praça da PMPA",
+      "url": "https://www.pm.pa.gov.br/component/content/article/80-blog/news/5436-90-mil-candidatos-realizam-a-prova-para-o-cargo-de-praca-da-pmpa.html",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Como ingressar",
+      "url": "https://www.pm.pa.gov.br/como-ingressar.html",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "PMPA em Revista",
+      "url": "https://periodicos.pm.pa.gov.br/index.php/pmpaemrevista",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alta",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "O concurso mais recente localizado foi o de 2023; não foi identificado novo edital aberto nas fontes consultadas.",
+    "Os valores salariais encontrados referem-se ao certame de 2023 e podem não refletir eventual seleção futura.",
+    "As cotas foram consolidadas a partir dos percentuais e da divisão por sexo informados no material oficial localizado.",
+    "CFSd/estágio probatório/validade não foram localizados com precisão nas fontes consultadas.",
+    "Há fontes auxiliares internas da PMPA que confirmam a condução e a homologação do certame de 2023.",
+    "Qualidade calculada: alta (97/100).",
+    "Resultado do modo qualificado aplicado no JSON principal.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo idade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos atualizado/priorizado pelo modo qualificado pago.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (97/100). Campos concretos: 10/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

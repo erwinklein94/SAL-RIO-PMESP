@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "bmdf",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 43584,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1805,
+    "output_tokens_details": {
+      "reasoning_tokens": 568
+    },
+    "total_tokens": 45389
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.cbm.df.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "7cdde444cca9a07c19c9f0e0a86e62744d51cf4611b4393b90616ef77768313e",
+      "tamanho_texto": 6565
+    },
+    {
+      "url": "https://www.cbm.df.gov.br/sobre-o-cbmdf/",
+      "ok": true,
+      "status": 200,
+      "hash": "61175453cd13b54e8e13005e75d65757d2a538b7b7134844dc9cc1d6b7495b0c",
+      "tamanho_texto": 22018
+    },
+    {
+      "url": "http://www.cbm.df.gov.br/missao-visao-e-valores-do-corpo-de-bombeiros/",
+      "ok": true,
+      "status": 200,
+      "hash": "4167bbe13a89f469c7af494e48647638614c7e36be77ea0314acc8ade59dc0f5",
+      "tamanho_texto": 5432
+    },
+    {
+      "url": "https://www.cbm.df.gov.br/lai/acoes-e-programas/anuario-estatistico-do-cbmdf/",
+      "ok": true,
+      "status": 200,
+      "hash": "507303485eea20c6e1c44d759ec710a311c69d7f83daa45e84efc8c5b89ca5aa",
+      "tamanho_texto": 2865
+    },
+    {
+      "url": "https://www.cbm.df.gov.br/download/plano-estrategico-cbmdf-2025-2030/?tmstv=1735904989",
+      "ok": true,
+      "status": 200,
+      "hash": "bdd8028aae12a68e044fb0ffc15b021d04ab87243c70e84a63c0850ad116342d",
+      "tamanho_texto": 6494974
+    },
+    {
+      "url": "https://www.cbm.df.gov.br/calendario-de-eventos-do-170o-aniversario-do-cbmdf/",
+      "ok": true,
+      "status": 200,
+      "hash": "61456b0847e53e208d36b48130bf67c1ab884de8e8b5787a0bb61235fa21cb08",
+      "tamanho_texto": 2259
+    }
+  ]
+}

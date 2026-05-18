@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "bmms",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "baixa",
+  "score_publicacao": 36,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 18120,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1216,
+    "output_tokens_details": {
+      "reasoning_tokens": 193
+    },
+    "total_tokens": 19336
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.concursos.ms.gov.br/",
+      "ok": true,
+      "status": 200,
+      "hash": "0f1e8b6bc1dc482dd273dbaa9c3cc4b434ffad6d03b5bf741e1a3a4e753aa5c5",
+      "tamanho_texto": 1473
+    },
+    {
+      "url": "https://www.sad.ms.gov.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.sad.ms.gov.br%2Finformativo%2Fconcursos-publicos-e-processos-seletivos%2F",
+      "ok": true,
+      "status": 200,
+      "hash": "99db7581b26665abd473fb00a67ee74eb3f9d2e46b0b8ac57938f9e6359b103b",
+      "tamanho_texto": 521
+    },
+    {
+      "url": "https://www.sad.ms.gov.br/informativo/concursos-publicos-e-processos-seletivos/",
+      "ok": true,
+      "status": 200,
+      "hash": "0f1e8b6bc1dc482dd273dbaa9c3cc4b434ffad6d03b5bf741e1a3a4e753aa5c5",
+      "tamanho_texto": 1473
+    },
+    {
+      "url": "https://www.econcursoms.ms.gov.br/Index",
+      "ok": true,
+      "status": 200,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "http://www2.concursos.ms.gov.br/?location=editais",
+      "ok": true,
+      "status": 200,
+      "hash": "93bc17a93d483768bcf34ea4a5fc1e4557244e5f53e07fae09302994bf01108b",
+      "tamanho_texto": 11076
+    },
+    {
+      "url": "https://www.econcursoms.ms.gov.br/AreaDoCandidato/Entrar",
+      "ok": true,
+      "status": 200,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    }
+  ]
+}

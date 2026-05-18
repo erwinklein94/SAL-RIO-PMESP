@@ -1,0 +1,49 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pcpb",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 11348,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 891,
+    "output_tokens_details": {
+      "reasoning_tokens": 97
+    },
+    "total_tokens": 12239
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.pb.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.pc.pb.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.policiacivil.pb.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "97c522e7b0b319eed2e1242a666ff3c0eb0fac3f646c21ffc674db3717687633",
+      "tamanho_texto": 41
+    }
+  ]
+}

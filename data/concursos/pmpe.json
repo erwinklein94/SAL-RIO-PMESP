@@ -1,0 +1,83 @@
+{
+  "instituicao_id": "pmpe",
+  "instituicao_nome": "Polícia Militar de Pernambuco",
+  "sigla": "PMPE",
+  "uf": "PE",
+  "tema": "concursos",
+  "status": "Atualização forte",
+  "titulo": "PMPE: concurso de 2024 segue em andamento; novo edital de 2026 não foi localizado",
+  "resumo": "A PMPE está com o concurso de 2024 em andamento, com vagas para Soldado e 2º Tenente. Houve divulgação do resultado da primeira etapa em 5 de setembro de 2024 e novas convocações para o Curso de Formação de Oficiais em 2025. Não foi localizado novo edital publicado para 2026 nas fontes oficiais consultadas.",
+  "edital": "Portaria Conjunta SAD/SDS nº 83, de 10 de novembro de 2023, publicada em 11 de novembro de 2023. Concurso da PMPE para Soldado e 2º Tenente. Situação atual: concurso em andamento, com convocações para curso de formação e aproveitamento de aprovados do certame de 2024.",
+  "salario": "Soldado: R$ 3.419,88. 2º Tenente: R$ 10.855,91.",
+  "vagas": "2.700 vagas imediatas na PMPE, sendo 2.400 para Soldado e 300 para 2º Tenente. Em setembro de 2024, foram convocados para o curso de formação 2.400 candidatos a Soldado e 150 para 2º Tenente. Em 2025, houve novas convocações de 214 aprovados para turma do Curso de Formação de Oficiais.",
+  "cotas": "5% das vagas para pessoas com deficiência.",
+  "idade": "18 a 30 anos na data de inscrição. CNH categoria B no mínimo. Altura mínima de 1,65 m para homens e 1,60 m para mulheres.",
+  "escolaridade": "Soldado: ensino médio completo. 2º Tenente: curso superior em Direito.",
+  "materias": "Soldado: Língua Portuguesa, História de Pernambuco, Raciocínio Lógico, Informática, Direito Constitucional, Direitos Humanos e Legislação Extravagante. 2º Tenente: Língua Portuguesa, língua estrangeira, Informática, Estatística, Matemática, Física, Química, Biologia, Direito Constitucional, Direito Administrativo, legislações dos militares de Pernambuco e Direito Penal Militar.",
+  "banca": "Instituto AOCP.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Prova objetiva, redação, exames médicos, teste de aptidão física, avaliação psicológica, investigação social e curso de formação profissional.",
+  "cfsd": "Em setembro de 2024, 2.400 candidatos a Soldado foram convocados para a segunda etapa, composta pelo curso de formação. A PMPE também registrou formatura do CFHP 2025 nas notícias institucionais.",
+  "estagio": "Concurso em andamento, com resultado da primeira etapa publicado em 5 de setembro de 2024 e convocações posteriores para o curso de formação de oficiais em 2025.",
+  "validade": "2 anos a partir da primeira homologação do resultado final, podendo ser prorrogado uma vez por igual período.",
+  "previsao": "Não foi localizado novo edital publicado para 2026 nas fontes oficiais consultadas.",
+  "site": "https://www.pm.pe.gov.br",
+  "fontes": [
+    {
+      "titulo": "Portaria Conjunta SAD/SDS nº 83, de 10 de novembro de 2023, no Boletim Geral da SDS de 11/11/2023",
+      "url": "https://www.sds.pe.gov.br/images/media/1699750414_211%20BGSDS%20DE%2011NOV2023.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Retificação da Portaria Conjunta SAD/SDS nº 83, no Boletim Geral da SDS de 25/11/2023",
+      "url": "https://www.sds.pe.gov.br/images/media/1700914777_220%20BGSDS%20DE%2025NOV2023.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Retificação do perfil psicológico da Portaria Conjunta SAD/SDS nº 83, no Boletim Geral da SDS de 06/06/2024",
+      "url": "https://www.sds.pe.gov.br/images/media/1717691630_105%20BGSDS%20DE%2006JUN2024.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Boletim Geral da SDS com resultado da primeira etapa do concurso PMPE/CBMPE",
+      "url": "https://www.sds.pe.gov.br/images/media/1725532794_167%20BGSDS%20DE%2005SET2024.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo de Pernambuco convoca mais 214 aprovados para o Curso de Formação de Oficiais da Polícia Militar",
+      "url": "https://www.sds.pe.gov.br/noticias/10-noticias/12332-governo-de-pernambuco-convoca-mais-214-aprovados-para-o-curso-de-formacao-de-oficiais-da-policia-militar",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Segunda turma do Curso de Formação de Oficiais da PMPE é iniciada",
+      "url": "https://www.pm.pe.gov.br/blog/2025/06/07/segunda-turma-do-curso-de-formacao-de-oficiais-da-pmpe-e-iniciada/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Boletim Geral da SDS de 06/11/2025 com convocação para o Curso de Formação Profissional da PMPE",
+      "url": "https://www.sds.pe.gov.br/images/media/1762435173_206%20BGSDS%20DE%2006NOV2025.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": false,
+  "alertas": [
+    "Não foi localizado novo edital da PMPE publicado em 2026 nas fontes oficiais consultadas.",
+    "Os dados objetivos disponíveis se referem ao concurso aberto pela Portaria Conjunta SAD/SDS nº 83/2023, com execução em 2024 e movimentações em 2024 e 2025.",
+    "Quantidade total de convocados para oficial em 2025 inclui vagas anunciadas, empatados e casos sub judice, conforme comunicado oficial.",
+    "Classificação automática: Atualização forte (92/100)."
+  ],
+  "classe_atualizacao": "forte",
+  "qualidade_publicacao": "forte",
+  "score_publicacao": "92",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

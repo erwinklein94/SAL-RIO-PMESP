@@ -253,8 +253,8 @@ function initTheme() {
       btn.setAttribute('title', isDark ? 'Ativar tema claro' : 'Ativar tema escuro');
     } else {
       btn.innerHTML = isDark
-        ? '<span aria-hidden="true">☀️</span> Claro'
-        : '<span aria-hidden="true">🌙</span> Escuro';
+        ? '<span aria-hidden="true">☀️</span> Modo claro'
+        : '<span aria-hidden="true">🌙</span> Modo escuro';
       btn.setAttribute('aria-label', isDark ? 'Ativar tema claro' : 'Ativar tema escuro');
       btn.setAttribute('title', isDark ? 'Ativar tema claro' : 'Ativar tema escuro');
     }

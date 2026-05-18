@@ -1,0 +1,72 @@
+{
+  "instituicao_id": "ppma",
+  "instituicao_nome": "Polícia Penal de Maranhão",
+  "sigla": "PPMA",
+  "uf": "MA",
+  "tema": "concursos",
+  "status": "Pesquisa pendente",
+  "titulo": "PPMA: novo concurso em preparação; último edital encontrado é o de agente penitenciário",
+  "resumo": "Não foi localizado edital novo da Polícia Penal do Maranhão nas fontes oficiais consultadas. O último edital objetivo localizado é o do concurso para agente penitenciário, usado como referência histórica de requisitos, etapas e remuneração.",
+  "edital": "Novo concurso em preparação, sem edital novo publicado nas fontes consultadas. Último edital localizado: concurso para Agente Penitenciário, com 100 vagas.",
+  "salario": "Não localizado nas fontes consultadas.",
+  "vagas": "Não localizado nas fontes consultadas.",
+  "cotas": "Não localizado nas fontes consultadas.",
+  "idade": "Idade mínima de 18 anos até a posse e CNH categoria B no último edital localizado. Altura mínima geral não foi localizada nas fontes consultadas.",
+  "escolaridade": "Ensino superior completo em qualquer área no último edital localizado.",
+  "materias": "Língua Portuguesa, Raciocínio Lógico Quantitativo, Noções de Informática, Noções de Administração, Noções de Direito Constitucional, Noções de Direito Penal e Processual Penal, Noções de Direito Administrativo, Noções de Direitos Humanos e Lei de Execuções Penais.",
+  "banca": "FUNCAB no último edital localizado. Banca do novo concurso: não localizada nas fontes consultadas.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Prova objetiva, prova discursiva, teste de aptidão física, teste psicotécnico, exames médico e odontológico, curso de formação e investigação social.",
+  "cfsd": "Curso de formação realizado em São Luís, de caráter eliminatório e classificatório, no último edital localizado.",
+  "estagio": "Não localizado nas fontes consultadas.",
+  "validade": "2 anos, prorrogável uma vez por igual período, no último edital localizado.",
+  "previsao": "Aguardando avanço dos trâmites internos e definição da banca organizadora",
+  "site": "https://www.seap.ma.gov.br",
+  "fontes": [
+    {
+      "titulo": "Secretaria de Estado da Administração - SEAD Maranhão - Edital do concurso para Agente Penitenciário",
+      "url": "https://sead.ma.gov.br/fckeditor/userfiles/file/Edital%20Sejap.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "IPREV Maranhão - Marcos Legais",
+      "url": "https://iprev.ma.gov.br/marcos-legais/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Secretaria de Administração Penitenciária do Maranhão",
+      "url": "https://www.seap.ma.gov.br/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Portal do Governo do Maranhão",
+      "url": "https://www.ma.gov.br",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governador sanciona lei que institui a Polícia Penal no sistema penitenciário do Maranhão",
+      "url": "https://seap.ma.gov.br/noticias/governador-sanciona-lei-que-institui-a-policia-penal-no-sistema-penitenciario-do-maranhao",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "médio",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Não foi localizado edital novo da Polícia Penal do Maranhão nas fontes oficiais consultadas até 2026-05-17.",
+    "Os campos com números de salário, vagas, banca, etapas, escolaridade, idade, matérias, curso de formação e validade foram preenchidos com base no último edital oficial localizado para Agente Penitenciário.",
+    "Pode haver mudança de cargo, nomenclatura, remuneração e regras no próximo concurso da Polícia Penal do Maranhão.",
+    "Estágio probatório, número de inscritos e previsão objetiva do novo concurso não foram localizados nas fontes consultadas.",
+    "Classificação automática: Pesquisa pendente (20/100)."
+  ],
+  "classe_atualizacao": "pendente",
+  "qualidade_publicacao": "pendente",
+  "score_publicacao": "20",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

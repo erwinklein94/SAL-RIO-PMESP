@@ -1,0 +1,93 @@
+{
+  "instituicao_id": "pcgo",
+  "instituicao_nome": "Polícia Civil de Goiás",
+  "sigla": "PCGO",
+  "uf": "GO",
+  "tema": "concursos",
+  "status": "edital 2022 encerrado; sem novo concurso identificado nas fontes consultadas",
+  "titulo": "PCGO: concurso de 2022 encerrado e sem novo edital localizado",
+  "resumo": "O último concurso amplo localizado foi o de 2022, para agente, escrivão, papiloscopista e delegado; não foi identificado novo edital oficial nas fontes consultadas",
+  "edital": "Edital nº 006/2022: concurso para agente, escrivão e papiloscopista; homologado e encerrado nas fontes consultadas",
+  "salario": "R$ 6.353,13 para agente, escrivão e papiloscopista",
+  "vagas": "778 vagas para agente, escrivão e papiloscopista, sendo 42 para PcD",
+  "cotas": "42 vagas para PcD",
+  "idade": "18 anos na posse; CNH categoria B ou superior",
+  "escolaridade": "Ensino superior completo em qualquer área, reconhecido pelo MEC",
+  "materias": "Língua Portuguesa; Raciocínio Lógico; Informática; Legislação; Noções de Direito Constitucional; Noções de Direito Administrativo; Criminologia; Medicina Legal; Direito Penal; Conhecimentos Específicos",
+  "banca": "Instituto AOCP",
+  "inscritos": "Pesquisa inicial pendente",
+  "etapas": "Prova objetiva; prova discursiva; avaliação de aptidão física; avaliação psicológica; avaliação médica; investigação social e vida pregressa; curso de formação",
+  "cfsd": "Curso de Formação Profissional na Escola Superior da Polícia Civil, em Goiânia; carga horária de 532 h/a para agente e escrivão e 405 h/a para papiloscopista",
+  "estagio": "Pesquisa inicial pendente",
+  "validade": "1 ano, prorrogável por igual período",
+  "previsao": "Sem novo edital anunciado",
+  "site": "https://www.policiacivil.go.gov.br",
+  "fontes": [
+    {
+      "titulo": "Publicado edital para concurso da Polícia Civil de Goiás",
+      "url": "https://goias.gov.br/policiacivil/publicado-edital-para-concurso-da-policia-civil-de-goias/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital 006/2022 – Concurso PC/GO – AGENTE, ESCRIVÃO E PAPILOSCOPISTA",
+      "url": "https://goias.gov.br/administracao/edital-006-2022-concurso-pc-go-agente-escrivao-e-papiloscopista/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital de Abertura nº 006/2022 da PCGO",
+      "url": "https://goias.gov.br/policiacivil/wp-content/uploads/sites/71/2022/08/edital-do-concurso-publico-no-006-2022.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital 001/2024 – Chefia de Polícia Judiciária",
+      "url": "https://goias.gov.br/policiacivil/wp-content/uploads/sites/71/2024/02/sei-54685346-edital.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concurso PC/GO – Edital 006/2022 – Agente, Escrivão e Papiloscopista",
+      "url": "https://goias.gov.br/administracao/concursos-publicos/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "As fontes consultadas localizaram com segurança apenas o concurso amplo de 2022.",
+    "Não foi identificado novo edital oficial da PCGO nas fontes consultadas.",
+    "O texto preserva dados oficiais do edital de 2022.",
+    "Há divergência histórica de total de vagas entre notícia e edital: a notícia cita 864 vagas no conjunto dos cargos; o edital pesquisado detalha 778 vagas para agente, escrivão e papiloscopista.",
+    "O campo inscritos não foi localizado em fonte oficial consultada.",
+    "O campo estagio não foi localizado em fonte oficial consultada.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo idade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (97/100). Campos concretos: 7/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

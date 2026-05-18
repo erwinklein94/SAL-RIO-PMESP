@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pcba",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 26426,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1118,
+    "output_tokens_details": {
+      "reasoning_tokens": 251
+    },
+    "total_tokens": 27544
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.policiacivil.ba.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "7c031aac019ab18b9f6c13de2fdc0fb1ece3c1280b94eeead3ebcc0ea350e491",
+      "tamanho_texto": 5314
+    },
+    {
+      "url": "https://www.policiacivil.ba.gov.br/policiacivil/sites/site-pcba/files/css/css_ZV_qqKSpyleQ5w_9MvmSXuyijNDCTK6OWwyoYQ6p55w.css?delta=0&amp;language=pt-br&amp;theme=bagov_base&amp;include=eJyFU8tywyAM_CHHnPo9jAxrhzEgj4Tjtl9f7DStD3hyQuzu6LGCgSZ-2IEUxpPMiT264R-bIg8Ub1q-YsjTmSl3JNw8RlpjORF2iOxmNcdhkT0Ejq2wpwUNnSPxR_4mybkIaWlxl629BAl5tZEn8txgBR5qlV2goA1eQeLulktIQQs1FAWfxQo0fLfaewRsWpGcIbYOKayKeCnMtVBtRe2d0yvdxjKPkTfrVi2cah0xMQxCEqD9paYbmItW35YPsxc63xNUaYJ2boYPhcWScyw-cDZ_UT9K9b2urqsATGZJFPcpsVrHPAfUIy0xUHYwLdC-3sVYE9EGrUOZU9xvGPZrnUIoe32vE0xrJHkvVI7Bd8fuD4dOju3g7QC73-3SEiythY_OUWAu8E6_6iNMTzuPhT3X1tf_skb8AH_mS1I",
+      "ok": false,
+      "status": 404,
+      "hash": "ce3d0de48926e888ce96d6cd130c12d306c75ba7d8ef9a5e04d977ef4840a324",
+      "tamanho_texto": 692
+    },
+    {
+      "url": "https://www.policiacivil.ba.gov.br/policiacivil/sites/site-pcba/files/css/css_r1a6UbLQKFQH1k4S41wYE2Tbn7blZFtL3RQ7Cu-xQe0.css?delta=1&amp;language=pt-br&amp;theme=bagov_base&amp;include=eJyFU8tywyAM_CHHnPo9jAxrhzEgj4Tjtl9f7DStD3hyQuzu6LGCgSZ-2IEUxpPMiT264R-bIg8Ub1q-YsjTmSl3JNw8RlpjORF2iOxmNcdhkT0Ejq2wpwUNnSPxR_4mybkIaWlxl629BAl5tZEn8txgBR5qlV2goA1eQeLulktIQQs1FAWfxQo0fLfaewRsWpGcIbYOKayKeCnMtVBtRe2d0yvdxjKPkTfrVi2cah0xMQxCEqD9paYbmItW35YPsxc63xNUaYJ2boYPhcWScyw-cDZ_UT9K9b2urqsATGZJFPcpsVrHPAfUIy0xUHYwLdC-3sVYE9EGrUOZU9xvGPZrnUIoe32vE0xrJHkvVI7Bd8fuD4dOju3g7QC73-3SEiythY_OUWAu8E6_6iNMTzuPhT3X1tf_skb8AH_mS1I",
+      "ok": false,
+      "status": 404,
+      "hash": "6c45cb303cc86246478a5f1dac0840e1aff636d80a994418cc74ab25d65ae897",
+      "tamanho_texto": 692
+    },
+    {
+      "url": "https://www.policiacivil.ba.gov.br/policiacivil/44/organograma-da-pcba",
+      "ok": false,
+      "status": 404,
+      "hash": "fe90f8464ff97912fc109bb5d046d590011bcab77a4ec2991ff490e7ea82f6fb",
+      "tamanho_texto": 4440
+    },
+    {
+      "url": "https://www.ba.gov.br/policiacivil/sites/site-pcba/files/2026-02/CARTILHA%20DIGITAL_1080x1920px.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "b572e4fcecbf7dee8447f84885114f1230b911031134b20ff50a5cc4795cd7e7",
+      "tamanho_texto": 1187701
+    },
+    {
+      "url": "https://www.ba.gov.br/policiacivil/sites/site-pcba/files/2025-03/Cartilha%20-%20CFPC%20Fiscaliza%C3%A7%C3%A3o%20de%20Shows%20Pirot%C3%A9cnicos.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "97ef5931a14c087de6f7284933826ee470f59d21d3d8052755180016bf7e16d8",
+      "tamanho_texto": 2164027
+    }
+  ]
+}

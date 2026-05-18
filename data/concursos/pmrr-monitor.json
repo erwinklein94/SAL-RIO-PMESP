@@ -1,0 +1,27 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pmrr",
+  "grupo_atualizacao": "pendentes",
+  "modelo": "gpt-5.4",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "antes": {
+    "classe": "pendente",
+    "score": 8
+  },
+  "depois": {
+    "classe": "pendente",
+    "score": 8
+  },
+  "usage": {
+    "input_tokens": 22777,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1641,
+    "output_tokens_details": {
+      "reasoning_tokens": 385
+    },
+    "total_tokens": 24418
+  }
+}

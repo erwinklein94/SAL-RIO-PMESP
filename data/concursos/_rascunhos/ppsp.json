@@ -1,0 +1,87 @@
+{
+  "gerado_em": "2026-05-17",
+  "instituicao_id": "ppsp",
+  "motivo_bloqueio": "Atualização bloqueada: qualidade baixa, score 68, campos críticos genéricos: etapas, campos críticos sem confirmação: nenhum.",
+  "avaliacao": {
+    "score": 68,
+    "qualidade": "baixa",
+    "ruins": [
+      "validade"
+    ],
+    "genericos": [
+      "cotas",
+      "etapas"
+    ],
+    "concretos": [
+      "edital",
+      "salario",
+      "vagas",
+      "idade",
+      "escolaridade",
+      "inscritos",
+      "previsao"
+    ],
+    "criticosRuins": [],
+    "criticosGenericos": [
+      "etapas"
+    ],
+    "criticosConcretos": [
+      "edital",
+      "salario",
+      "vagas",
+      "escolaridade"
+    ],
+    "podePublicar": false
+  },
+  "dados": {
+    "instituicao_id": "ppsp",
+    "instituicao_nome": "Polícia Penal do Estado de São Paulo",
+    "sigla": "PPSP",
+    "uf": "SP",
+    "tema": "concursos",
+    "status": "conteúdo inicial protegido",
+    "titulo": "PPSP: concursos, requisitos e etapas (Policial Penal/SP)",
+    "resumo": "Concurso da Polícia Penal do Estado de São Paulo (PPSP) para Policial Penal em andamento no ciclo mais recente, com banca AOCP, exigências de nível superior e fases incluindo prova e formação",
+    "edital": "SAP/SP — Polícia Penal — concurso público para Policial Penal — Edital CCP nº 004/2025, com reabertura/retificação em 2026 (ciclo mais recente informado no portal)",
+    "salario": "Subsídio inicial: R$ 4.695,60 para Policial Penal Nível I/Categoria Ingresso. Tabela SGGD/SP julho/2025: carreira de R$ 4.695,60 a R$ 10.502,23 (conforme nível e categoria)",
+    "vagas": "1.100 vagas para Policial Penal (informação já publicada no portal para o ciclo de 2026)",
+    "cotas": "Reserva de vagas conforme edital e legislação estadual aplicável",
+    "idade": "18 a 35 anos na inscrição (conforme informação já publicada no portal para o ciclo de 2026)",
+    "escolaridade": "Nível superior completo; CNH categoria B e demais requisitos do cargo",
+    "materias": "Conhecimentos gerais e legislação; direitos humanos; execução penal; noções jurídicas; raciocínio lógico; informática; temas específicos do cargo",
+    "banca": "Instituto AOCP",
+    "inscritos": "Concurso em andamento em 2026, com inscrições reabertas após retificação",
+    "etapas": "Prova(s) e/ou prova objetiva e títulos (conforme edital do ciclo); aferições/avaliações de saúde/aptidões; investigação social e comprovações documentais; curso de formação e demais fases previstas no edital",
+    "cfsd": "Curso de formação técnico-profissional da Polícia Penal/SP, vinculado à SAP/SP",
+    "estagio": "Estágio probatório de 3 anos (informação já publicada no portal)",
+    "validade": "Validade conforme edital SAP/SP e atos oficiais de homologação (prazo não localizado nas fontes consultadas)",
+    "previsao": "Aguardar publicações do cronograma/etapas e andamento do ciclo de 2026; prova objetiva prevista para 31/05/2026 conforme informação já publicada no portal",
+    "site": "https://www.institutoaocp.org.br/concursos/664",
+    "fontes": [
+      {
+        "titulo": "Página de concursos — Instituto AOCP (referência do concurso PPSP)",
+        "url": "https://www.institutoaocp.org.br/concursos/664",
+        "tipo": "banca organizadora ou página do concurso",
+        "data_consulta": "2026-05-17"
+      }
+    ],
+    "ultima_pesquisa": "2026-05-17",
+    "nivel_confianca": "médio",
+    "precisa_revisao_humana": true,
+    "alertas": [
+      "As fontes consultadas (AOCP) retornaram conteúdo geral de navegação; não foram encontrados, nelas, novos números/datas específicas (como inscritos, quantitativo de cotas, validade e cronograma atualizado).",
+      "Para manter conservador, foram preservados os dados previamente publicados no portal quando mais específicos do que os achados atuais.",
+      "Campo 'cotas' não tem percentual/quantidade confirmado nas fontes consultadas nesta atualização.",
+      "Campo inscritos mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Campo cfsd mantido da versão anterior porque a atualização automática veio genérica ou sem confirmação suficiente.",
+      "Qualidade calculada: baixa (68/100). Campos concretos: 7/14.",
+      "Atualização bloqueada: qualidade baixa, score 68, campos críticos genéricos: etapas, campos críticos sem confirmação: nenhum."
+    ],
+    "texto_final_limpo": true,
+    "padrao_editorial": "usuario-final-sem-links-nos-campos",
+    "qualidade_publicacao": "baixa",
+    "score_publicacao": 68,
+    "modo_qualidade": "economico",
+    "bloquear_publicacao": true
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "instituicao_id": "ppce",
+  "instituicao_nome": "Polícia Penal de Ceará",
+  "sigla": "PPCE",
+  "uf": "CE",
+  "tema": "concursos",
+  "status": "concurso em andamento com edital publicado em 2024 e etapas avançadas concluídas em 2025",
+  "titulo": "Edital publicado para 600 vagas de Policial Penal no Ceará",
+  "resumo": "Concurso da Polícia Penal do Ceará com edital publicado para o cargo de Policial Penal, 600 vagas imediatas e 200 de cadastro de reserva, já com prova e TAF realizados",
+  "edital": "Edital nº 007/2024-SAP, publicado em 10/04/2024, para o cargo de Policial Penal",
+  "salario": "Pesquisa inicial pendente",
+  "vagas": "600 vagas imediatas e 200 vagas para cadastro de reserva para Policial Penal",
+  "cotas": "Há reserva para candidatos com deficiência e para candidatos negros",
+  "idade": "Idade mínima de 18 anos e máxima de 34 anos, 11 meses e 29 dias",
+  "escolaridade": "Ensino médio completo",
+  "materias": "Conhecimentos básicos; conhecimentos específicos; redação",
+  "banca": "IDECAN",
+  "inscritos": "Pesquisa inicial pendente",
+  "etapas": "Exame intelectual; avaliação biopsicossocial; teste de aptidão física; avaliação psicológica; avaliação de saúde; heteroidentificação; curso de formação profissional; investigação social",
+  "cfsd": "Curso de formação profissional previsto como etapa eliminatória e classificatória; duração e remuneração não localizadas nas fontes consultadas",
+  "estagio": "Pesquisa inicial pendente",
+  "validade": "Pesquisa inicial pendente",
+  "previsao": "Acompanhar convocações e resultados das próximas fases já em andamento",
+  "site": "https://www.ce.gov.br",
+  "fontes": [
+    {
+      "titulo": "Governo do Ceará anuncia concurso com 600 vagas para polícia penal; Confira edital",
+      "url": "https://www.sap.ce.gov.br/2024/04/11/governo-do-ceara-anuncia-concurso-com-600-vagas-para-policia-penal-confira-edital/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital do concurso da Polícia Penal do Ceará",
+      "url": "https://www.sap.ce.gov.br/wp-content/uploads/sites/17/2024/04/edital-PPCE.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Candidatos passam por Teste de Aptidão Física no concurso da Polícia Penal do Ceará",
+      "url": "https://www.sap.ce.gov.br/2024/09/18/candidatos-passam-por-teste-de-aptidao-física-no-concurso-da-policia-penal-do-ceara/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Candidatos passam por Teste de Aptidão Física no concurso da Polícia Penal",
+      "url": "https://www.ce.gov.br/2024/09/19/candidatos-passam-por-teste-de-aptidao-física-no-concurso-da-policia-penal/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo do Ceará anuncia concurso com 600 vagas para policial penal",
+      "url": "https://www.casacivil.ce.gov.br/2024/04/10/governo-do-ceara-anuncia-concurso-com-600-vagas-para-policial-penal/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Salário, validade, estágio probatório, altura mínima e CNH não foram localizados nas fontes consultadas.",
+    "A idade máxima foi confirmada em fonte oficial estadual; pode haver atualização normativa posterior.",
+    "O total de inscritos não foi localizado; foi confirmado apenas que mais de 24 mil candidatos participaram da prova.",
+    "O edital PDF foi localizado por referência oficial, mas a extração integral do conteúdo não ficou acessível na ferramenta; os dados principais foram confirmados por notícias oficiais.",
+    "Há referência oficial a etapas avançadas já realizadas em 2025, mas sem consolidação completa de nomeações nas fontes consultadas.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo idade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (87/100). Campos concretos: 3/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 87,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

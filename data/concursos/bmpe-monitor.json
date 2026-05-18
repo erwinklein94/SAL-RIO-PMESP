@@ -1,0 +1,56 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "bmpe",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 87,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 11400,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 933,
+    "output_tokens_details": {
+      "reasoning_tokens": 133
+    },
+    "total_tokens": 12333
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.pe.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "1c33a2a7abe5de8d09155a21bde4efefb259a5d9f7adacb13e35b4b461a7f657",
+      "tamanho_texto": 157
+    },
+    {
+      "url": "https://www.cbm.pe.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.cbmpe.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.bombeiros.pe.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    }
+  ]
+}

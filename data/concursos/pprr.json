@@ -1,0 +1,71 @@
+{
+  "instituicao_id": "pprr",
+  "instituicao_nome": "Polícia Penal de Roraima",
+  "sigla": "PPRR",
+  "uf": "RR",
+  "tema": "concursos",
+  "status": "Atualização fraca",
+  "titulo": "PPRR: concurso de Policial Penal segue com nomeações após edital de 2020",
+  "resumo": "A Polícia Penal de Roraima teve concurso público realizado em 2020 para o cargo de Agente Penitenciário, atual Policial Penal. O certame ofertou 423 vagas imediatas e formação de cadastro reserva, com remuneração inicial de R$ 4.421,13. O resultado final foi homologado em 21 de novembro de 2022, e o governo segue realizando nomeações e posses, com registros de 74 novos policiais penais em março de 2026 e 92 em outubro de 2025.",
+  "edital": "Edital nº 001/2020, publicado em 2020 para Agente Penitenciário, cargo atualmente denominado Policial Penal. Concurso homologado em 21 de novembro de 2022, com nomeações e posses posteriores em andamento.",
+  "salario": "R$ 4.421,13 de remuneração inicial bruta para o cargo de Agente Penitenciário, atual Policial Penal.",
+  "vagas": "423 vagas imediatas para Agente Penitenciário, sendo 381 de ampla concorrência e 42 para pessoas com deficiência. Distribuição por sexo: 296 masculinas, 85 femininas, 33 masculinas PcD e 9 femininas PcD. Houve também cadastro de reserva para convocações conforme necessidade do Estado.",
+  "cotas": "42 vagas para pessoas com deficiência, sendo 33 para masculino e 9 para feminino.",
+  "idade": "Não localizado nas fontes consultadas.",
+  "escolaridade": "Ensino médio completo.",
+  "materias": "Língua Portuguesa, Raciocínio Lógico e Matemático, Informática, Noções de Direito Administrativo, Noções de Direito Constitucional, Noções de Direito Penal, Noções de Direito Processual Penal, Lei de Execução Penal, Direitos Humanos e legislação especial.",
+  "banca": "Instituto AOCP.",
+  "inscritos": "Não localizado nas fontes consultadas.",
+  "etapas": "Prova objetiva, teste de aptidão física, avaliação psicológica, investigação social e curso de formação profissional.",
+  "cfsd": "Curso de formação profissional com duração de 75 dias.",
+  "estagio": "Não localizado nas fontes consultadas.",
+  "validade": "2 anos a contar da homologação, com possibilidade de prorrogação por igual período.",
+  "previsao": "Não localizado nas fontes consultadas.",
+  "site": "https://www.rr.gov.br",
+  "fontes": [
+    {
+      "titulo": "Edital de Abertura nº 001/2020 - SEJUC/RR",
+      "url": "https://arquivos.qconcursos.com/regulamento/arquivo/29918/sejuc_rr_2020_agente_penitenciario-edital.pdf",
+      "tipo": "edital PDF",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Diário Oficial do Estado de Roraima - 08 de maio de 2023",
+      "url": "https://www.imprensaoficial.rr.gov.br/app/_edicoes/2023/05/doe-20230508.pdf",
+      "tipo": "diário oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo de Roraima dá posse a novos 74 policiais penais",
+      "url": "https://portal.rr.gov.br/governo-de-roraima-da-posse-a-novos-74-policiais-penais/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Governo reforça sistema prisional com posse de 92 novos policiais penais",
+      "url": "https://portal.rr.gov.br/governo-reforca-sistema-prisional-com-posse-de-92-novos-policiais-penais/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Aprovados - Divulgado edital de homologação e classificação da segunda turma de policiais penais de Roraima",
+      "url": "https://www.rr.gov.br/noticias/item/7072-aprovados-divulgado-edital-de-homologacao-e-classificacao-da-segunda-turma-de-policiais-penais-de-roraima",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "O cargo foi publicado no edital como Agente Penitenciário, mas atualmente corresponde à carreira de Policial Penal.",
+    "Foram localizadas nomeações e posses posteriores à homologação, indicando aproveitamento contínuo do concurso.",
+    "Número de inscritos e exigência de altura mínima não foram localizados nas fontes consultadas.",
+    "Classificação automática: Atualização fraca (68/100)."
+  ],
+  "classe_atualizacao": "fraca",
+  "qualidade_publicacao": "fraca",
+  "score_publicacao": "68",
+  "modelo_openai": "gpt-5.4",
+  "atualizado_pela_openai": true
+}

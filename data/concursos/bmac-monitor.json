@@ -1,0 +1,56 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "bmac",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 25335,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 1749,
+    "output_tokens_details": {
+      "reasoning_tokens": 451
+    },
+    "total_tokens": 27084
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.ac.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "696b06ae63df92502bc4fd683200f650dd8dea12aa97869e1a953dea7977af55",
+      "tamanho_texto": 2957
+    },
+    {
+      "url": "https://www.cbm.ac.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.cbmac.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.bombeiros.ac.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    }
+  ]
+}

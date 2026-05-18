@@ -1,0 +1,93 @@
+{
+  "instituicao_id": "bmal",
+  "instituicao_nome": "Corpo de Bombeiros Militar de Alagoas",
+  "sigla": "BMAL",
+  "uf": "AL",
+  "tema": "concursos",
+  "status": "cobertura atualizada",
+  "titulo": "Concurso BMAL sem novo edital publicado; comissão organizadora foi instituída em 10/12/2025",
+  "resumo": "O BMAL tem comissão mista organizadora formalizada para novo concurso, mas até 17/05/2026 Não localizado nas fontes consultadas",
+  "edital": "Novo concurso com comissão mista organizadora instituída pelo Decreto nº 105.784, de 10/12/2025. Na página oficial de concursos, seguem disponíveis os editais de 2021 e 2017 para Oficial Combatente e Soldado Combatente",
+  "salario": "Último edital localizado: Oficial: Cadete R$ 2.713,89 no 1º ano, R$ 2.916,55 no 2º ano, R$ 3.303,94 no 3º ano; Aspirante-a-Oficial R$ 8.099,94",
+  "vagas": "Último edital localizado: 20 vagas para Aspirante-a-Oficial Bombeiro Militar e 150 vagas para Soldado Bombeiro Militar, sem cadastro reserva",
+  "cotas": "Pesquisa inicial pendente",
+  "idade": "Último edital localizado: 18 a 30 anos; altura mínima de 1,65 m para homem e 1,60 m para mulher; CNH não localizada nas fontes consultadas",
+  "escolaridade": "Último edital localizado: ensino médio completo para Oficial e Soldado",
+  "materias": "Último edital localizado: Língua Portuguesa; Língua Estrangeira; Noções de Informática; Matemática; Raciocínio Lógico; Atualidades; Ética, Cidadania e Direitos Humanos; Legislação pertinente ao CBMAL; Física; Química",
+  "banca": "Cebraspe nos concursos de 2021. Banca do novo concurso não localizada nas fontes consultadas",
+  "inscritos": "Novo concurso com comissão instituída, mas sem inscrições abertas localizadas até 17/05/2026. No edital de 2021, as inscrições foram de 17/05/2021 a 21/06/2021",
+  "etapas": "Último edital localizado: prova objetiva; prova discursiva somente para Oficial; teste de aptidão física; avaliação médica; avaliação psicológica; comprovação documental e investigação social; exame toxicológico",
+  "cfsd": "Último edital localizado: ingresso no Curso de Formação de Praças na condição de Soldado-Aluno, em regime de dedicação integral e exclusiva, com remuneração de R$ 1",
+  "estagio": "Último edital localizado: estágio probatório mínimo de 6 meses para Oficial após a conclusão do Curso de Formação de Oficiais",
+  "validade": "Último edital localizado: 1 ano, prorrogável uma única vez por igual período",
+  "previsao": "Aguardar publicação do novo edital do BMAL",
+  "site": "https://www.cbm.al.gov.br",
+  "fontes": [
+    {
+      "titulo": "Página oficial de concursos do CBMAL",
+      "url": "https://www.cbm.al.gov.br/paginas/view/55/concursos",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Portal institucional do CBMAL",
+      "url": "https://www.cbm.al.gov.br",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Decreto nº 105.784, de 10 de dezembro de 2025",
+      "url": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/viewPdf/51192",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital nº 1 – CBMAL, de 7 de maio de 2021",
+      "url": "https://cdn.cebraspe.org.br/concursos/cbm_al_21/arquivos/ed_1_cbm_al_21_abertura.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital nº 3 – CBMAL, de 2 de setembro de 2021",
+      "url": "https://cdn.cebraspe.org.br/concursos/cbm_al_21/arquivos/ED_3_CBM_AL_FINAL_OBJ_PROV_DISC.PDF",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": false,
+  "alertas": [
+    "A fonte oficial confirma comissão mista organizadora do novo concurso do BMAL em 10/12/2025, mas não traz ainda o edital de abertura.",
+    "A página oficial de concursos do CBMAL exibe os certames de 2021 e 2017; não foi localizado novo edital até 17/05/2026.",
+    "Salário, vagas, idade, escolaridade, matérias, etapas, CFSd, estágio e validade foram preenchidos com base no último edital oficial localizado, de 2021.",
+    "A validade informada foi corrigida para 1 ano, prorrogável uma única vez por igual período, conforme o edital oficial de 2021.",
+    "Não foi localizada exigência de CNH nas fontes oficiais consultadas para o último edital analisado.",
+    "Não foram localizadas inscrições abertas, banca definida ou cronograma do novo concurso nas fontes consultadas.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo idade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos atualizado/priorizado pelo modo qualificado pago.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio atualizado/priorizado pelo modo qualificado pago.",
+    "Campo validade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (100/100). Campos concretos: 10/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 100,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

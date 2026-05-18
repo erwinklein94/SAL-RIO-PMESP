@@ -1,0 +1,63 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "ppdf",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 87,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 24162,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 963,
+    "output_tokens_details": {
+      "reasoning_tokens": 167
+    },
+    "total_tokens": 25125
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.seape.df.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "8ad6b44ee253a107f1d332aa2475045266f84b7bbddaed32773c9de42497bc90",
+      "tamanho_texto": 3388
+    },
+    {
+      "url": "https://seape.df.gov.br/iv-concurso-de-desenho-desenhando-o-amor/",
+      "ok": true,
+      "status": 200,
+      "hash": "56ec414f39a418b54340f74c28c2d971b81e76633c056253c8754f6aaa13dcd0",
+      "tamanho_texto": 3234
+    },
+    {
+      "url": "https://seape.df.gov.br/iv-concurso-de-desenho-desenhando-o-amor/feed/",
+      "ok": true,
+      "status": 200,
+      "hash": "be128182055c80026a320a19abbb75905380b2fe6e315c43ef110217ae90faec",
+      "tamanho_texto": 269
+    },
+    {
+      "url": "https://seape.df.gov.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fseape.df.gov.br%2Fiv-concurso-de-desenho-desenhando-o-amor%2F",
+      "ok": true,
+      "status": 200,
+      "hash": "8daae8e14ece8e4f0953e3f7528982ad97461059947e4e23de31676883cf9a8d",
+      "tamanho_texto": 431
+    },
+    {
+      "url": "https://seape.df.gov.br/wp-content/uploads/2026/01/SEI_187418882_Edital_14_2025-1.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "df862a26a667cf93f689bb0eb34021315044ec7865bf989a5addb63660861d10",
+      "tamanho_texto": 30661
+    }
+  ]
+}

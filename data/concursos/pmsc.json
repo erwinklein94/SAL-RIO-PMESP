@@ -1,0 +1,97 @@
+{
+  "instituicao_id": "pmsc",
+  "instituicao_nome": "Polícia Militar de Santa Catarina",
+  "sigla": "PMSC",
+  "uf": "SC",
+  "tema": "concursos",
+  "status": "em andamento com histórico recente e novo processo seletivo temporário publicado",
+  "titulo": "PMSC: processo seletivo temporário em andamento e concursos anteriores com atos recentes",
+  "resumo": "A PMSC mantém processo seletivo temporário ativo e registra atos recentes dos concursos de Oficiais e Soldados",
+  "edital": "Edital nº 200/CCP/2025 em andamento para policial militar temporário; concursos de Oficiais e Soldados com atos posteriores publicados",
+  "salario": "A fonte oficial consultada para o processo seletivo temporário confirma o certame, mas não traz no extrato coletado o valor da remuneração",
+  "vagas": "1.465 vagas para policial militar temporário, com ingresso como Aluno-Soldado Temporário",
+  "cotas": "As reservas de vagas e eventuais cotas dependem do edital específico de cada concurso ou processo seletivo",
+  "idade": "A idade mínima e demais limites etários variam conforme o cargo e o edital específico.",
+  "escolaridade": "A escolaridade exigida varia conforme o cargo e o edital. No processo seletivo temporário vigente, o extrato oficial consultado não apresentou o requisito escolar comple…",
+  "materias": "As disciplinas e conteúdos programáticos são definidos no edital específico de cada certame. No processo seletivo temporário consultado, o extrato oficial não trouxe o detalhamento das matérias no trecho disponível",
+  "banca": "IDECAN no processo seletivo temporário Edital nº 200/CCP/2025",
+  "inscritos": "Inscrições abertas de 23/12/2025 a 26/01/2026, depois prorrogadas até 09/02/2026",
+  "etapas": "Prova objetiva; prova de títulos; avaliação psicológica; exame toxicológico; dados biométricos; questionário de investigação social; TAF",
+  "cfsd": "Ingresso com matrícula no Curso Básico de Formação previsto para 2026",
+  "estagio": "As regras de estágio probatório e formação dependem da carreira e do edital específico.",
+  "validade": "O processo seletivo temporário do Edital nº 200/CCP/2025 segue em andamento nos atos publicados em 2026",
+  "previsao": "Aguardar próximas convocações e resultados do processo seletivo temporário e os atos finais dos concursos de Oficiais e Soldados",
+  "site": "https://www.pm.sc.gov.br/concursos",
+  "fontes": [
+    {
+      "titulo": "Portal oficial de concursos da PMSC",
+      "url": "https://www.pm.sc.gov.br/concursos",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Notícia oficial sobre inscrições do processo seletivo temporário",
+      "url": "https://pm.sc.gov.br/noticias/inscricoes-abertas-para-o-processo-seletivo-de-policial-militar-temporario-da-pmsc",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Notícia oficial sobre prorrogação das inscrições do processo seletivo temporário",
+      "url": "https://www.pm.sc.gov.br/noticias/inscricoes-para-o-processo-seletivo-de-policial-militar-temporario-da-pmsc-estao-prorrogadas",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Página do processo seletivo temporário PMSC-SEMET",
+      "url": "https://www.pm.sc.gov.br/concursos/processo-seletivo-simplificado-para-militar-temporario-pmsc-semet",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Página dos concursos para Soldados da PMSC",
+      "url": "https://www.pm.sc.gov.br/concursos/concursos-para-soldados-da-pmsc/edital-n-002cgcp2023-concurso-publico-para-o-preenchimento-de-vagas-no-curso-de-formacao-de-pracas-da-policia-militar-de-santa-catarina",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Página dos concursos para Oficiais da PMSC",
+      "url": "https://pm.sc.gov.br/concursos/concursos-para-oficiais-da-pmsc/edital-n-001cgcp2023-concurso-publico-para-o-preenchimento-de-vagas-no-curso-de-formacao-de-oficiais-da-policia-militar-de-santa-catarina",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "A pesquisa confirmou o processo seletivo temporário Edital nº 200/CCP/2025 com 1.465 vagas e inscrições prorrogadas até 09/02/2026.",
+    "O portal oficial mostra atos posteriores em 2025 e 2026 para os concursos de Oficiais e Soldados, indicando desdobramentos recentes.",
+    "Não foi possível consolidar, nas fontes consultadas, salário, cotas, idade, escolaridade, matérias e validade de forma única e segura para o portal geral.",
+    "As informações publicáveis foram priorizadas em fontes oficiais da própria PMSC.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo idade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo escolaridade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo materias preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos atualizado/priorizado pelo modo qualificado pago.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: media (78/100). Campos concretos: 9/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "media",
+  "score_publicacao": 78,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

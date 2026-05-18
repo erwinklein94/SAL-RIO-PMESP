@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pcrs",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 87,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 32879,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1214,
+    "output_tokens_details": {
+      "reasoning_tokens": 170
+    },
+    "total_tokens": 34093
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.pc.rs.gov.br/concurso-publico-para-escrivao-e-inspetor-2025",
+      "ok": true,
+      "status": 200,
+      "hash": "266ae68be4834c51b63b382f25e987f3a8631a70f773538bd262c83d8e1d4cd3",
+      "tamanho_texto": 6926
+    },
+    {
+      "url": "https://www.pc.rs.gov.br/concursos-publicos",
+      "ok": true,
+      "status": 200,
+      "hash": "db21ce44494989b133d4c8fa80bab3d17034f86011179fdd76f17e6760c69f45",
+      "tamanho_texto": 4091
+    },
+    {
+      "url": "https://www.pc.rs.gov.br/upload/arquivos/202605/12074631-edital-59-2026.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "a3c516be47abec656dc143a685fc383dc53042cdb4a7eae5ba0739dfc4b3bc14",
+      "tamanho_texto": 28422
+    },
+    {
+      "url": "https://www.pc.rs.gov.br/upload/arquivos/202605/11073418-edital-58-2026.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "05ec7fa7ab78b95a0f5b44c7ec3966ff70d6e93207763f48a7cf2e847ee1e321",
+      "tamanho_texto": 28067
+    },
+    {
+      "url": "https://www.pc.rs.gov.br/upload/arquivos/202604/14063358-edital-42-pc.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "20a0ae5271bd416504f1143b0979221f398c7189ae04f23d9a0fa0cbf77969e3",
+      "tamanho_texto": 37901
+    },
+    {
+      "url": "https://www.pc.rs.gov.br/upload/arquivos/202604/10074526-edital-40-pc.pdf",
+      "ok": true,
+      "status": 200,
+      "hash": "e236c1d5c22eb6f698485201e0aa33987d4928a9f3b95aa5a3231b8a5cd2502f",
+      "tamanho_texto": 292221
+    }
+  ]
+}

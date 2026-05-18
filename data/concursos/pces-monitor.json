@@ -1,0 +1,70 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "pces",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 93,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 31422,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1248,
+    "output_tokens_details": {
+      "reasoning_tokens": 398
+    },
+    "total_tokens": 32670
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://pc.es.gov.br/",
+      "ok": true,
+      "status": 200,
+      "hash": "1d1bb7dcc491a15e7ea11a116032c12d6f80b0e9f31d5ee60b261083e88ba49d",
+      "tamanho_texto": 8923
+    },
+    {
+      "url": "https://pc.es.gov.br/delegado-geral-da-policia-civil",
+      "ok": true,
+      "status": 200,
+      "hash": "bf2c0a175498480b9661defed0cf373b7feed744e85e68d2d7021c55f210812a",
+      "tamanho_texto": 9019
+    },
+    {
+      "url": "https://pc.es.gov.br/agenda-publica-do-delegado-geral",
+      "ok": true,
+      "status": 200,
+      "hash": "bfe45d994299aea2c2c27d6dc12ed8cac891532e9d15223c3fe543c62acc665b",
+      "tamanho_texto": 6940
+    },
+    {
+      "url": "https://pc.es.gov.br/leis-e-decretos-relacionados-a-pces",
+      "ok": true,
+      "status": 200,
+      "hash": "5d05f19636e3874b34df8f7447044ec365cec12537c73aed21b7a8ae78104f6d",
+      "tamanho_texto": 14110
+    },
+    {
+      "url": "https://pc.es.gov.br/instrucoes-de-servico-pces",
+      "ok": true,
+      "status": 200,
+      "hash": "860bafc56af955e1238ed31d3791e7e89344c9693f93e53b0376d1d778da7937",
+      "tamanho_texto": 15160
+    },
+    {
+      "url": "https://pc.es.gov.br/concursos",
+      "ok": true,
+      "status": 200,
+      "hash": "41533014d6568df89d4e2fa32180c9d277c5702b8649bb37da3a40f51300b943",
+      "tamanho_texto": 13161
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "instituicao_id": "bmrn",
+  "instituicao_nome": "Corpo de Bombeiros Militar do Rio Grande do Norte",
+  "sigla": "BMRN",
+  "uf": "RN",
+  "tema": "concursos",
+  "status": "concurso vigente com validade prorrogada",
+  "titulo": "BMRN: concurso de Soldado 2022 segue vigente com validade prorrogada",
+  "resumo": "O concurso mais recente localizado é o de Soldado QPBM, com 102 vagas e validade prorrogada até 26 de julho de 2027",
+  "edital": "Edital nº 01/2022 – CFP/CBMRN; concurso para Soldado QPBM; validade prorrogada em 2025",
+  "salario": "Soldado: R$ 3.929,01 durante o curso de formação; após a formação: R$ 3.805,89",
+  "vagas": "102 vagas para Soldado QPBM",
+  "cotas": "Pesquisa inicial pendente",
+  "idade": "Nascido a partir de 1º de janeiro de 1992; altura mínima de 1,60 m para mulher e 1,65 m para homem; CNH categoria B ou permissão para dirigir",
+  "escolaridade": "Ensino superior completo em qualquer área",
+  "materias": "Língua Portuguesa; Matemática; Conhecimentos Específicos; Legislação; Informática básica",
+  "banca": "Comperve/UFRN",
+  "inscritos": "Pesquisa inicial pendente",
+  "etapas": "Prova objetiva; avaliação médica e odontológica; exame de condicionamento físico; avaliação psicológica; investigação social; curso de formação de praças",
+  "cfsd": "Curso de Formação de Praças (CFP) com duração de 12 meses, realizado em Parnamirim/RN ou em outra localidade definida pela Corporação",
+  "estagio": "Pesquisa inicial pendente",
+  "validade": "2 anos, prorrogável uma única vez por mais 2 anos",
+  "previsao": "Sem novo edital identificado; a movimentação provável é de convocações enquanto durar a validade prorrogada",
+  "site": "https://www.rn.gov.br",
+  "fontes": [
+    {
+      "titulo": "Diário Oficial do RN — Edital nº 01/2022 CFP/CBMRN",
+      "url": "https://diariooficial.rn.gov.br/dei/dorn3/documentos/00000001/20221025/791639.htm",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Diário Oficial do RN — Edital nº 01/2022 CFP/CBMRN",
+      "url": "https://webdisk.diariooficial.rn.gov.br/Jornal/12022-10-25.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Diário Oficial do RN — Homologação do resultado final CFP/CBMRN",
+      "url": "https://webdisk.diariooficial.rn.gov.br/Jornal/12025-05-27.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Diário Oficial do RN — Prorrogação da validade do concurso",
+      "url": "https://webdisk.diariooficial.rn.gov.br/Jornal/12025-07-24.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "TCE/RN — legalidade do concurso de 2017",
+      "url": "https://tce.rn.gov.br/Noticias/NoticiaDetalhada/3794",
+      "tipo": "fonte auxiliar",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Há mistura de referências entre o edital de 2022 e documentos históricos de 2017 para detalhes complementares.",
+    "Campos cotas, inscritos e estágio probatório não foram localizados com segurança nas fontes consultadas.",
+    "A validade foi confirmada em publicação oficial de 2025 com prorrogação por 2 anos a contar de 26 de julho de 2025.",
+    "Fonte auxiliar usada apenas como apoio histórico.",
+    "Ajuste de resumo para refletir a validade prorrogada até 26 de julho de 2027.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo idade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (87/100). Campos concretos: 4/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 87,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

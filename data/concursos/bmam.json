@@ -1,0 +1,107 @@
+{
+  "instituicao_id": "bmam",
+  "instituicao_nome": "Corpo de Bombeiros Militar do Amazonas",
+  "sigla": "BMAM",
+  "uf": "AM",
+  "tema": "concursos",
+  "status": "concurso de 2021 com convocações em andamento",
+  "titulo": "Concurso de 2021 do CBMAM segue com convocações em 2026",
+  "resumo": "O concurso do CBMAM de 2021 continua vigente e teve convocações em 2026 para 2º Tenente Bombeiro Militar e Aluno Soldado",
+  "edital": "Edital nº 1/CBMAM, de 03 de dezembro de 2021, para 2º Tenente Bombeiro Militar e Soldado Bombeiro Militar; concurso segue vigente com convocações em 2026",
+  "salario": "2º Tenente: R$ 12.468,18 após curso de formação e estágio probatório; Aspirante-a-Oficial: R$ 9.573,79; Aluno-Oficial: R$ 7.180,34 no 1º ano e R$ 7.207,88 no 2º ano",
+  "vagas": "453 vagas no edital de 2021, sendo 53 para 2º Tenente Bombeiro Militar e 400 para Soldado Bombeiro Militar",
+  "cotas": "No mínimo 10% das vagas previstas no concurso",
+  "idade": "18 a 35 anos, 11 meses e 29 dias na data da inscrição; sem limite de idade para praças do quadro do CBMAM no ingresso ao Quadro de Oficiais",
+  "escolaridade": "Ensino médio completo para Soldado e ensino superior completo para 2º Tenente no momento da admissão",
+  "materias": "2º Tenente: Língua Portuguesa; Raciocínio Lógico Matemático; Geografia do Amazonas; História do Amazonas; Física; Química; Legislação Pertinente ao CBMAM; Noções de Direito Constitucional. Soldado: Língua Portuguesa",
+  "banca": "Fundação Getulio Vargas (FGV)",
+  "inscritos": "46.684 inscritos, sendo 39.413 para Soldado e 7.271 para 2º Tenente. As inscrições ficaram abertas de 08/12/2021 a 04/01/2022",
+  "etapas": "Prova objetiva; exames médicos; exame de aptidão física; avaliação psicológica; sindicância de vida pregressa e investigação social; curso de formação",
+  "cfsd": "O Curso de Formação de Soldado Bombeiro Militar ocorre em Manaus, em tempo integral e dedicação exclusiva",
+  "estagio": "Estágio probatório previsto para o cargo de 2º Tenente após a conclusão do Curso de Formação de Oficiais",
+  "validade": "2 anos a partir da homologação do resultado final, prorrogável uma vez por igual período",
+  "previsao": "Novas convocações do concurso de 2021 podem ocorrer enquanto durar a validade prorrogada. Sem novo edital localizado nas fontes consultadas",
+  "site": "https://www.cbm.am.gov.br",
+  "fontes": [
+    {
+      "titulo": "CBMAM - página de concursos",
+      "url": "https://www.cbm.am.gov.br/cbmam/institucional/concurso",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Edital nº 1 – CBMAM, de 03 de dezembro de 2021",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/2_edital_retificado.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "2ª Retificação do Edital 01/2021-CBMAM",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/retificacao_-_02_cbmam.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "FGV Conhecimento - Concurso CBMAM 2021",
+      "url": "https://conhecimento.fgv.br/concursos/cbmam21",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Portaria nº 147/DP, de 26 de fevereiro de 2026",
+      "url": "https://www.cbm.am.gov.br/cbmam/paginas/download/portaria_147_2026.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Resultado final de aprovados retificado em 09/02/2024",
+      "url": "https://www.cbm.am.gov.br/cbmam/paginas/download/cbmam21_resultado-final-de-aprovados-retificado_09.02.2024.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Concurso para o Corpo de Bombeiros do Amazonas tem mais de 46 mil inscritos",
+      "url": "https://www.ssp.am.gov.br/concurso-para-o-corpo-de-bombeiros-do-amazonas-tem-mais-de-46-mil-inscritos/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "alto",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "O concurso de referência continua sendo o Edital nº 1/CBMAM, de 03/12/2021, ainda com convocações em 2026.",
+    "A validade foi prorrogada por mais 2 anos a contar de 13/01/2025.",
+    "As convocações de 2026 localizadas nas fontes oficiais citam 15 vagas para 2º Tenente e 100 para Aluno Soldado.",
+    "Os valores de remuneração foram localizados no edital retificado de 2021 e são mais completos que a versão anteriormente publicada.",
+    "O prazo do estágio probatório não foi localizado de forma expressa nas fontes consultadas.",
+    "O campo cotas foi preservado da base anterior por estar mais específico do que o material localizado nesta pesquisa.",
+    "Não foi localizado novo edital do CBMAM além do concurso de 2021.",
+    "Publicação recomenda revisão humana apenas para monitoramento de novas convocações e eventual anúncio de novo edital.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo idade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias atualizado/priorizado pelo modo qualificado pago.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos atualizado/priorizado pelo modo qualificado pago.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio atualizado/priorizado pelo modo qualificado pago.",
+    "Campo validade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (97/100). Campos concretos: 9/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 97,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

@@ -1,0 +1,92 @@
+{
+  "instituicao_id": "pmce",
+  "instituicao_nome": "Polícia Militar de Ceará",
+  "sigla": "PMCE",
+  "uf": "CE",
+  "tema": "concursos",
+  "status": "edital 2025 para Soldado em andamento",
+  "titulo": "Edital 2025 de Soldado segue em andamento com convocações",
+  "resumo": "O concurso da PMCE para Soldado teve edital publicado em 2025 e segue ativo em 2026, com convocações para saúde, documentação e heteroidentificação",
+  "edital": "Edital nº 001/2025 – SSPDS/AESP – Soldado PMCE, publicado em 04/04/2025; processo em andamento",
+  "salario": "Aluno-Soldado e Soldado: R$ 2.773,35; remuneração inicial do cargo: R$ 5.568,64",
+  "vagas": "1.000 vagas no total para Soldado, sendo 400 de ampla concorrência e 100 para PPP; 500 no cadastro de reserva, com 800 AC e 200 PPP no total da distribuição do edital",
+  "cotas": "Reserva para candidatos negros (PPP) prevista no edital; vagas destinadas a ambos os sexos, sem distinção de gênero",
+  "idade": "Mínimo de 18 anos na posse; até 29 anos, 11 meses e 29 dias na data da inscrição",
+  "escolaridade": "Ensino médio completo",
+  "materias": "Pesquisa inicial pendente",
+  "banca": "CEV/UECE",
+  "inscritos": "Pesquisa inicial pendente",
+  "etapas": "Prova objetiva; heteroidentificação; inspeção de saúde; avaliação psicológica; avaliação de capacidade física; investigação social; convocação para admissão",
+  "cfsd": "Curso de Formação de Soldados realizado pela Academia Estadual de Segurança Pública; não constitui etapa do concurso",
+  "estagio": "Pesquisa inicial pendente",
+  "validade": "Pesquisa inicial pendente",
+  "previsao": "Seguem convocações e avaliações dos aprovados para as próximas fases e admissão",
+  "site": "https://www.pm.ce.gov.br",
+  "fontes": [
+    {
+      "titulo": "Edital nº 001/2025 – Soldado PMCE",
+      "url": "https://www.pm.ce.gov.br/wp-content/uploads/sites/25/2025/04/do20250404p03.pdf.crdownload.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Respostas a Perguntas Frequentes do concurso PMCE 2025",
+      "url": "https://www.cev.uece.br/wp-content/uploads/2025/04/faqpmce2025.pdf",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Convocação de 400 classificados - SD (2025)",
+      "url": "https://www.pm.ce.gov.br/2026/03/20/convocacao-400-classificados-sd-comunicado-no-001-2026-ccop-pmce2025/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Comunicado nº 003/2026 – CCOP/PMCE",
+      "url": "https://www.pm.ce.gov.br/2026/03/23/comunicado-numero-003-2026-ccop-pmce/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    },
+    {
+      "titulo": "Convocação para avaliação de saúde – concursos de Soldado e Tenente PMCE",
+      "url": "https://www.pm.ce.gov.br/2026/05/11/convocacao-para-avaliacao-de-saude-referente-aos-concursos-de-soldado-e-tenente-pmce/",
+      "tipo": "fonte oficial",
+      "data_consulta": "2026-05-17"
+    }
+  ],
+  "ultima_pesquisa": "2026-05-17",
+  "nivel_confianca": "médio",
+  "precisa_revisao_humana": true,
+  "alertas": [
+    "Não localizado nas fontes consultadas: matérias, inscritos, estágio probatório e prazo de validade.",
+    "A distribuição de vagas no edital aponta 800 AC e 200 PPP no total, além da divisão interna para o cargo de Soldado.",
+    "O curso de formação é posterior ao concurso e ocorre na AESP/PMCE.",
+    "Há convocações publicadas em 2026, indicando concurso ativo.",
+    "Campo cotas priorizado com base no edital e FAQ; manter validação editorial se houver atualização normativa posterior.",
+    "Campo edital atualizado/priorizado pelo modo qualificado pago.",
+    "Campo salario atualizado/priorizado pelo modo qualificado pago.",
+    "Campo vagas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cotas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo idade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo escolaridade atualizado/priorizado pelo modo qualificado pago.",
+    "Campo materias preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo banca atualizado/priorizado pelo modo qualificado pago.",
+    "Campo inscritos preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo etapas atualizado/priorizado pelo modo qualificado pago.",
+    "Campo cfsd atualizado/priorizado pelo modo qualificado pago.",
+    "Campo estagio preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo validade preenchido com a versão anterior porque a pesquisa qualificada não trouxe valor utilizável.",
+    "Campo previsao atualizado/priorizado pelo modo qualificado pago.",
+    "Qualidade calculada: alta (87/100). Campos concretos: 3/14.",
+    "Resultado do modo qualificado pago aplicado no JSON principal."
+  ],
+  "texto_final_limpo": true,
+  "padrao_editorial": "usuario-final-sem-links-nos-campos",
+  "qualidade_publicacao": "alta",
+  "score_publicacao": 87,
+  "modo_qualidade": "qualificado",
+  "bloquear_publicacao": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true
+}

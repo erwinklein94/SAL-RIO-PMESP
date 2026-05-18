@@ -1,0 +1,56 @@
+{
+  "atualizado_em": "2026-05-17",
+  "instituicao_id": "bmro",
+  "modo_qualidade": "qualificado",
+  "modelo": "gpt-5.4-mini",
+  "usou_openai": true,
+  "usou_web_search_openai": true,
+  "publicacao_bloqueada": false,
+  "publicado_por_modo_qualificado": true,
+  "forcar_exibicao_site": true,
+  "publicacao_forcada_por_credito_openai": true,
+  "qualidade_publicacao": "baixa",
+  "score_publicacao": 75,
+  "motivo": "Atualização forçada manualmente.",
+  "usage": {
+    "input_tokens": 13327,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 917,
+    "output_tokens_details": {
+      "reasoning_tokens": 101
+    },
+    "total_tokens": 14244
+  },
+  "fontes_monitoradas": [
+    {
+      "url": "https://www.ro.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "e4bf1037e4b85244ca66c9de04178a364482fe278c7efb2853e48545715dd8a4",
+      "tamanho_texto": 4644
+    },
+    {
+      "url": "https://www.cbm.ro.gov.br",
+      "ok": true,
+      "status": 200,
+      "hash": "d24892fa3c5a3d0120bafe7435f448b2dfafb93fa26facd9ceb1f96b7f3dd610",
+      "tamanho_texto": 3126
+    },
+    {
+      "url": "https://www.cbmro.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    },
+    {
+      "url": "https://www.bombeiros.ro.gov.br",
+      "ok": false,
+      "status": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tamanho_texto": 0
+    }
+  ]
+}
