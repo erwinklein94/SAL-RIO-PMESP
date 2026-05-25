@@ -1,0 +1,11 @@
+{
+  "name": "unisegpub-supabase-starter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "import:supabase": "node scripts/import-json-to-supabase.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1"
+  }
+}
